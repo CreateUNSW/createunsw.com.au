@@ -364,13 +364,15 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 .subscribe {
 	display: block;
 	background-color: #DCDCDC;
-	margin: 2px 0px;
+	margin: 0px auto;
 	clear:both;
 	position: relative;
+	text-align: justify;
+  text-justify: inter-word;
 }
 
 .subscribe article{
-	display: block;
+	display: grid;
 	float: left;
 	width: 265px;
 	margin: 5px;
@@ -458,7 +460,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.salesimg img{width: 23vw;}
 	.image {height: 23vw;}
 	.overlay {width: 23vw;}
-	.subscribe article, .subscribe_column, .single-column h5 {width: 97%; text-align: center;}
+	.subscribe article, .subscribe_column, .single-column h5 {width: 100%; text-align: center;}
 	.subscribe input[type=text] {width:21vw;}
 }
 
@@ -476,7 +478,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.image {height: 47vw;}
 	.overlay {width: 47vw;}
 	.sistersponsors {height: 8vw;}
-	.subscribe article, .subscribe_column, .single-column h5 {width: 97%; text-align: center;}
+	.subscribe article, .subscribe_column, .single-column h5 {width: 100%; text-align: center;}
 	.subscribe input[type=text] {width:90vw;}
 	.sponsors, .sponsors-logo {text-align:center; width: 100%;}
 	.sponsors h3 {text-align:center;}
