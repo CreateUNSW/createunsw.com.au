@@ -367,8 +367,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	margin: 0px auto;
 	clear:both;
 	position: relative;
-	text-align: justify;
-  text-justify: inter-word;
 }
 
 .subscribe article{
