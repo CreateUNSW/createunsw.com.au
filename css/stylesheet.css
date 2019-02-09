@@ -372,7 +372,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 .subscribe article{
 	display: grid;
 	float: left;
-	width: 265px;
 	margin: 5px;
 	position: relative;
 }
@@ -381,7 +380,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	padding: 5px; border: none; font-size: 16px; width: 250px; height: 30px;
 }
 
-.subscribe_column {display:table-cell; color:#231f20; float: left;}
+.subscribe_column {display:table-cell; color:#231f20; float: left; width: 265px;}
 
 /*end of subscribe*/
 
