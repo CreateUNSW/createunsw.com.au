@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    {% include head.html %}
+    <body>
+      {% include header.html %}
+<!--main content: Store intro-->	
+<!--cover image section for productdetail pages-->
+<div class="salescover-img">
+        <img src="/images/20181022_CREATE_FlashSales-0013.jpg" alt="Cover Photo">
+            <div class="wrapper">
+            <div class="title-block">
+                <h1>Online Store</h1>
+            </div>
+            </div>
+    </div>
+
+<!--main content: Store intro-->    
+<div class="main-content row">
+<div class="wrapper">
+    <div class="leftcolumn top">
+        <h3>{{ page.title }}</h3>
+    </div>
+    <div class="rightcolumn cbutton centre">
+        <a href="{{'/store#onlinestore' | prepend: site.baseurl }}"><button class="buttong yellow">Back to Online Store</button></a>
+        <p>Enquires: <a href="mailto:sales@createunsw.com.au">sales@createunsw.com.au</a></p>
+    </div>
+</div>
+</div>
+    <div class="main-content row">
+        <div class="wrapper">
+        <div class="productimg">
+            <img src="{% if page.image %} {{ page.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="{{ page.title }}">
+        </div>
+        <div class="productinfo productaddimg">
+            <h3>Category:</h3>
+            <p class="category">{{ page.category }}</p>
+            <h3>Specifications / More info:</h3>
+            <p class="category">{% if page.content %} {{ page.content }} {% else %} {{ 'N/A' }} {% endif %}</p>
+            {% assign price_split = page.price | round: 2 | split: "." %}
+            {% assign integral = price_split[0] %}
+            {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+            <h3>Price:</h3>
+            <p class="category">${{ integral }}.{{ fractional }} AUD (for each {{ page.title }})</p>
+            <h3>Add to cart: <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+                <input type='hidden' name='add' value='1'>
+                <input type='hidden' name='cmd' value='_cart'>
+                <input type='hidden' name='business' value='sales@createunsw.com.au' />
+                <input type='hidden' name='item_name' value='{{ page.title }}' />
+                <input type='hidden' name='item_number' value='' />
+                <input type='hidden' name='amount' value='{{ page.price }}' />
+                <input type='hidden' name='no_note' value='1' />
+                <input type='hidden' name='currency_code' value='AUD' />
+                <input type='hidden' name='lc' value='AU'>
+                <input style="width:30px; height: 20px; color:black;" type='number' name='quantity' value='1' min="1">
+                <button class="btn btn-secondary" style="color:black;" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </button></form></h3>
+        </div>
+    </div>
+</div>
+</div>
+{% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!--cover image section-->
+		<div class="subcover-img">
+                {% if page.image %}
+            <img src="{% if page.image %} {{ page.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}">
+                {% else %}
+            <img src="/images/image_unavilable_square.jpg">
+                {% endif %})
+			<div class="wrapper">
+			<div class="title-block">
+                    {% if page.topic %}
+                <h1>{{page.topic}}</h1>
+                    {% endif %}
+                    {% if page.sub-topic %}
+                <h2>{{page.sub-topic}}</h2>
+                    {% endif %}
+			</div>
+			</div>
+		</div>

@@ -1,0 +1,514 @@
+/*Written by Tsz Kin LIU, for CREATE NSW Inc. (CREATE UNSW)*/
+
+/*general*/
+*{
+	padding: 0px;
+	margin: auto;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+ color: #231f20;
+ font-size: 16px;
+ margin: 0px auto;
+}
+
+/*Wrapper: Frame the content*/
+.wrapper {width:1100px; margin:0 auto;}
+
+/*bg light grey*/.bg-lgrey {background-color:#fafafa; overflow:hidden;}
+/*bg dark grey*/.bg-grey {background-color:#1a2239; overflow:hidden;}
+/*bg dark blue*/.bg-dblue {background-color:#1a2239;}
+
+/*end of general*/
+
+/*styling*/
+
+p {margin:10px 20px; padding-top: 0px;}
+
+.main-content a {color: #253465; font-weight: 700; text-decoration:none;}
+.main-content a:hover {color: #fcb72b;}
+.black a {color:#fcb72b;}
+
+/*main content title*/
+h3{font-size: 20px; font-weight: 700; text-transform: uppercase; text-align: left; padding: 5px 20px 5px 20px;}
+
+/*main content Sub-title*/
+h4{font-size: 18px; font-weight: 500; text-transform: uppercase; text-align: left; padding: 5px 20px 5px 20px;}
+
+/*Small Captions, Exec Name List*/
+h5{font-size: 16px; font-weight: 500; margin: 5px 20px 5px 20px;}
+
+/*social media buttons*/
+.fa { padding: 0px; font-size: 30px; width: 30px; text-align: center; text-decoration: none;}
+
+.fa:hover {color:#fcb72b;}
+
+.fa-facebook {color:white;}
+.fa-instagram {color:white;}
+.fa-shopping-cart {font-size: 30px;}
+
+.fa-black {color: #231f20; font-size: 60px; width: 60px; padding-right: 20px;}
+.fa-black:hover {color: #253469;}
+
+/*buttons general*/
+.buttong {
+	background-color:#fcb72b;
+	border: none;
+	color: white;
+	width: 265px;
+	border-radius: 12px;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 700;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+/*button colours*/
+.yellow {background-color:#fcb72b;}
+.yellow:hover {background-color:#e29803;}
+.makeunswblue {background-color:#01AAC3; color: white;}
+.makeunswblue:hover {background-color:#016e7f;}
+.Unsw_Terms {margin-top: 5px;}
+
+/*end of styling*/
+
+/*header*/
+
+.header {
+	width: 100%;
+	height: 95px;
+	color: white;
+	top: 0;
+	left: 0;
+	position: relative;
+	overflow: hidden;
+}
+	
+.logo{height:60px; margin: 20px; float: left; display: block;}
+.topnav {float:right;}
+
+.menuicon {
+	display: none;
+	right: 0;
+	top: 20px;
+	width: 85px;
+	height: 30px;
+	margin: 35px 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.topnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #1a2239;
+}
+.topnav li {float: left;}
+.topnav li a {
+	display:block;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 40px 10px;
+}
+.topnav a:hover{
+	background-color: #253469;
+}
+.portfolio {margin: 0px 10px;}
+.portfolio ul {list-style: none;}
+.portfolio li {display: inline; margin: 0px 10px; font-size: 30px;}
+
+.topnav img {width: 20px;}
+
+/*end of header*/
+/* Responsive layout for header*/
+@media screen and (max-width: 950px) {
+	.header {height: 100px; position: relative; overflow: visible;}
+	
+	.menuicon {display:block;}
+	
+	.topnav ul { 
+		display: none;
+		position: absolute;
+		background: #1a2239;
+		border: 2px solid #ffffff;
+		right: 25px;
+		top: 65px;
+		width: 130px;
+		border-radius: 4px 0 4px 4px;
+		z-index: 100;
+	}
+	
+	.topnav li {width: 100%;}
+	.topnav li a {padding: 15px 20px; text-align: center;}
+	.topnav:hover ul {display:block;}
+}
+
+/*end of Responsive layout for header*/
+
+/*cover image*/
+
+.cover-img {width:100%; height:35vw; overflow:hidden; position: relative;}
+.cover-img img{position: relative; transform: translateY(-25%); width: 100%; filter:brightness(60%)}
+.subcover-img {width:100%; height:35vw; overflow:hidden; position: relative;}
+.subcover-img img{position: relative; transform: translateY(-25%); width: 100%; filter:brightness(60%)}
+.salescover-img {width:100%; height:25vw; overflow:hidden; position: relative;}
+.salescover-img img{position: relative; transform: translateY(-25%); width: 100%; filter:brightness(60%)}
+.mySlides {display:none;}
+
+/*Cover banner Title*/
+.title-block {color: white; position: absolute; top: 50%;   left: 50%; padding: 5px;  transform: translate(-50%, -50%);}
+h1{font-size: 3vmax; font-weight: 900; text-transform: uppercase; text-align: center}
+h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: center;}
+
+/*end of cover image*/
+/*Responsive layout for cover image*/
+
+@media (max-width: 620px) {
+
+	.cover-img {width:100%; height:50vw;}
+	.subcover-img {width:100%; height:50vw;}
+	.salescover-img {width:100%; height:40vw;}
+	
+	}
+/*end of Responsive layout for cover image*/
+
+/*main-content*/
+
+/*main content - general*/
+.main-content {display: block; clear:both; position: relative; margin: 10px auto;}
+.main-content article{display: grid; float: left; margin: 10px 5px; position: relative;}
+.main-content ul {list-style-type:none; margin: 10px auto; text-align:left;}
+.main-content li {padding-left: 10px;margin: 5px auto;text-align:left;}
+.contentimg {width:49.5%; text-align:center; margin:5px auto; display:inline-block;}
+
+
+/*row and columns (general)*/
+.row {display:flex; clear:both;}
+.row:after {content: ""; display: table; clear: both; margin-bottom: 5px;}
+.column {margin: 5px;}
+
+/*single column*/
+.single-column {display: block; width: 100%; height: auto; clear:both;margin: 10px auto;}	
+
+/*two column (heading and single button / footer)*/
+.leftcolumn {float:left; width:50%;}
+.rightcolumn {float: right; width: 50%;}
+.cbutton {text-align:right;} /*position for the button in the right column*/
+.peopleimg {width: 24%; text-align: center; margin: 5px; float: left;}
+.peopleimg img {width: 100%; margin: 5px;}
+.bio {width: 73%; margin: 5px; float: left;}
+.projectintro {float: right; width: 260px; margin: 5px;}
+
+/*max four columns*/
+.columng {display:table-cell; color:#231f20; float: left; text-align:left; box-shadow: 0 1px 1px 0 grey, 0 1px 1px 0 grey;}
+.mediaimg {height:170px; overflow:hidden; position: relative;}
+.columng p {font-size: 14px; text-align: left; font-weight: 400;}
+.columng img{width: 265px;}
+
+/*column colours*/
+.black {background-color:#231f20; color:white; width: 265px; height:400px;}
+.white {color: #231f20; width: 265px; height:350px;}
+.profile h5, .profile p {text-align: center;}
+.profile:hover {background-color: #eee;}
+
+
+/*event table*/
+  
+  table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 10px;
+  }
+  
+  th {
+	height: 30px;
+  }
+
+  th, td {padding: 10px;text-align: left;
+	border-bottom: 1px solid #ddd;}
+
+
+/*main content - filter*/
+.filterDiv {
+  float: left;
+  background-color: #f2f2f2;
+  color: #231f20;
+  width: 265px;
+  height: 265px;
+  line-height: 20px;
+  text-align: center;
+  margin: 5px;
+  display: none;
+  box-shadow: 0 1px 2px 0 grey, 0 1px 2px 0 grey;
+}
+
+.show {display: block;}
+
+#container {position: relative; margin: 5px auto; overflow: hidden;}
+#container a:hover .filterDiv{background-color: #eee;}
+#container p {font-size: 16px; font-weight: 700; padding: 2px; text-align: left; margin: 3px auto;}
+
+/* Filter - style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  background-color: #f1f1f1;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px 0 grey, 0 1px 3px 0 grey;
+}
+
+.btn:hover {background-color:#ddd;}
+.btn.active {background-color:#bf0713; color: white;}
+
+/*sales section*/
+.accordion {
+  cursor: pointer; padding: 15px; width: 99%; font-size: 16px; text-align: left; border: none; outline: none; transition: 0.4s;box-shadow: 0 1px 1px 0 grey, 0 1px 1px 0 grey;}
+
+.active, .accordion:hover {background-color: #ddd;}
+
+.panel {padding: 0px 20px; background-color: white; font-size: 16px; overflow: hidden; max-height: 0;transition: max-height 0.2s ease-out;}
+
+.map {width:530px; height:300px; margin-left: 5px; margin-right: 5px;} 
+.salesimg {width:265px; height:150px; margin: auto; overflow:hidden;}
+.salesimg img{width: 265px; transform: translateY(-10%);}
+.productinfo {float: right; width: 50%; text-align: left;}
+.purchase input, .productinfo input {padding: 5px;}
+.category {text-transform: capitalize}
+.purchase form {float:right;}
+.productimg {width: 49%; text-align: center; float: left;}
+.productimg img {width: 50%; margin: 5px;}
+.productaddimg img {width: 100%;}
+.searchfunction {padding: 5px;width: 200px; margin:5px;}
+
+/*main content - overlaying boxes for project page*/
+.imgcontainer {position: relative; width: 265px; height: 265px; overflow: hidden;}
+.imgcontainer:hover .overlay {opacity: 0.8;}
+.image {display: block; width: auto; height: 265px; transform: translateX(-16.5%);}
+.team {display: table; width: 265px; margin: 10px;float: right;}
+.team img {display: block; width: 265px;}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 265px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #231f20;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*past executive - collapse div*/
+.collapsible {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 10px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+  }
+
+  .active, .collapsible:hover {
+	background-color: #ccc;
+  }
+
+  .collape-content {
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+  }
+/*main content - sister club*/
+.sister {display: block; text-align: left; background: #CDE1F1; clear:both; overflow: hidden;}
+.sisterimg {width: 250px; margin: 15px 10px 15px 5px; text-align: right;}
+.sistersponsors {height: 60px; margin: 15px 10px 15px 5px;}
+.sister_text p{font-weight:700; text-transform: uppercase; color: #231f20; text-align: left; float: left; font-size: 16px;}
+
+/*main content - social media section*/
+.socialmedia {width: 50px; margin: 10px;}
+
+/*end of main content*/
+
+/*subscribe*/
+.subscribe {
+	display: block;
+	background-color: #DCDCDC;
+	margin: 2px 0px;
+	clear:both;
+	position: relative;
+}
+
+.subscribe article{
+	display: block;
+	float: left;
+	width: 265px;
+	margin: 5px;
+	position: relative;
+}
+
+#mce-EMAIL{
+	padding: 5px; border: none; font-size: 16px; width: 250px; height: 30px;
+}
+
+.subscribe_column {display:table-cell; color:#231f20; float: left;}
+
+/*end of subscribe*/
+
+/*sponsors section*/
+
+.sponsors {display: block; text-align: left; clear:both;}
+.sponsors-logo{width: auto; float: left; margin: 10px 0px;}
+.sponsors-logo img{height: 65px; margin: 5px 20px 5px 20px;}
+
+/*end of sponsors*/
+
+/*footer*/
+
+.footer {display: block; color: white; height:auto; padding-bottom:5px;}
+.footerleft {float: left; text-align:left; width:50%; margin: 10px auto; font-weight:700;}
+.footerright {float: right; text-align:right; width: auto; margin: 10px auto; font-weight:700;}
+.footer a {color: white; text-decoration: none;}
+.footer a:hover {color: #fcb72b; text-decoration: none;}
+
+/*end of footer*/
+
+
+/*top function*/
+		#topBtn {
+		  display: none;
+		  position: fixed;
+		  bottom: 25px;
+		  right: 25px;
+		  z-index: 99;
+		  font-size: 18px;
+		  border: none;
+		  outline: none;
+		  background-color: white;
+		  opacity: 0.5;
+		  color: #231f20;
+		  cursor: pointer;
+		  padding: 15px;
+		  border-radius: 4px;
+		}
+
+		#topBtn:hover {
+		  background-color: #fcb72b;
+		  opacity: 1;
+		}
+
+/*end of top function*/
+
+
+/* Responsive layout*/
+@media (max-width: 1120px) {
+  .wrapper {width: 100%;}
+	.columng img{width: 23.5vw; height: auto;}
+	.black {width: 23.5vw; height:42vw;}
+	.white {width: 23.5vw; height:33vw;}
+	.twocolumn {width: 47.8vw;}
+	.map {width:47vw; height:300px;}
+	.filterDiv, .imgcontainer {width: 23.5vw; height: 23.5vw;}
+	.salesimg {width: 23.5vw; height: 12vw;}
+	.salesimg img{width: 23.5vw;}
+	.image {height: 23.5vw;}
+	.overlay {width: 23.5vw;}
+	.subscribe article {width: 23%;}
+	.subscribe input[type=text] {width:22.5vw;}
+}
+
+/* Responsive layout*/
+@media (max-width: 960px) {
+	.columng img{width: 23vw; height: auto;}
+	.black {width: 23vw; height:52vw;}
+	.white {width: 23vw; height:35vw;}
+	.twocolumn {width: 47vw;}
+	.filterDiv, .imgcontainer {width: 23vw; width: 23vw;}
+	.salesimg {width: 23vw; height: 12vw;}
+	.salesimg img{width: 23vw;}
+	.image {height: 23vw;}
+	.overlay {width: 23vw;}
+	.subscribe article, .subscribe_column, .single-column h5 {width: 97%; text-align: center;}
+	.subscribe input[type=text] {width:21vw;}
+}
+
+/* Responsive layout*/
+@media (max-width: 760px) {
+	.columng img{width: 47vw; height: auto;}
+	.black {width: 47vw; height:63vw;}
+	.white {width: 47vw; height:59vw;}
+	.leftcolumn, .rightcolumn {width: 100%;}
+	.peopleimg img {width: 60%;}
+	.profilepage, .peopleimg, .bio {width: 100%;}
+	.filterDiv, .imgcontainer {width: 47vw; height: 47vw;}
+	.salesimg {width: 47vw; height: 30vw;}
+	.salesimg img{width: 47vw;}
+	.image {height: 47vw;}
+	.overlay {width: 47vw;}
+	.sistersponsors {height: 8vw;}
+	.subscribe article, .subscribe_column, .single-column h5 {width: 97%; text-align: center;}
+	.subscribe input[type=text] {width:90vw;}
+	.sponsors, .sponsors-logo {text-align:center; width: 100%;}
+	.sponsors h3 {text-align:center;}
+}
+
+/* Responsive layout*/
+@media (max-width: 620px) {
+	h3 {text-align: center;}
+	.buttong {margin-bottom: 5px;}
+	.centre {text-align: center; width: 100%;}
+	.leftcolumn, .rightcolumn {width: 100%;}
+	.centre {text-align: center; width: 100%;}
+	.twocolumn {width: 100%;}
+	.productimg {width: 100%;}
+	.productinfo {width: 100%; text-align: left;}
+	.category {text-align: center;}
+	.team {display: table; width: 265px; margin: auto;float: none;}
+	.main-content article {margin: 5px;}
+	.columng p{text-align: center;}
+	.columng img{width: 100%; height: auto;}
+	.black {width: 80%; height:auto; margin: auto;}
+	.white {width: 80%; height:auto; margin: auto 10vw;}
+	.top h3, h4, h5 {text-align: center;}
+	.accordion {text-align: center;}
+	.map {width:98%; height:300px;}
+	.filterDiv, .imgcontainer {width: 99%; height: 90vw;}
+	.salesimg {width: 99%; height: 60vw;}
+	.salesimg img{width: 99%;}
+	.image {height: 90vw;}
+	.overlay {width: 100%;}
+	.sisterimg {text-align: center;}
+	.sistersponsors {text-align: center;}
+	.sponsors, .sponsors-logo, .footerleft,	.footerright {text-align:center; width: 100%;}
+	.contentimg {width:98%; text-align:center;margin:5px}
+}

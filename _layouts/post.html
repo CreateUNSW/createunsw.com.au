@@ -1,0 +1,43 @@
+<!--for general post in media-->
+<!doctype html>
+<html>
+    {% include head.html %}
+    <body>
+      {% include header.html %}
+<!--cover image section for post pages-->
+<div class="subcover-img">
+    {% if page.image %}
+            <img src="{% if page.image %} {{ page.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Cover Photo">
+                {% else %}
+            <img src="/images/image_unavilable_square.jpg" alt="Image Unavilable">
+                {% endif %})
+        <div class="wrapper">
+        <div class="title-block">
+            <h1>{{ page.title }}</h1>
+        </div>
+        </div>
+</div>
+        	<!--main content-->	
+		<div class="main-content" id="projects">
+        <div class="wrapper">
+          <div class="leftcolumn top">
+            <h3>{{ page.title }}</h3>
+            <h5>{{ page.location }}</h5>
+            <h5>{{ page.complete }}</h5>
+          </div>
+          <div class="rightcolumn cbutton centre">
+            <p> Written by <b>{{ page.author }}</b> on <b>{{ page.date | date: "%d %B %Y"}}</b></p>
+            <a href="{{'/media' | prepend: site.baseurl }}"><button class="buttong yellow">Media</button></a>
+            <div class="team">
+              <img src="{{ page.category }}">
+            </div>
+          </div>
+          <div class="single-column">
+              {{ page.content }}
+            
+          </div>
+        </div>
+        </div>
+      {% include footer.html %}
+    </body>
+</html>

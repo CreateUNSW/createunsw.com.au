@@ -1,0 +1,139 @@
+---
+layout: default
+title: Projects
+topic: Projects
+sub-topic: DRC / Vivid / Starters
+tagline: "create starters and projects"
+description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
+image: /images/20180522_CREATE_Synergy_BumpIn-3593.jpg
+permalink: /projects/
+---
+
+<!--main content-->	
+<div class="main-content">
+    <div class="wrapper">
+        <div class="single-column">
+            <h3>Projects</h3>
+            <p>CREATE hosts their own series of projects that provide opportunities for makers across any faculty to collaborate on team-based endeavours.</p>
+        </div>
+        <div id="projectgroup">
+            <button class="accordion">Project Illuminate</button>
+                <div class="panel" id="pi">
+                    <p><img src="/images/logos/create_project_illuminate_navyblue_transparent.png" class="projectintro">Project Illuminate encompasses designing, constructing and programming light installations for the yearly VIVID Sydney Light Festival. The team has made four entries from 2015 - Robotic Pacman, Mondrian Cube, Crystallise and Synergy. These artworks are also exhibited outside of the festival including the Sydney Mini Maker Faire, UNSW O-Week, UNSW Arts Week and Robotic Pacman featured at the Museum of Contemporary Art.</p>
+                    <p>Project Illuminate offers a unique multi-disciplinary experience to student collaborators, challenging artists, designers and engineers alike to design and produce an original and innovative artwork throughout its full development cycle</p>
+										<p>Project Illuminate is a joint-team of CREATE UNSW and sister club MAKE CLUB (based at UNSW Art & Design) since July 2017.</p>
+										
+                </div>
+
+                <button class="accordion">CREATE DRC</button>
+                <div class="panel" id="drc">
+                    <p>The Droid Racing Challenge (DRC) is a robotics competition hosted annually by the Queensland University of Technology (QUT) for three years running. Its aim is to design and build small, autonomous vehicles which can race around a track against one other competitor using only computer vision and ultrasonic sensors. Each year, CREATE hosts internal competitions and sends the two most successful teams up to participate in the competition.</p>
+                    <p>We have found continuing success with new teams taking up the challenge, with CREATE placing 1st in 2016 and 2017 and 3rd in 2018. In building and programming their vehicles, our project members learn invaluable skills including hardware design, electrical interfacing and programming autonomous driving functions.</p>
+                </div>
+
+                <button class="accordion">CREATE Starters</button>
+                <div class="panel" id="starters">
+                    <p><img src="/images/logos/create-starters.png" class="projectintro">CREATE Starters is our core project-incubation program that gives makers the opportunity to collaborate and start a new project! With financial and logistical assistnace from CREATE and our broad community, any proposed idea could be turned into a reality whether it’s just a passion project, competitive team submission or an innovative startup idea. All of our former projects were founded under this program including; Flight Labs UNSW (formerly CREATE UAS), our UGV platform Debbie and BB8 robot.</p>
+
+                    <p>We can kick-start your project with:</p>
+                    <p>~ Basic Management Tools and Advice <br>
+                    ~ Dedicated Technical Advisor<br>
+                    ~ Marketing to Set Up a Team of Keen Individuals to Learn and Assist<br>
+										~ Allocated Funding of up to $500 to help you get started, with Additional Funding as the Project Expands.</p>
+										
+                </div> 
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                      acc[i].addEventListener("click", function() {
+                        /* Toggle between adding and removing the "active" class,
+                        to highlight the button that controls the panel */
+                        this.classList.toggle("active");
+
+                        /* Toggle between hiding and showing the active panel */
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight){
+                          panel.style.maxHeight = null;
+                        } else {
+                          panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                      });
+                    } 
+
+								</script>
+								</div>
+
+    </div>
+    </div>
+
+    <!--project list-->
+    <div class="main-content bg-lgrey">
+		<div class="wrapper">
+			<!--Type Filter-->
+				<div id="myBtnContainer">
+				  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+				  <button class="btn" onclick="filterSelection('pi')">Project Illuminate</button>
+				  <button class="btn" onclick="filterSelection('drc')">CREATE DRC</button>
+				  <button class="btn" onclick="filterSelection('uas')">CREATE UAS</button>
+				  <button class="btn" onclick="filterSelection('ugv')">CREATE UGV</button>
+				  <button class="btn" onclick="filterSelection('starters')"> CREATE Starters</button>
+				</div>
+			<!--Products-->
+				<div id="container">
+{% assign sorted = site._projects | sort:"date" | reverse %}
+{% for _projects in sorted %}
+{% if _projects.link %}
+<a target="_blank" href="{{ _projects.link }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.topic }}</p></div></div></div></div></a>
+{% else %}
+<a href="{{ _projects.url }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>{% endif %}{% endfor %}
+
+							
+				<script>
+				// Projects
+				filterSelection("all")
+				function filterSelection(c) {
+				  var x, i;
+				  x = document.getElementsByClassName("filterDiv");
+				  if (c == "all") c = "";
+				  for (i = 0; i < x.length; i++) {
+					w3RemoveClass(x[i], "show");
+					if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+				  }
+				}
+
+				function w3AddClass(element, name) {
+				  var i, arr1, arr2;
+				  arr1 = element.className.split(" ");
+				  arr2 = name.split(" ");
+				  for (i = 0; i < arr2.length; i++) {
+					if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+				  }
+				}
+
+				function w3RemoveClass(element, name) {
+				  var i, arr1, arr2;
+				  arr1 = element.className.split(" ");
+				  arr2 = name.split(" ");
+				  for (i = 0; i < arr2.length; i++) {
+					while (arr1.indexOf(arr2[i]) > -1) {
+					  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+					}
+				  }
+				  element.className = arr1.join(" ");
+				}
+
+				var btnContainer = document.getElementById("myBtnContainer");
+				var btns = btnContainer.getElementsByClassName("btn");
+				for (var i = 0; i < btns.length; i++) {
+				  btns[i].addEventListener("click", function(){
+					var current = document.getElementsByClassName("active");
+					current[0].className = current[0].className.replace(" active", "");
+					this.className += " active";
+				  });
+				}
+				</script>				
+				</div>
+		</div>
+		</div>
