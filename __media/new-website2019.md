@@ -1,6 +1,6 @@
 ---
 categories: announcements
-title: A refreshing Website is now live
+title: A refreshing website is now live
 slug: new-website
 image: /images/website_rebrand2019.jpg
 layout: post
