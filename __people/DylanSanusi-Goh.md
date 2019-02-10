@@ -1,6 +1,6 @@
 ---
 layout: people
-title: Dylan Sanushi-Goh
+title: Dylan Sanusi-Goh
 status: current_executive
 year: 2019
 role: Vice President of Technology
@@ -24,4 +24,5 @@ For 2019, I’m the Vice President of Technology for CREATE & Technical Director
 
 I’m also involved with Flight Labs UNSW, the Mohamed Bin Zayed International Robotics Challenge, ENGG1000 and a few startups here and there. Come say hi!
 <h4>Previous roles with CREATE</h4>
+2018 - Chief Technology Officer<br>
 2018 - Secretary<br>
