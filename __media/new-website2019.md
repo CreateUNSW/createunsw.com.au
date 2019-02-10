@@ -5,7 +5,7 @@ slug: new-website
 image: /images/website_rebrand2019.jpg
 layout: post
 author: Tsz Kin LIU (William)
-date: 2018-02-10 13:00:00 +1000
+date: 2019-02-10 13:00:00 +1000
 ---
 
 From the 10 February 2019, CREATE are delighted to have a refreshing website, designed by Tsz Kin LIU (William), the head of the website team in the media and marketing sub-committee. The website has been improved in terms of the layout, design and functionality. <br>
