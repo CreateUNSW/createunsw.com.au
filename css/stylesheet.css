@@ -388,7 +388,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 
 .sponsors {display: block; text-align: left; clear:both;}
 .sponsors-logo{width: auto; float: left; margin: 10px 0px;}
-.sponsors-logo img{height: 50px; margin: 5px 20px 5px 20px;}
+.sponsors-logo img{height: 50px; margin: 5px 10px 5px 20px;}
 
 /*end of sponsors*/
 
