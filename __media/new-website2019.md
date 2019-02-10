@@ -8,7 +8,7 @@ author: Tsz Kin LIU (William)
 date: 2019-02-10 13:00:00 +1000
 ---
 
-From the 10 February 2019, CREATE is delighted to have a refreshing website, designed by Tsz Kin LIU (William), the head of the website team in the media and marketing sub-committee. The website has been improved in terms of the layout, design and functionality. <br>
+From the 10 February 2019, CREATE is delighted to publish a refreshing website, designed by Tsz Kin LIU (William), the head of the website team in the media and marketing sub-committee. The website has been improved in terms of the layout, design and functionality. <br>
 
 William has spent a month since the beginning of 2019, from prototyping to code the website with HTML (Hypertext Markup Language), CSS (Cascading Style Sheets) and Jekyll, a static site generator, and some imported javascript. 
 
