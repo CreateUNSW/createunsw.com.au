@@ -16,9 +16,7 @@ permalink: /media/
     <div class="wrapper">        
         <div class="single-column">
             <h3>{{ cat }}</h3>
-    </div>
-    </div>
-    <div class="wrapper">
+        </div>
         {% assign sorted = site._media | sort:"date" | reverse %}
         {% for _media in sorted limit:20 %}
         {% if _media.categories contains cat %}
@@ -52,4 +50,3 @@ permalink: /media/
     </div>
     {% endfor %}
     </div>
-</div>
