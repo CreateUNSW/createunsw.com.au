@@ -18,7 +18,7 @@ CREATE is in the process of building its own UGV (Unmanned Ground Vehicle). This
 
 Affectionately nicknamed “Deborah” or “Debbie”, the UGV feature motors collected from a second-hand electric wheelchair, a custom-designed and welded steel chassis and a 2D LiDAR.
 
- <img src="/images/DSC01350.jpg" class="contentimg">
+ <img src="/images/DSC01350.JPG" class="contentimg">
  <img src="/images/ugv2.jpg" class="contentimg">
 
  “Debbie” currently have the capability to drive autonomously in short distances via the use of a GPS guidance system, avoid obstacles in both autonomous and controller mode, and carry a load of 70kg maximum.
