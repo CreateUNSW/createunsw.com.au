@@ -22,8 +22,9 @@ permalink: /media/
         {% assign sorted = site._media | sort:"date" | reverse %}
         {% for _media in sorted limit:20 %}
         {% if _media.categories contains cat %}
-            <article>
+            
             {% if _media.link %}
+            <article>
         <a target="_blank" href="{{ _media.link }}">
             <div class="columng black">
                 <div class="mediaimg">
@@ -33,7 +34,9 @@ permalink: /media/
                 <p>{{ _media.date | date: "%d %B %Y"}}</p>
                 <p>{{ _media.content | strip_html | truncatewords: 35}}</p>
             </div>
+        </article>
             {% else %}
+            <article>
             <a href="{{ _media.url }}">
             <div class="columng black">
                     <div class="mediaimg">
@@ -42,9 +45,9 @@ permalink: /media/
                     <h4>{{_media.title}}</h4>
                     <p>{{ _media.date | date: "%d %B %Y"}}</p>
                     <p>{{ _media.content | strip_html | truncatewords: 35}}</p>
-                </div></a>
+                </div></a></article>
             {% endif %}
-        </article>
+        
         {% endif %}{% endfor %}
     </div>
     {% endfor %}
