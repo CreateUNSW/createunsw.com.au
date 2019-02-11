@@ -18,6 +18,3 @@ github-id:
 Josh can best be characterised as a ‘forever student’. He has been part of many clubs and societies on campus and enjoys making things. <br>
 
 He is currently the Admin Director of CREATE Project Iluminate and the Arc Delegate for CREATE. Feel free to stop him if you want to chat about anything project management, logistics, or anything really! He promises he won’t bite… 
-<h4>Previous roles with CREATE</h4>
-2017 - Team Volunteer, Project Illuminate<br>
-2018 - Director, Project Illuminate<br>
