@@ -443,8 +443,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.image {height: 23.5vw;}
 	.overlay {width: 23.5vw;}
 	.subscribe_column {width: 23.5vw;}
-	.subscribe .buttong {width: 23.5vw;}
-	#mce-EMAIL {width: 23vw;}
+	#mce-EMAIL {width:23vw;}
 }
 
 /* Responsive layout*/
@@ -458,11 +457,11 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.salesimg img{width: 23vw;}
 	.image {height: 23vw;}
 	.overlay {width: 23vw;}
-	.subscribe article{width: 100%; text-align: center; margin: 5px;}
+	.subscribe .buttong .yellow {width: 250px;}
 	.subscribe h5 {margin: 5px;}
-	.subscribe .buttong {width: 265px;}
+	.subscribe article{width: 100%; text-align: center; margin: 5px 15px;}
 	.subscribe_column, .single-column h5 {width: 100%; text-align: center;}
-	#mce-EMAIL {width:300px;}
+	#mce-EMAIL {width:270px;}
 }
 
 /* Responsive layout*/
