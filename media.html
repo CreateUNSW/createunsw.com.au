@@ -24,7 +24,7 @@ permalink: /media/
             {% if _media.link %}
             <article>
         <a target="_blank" href="{{ _media.link }}">
-            <div class="columng black">
+            <div class="columng black mediab">
                 <div class="mediaimg">
                 <img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
                 </div>
@@ -36,7 +36,7 @@ permalink: /media/
             {% else %}
             <article>
             <a href="{{ _media.url }}">
-            <div class="columng black">
+            <div class="columng black mediab">
                     <div class="mediaimg">
                     <img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
                 </div>
