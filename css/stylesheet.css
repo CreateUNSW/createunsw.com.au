@@ -203,7 +203,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 
 /*two column (heading and single button / footer)*/
 .leftcolumn {float:left; width:50%;}
-.rightcolumn {float: right; width: 49%;}
+.rightcolumn {float: right; width: 50%;}
 .cbutton {text-align:right;} /*position for the button in the right column*/
 .peopleimg {width: 24%; text-align: center; margin: 5px; float: left;}
 .peopleimg img {width: 100%; margin: 5px;}
@@ -352,7 +352,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 /*main content - sister club*/
 .sister {display: block; text-align: left; background: #CDE1F1; clear:both; overflow: hidden;}
 .sisterimg {width: 250px; margin: 15px 10px 15px 5px; text-align: right;}
-.sistersponsors {height: 60px; margin: 15px 20px 15px 20px;}
+.sistersponsors {height: 60px; margin: 15px 10px 15px 5px;}
 .sister_text p{font-weight:700; text-transform: uppercase; color: #231f20; text-align: left; float: left; font-size: 16px;}
 
 /*main content - social media section*/
@@ -435,6 +435,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.columng img{width: 23.5vw; height: auto;}
 	.black {width: 23.5vw; height:42vw;}
 	.white {width: 23.5vw; height:33vw;}
+	.twocolumn {width: 47.8vw;}
 	.map {width:47vw; height:300px;}
 	.filterDiv, .imgcontainer {width: 23.5vw; height: 23.5vw;}
 	.salesimg {width: 23.5vw; height: 12vw;}
@@ -450,6 +451,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.columng img{width: 23vw; height: auto;}
 	.black {width: 23vw; height:52vw;}
 	.white {width: 23vw; height:35vw;}
+	.twocolumn {width: 47vw;}
 	.filterDiv, .imgcontainer {width: 23vw; width: 23vw;}
 	.salesimg {width: 23vw; height: 12vw;}
 	.salesimg img{width: 23vw;}
@@ -468,6 +470,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.columng img{width: 47vw; height: auto;}
 	.black {width: 47vw; height:63vw;}
 	.white {width: 47vw; height:59vw;}
+	.leftcolumn, .rightcolumn {width: 100%;}
 	.peopleimg img {width: 60%;}
 	.profilepage, .peopleimg, .bio {width: 100%;}
 	.filterDiv, .imgcontainer {width: 47vw; height: 47vw;}
@@ -491,8 +494,9 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	h5 {text-align: center;}
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
-	.single-column {width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
+	.centre {text-align: center; width: 100%;}
+	.twocolumn {width: 100%;}
 	.productimg {width: 100%;}
 	.productinfo {width: 100%; text-align: left;}
 	.category {text-align: center;}
