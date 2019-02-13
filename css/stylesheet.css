@@ -227,7 +227,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
   
   table {
 	border-collapse: collapse;
-	width: 99%;
+	width: 98%;
 	margin: 10px;
   }
   
@@ -494,9 +494,9 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
-	.twocolumn {width: 99%;}
-	.productimg {width: 99%;}
-	.productinfo {width: 99%; text-align: left;}
+	.twocolumn {width: 98%;}
+	.productimg {width: 98%;}
+	.productinfo {width: 98%; text-align: left;}
 	.category {text-align: center;}
 	.team {display: table; width: 265px; margin: auto;float: none;}
 	.main-content article {margin: 5px;}
@@ -509,9 +509,9 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.accordion {text-align: center;}
 	.map {width:98%; height:300px;}
 	.filterDiv, .imgcontainer {width: 99%; height: 90vw;}
-	.salesimg {width: 99%; height: 60vw;}
-	.salesimg img{width: 99%;}
-	.image {height: 90vw;}
+	.salesimg {width: 98%; height: 60vw;}
+	.salesimg img{width: 98%;}
+	.image {height: 98vw;}
 	.overlay {width: 100%;}
 	.sisterimg {text-align: center;}
 	.sistersponsors {text-align: center;}
