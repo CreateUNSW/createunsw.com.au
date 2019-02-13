@@ -490,6 +490,8 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 /* Responsive layout*/
 @media (max-width: 620px) {
 	h3 {text-align: center;}
+	h4 {text-align: center;}
+	h5 {text-align: center;}
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
@@ -505,7 +507,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.black {width: 80%; height:auto; margin: auto;}
 	.white {width: 80%; height:auto; margin: auto 10vw;}
 	.mediab {width: 80%; height:auto; margin: auto 10vw;}
-	.top h3, h4, h5 {text-align: center;}
+	.top h3 {text-align: center;}
 	.accordion {text-align: center;}
 	.map {width:98%; height:300px;}
 	.filterDiv, .imgcontainer {width: 99%; height: 90vw;}
