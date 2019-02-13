@@ -22,6 +22,16 @@ The Project Illuminate Team for 2018 is led by Jonathan Hribar, with project man
 
 For aspiring engineers and designers, this project provides provision of practical skills in project management, design and fabrication skills, client relations, collaboration and communication. It represents an experience-rich opportunity for the maker community to sink their teeth into and supplement their university studies. Synergy also marks CREATE’s most ambitious project to date, a feat which would not have been possible without the combination of all the member’s skills and experiences.
 
+<img src="/images/20180503_CREATEProjectIlluminate-0020.jpg" class="contentimg">
+<img src="/images/20180519_CREATE_Synergy_BumpIn-0740.jpg" class="contentimg">
+
+Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illuminate, UNSW
+
+<img src="/images/_MG_5949final.jpg" class="contentimg">
+<img src="/images/_MG_5886.jpg" class="contentimg">
+
+Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering
+
 <h4>Meet the team</h4>
 <h5>Directors</h5>
 <p>Jonathan Hribar - 4th year Mechatronic/Biomedical Engineering</p>
