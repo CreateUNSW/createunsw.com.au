@@ -32,6 +32,8 @@ Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illumi
 
 Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering
 
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fcreate.project.illuminate%2Fvideos%2F1563004990664662%2F&width=500&show_text=false&height=280&appId" width="100%" height="auto" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+
 <h4>Meet the team</h4>
 <h5>Directors</h5>
 <p>Jonathan Hribar - 4th year Mechatronic/Biomedical Engineering</p>
