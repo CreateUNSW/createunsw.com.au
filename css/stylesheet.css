@@ -202,8 +202,8 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 .single-column {display: block; width: 100%; height: auto; clear:both;margin: 10px auto;}	
 
 /*two column (heading and single button / footer)*/
-.leftcolumn {float:left; width:50%;}
-.rightcolumn {float: right; width: 49%;}
+.leftcolumn {float:left; width:49%;}
+.rightcolumn {float: right; width: 50%;}
 .cbutton {text-align:right;} /*position for the button in the right column*/
 .peopleimg {width: 24%; text-align: center; margin: 5px; float: left;}
 .peopleimg img {width: 100%; margin: 5px;}
@@ -472,7 +472,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.white {width: 47vw; height:59vw;}
 	.peopleimg img {width: 60%;}
 	.profilepage, .peopleimg, .bio {width: 100%;}
-	.centre {text-align: center; width: 100%;}
 	.filterDiv, .imgcontainer {width: 47vw; height: 47vw;}
 	.salesimg {width: 47vw; height: 30vw;}
 	.salesimg img{width: 47vw;}
