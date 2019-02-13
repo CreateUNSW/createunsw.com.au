@@ -489,9 +489,9 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 
 /* Responsive layout*/
 @media (max-width: 620px) {
-	h3 {text-align: center;}
-	h4 {text-align: center;}
-	h5 {text-align: center;}
+	.main-content h3 {text-align: center;}
+	.main-content h4 {text-align: center;}
+	.main-content h5 {text-align: center;}
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
