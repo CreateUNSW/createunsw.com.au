@@ -352,7 +352,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 /*main content - sister club*/
 .sister {display: block; text-align: left; background: #CDE1F1; clear:both; overflow: hidden;}
 .sisterimg {width: 250px; margin: 15px 10px 15px 5px; text-align: right;}
-.sistersponsors {height: 60px; margin: 15px 10px 15px 5px;}
+.sistersponsors {height: 60px; margin: 15px 20px 15px 20px;}
 .sister_text p{font-weight:700; text-transform: uppercase; color: #231f20; text-align: left; float: left; font-size: 16px;}
 
 /*main content - social media section*/
