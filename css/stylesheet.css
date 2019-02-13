@@ -471,7 +471,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.black {width: 47vw; height:63vw;}
 	.white {width: 47vw; height:59vw;}
 	.peopleimg img {width: 60%;}
-	.profilepage, .peopleimg, .bio {width: 100%;}
+	.profilepage, .peopleimg, .bio {width: 99.5%;}
 	.filterDiv, .imgcontainer {width: 47vw; height: 47vw;}
 	.salesimg {width: 47vw; height: 30vw;}
 	.salesimg img{width: 47vw;}
@@ -479,7 +479,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.overlay {width: 47vw;}
 	.sistersponsors {height: 8vw;}
 	.buttong {margin: 5px;}
-	.subscribe article{width: 100%; text-align: center; margin: 5px 15px;}
+	.subscribe article{width: 99.5%; text-align: center; margin: 5px 15px;}
 	.subscribe_column, .single-column h5 {width: 100%; text-align: center;}
 	.sponsors, .sponsors-logo {text-align:center; width: 100%;}
 	.sponsors h3 {text-align:center;}
@@ -494,9 +494,9 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
-	.twocolumn {width: 100%;}
-	.productimg {width: 100%;}
-	.productinfo {width: 100%; text-align: left;}
+	.twocolumn {width: 99.5%;}
+	.productimg {width: 99.5%;}
+	.productinfo {width: 99.5%; text-align: left;}
 	.category {text-align: center;}
 	.team {display: table; width: 265px; margin: auto;float: none;}
 	.main-content article {margin: 5px;}
