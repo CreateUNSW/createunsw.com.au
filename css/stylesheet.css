@@ -466,7 +466,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 }
 
 /* Responsive layout*/
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 	.leftcolumn, .rightcolumn {width: 100%;}
 }
 
