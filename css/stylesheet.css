@@ -491,7 +491,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	h5 {text-align: center;}
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
-	.centre {text-align: center; width: 100%;}
+	.single-column {width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
 	.productimg {width: 100%;}
 	.productinfo {width: 100%; text-align: left;}
