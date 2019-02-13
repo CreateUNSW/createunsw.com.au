@@ -470,7 +470,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.columng img{width: 47vw; height: auto;}
 	.black {width: 47vw; height:63vw;}
 	.white {width: 47vw; height:59vw;}
-	.leftcolumn, .rightcolumn {width: 100%;}
 	.peopleimg img {width: 60%;}
 	.profilepage, .peopleimg, .bio {width: 100%;}
 	.filterDiv, .imgcontainer {width: 47vw; height: 47vw;}
@@ -495,7 +494,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
-	.centre {text-align: center; width: 100%;}
 	.twocolumn {width: 100%;}
 	.productimg {width: 100%;}
 	.productinfo {width: 100%; text-align: left;}
