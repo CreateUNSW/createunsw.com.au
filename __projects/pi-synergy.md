@@ -27,8 +27,8 @@ For aspiring engineers and designers, this project provides provision of practic
 
 Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illuminate, UNSW
 
-<img src="/images/_MG_5949final.jpg" class="contentimg">
-<img src="/images/_MG_5886.jpg" class="contentimg">
+<img src="/images/MG_5949final.jpg" class="contentimg">
+<img src="/images/MG_5886.jpg" class="contentimg">
 
 Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering
 
