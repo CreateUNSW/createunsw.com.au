@@ -203,7 +203,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 
 /*two column (heading and single button / footer)*/
 .leftcolumn {float:left; width:50%;}
-.rightcolumn {float: right; width: 50%;}
+.rightcolumn {float: right; width: 49%;}
 .cbutton {text-align:right;} /*position for the button in the right column*/
 .peopleimg {width: 24%; text-align: center; margin: 5px; float: left;}
 .peopleimg img {width: 100%; margin: 5px;}
