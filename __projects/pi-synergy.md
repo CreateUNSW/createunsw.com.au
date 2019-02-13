@@ -32,7 +32,20 @@ Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illumi
 
 Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering
 
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fcreate.project.illuminate%2Fvideos%2F1563004990664662%2F&width=500&show_text=false&height=280&appId" width="100%" height="auto" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-video" data-href="https://www.facebook.com/create.project.illuminate/videos/1563004990664662/" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/create.project.illuminate/videos/1563004990664662/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/create.project.illuminate/videos/1563004990664662/">Synergy | Vivid Sydney 2018 Opening Night Timelapse</a><p>Check out this time-lapse video of our artwork Synergy | Vivid Sydney 2018 Opening Night on 25 May 
+
+https://www.vividsydney.com/event/light/synergy
+
+#createunsw #create_project_illuminate #makeunswad #unsw #thecreativecampus #vividsydney #synergy #light #installation #synergy #makersmovement #makersgonnamake #bumpin #circularquay #sydney</p>Posted by <a href="https://www.facebook.com/create.project.illuminate/">CREATE Project Illuminate</a> on Friday, 25 May 2018</blockquote></div>
 
 <h4>Meet the team</h4>
 <h5>Directors</h5>
