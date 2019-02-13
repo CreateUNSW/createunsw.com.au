@@ -30,7 +30,7 @@ Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illumi
 <img src="/images/MG_5949final.jpg" class="contentimg">
 <img src="/images/MG_5886.jpg" class="contentimg">
 
-Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering
+<p>Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering</p>
 
 <h4>Meet the team</h4>
 <h5>Directors</h5>
