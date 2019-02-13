@@ -435,7 +435,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.columng img{width: 23.5vw; height: auto;}
 	.black {width: 23.5vw; height:42vw;}
 	.white {width: 23.5vw; height:33vw;}
-	.twocolumn {width: 47.8vw;}
 	.map {width:47vw; height:300px;}
 	.filterDiv, .imgcontainer {width: 23.5vw; height: 23.5vw;}
 	.salesimg {width: 23.5vw; height: 12vw;}
@@ -451,7 +450,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.columng img{width: 23vw; height: auto;}
 	.black {width: 23vw; height:52vw;}
 	.white {width: 23vw; height:35vw;}
-	.twocolumn {width: 47vw;}
 	.filterDiv, .imgcontainer {width: 23vw; width: 23vw;}
 	.salesimg {width: 23vw; height: 12vw;}
 	.salesimg img{width: 23vw;}
@@ -463,11 +461,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.subscribe_column, .single-column h5 {width: 100%; text-align: center;}
 	#mce-EMAIL {width:270px;}
 	.mediaimg {height:18vw; overflow:hidden; position: relative;}
-}
-
-/* Responsive layout*/
-@media (max-width: 850px) {
-	.leftcolumn, .rightcolumn {width: 100%;}
 }
 
 /* Responsive layout*/
@@ -499,7 +492,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.buttong {margin-bottom: 5px;}
 	.centre {text-align: center; width: 100%;}
 	.centre {text-align: center; width: 100%;}
-	.twocolumn {width: 100%;}
+	.leftcolumn, .rightcolumn {width: 100%;}
 	.productimg {width: 100%;}
 	.productinfo {width: 100%; text-align: left;}
 	.category {text-align: center;}
