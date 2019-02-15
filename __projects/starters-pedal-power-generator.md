@@ -2,8 +2,6 @@
 layout: projectsite
 categories: starters
 title: Pedal Power Generator
-topic: Pedal Power Generator
-sub-topic: Collaboration with Arc@UNSW Bike-ology
 location: UNSW Art & Design
 completedate: 30 August 2015
 author: Austin Kong, Yunzhen Zhang

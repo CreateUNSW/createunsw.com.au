@@ -2,8 +2,6 @@
 layout: projectsite
 categories: pi
 title: Mondrian Cube - Vivid Sydney 2016
-topic: Mondrian Cube
-sub-topic: Vivid Sydney 2016
 location: First Fleet Prk, Circular Quay, Sydney
 completedate: 27 May 2016 - 18 June 2016
 author: Yunzhen Zhang

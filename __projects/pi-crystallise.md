@@ -2,8 +2,6 @@
 layout: projectsite
 categories: pi
 title: Crystallise - Vivid Sydney 2017
-topic: Crystallise
-sub-topic: Vivid Sydney 2017
 location: Campbells Cove, Circular Quay, Sydney
 completedate: 26 May 2017 - 17 June 2017
 author: Junji Moey

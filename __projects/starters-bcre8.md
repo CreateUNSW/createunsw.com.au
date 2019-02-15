@@ -2,8 +2,6 @@
 layout: projectsite
 categories: starters
 title: Star Wars - BCRE8
-topic: Star Wars - BCRE8
-sub-topic: 
 location: CREATE UNSW
 completedate: 12 February 2016
 author: Sophia Luu

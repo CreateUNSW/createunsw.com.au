@@ -2,8 +2,6 @@
 layout: projectsite
 categories: starters
 title: Light Bridge
-topic: Light Bridge
-sub-topic: 2015 Nox Night Sculpture Walk | Randwick Eco­Living Fair
 location: Randwick Environment Park, Sydney
 completedate: 13 September 2015
 author: Scarlett Steven

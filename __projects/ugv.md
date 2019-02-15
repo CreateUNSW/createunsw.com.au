@@ -2,8 +2,6 @@
 layout: projectsite
 categories: ugv
 title: Unmanned Ground Vehicle
-topic: Unmanned Ground Vehicle
-sub-topic:
 location: UNSW
 completedate:
 author: William Hales

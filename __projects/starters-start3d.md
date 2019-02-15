@@ -2,8 +2,6 @@
 layout: projectsite
 categories: starters
 title: Start3D - 3D Printer
-topic: Start3D - 3D Printer
-sub-topic:
 location: UNSW
 completedate:
 author: William Hales

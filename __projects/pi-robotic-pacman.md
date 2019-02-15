@@ -2,8 +2,6 @@
 layout: projectsite
 categories: pi
 title: Robotic Pacman - Vivid Sydney 2015
-topic: Robotic Pacman
-sub-topic: Vivid Sydney 2015
 location: Martin Place, Sydney
 completedate: 22 - 24 May and 29 - 31 May in 2015
 author: William Hales
