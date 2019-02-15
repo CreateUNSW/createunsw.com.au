@@ -86,7 +86,7 @@ permalink: /projects/
 {% assign sorted = site._projects | sort:"date" | reverse %}
 {% for _projects in sorted %}
 {% if _projects.link %}
-<a target="_blank" href="{{ _projects.link }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.topic }}</p></div></div></div></div></a>
+<a target="_blank" href="{{ _projects.link }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>
 {% else %}
 <a href="{{ _projects.url }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>{% endif %}{% endfor %}
 
