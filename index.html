@@ -51,6 +51,9 @@ image: /images/home-cover-2019.gif
 	{% assign cats = site._media | map: 'categories' | join: ',' | split: ',' | uniq %}
 	{% for cat in cats %}
 <div class="wrapper">
+		<div class="single-column">
+				<h3>Latest Update from CREATE</h3>
+			</div>
 	<!--Blog section shortcut-->
 	{% if cat == 'blogs' %}
 	<article>
