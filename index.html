@@ -48,12 +48,12 @@ image: /images/home-cover-2019.gif
 </div>
 
 <div class="main-content bg-lgrey">
-	{% assign cats = site._media | map: 'categories' | join: ',' | split: ',' | uniq %}
-	{% for cat in cats %}
 <div class="wrapper">
 		<div class="single-column">
 				<h3>Latest Update from CREATE</h3>
 			</div>
+			{% assign cats = site._media | map: 'categories' | join: ',' | split: ',' | uniq %}
+	{% for cat in cats %}
 	<!--Blog section shortcut-->
 	{% if cat == 'blogs' %}
 	<article>
@@ -99,9 +99,9 @@ image: /images/home-cover-2019.gif
 			{% endif %}	{% endfor %} 
 			
 	</article>
-	{% endif %}			
+	{% endif %} {% endfor %}			
 </div>
-{% endfor %}
+
 </div>
 
 <div class="main-content">
