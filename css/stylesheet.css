@@ -219,6 +219,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 /*column colours*/
 .black {background-color:#231f20; color:white; width: 265px; height:400px;}
 .white {color: #231f20; width: 265px; height:350px;}
+.section {color: #231f20;}
 .profile h5, .profile p {text-align: center;}
 .profile:hover {background-color: #eee;}
 

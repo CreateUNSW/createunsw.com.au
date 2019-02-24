@@ -44,8 +44,63 @@ image: /images/home-cover-2019.gif
 				</div>
 			</article>
 			
+	</div>
+</div>
+
+<div class="main-content bg-lgrey">
+	{% assign cats = site._media | map: 'categories' | join: ',' | split: ',' | uniq %}
+	{% for cat in cats %}
+<div class="wrapper">
+	<!--Blog section shortcut-->
+	{% if cat == 'blogs' %}
+	<article>
+		{% assign sorted = site._media | sort:"date" | reverse %}
+			{% for _media in sorted limit:2 %}
+			{% if _media.categories contains cat %}
+		<div class="columng section">
+			<h3>"CREATE" Blog</h3>
 		</div>
-		</div>
+		<a href="{{ _media.url }}">
+			<div class="columng black mediab">
+				<div class="mediaimg">
+					<img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
+				</div>
+				<h4>{{_media.title}}</h4>
+				<p>{{ _media.date | date: "%d %B %Y"}}</p>
+				<p>{{ _media.content | strip_html | truncatewords: 35}}</p>
+			</div>
+		</a>
+		{% endif %}	{% endfor %} 
+		
+	</article>
+	{% endif %}
+	<!--Announcement section shortcut-->
+	{% if cat == 'announcements' %}
+	<article>	
+			{% assign sorted = site._media | sort:"date" | reverse %}
+				{% for _media in sorted limit:2 %}
+				{% if _media.categories contains cat %}
+			<div class="columng section">
+				<h3>Announcements</h3>
+			</div>
+			<a href="{{ _media.url }}">
+				<div class="columng black mediab">
+					<div class="mediaimg">
+						<img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
+					</div>
+					<h4>{{_media.title}}</h4>
+					<p>{{ _media.date | date: "%d %B %Y"}}</p>
+					<p>{{ _media.content | strip_html | truncatewords: 35}}</p>
+				</div>
+			</a>
+			{% endif %}	{% endfor %} 
+			
+	</article>
+	{% endif %}			
+</div>
+{% endfor %}
+</div>
+
 <div class="main-content">
 	<div class="wrapper">
 		<div class="single-column centre">
