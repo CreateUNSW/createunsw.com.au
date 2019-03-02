@@ -521,4 +521,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.contentimg {width:98%; text-align:center;margin:5px}
 	.mediaimg {height:40vw; overflow:hidden; position: relative;}
 	.sponsors-logo img{height: 60px; margin: 10px 5px;}
+	.portfolio {margin: 0px auto;}
+	.portfolio ul {list-style: none;}
+	.portfolio li {display: inline; margin: 0px 10px; font-size: 30px;}
 }
