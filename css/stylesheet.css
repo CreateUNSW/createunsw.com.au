@@ -520,6 +520,5 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.sponsors, .sponsors-logo, .footerleft,	.footerright {text-align:center; width: 100%;}
 	.contentimg {width:98%; text-align:center;margin:5px}
 	.mediaimg {height:40vw; overflow:hidden; position: relative;}
-	.sponsors-logo{width: auto; float: left; margin: 10px auto;}
 	.sponsors-logo img{height: 60px; margin: 5px 10px 5px 10px;}
 }
