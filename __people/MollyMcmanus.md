@@ -3,7 +3,7 @@ title: "Molly McManus"
 image: /images/people/molly_mcmanus.jpg
 degree: ""
 role: "Treasurer"
-index: 20
+index: 15
 email:
 linkedin-url:
 github-id:
