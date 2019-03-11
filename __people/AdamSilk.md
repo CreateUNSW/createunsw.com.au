@@ -3,7 +3,7 @@ title: "Adam Silk"
 image: /images/people/adam_silk.jpg
 degree: ""
 role: "VP of Sponsorship"
-index: 15
+index: 13
 email:
 linkedin-url:
 github-id:

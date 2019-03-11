@@ -3,7 +3,7 @@ title: "William Luo"
 image: /images/people/william_luo.jpg
 degree: ""
 role: "Head of Media and Marketing"
-index: 40
+index: 13
 email:
 linkedin-url:
 github-id:

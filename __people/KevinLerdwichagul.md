@@ -3,7 +3,7 @@ title: "Kevin Lerdwichagul"
 image: /images/people/kevin_lerdwichagul.jpg
 degree: ""
 role: "Co-Head of UGV Team"
-index: 100
+index: 13
 email:
 linkedin-url:
 github-id:

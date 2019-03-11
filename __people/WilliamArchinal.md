@@ -3,7 +3,7 @@ title: "William Archinal"
 image: /images/people/william_archinal.jpg
 degree: ""
 role: "Secretary/Treasurer"
-index: 65
+index: 13
 email:
 linkedin-url:
 github-id:

@@ -3,7 +3,7 @@ title: "Michael O'Connor"
 image: /images/people/michael_oconnor.jpg
 degree: ""
 role: "Head of 3D Printing"
-index: 80
+index: 13
 email:
 linkedin-url:
 github-id:

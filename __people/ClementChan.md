@@ -3,7 +3,7 @@ title: "Clement Chan"
 image: /images/people/clement_chan.jpg
 degree: ""
 role: "Socials Co-ordinator"
-index: 70
+index: 13
 email:
 linkedin-url:
 github-id:

@@ -3,7 +3,7 @@ title: "Callum Howard"
 image: /images/people/callum_howard.jpg
 degree: ""
 role: "VP of Events"
-index: 45
+index: 13
 email:
 linkedin-url:
 github-id:
