@@ -3,7 +3,7 @@ title: "Sophia Luu"
 image: /images/people/exec_sophia_luu.jpg
 degree: ""
 role: "Head of Media and Marketing"
-index: 10
+index: 11
 email:
 linkedin-url:
 github-id:

@@ -3,7 +3,7 @@ title: "Evan Lister"
 image: /images/people/exec_evan_lister.jpg
 degree: ""
 role: "VP of Sponsorship"
-index: 75
+index: 11
 email:
 linkedin-url:
 github-id:

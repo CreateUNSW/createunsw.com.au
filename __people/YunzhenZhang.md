@@ -3,7 +3,7 @@ title: Yunzhen Zhang
 image: /images/people/exec_yunzhen_zhang.jpeg
 degree: ""
 role: "Treasurer"
-index: 50
+index: 11
 email:
 linkedin-url:
 github-id:

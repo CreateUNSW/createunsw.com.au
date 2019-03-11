@@ -3,7 +3,7 @@ title: "Abhishek Sharan"
 image: /images/people/exec_abhishek_sharan.jpg
 degree: ""
 role: "UAS Team Leader"
-index: 4
+index: 10
 email:
 linkedin-url:
 github-id:

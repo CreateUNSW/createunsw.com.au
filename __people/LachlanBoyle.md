@@ -3,7 +3,7 @@ title: "Lachlan Boyle"
 image: /images/people/exec_lachlan_boyle.jpg
 degree: ""
 role: "Co-Director of Sales"
-index: 120
+index: 11
 email:
 linkedin-url:
 github-id:

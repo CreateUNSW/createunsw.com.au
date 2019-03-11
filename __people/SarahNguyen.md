@@ -3,7 +3,7 @@ title: "Sarah Nguyen"
 image:
 degree: ""
 role: "Digital Artist"
-index: 125
+index: 11
 email:
 linkedin-url:
 github-id:
