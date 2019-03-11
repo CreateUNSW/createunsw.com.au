@@ -3,7 +3,7 @@ title: "Christopher Ho"
 image: /images/people/ChristopherHo.jpg
 degree: ""
 role: "VP of Sponsorship"
-index: 6
+index: 10
 email:
 linkedin-url:
 github-id:

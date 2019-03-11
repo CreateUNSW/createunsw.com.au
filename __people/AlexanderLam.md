@@ -3,7 +3,7 @@ title: "Alexander Lam"
 image: /images/people/exec_alexander_lam.jpg
 degree: ""
 role: "Arc Delegate"
-index: 6
+index: 10
 email:
 linkedin-url:
 github-id:

@@ -3,7 +3,7 @@ title: "Daniel Castillo"
 image: /images/people/exec_daniel_castillo.jpeg
 degree: ""
 role: "Chief Technical Officer"
-index: 126
+index: 10
 email:
 linkedin-url:
 github-id:

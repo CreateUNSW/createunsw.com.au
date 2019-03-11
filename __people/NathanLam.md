@@ -3,7 +3,7 @@ title: "Nathan Lam"
 image: /images/people/exec_nathan_lam.jpg
 degree: ""
 role: "Co-Director of Sales"
-index: 6
+index: 10
 email:
 linkedin-url:
 github-id:

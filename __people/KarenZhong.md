@@ -3,7 +3,7 @@ title: "Karen Zhong"
 image: /images/people/exec_karen_zhong.jpg
 degree: ""
 role: "Head of Media & Marketing"
-index: 6
+index: 10
 email:
 linkedin-url:
 github-id:
