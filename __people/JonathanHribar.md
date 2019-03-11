@@ -7,7 +7,7 @@ role: Director, Project Illuminate
 manager:
 index: 5
 degree: 4th Year, Bachelor of Mechatronic Engineering (Honours) / Master of Biomedical Engineering
-image:
+image: /images/people/JonathanHribar.jpg
 email:
 website-url: 
 instagram-id: 
