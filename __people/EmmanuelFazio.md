@@ -3,7 +3,7 @@ title: "Emmanuel Fazio"
 image: /images/people/emmanuel_fazio.jpg
 degree: ""
 role: "Co-Director of Sales"
-index: 90
+index: 12
 email:
 linkedin-url:
 github-id:

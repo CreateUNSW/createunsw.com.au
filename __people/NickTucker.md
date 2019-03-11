@@ -3,7 +3,7 @@ title: "Nick Tucker"
 image: /images/people/nick_tucker.jpg
 degree: ""
 role: "Co-Director of Sales"
-index: 95
+index: 12
 email:
 linkedin-url:
 github-id:

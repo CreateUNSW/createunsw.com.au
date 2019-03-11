@@ -3,7 +3,7 @@ title: "Mark Johnson"
 image: /images/people/mark_johnson.jpg
 degree: ""
 role: "Co-Director of Sales"
-index: 55
+index: 12
 email:
 linkedin-url:
 github-id:

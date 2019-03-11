@@ -3,7 +3,7 @@ title: "Roshen Mathew"
 image: /images/people/roshen_mathew.jpg
 degree: ""
 role: "Vice President of Events"
-index: 105
+index: 12
 email:
 linkedin-url:
 github-id:
