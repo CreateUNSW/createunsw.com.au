@@ -4,7 +4,7 @@ image: /images/people/nathan_adler.jpg
 degree: ""
 role: "Founder / President"
 year: "2014-2015"
-index: 1
+index: 2
 email:
 linkedin-url:
 github-id:

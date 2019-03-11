@@ -3,7 +3,7 @@ title: "Patrick Huang"
 image: /images/people/exec_patrick_huang.jpg
 degree: ""
 role: "Vice President of Events"
-index: 126
+index: 6
 email:
 linkedin-url:
 github-id:

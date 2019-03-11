@@ -3,7 +3,7 @@ title: "Austin Kong"
 image: /images/people/austin_kong.jpg
 degree: ""
 role: "Founder / Chief Technical Officer"
-index: 1
+index: 3
 email:
 linkedin-url:
 github-id:
