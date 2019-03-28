@@ -4,7 +4,7 @@ title: AA batteries
 price: 1.00
 slug: AA-batteries
 sku: HGW
-image: /images/sales/power_AA_greencell.jpg
+image: /images/sales/power-aa-batteries.png
 layout: productdetails
 ---
 Heavy duty. 

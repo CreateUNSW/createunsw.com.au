@@ -1,11 +1,13 @@
 ---
 category: motors
-title: Large metal-geared DC motor
-price: 16.00
+title: Large Metal-Geared DC Motor
+price: 22.00
 slug: Large-metal-geared-DC-motor
 sku: HGW
-image: /images/sales/motor_wicta.jpg
+image: /images/sales/motor-large-metal-geared-dc-motor.png
 layout: productdetails
 ---
-340RPM at 12V. D-shaped shaft, suits our yellow 65mm wheels (but requires some force to mount).
-<br><br>The speed of brushed DC motors is approximately proportional to the voltage you put on them. Double the voltage can give you double the speed, but beware of issues such as torque limitations, overheating and faster wear.
+Model: 25GA370 with Encoder <br>
+Voltage: 12V <br>
+Speed: 280RPM
+

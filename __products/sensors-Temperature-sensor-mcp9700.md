@@ -1,8 +1,8 @@
 ---
 category: sensors
-title: Temperature sensor
+title: Temperature sensor (MCP9700)
 price: 2.50
-slug: temperature-sensor
+slug: temperature-sensor-mcp9700
 sku: HGW
 image: /images/sales/package_to92.jpg
 layout: productdetails
