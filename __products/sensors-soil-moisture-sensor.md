@@ -7,7 +7,7 @@ sku: HGW
 image: /images/sales/soil-moisture-sensor.png
 layout: productdetails
 ---
-- Operating Voltage: DC 3.3-5.5V
-- Output Voltage: DC 0-3.0V
-- Interface: PH2.0-3P
-- Size: 99x16mm
+- - Operating Voltage: DC 3.3-5.5V
+- - Output Voltage: DC 0-3.0V
+- - Interface: PH2.0-3P
+- - Size: 99x16mm
