@@ -7,13 +7,13 @@ sku: HGW
 image: /images/sales/raspberry-pi-zero-w.png
 layout: productdetails
 ---
-- - 1GHz, single-core CPU
-- - 512MB RAM
-- - Mini HDMI and USB On-The-Go ports
-- - Micro USB power
-- - HAT-compatible 40-pin header
-- - Composite video and reset headers
-- - CSI camera connector
-- - Bluetooth 4.1
-- - 802.11 b/g/n wireless LAN
-- - Bluetooth Low Energy (BLE)
+1GHz, single-core CPU <br>
+512MB RAM <br>
+Mini HDMI and USB On-The-Go ports <br>
+Micro USB power <br>
+HAT-compatible 40-pin header <br>
+Composite video and reset headers <br>
+CSI camera connector <br>
+Bluetooth 4.1 <br>
+802.11 b/g/n wireless LAN <br>
+Bluetooth Low Energy (BLE) <br>
