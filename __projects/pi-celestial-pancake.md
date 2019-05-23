@@ -29,7 +29,7 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 <h5>Render Lead - Nathalie Tun Barreto, Bettina Zhang</h5> 
 <h5>Interactive Media Lab Advisors - Ryley Edwards, Genevieve Collier</h5>
 <h5>Art & Design Collaborators: </h5>
-<p>Anakha Menon, Christopher Yang Wang, Danae-Irene Kyriakaki, Dhwani Sahetai, Kaveri Gopalakrishnan, Krishna Adka, Nishant Pandav, Polly Rise, Selina Chan, Tongzheng Zhao, Xiao Fang, Xiaowei LUO</p>
+<p>Anakha Menon, Christopher Yang Wang, Danae-Irene Kyriakaki, Dhwani Sahetai, Kaveri Gopalakrishnan, Krishna Adka, Nishant Pandav, Polly Rise, Selina Chan, Tongzheng Zhao, Xiao Fang, Xiaowei Luo</p>
 <br>
 <h4>Technical Team Director - Dylan Sanusi-Goh</h4>
 <h5>Electrical Lead - Aly Virani</h5>
