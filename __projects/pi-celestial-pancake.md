@@ -35,13 +35,13 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 <h5>Electrical Lead - Aly Virani</h5>
 <h5>- Senior Electrical Engineers: Anthony Feizi Sobbi, Luke Jackson</h5>
 <h5>- Electrical Engineers:</h5>
-<p>Alfred Yeh, Anthony Leung, Bethany Hoyt, Ching Ting Li, Christopher Harris, Christopher Tran, Cristian Bernal, Danika Luichareonkit, Dunya Vasic, Jessica Phe Li, Jungbin Lee, Junji Moey, Kevinly Santoso, Lakshan Perera, Madeline Younes, Minh Duc Duong, Nhu Dinh, Prithvi Guntha, Rachel Feng, Samantha Choy, Samantha Mesia, Shevaani Rams, Stephanie Liaw, Steven Kassiou, Taban Khurram, Tavishi Makhija, Tristan Ranee, Xiaowei Luo</p> 
-
+<p>Alfred Yeh, Anthony Leung, Bethany Hoyt, Ching Ting Li, Christopher Harris, Christopher Tran, Cristian Bernal, Danika Luichareonkit, Dunya Vasic, Felice Tan, Jessica Phe Li, Jungbin Lee, Junji Moey, Kevinly Santoso, Lakshan Perera, Madeline Younes, Minh Duc Duong, Nhu Dinh, Prithvi Guntha, Rachel Feng, Samantha Choy, Samantha Mesia, Shevaani Rams, Stephanie Liaw, Steven Kassiou, Taban Khurram, Tavishi Makhija, Tristan Ranee, Xiaowei Luo</p> 
+<br>
 <h5>Mechanical Lead - Prithvi Guntha, Michael Wu</h5>
 <h5>- Senior Mechanical Engineer: Matthew Payor</h5>
 <h5>- Mechanical Engineers:</h5>
 <p>Beryl Li, Daniel Wong, Eric Lin, Havish Krishna, Jeremy Low, Jonathan Hribar, Junji Moey, Kathy Fan, Kelly Yi, Lek Hong Fong, Lucas Pun, Luke Simmonds, Nanqi Chen, Rosanna Liu, Royi Yu, Sanjaya Stenly Hoo, Yash Kedar, Yasmin Manovel, Yonghao Lu, Yu Ning Oliver Long</p>
-
+<br>
 <h5>Software Lead - Mahima Mandal</h5>
 <h5>- Senior Software Engineer: Inura De Zoysa</h5>
 <h5>- Software Engineers:</h5>
