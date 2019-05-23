@@ -17,7 +17,7 @@ Celestial Pancake is a suspended audio-visual installation that visitors can wal
 
 Fun Facts of this project, we have used: <b>17,500 LEDs, 10km of wires and running it with only 2 power plugs.</b>
 
-The Project Illuminate for 2019 is formed by three major teams, the art & design team, technical team and administration team. The student project group consists upwards of 70 students who participate in artistic design, engineering design, manufacturing, operations and marketing.
+The Project Illuminate for 2019 is formed by three major teams, the art & design team, technical team and administration team. The student project group consists upwards of 90 students who participate in artistic design, engineering design, manufacturing, operations and marketing.
 
 <img src="/images/vivid2019/20190512_CREATE_PI_JamesNKirby_Makerspace-0047-WM.jpg" class="contentimg">
 <img src="/images/vivid2019/20190512_CREATE_PI_JamesNKirby_Makerspace-0117-WM.jpg" class="contentimg">
