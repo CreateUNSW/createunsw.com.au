@@ -41,7 +41,7 @@ Christopher Yang Wang, Selina Chan, Xiao Fang, Krishna Adka, Tongzheng Zhao, Kav
 <h5>Mechanical Lead - Prithvi Guntha, Michael Wu</h5>
 <h5>- Senior Mechanical Engineer: Matthew Payor</h5>
 <h5>- Mechanical Engineers:</h5>
-<p>Yash Kedar, Junji Moey, Jonathan Hribar, Yonghao Lu, Havish Krishna, Kathy Fan, Royi Yu, Luke Simmonds, Yu Ning Oliver Long, Beryl Li, Sanjaya Stenly Hoo, Nanqi Chen, Jeremy Low, Iek Hong Fong, Rosanna Liu, Daniel Wong, Lucas Pun, Kelly Yi, Yasmin Manovel</p>
+<p>Yash Kedar, Junji Moey, Jonathan Hribar, Yonghao Lu, Havish Krishna, Kathy Fan, Royi Yu, Luke Simmonds, Yu Ning Oliver Long, Beryl Li, Sanjaya Stenly Hoo, Nanqi Chen, Jeremy Low, Iek Hong Fong, Rosanna Liu, Daniel Wong, Lucas Pun, Kelly Yi, Yasmin Manovel, Eric Lin</p>
 
 <h5>Software Lead - Mahima Mandal</h5>
 <h5>- Senior Software Engineer: Inura De Zoysa</h5>
