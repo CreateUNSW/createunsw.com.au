@@ -74,8 +74,13 @@ Ryley Edwards & Genevieve Collier from <a href="https://artdesign.unsw.edu.au/ca
 <a href="https://www.portauthoritynsw.com.au/" target="_blank">Port Authority of New South Wales</a>
 <h4>Audio Equipment support</h4>
 <a href="buzzspeakerhiresydney.com.au/" target="_blank">Buzz Speaker Hire Sydney</a>
+<h4>Event technical support</h4>
+Val and his team from <a href="http://tripointrigging.com/" target="_blank">Tri Point Rigging</a>
+Morgan and his team from <a href="https://www.eventengineering.com.au/" target="_blank">Event Engineering</a>
 <h4>Event organiser and producer:</h4>
-<a href="https://www.destinationnsw.com.au/" target="_blank">NSW Government & Destination NSW</a>
+Timothy Spohr, Indi Belle, Tony Fahr and the rest of the team at <a href="https://www.destinationnsw.com.au/" target="_blank">Destination NSW</a> and the NSW Government
+
+
 
 <h3>More Info</h3>
 	
