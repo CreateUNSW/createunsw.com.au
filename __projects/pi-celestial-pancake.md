@@ -2,7 +2,7 @@
 layout: projectsite
 categories: pi
 title: Celestial Pancake - Vivid Sydney 2019
-location: Overseas Passanger Terminal, Circular Quay, Sydney
+location: Overseas Passenger Terminal, Circular Quay, Sydney
 completedate: 24 May 2019 - 15 June 2019
 author: Tsz Kin (William) Liu
 date: 2019-05-23 16:00:00 +1000
@@ -46,7 +46,7 @@ Christopher Yang Wang, Selina Chan, Xiao Fang, Krishna Adka, Tongzheng Zhao, Kav
 <h5>Software Lead - Mahima Mandal</h5>
 <h5>- Senior Software Engineer: Inura De Zoysa</h5>
 <h5>- Software Engineers:</h5>
-<p>Onkesh Sharma, Daniel Fan, Sergio Mercado, Nathan Ng, Kevin Chen, Kevin Zhang, Stephen Leung, Alvin Cheng, Pheobe Zhou, Elizabeth Willer, Zixin (Cindy) Zhou, Alison Truong, Micheal Mamansala, Isheeta Sinha</p>
+<p>Onkesh Sharma, Daniel Fan, Sergio Mercado, Nathan Ng, Kevin Chen, Kevin Zhang, Stephen Leung, Alvin Cheng, Pheobe Zhou, Elizabeth Willer, Zixin (Cindy) Zhou, Alison Truong, Micheal Mamansala, Isheeta Sinha, Xavier Poon</p>
 <br> 
 <h4>Administration Team Director - Joshua Sun</h4>
 <h5>Secretary - Teresa Feng</h5> 
@@ -73,6 +73,8 @@ Ryley Edwards & Genevieve Collier from <a href="https://artdesign.unsw.edu.au/ca
 <a href="https://www.facebook.com/makeunswad/" target="_blank">MAKE CLUB at UNSW Art & Design</a>
 <h4>Venue support:</h4>
 <a href="https://www.portauthoritynsw.com.au/" target="_blank">Port Authority of New South Wales</a>
+<h4>Audio Equipment support</h4>
+<a href="buzzspeakerhiresydney.com.au/" target="_blank">Buzz Speaker Hire Sydney</a>
 <h4>Event organiser and producer:</h4>
 <a href="https://www.destinationnsw.com.au/" target="_blank">NSW Government & Destination NSW</a>
 
@@ -84,4 +86,4 @@ Ryley Edwards & Genevieve Collier from <a href="https://artdesign.unsw.edu.au/ca
 <img src="/images/vivid2019/20190518_CREATE_PI_BumpInDay3-0330-WM.jpg" class="contentimg">
 <img src="/images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg" class="contentimg">
 
-Vivid Sydney 2019 Bump-In at the Overseas Passanger Terminal. Image: Tsz Kin (William) Liu
+Vivid Sydney 2019 Bump-In at the Overseas Passenger Terminal. Image: Tsz Kin (William) Liu
