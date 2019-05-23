@@ -45,11 +45,11 @@ Christopher Yang Wang, Selina Chan, Xiao Fang, Krishna Adka, Tongzheng Zhao, Kav
 
 <h5>Software Lead - Mahima Mandal</h5>
 <h5>- Software Engineers:</h5>
-<p>Onkesh Sharma, Daniel Fan, Sergio Mercado, Nathan Ng, Kevin Chen, Kevin Zhang, Stephen Leung, Alvin Cheng, Pheobe Zhou, Elizabeth Willer, Zixin (Cindy) Zhou, Alison Truong, Inura De Zoysa
+<p>Onkesh Sharma, Daniel Fan, Sergio Mercado, Nathan Ng, Kevin Chen, Kevin Zhang, Stephen Leung, Alvin Cheng, Pheobe Zhou, Elizabeth Willer, Zixin (Cindy) Zhou, Alison Truong, Inura De Zoysa, 
 Micheal Mamansala, Isheeta Sinha</p>
 <br> 
 <h4>Administration Team Director - Joshua Sun</h4>
-<h5>Secretary - Teressa Feng</h5> 
+<h5>Secretary - Teresa Feng</h5> 
 <h5>Head of Marketing - Taiyue Tan</h5> 
 <h5>- Marketing Assistant - Tsz Kin (William) Liu</h5>
 
