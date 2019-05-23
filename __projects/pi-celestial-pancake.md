@@ -36,7 +36,7 @@ Christopher Yang Wang, Selina Chan, Xiao Fang, Krishna Adka, Tongzheng Zhao, Kav
 <h5>Electrical Lead - Aly Virani</h5>
 <h5>- Senior Electrical Engineers: Anthony Feizi Sobbi, Luke Jackson</h5>
 <h5>- Electrical Engineers:</h5>
-<p>Anthony Leung, Madeline Younes, Rachel Feng, Jessica Phe Li, Shevaani Rams, Prithvi Guntha, Ching Ting Li, Cristian Bernal, Christopher Harris, Danika Luichareonkit, Xiaowei LUO, Dunya Vasic, Samantha Choy, Tristan Ranee, Steven Kassiou, Alfred Yeh, Stephanie Liaw, Minh Duc Duong, Tavishi Makhija, Christopher Tran, Nhu Dinh, Samantha Mesia, Junji Moey, Kevinly santoso, Taban Khurram, Jungbin Lee, Lakshan Perera</p> 
+<p>Anthony Leung, Madeline Younes, Rachel Feng, Jessica Phe Li, Bethany Hoyt, Chris Harris, Shevaani Rams, Prithvi Guntha, Ching Ting Li, Cristian Bernal, Christopher Harris, Danika Luichareonkit, Xiaowei LUO, Dunya Vasic, Samantha Choy, Tristan Ranee, Steven Kassiou, Alfred Yeh, Stephanie Liaw, Minh Duc Duong, Tavishi Makhija, Christopher Tran, Nhu Dinh, Samantha Mesia, Junji Moey, Kevinly santoso, Taban Khurram, Jungbin Lee, Lakshan Perera</p> 
 
 <h5>Mechanical Lead - Prithvi Guntha, Michael Wu</h5>
 <h5>- Senior Mechanical Engineer: Matthew Payor</h5>
@@ -44,9 +44,9 @@ Christopher Yang Wang, Selina Chan, Xiao Fang, Krishna Adka, Tongzheng Zhao, Kav
 <p>Yash Kedar, Junji Moey, Jonathan Hribar, Yonghao Lu, Havish Krishna, Kathy Fan, Luke Simmonds, Yu Ning Oliver Long, Beryl Li, Sanjaya Stenly Hoo, Nanqi Chen, Jeremy Low, Iek Hong Fong, Rosanna Liu, Daniel Wong, Lucas Pun, Kelly Yi</p>
 
 <h5>Software Lead - Mahima Mandal</h5>
+<h5>- Senior Software Engineer: Inura De Zoysa</h5>
 <h5>- Software Engineers:</h5>
-<p>Onkesh Sharma, Daniel Fan, Sergio Mercado, Nathan Ng, Kevin Chen, Kevin Zhang, Stephen Leung, Alvin Cheng, Pheobe Zhou, Elizabeth Willer, Zixin (Cindy) Zhou, Alison Truong, Inura De Zoysa, 
-Micheal Mamansala, Isheeta Sinha</p>
+<p>Onkesh Sharma, Daniel Fan, Sergio Mercado, Nathan Ng, Kevin Chen, Kevin Zhang, Stephen Leung, Alvin Cheng, Pheobe Zhou, Elizabeth Willer, Zixin (Cindy) Zhou, Alison Truong, Micheal Mamansala, Isheeta Sinha</p>
 <br> 
 <h4>Administration Team Director - Joshua Sun</h4>
 <h5>Secretary - Teresa Feng</h5> 
