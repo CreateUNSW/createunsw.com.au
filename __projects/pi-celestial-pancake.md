@@ -5,7 +5,7 @@ title: Celestial Pancake - Vivid Sydney 2019
 location: Overseas Passanger Terminal, Circular Quay, Sydney
 completedate: 24 May 2019 - 15 June 2019
 author: Tsz Kin (William) Liu
-date: 2019-05-24 17:00:00 +1000
+date: 
 teamlogo: /images/logos/create_project_illuminate_navyblue_transparent.png
 image: /images/vivid2019/20190518_CREATE_PI_BumpInDay3-0330-WM.jpg
 slug: pi-celestial-pancake
