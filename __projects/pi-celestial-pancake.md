@@ -24,14 +24,14 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 
 <h3>Meet the team</h3>
 
-<h4>Art & Design Team Director - Dylan Yikwah Goh</h4>
+<h4>Art & Design Team Director - <a href="{{'/team/DylanYikwahGoh' | prepend: site.baseurl }}">Dylan Yikwah Goh</a></h4>
 <h5>Concept Lead - Jasmine Tan</h5>
 <h5>Render Lead - Bettina Zhan, Nathalie Tun Barreto, g</h5> 
 <h5>Interactive Media Lab Advisors - Genevieve Collier, Ryley Edwards</h5>
 <h5>Art & Design Collaborators: </h5>
 <p>Anakha Menon, Christopher Yang Wang, Danae-Irene Kyriakaki, Dhwani Sahetai, Kaveri Gopalakrishnan, Krishna Adka, Nishant Pandav, Polly Rise, Selina Chan, Tongzheng Zhao, Xiao Fang, Xiaowei Luo</p>
 <br>
-<h4>Technical Team Director - Dylan Sanusi-Goh</h4>
+<h4>Technical Team Director - <a href="{{'/team/DylanSanusi-Goh' | prepend: site.baseurl }}">Dylan Sanusi-Goh</a></h4>
 <h5>Electrical Lead - Aly Virani</h5>
 <h5>- Senior Electrical Engineers: Anthony Feizi Sobbi, Luke Jackson</h5>
 <h5>- Electrical Engineers:</h5>
@@ -47,7 +47,7 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 <h5>- Software Engineers:</h5>
 <p>Alison Truong, Alvin Cheng, Daniel Fan, Elizabeth Willer, Isheeta Sinha, Kevin Chen, Kevin Zhang, Micheal Mamansala, Nathan Ng, Onkesh Sharma, Pheobe Zhou, Sergio Mercado, Stephen Leung, Xavier Poon, Zixin (Cindy) Zhou</p>
 <br> 
-<h4>Administration Team Director - Joshua Sun</h4>
+<h4>Administration Team Director - <a href="{{'/team/JoshuaSun' | prepend: site.baseurl }}">Joshua Sun</a></h4>
 <h5>Secretary - Teresa Feng</h5> 
 <h5>Head of Marketing - Taiyue Tan</h5> 
 <h5>- Marketing Assistant - Tsz Kin (William) Liu</h5>
