@@ -11,9 +11,11 @@ image: /images/vivid2019/20190518_CREATE_PI_BumpInDay3-0330-WM.jpg
 slug: pi-celestial-pancake
 link:
 ---
-Celestial Pancake is our sixth year of involvement with the Vivid Sydney festival (fifth time with a light installation). Since the branding launch of Project Illuminate during <a href="{{'/projects/pi-synergy' | prepend: site.baseurl }}">Synergy (Vivid Sydney 2018) project</a>, we have pushed our creative and technical boundaries to make this artwork bigger than our last year's Synergy.
+Celestial Pancake is our sixth year of involvement with the Vivid Sydney festival (fifth time with a light installation). Since the branding launch of Project Illuminate during <a href="{{'/projects/pi-synergy' | prepend: site.baseurl }}">Synergy (Vivid Sydney 2018) project</a>, we have pushed our creative and technical boundaries to make this artwork bigger than our last year's Synergy. The project is fully supported by UNSW Sydney.
 
 Celestial Pancake is a suspended audio-visual installation that visitors can walk under. It is composed of a four-meter radius 'ceiling' with fiber optics and an evolving four-point soundtrack. From afar, the whole terminal is bathed in washes of light, drawing people in and encouraging them to pause reflectively. Set to alternating colour palettes inspired by space phenomenon that enchanted us as kids, the installation transports a slice of the sky and brings it to us on the ground.
+
+Fun Facts of this project, we have used: <b>17,500 LEDs, 10km of wires and running it with only 2 power plugs.</b>
 
 The Project Illuminate for 2019 is formed by three major teams, the art & design team, technical team and administration team. The student project group consists upwards of 70 students who participate in artistic design, engineering design, manufacturing, operations and marketing.
 
