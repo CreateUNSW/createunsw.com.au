@@ -14,8 +14,11 @@ layout: people
 status: past_executive
 manager:
 ---
-William is a Media Arts student specialised in 2D Animation and Photography. He also has experiences and keen in web design, graphic design, laser cutting, 3D modelling, projection mapping. He would describe himself as an experimental artist, where the "experimental" refers to his exploration and curiosity to find what he would like to produce or integrate with another artistic technic, such as digital photography. William is trying to learn motion graphics in his own time. <br>
-He has experiences with event photography, where he is appoined as the social media conributor / casual photographer at UNSW New South Global Department (UNSW Global). <br>
+William is a final year (Honours Year) Media Arts student at UNSW Sydney: Art & Design, specialising in 2D Animation and Photography. He also studies projection mapping, 3D CGI Modelling, web design and graphic design.<br>s
+
+William is passionate about 2D motion graphics and digital photography, while he has experienced in event photography. He is keen to create a dynamic, smooth animatic graphics to deliver content and experiences.<br>
+
+Ultimately, he would like to find the possibility to incorporate dynamic, abstraction, creative photography and immersive effects into his design practice. <br>
 
 Ultimately, he would like to find the possibility to incorporate dynamic, abstraction, creative photography and immersive effects into his design practice.
 <h4>Current Role </h4>
