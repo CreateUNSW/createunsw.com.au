@@ -21,6 +21,6 @@ Ultimately, he would like to find the possibility to incorporate dynamic, abstra
 <h4>Current Role </h4>
 2019 - Head of Web Design (Subcomittee), Media & Marketing 
 <h4>Previous role with CREATE</h4>
-2019 - Marketing Assistant, Project Illuminate
+2019 - Marketing Assistant, Project Illuminate <br>
 2018 - Assistant Director, Secretary / Faculty of Art & Design representative, Project Illuminate <br>
 2018 - Sub-committee, Media & Marketing Team
