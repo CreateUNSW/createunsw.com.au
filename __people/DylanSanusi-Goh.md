@@ -24,6 +24,6 @@ For 2019, I’m the Vice President of Technology for CREATE & Technical Director
 
 I’m also involved with Flight Labs UNSW, the Mohamed Bin Zayed International Robotics Challenge, ENGG1000 and a few startups here and there. Come say hi!
 <h4>Previous roles with CREATE</h4>
-2019 - Technical Director, Project Illuminate<br>
-2018 - Chief Technology Officer<br>
 2018 - Secretary<br>
+2018 - Chief Technology Officer<br>
+2019 - Technical Director, Project Illuminate

@@ -17,5 +17,5 @@ github-id:
 ---
 Dylan is a current President of MAKE CLUB (Sister club of CREATE).
 <h4>Previous roles with CREATE</h4>
-2019 - Art & Design Director, Project Illuminate <br>
-2018 - Team Member - Head of Marketing, Project Illuminate
+2018 - Head of Marketing, Project Illuminate <br>
+2019 - Art & Design Director, Project Illuminate

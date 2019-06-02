@@ -21,4 +21,5 @@ Daniel is a dedicated maker having started in first year of university. He aims 
 2018 - Project Illuminate Team Member<br>
 2018 - Secretary<br>
 2018 - Vice President of Sponsorship<br>
-2018 - DRC Team Member - Team Cooked
+2018 - DRC Team Member - Team Cooked<br>
+2019 - Project Illuminate Team Member

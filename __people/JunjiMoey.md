@@ -20,3 +20,4 @@ Junji is an avid maker with interests in autonomous systems programming and inte
 2017 - Team Volunteer, Project Illuminate<br>
 2017 - DRC Team Developer <br>
 2018 - Director, Project Illuminate<br>
+2019 - Team Volunteer, Project Illuminate<br>
