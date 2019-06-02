@@ -14,7 +14,7 @@ layout: people
 status: past_executive
 manager:
 ---
-William is a final year (Honours Year) Media Arts student at UNSW Sydney: Art & Design, specialising in 2D Animation and Photography. He also studies projection mapping, 3D CGI Modelling, web design and graphic design.<br>s
+William is a final year (Honours Year) Media Arts student at UNSW Sydney: Art & Design, specialising in 2D Animation and Photography. He also studies projection mapping, 3D CGI Modelling, web design and graphic design.<br>
 
 William is passionate about 2D motion graphics and digital photography, while he has experienced in event photography. He is keen to create a dynamic, smooth animatic graphics to deliver content and experiences.<br>
 
