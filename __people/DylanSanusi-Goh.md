@@ -4,7 +4,7 @@ title: Dylan Sanusi-Goh
 status: current_executive
 year: 2019
 role: Vice President of Technology
-manager: Technical Director, Project Illuminate
+manager: Technical Team Director, Project Illuminate
 index: 2
 degree: 2nd Year, Bachelor of Mechatronics Engineering (Honours) / Computer Science 
 image: /images/people/DylanSanusiGoh_Profile.JPG
@@ -26,4 +26,4 @@ I’m also involved with Flight Labs UNSW, the Mohamed Bin Zayed International R
 <h4>Previous roles with CREATE</h4>
 2018 - Secretary<br>
 2018 - Chief Technology Officer<br>
-2019 - Technical Director, Project Illuminate
+2019 - Technical Team Director, Project Illuminate

@@ -26,6 +26,11 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 
 <h3>Meet the team</h3>
 
+<h4>Project Manager (Admin Team Director) - <a href="{{'/team/JoshuaSun' | prepend: site.baseurl }}">Joshua Sun</a></h4>
+<h5>Secretary - Teresa Feng</h5> 
+<h5>Head of Marketing - Taiyue Tan</h5> 
+<h5>- Marketing Assistant - Tsz Kin (William) Liu</h5>
+<br>
 <h4>Art & Design Team Director - <a href="{{'/team/DylanYikwahGoh' | prepend: site.baseurl }}">Dylan Yikwah Goh</a></h4>
 <h5>Concept Lead - Jasmine Tan</h5>
 <h5>Render Lead - Bettina Zhang, Nathalie Tun Barreto</h5> 
@@ -48,11 +53,6 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 <h5>- Senior Software Engineer: Inura De Zoysa</h5>
 <h5>- Software Engineers:</h5>
 <p>Alison Truong, Alvin Cheng, Daniel Fan, Elizabeth Willer, Isheeta Sinha, Kevin Chen, Kevin Zhang, Micheal Mamansala, Nathan Ng, Onkesh Sharma, Pheobe Zhou, Sergio Mercado, Stephen Leung, Xavier Poon, Zixin (Cindy) Zhou</p>
-<br> 
-<h4>Administration Team Director - <a href="{{'/team/JoshuaSun' | prepend: site.baseurl }}">Joshua Sun</a></h4>
-<h5>Secretary - Teresa Feng</h5> 
-<h5>Head of Marketing - Taiyue Tan</h5> 
-<h5>- Marketing Assistant - Tsz Kin (William) Liu</h5>
 
 <img src="/images/vivid2019/20190415_UNSWVividInstallationBuild_SCREEN-147.jpg" class="contentimg">
 <img src="/images/vivid2019/20190415_CREATE_PI_Tyree-0080-WM.jpg" class="contentimg">
