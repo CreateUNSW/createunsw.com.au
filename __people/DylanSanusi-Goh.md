@@ -7,7 +7,7 @@ role: Vice President of Technology
 manager: Technical Team Director, Project Illuminate
 index: 2
 degree: 2nd Year, Bachelor of Mechatronics Engineering (Honours) / Computer Science 
-image: /images/people/DylanSanusiGoh_Profile.JPG
+image: /images/people/DylanSanusiGoh_Profile.jpg
 email:
 website-url: 
 instagram-id: 
