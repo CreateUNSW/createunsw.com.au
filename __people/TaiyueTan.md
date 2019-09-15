@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Taiyue Tan
-status: current_executive
+status: past_executive
 year: 2019
 role: Director of Media and Marketing
 manager: 
