@@ -87,7 +87,7 @@ Timothy Spohr, Indi Belle, Tony Fahr and the rest of the team at <a href="https:
 <h3>More Info</h3>
 	
 <p><a href="https://www.vividsydney.com/event/light/celestial-pancake" target="_blank">Celestial Pancake - Vivid Sydney 2019 Website</a></p>
-<p><a href="https://www.facebook.com/create.project.illuminate/" target="_blank">CREATE Project Illuminate - Facebook Page</a></p>
+<p><a href="https://www.facebook.com/unsw.illuminate/" target="_blank">UNSW Illuminate (previously known as CREATE Project Illuminate) - Facebook Page</a></p>
 <p><a href="https://www.facebook.com/unsw/videos/616841378821977/" target="_blank">Our Behind the scenes at UNSW, produced by UNSW</a></p>
 <p><a href="https://newsroom.unsw.edu.au/news/general/unsw-shines-bright-vivid-sydney" target="_blank">
 UNSW shines bright at Vivid Sydney | UNSW Newsroom</a></p>

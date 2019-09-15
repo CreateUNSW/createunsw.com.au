@@ -98,5 +98,5 @@ Ghadeer Al-badri, Danae-Irene Kyriakaki, Doreen Zheng, Aris Ioannou-Marsh, Konno
 <p><a href="https://www.vividsydney.com/event/light/synergy" target="_blank">Synergy - Vivid Sydney 2018 Website</a></p>
 <p><a href="https://www.engineering.unsw.edu.au/news/shining-lights" target="_blank">Shining Lights | UNSW Engineering</a></p>
 <p><a href="https://newsroom.unsw.edu.au/news/general/unsw-lights-vivid-art-engineering-and-ideas" target="_blank">UNSW lights up Vivid with art, engineering and ideas | UNSW Newsroom</a></p>
-<p><a href="https://www.facebook.com/create.project.illuminate/videos/1563004990664662/" target="_blank">Synergy | Vivid Sydney 2018 - Opening Night Timelapse on 25 May 2018</a></p>
+<p><a href="https://www.facebook.com/unsw.illuminate/videos/1563004990664662/" target="_blank">Synergy | Vivid Sydney 2018 - Opening Night Timelapse on 25 May 2018</a></p>
 
