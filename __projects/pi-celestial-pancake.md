@@ -30,7 +30,7 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 
 <h3>Meet the team</h3>
 
-<h4>Project Manager (Admin Team Director) - <a href="{{'/team/JoshuaSun' | prepend: site.baseurl }}">Joshua Sun</a></h4>
+<h4>Project Manager - <a href="{{'/team/JoshuaSun' | prepend: site.baseurl }}">Joshua Sun</a></h4>
 <h5>Secretary - Teresa Feng</h5> 
 <h5>Head of Marketing - Taiyue Tan</h5> 
 <h5>- Marketing Assistant - Tsz Kin (William) Liu</h5>
