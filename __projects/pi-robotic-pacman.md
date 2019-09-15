@@ -11,6 +11,9 @@ image: /images/IMG_9179.jpg
 slug: pi-robotic-pacman
 link:
 ---
+CREATE Project Illuminate is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
+
+Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
 
 <p>CREATE has built a giant robotic Pacman game! The project appeared at Vivid Sydney 2015, and also featured at a number of events throughout 2015. </p>
 

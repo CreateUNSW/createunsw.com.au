@@ -11,6 +11,9 @@ image: /images/13339700_928894467221030_6447655104277954137_n.jpg
 slug: pi-mondrian-cube
 link:
 ---
+CREATE Project Illuminate is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
+
+Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
 
 <p>
 

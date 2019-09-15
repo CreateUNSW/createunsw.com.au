@@ -11,6 +11,9 @@ image: /images/20180522_CREATE_Synergy_BumpIn-3593.jpg
 slug: pi-synergy
 link:
 ---
+CREATE Project Illuminate is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
+
+Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
 
 Synergy is our fifth year of invovlement with the Vivid Sydney festival. This project also marks our first collaboration with MAKE CLUB (est. 2016), CREATE’s sister club from university’s Art & Design campus. In addition, the existing Vivid Team within CREATE has been officially branded Project Illuminate. This has been done to mark the welcome introduction of skilled designers into our team, our long-term commitment to the Vivid Sydney program, and this team’s unique specialisation in interactive artworks.
 
