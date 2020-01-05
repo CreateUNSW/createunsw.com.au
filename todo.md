@@ -4,9 +4,9 @@
 
 ~~put view catalogue button on hero image~~
 
-all social media icons on header
+~~no social media icons on header~~
 
-organise navbar
+~~organise navbar~~
 
 update logo
 
