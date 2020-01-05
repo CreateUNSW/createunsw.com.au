@@ -1,23 +1,17 @@
+// category
 function filterSelection(c) {
-    var x, i;
-    const search = document.getElementById("search").value;
-    x = document.getElementsByClassName("filterDiv");
-    var regex = new RegExp(search, "i");
+    var search = document.getElementById("search");
+    var x = document.getElementsByClassName("filterDiv");
+    var regex = new RegExp(search.value, "i");
     if (c == "all") {
-        for (i = 0; i < x.length; i++) {
+        for (var i = 0; i < x.length; i++) {
             x[i].style.display = "block";
         }
-    } else if (search === "") {
+    } else {
+        search.value = "";
         for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";
             if (x[i].className.indexOf(c) > -1) { x[i].style.display = "block"; }
-        }
-    } else {
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-            if (x[i].className.indexOf(c) > -1 && x[i].innerText.match(regex) !== null) {
-                x[i].style.display = "block";
-            }
         }
     }
 }
