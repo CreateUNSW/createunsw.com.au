@@ -90,7 +90,7 @@ h5{font-size: 16px; font-weight: 500; margin: 5px 20px 5px 20px;}
 	position: relative;
 	overflow: hidden;
 }
-	
+
 .logo{height:60px; margin: 20px; float: left; display: block;}
 .topnav {float:right;}
 
@@ -134,10 +134,10 @@ h5{font-size: 16px; font-weight: 500; margin: 5px 20px 5px 20px;}
 /* Responsive layout for header*/
 @media screen and (max-width: 950px) {
 	.header {height: 100px; position: relative; overflow: visible;}
-	
+
 	.menuicon {display:block;}
-	
-	.topnav ul { 
+
+	.topnav ul {
 		display: none;
 		position: absolute;
 		background: #1a2239;
@@ -148,7 +148,7 @@ h5{font-size: 16px; font-weight: 500; margin: 5px 20px 5px 20px;}
 		border-radius: 4px 0 4px 4px;
 		z-index: 100;
 	}
-	
+
 	.topnav li {width: 100%;}
 	.topnav li a {padding: 15px 20px; text-align: center;}
 	.topnav:hover ul {display:block;}
@@ -179,7 +179,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	.cover-img {width:100%; height:50vw;}
 	.subcover-img {width:100%; height:50vw;}
 	.salescover-img {width:100%; height:40vw;}
-	
+
 	}
 /*end of Responsive layout for cover image*/
 
@@ -199,7 +199,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 .column {margin: 5px;}
 
 /*single column*/
-.single-column {display: block; width: 100%; height: auto; clear:both;margin: 10px auto;}	
+.single-column {display: block; width: 100%; height: auto; clear:both;margin: 10px auto;}
 
 /*two column (heading and single button / footer)*/
 .leftcolumn {float:left; width:49%;}
@@ -225,13 +225,13 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 
 
 /*event table*/
-  
+
   table {
 	border-collapse: collapse;
 	width: 98%;
 	margin: 10px;
   }
-  
+
   th {
 	height: 30px;
   }
@@ -274,6 +274,8 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 .btn:hover {background-color:#ddd;}
 .btn.active {background-color:#bf0713; color: white;}
 
+.centre {text-align: center; width: 100%;}
+
 /*sales section*/
 .accordion {
   cursor: pointer; padding: 15px; width: 99%; font-size: 16px; text-align: left; border: none; outline: none; transition: 0.4s;box-shadow: 0 1px 1px 0 grey, 0 1px 1px 0 grey;}
@@ -282,7 +284,7 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 
 .panel {padding: 0px 20px; background-color: white; font-size: 16px; overflow: hidden; max-height: 0;transition: max-height 0.2s ease-out;}
 
-.map {width:530px; height:300px; margin-left: 5px; margin-right: 5px;} 
+.map {width:530px; height:300px; margin-left: 5px; margin-right: 5px;}
 .salesimg {width:265px; height:150px; margin: auto; overflow:hidden;}
 .salesimg img{width: 265px; transform: translateY(-10%);}
 .productinfo {float: right; width: 50%; text-align: left;}
@@ -494,7 +496,6 @@ h2{font-size: 2vmax; font-weight: 500; text-transform: uppercase; text-align: ce
 	h4 {text-align: center;}
 	h5 {text-align: center;}
 	.buttong {margin-bottom: 5px;}
-	.centre {text-align: center; width: 100%;}
 	.leftcolumn, .rightcolumn {width: 100%;}
 	.twocolumn {width: 98%;}
 	.productimg {width: 98%;}

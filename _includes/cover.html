@@ -1,18 +1,18 @@
 <!--cover image section-->
-		<div class="cover-img">
-                {% if page.image %}
-            <img src=" {{page.image}}" alt="Cover Photo">
-                {% else %}
-            <img src="images/image_unavilable_square.jpg" alt="Image Unavailable">
-                {% endif %}
-			<div class="wrapper">
-			<div class="title-block">
-                    {% if page.topic %}
-                <h1>{{page.topic}}</h1>
-                    {% endif %}
-                    {% if page.sub-topic %}
-                <h2>{{page.sub-topic}}</h2>
-                    {% endif %}
-			</div>
-			</div>
-		</div>
+<div class="cover-img">
+    {% if page.image %}
+    <img src=" {{page.image}}" alt="Cover Photo">
+    {% else %}
+    <img src="images/image_unavilable_square.jpg" alt="Image Unavailable">
+    {% endif %}
+    <div class="wrapper">
+        <div class="title-block">
+            {% if page.topic %}
+            <h1>{{page.topic}}</h1>
+            {% endif %}
+            {% if page.sub-topic %}
+            <h2>{{page.sub-topic}}</h2>
+            {% endif %}
+        </div>
+    </div>
+</div>

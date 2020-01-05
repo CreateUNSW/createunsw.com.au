@@ -1,11 +1,10 @@
-	
-	
-	<!--header section-->
-		<header class="header bg-dblue">	
-		<div class="wrapper">
-			<a href="{{'/index' | prepend: site.baseurl }}"><img src="/images/logos/create_logo_colour.png" class="logo" alt="CREATE Logo"></a>
-			<nav class="topnav">
-				<div id="menu">
+<!--header section-->
+<header class="header bg-dblue">
+	<div class="wrapper">
+		<a href="{{'/index' | prepend: site.baseurl }}"><img src="/images/logos/create_logo_colour.png" class="logo"
+				alt="CREATE Logo"></a>
+		<nav class="topnav">
+			<div id="menu">
 				<ul>
 					<li><a href="{{'/about' | prepend: site.baseurl }}">About</a></li>
 					<li><a href="{{'/team' | prepend: site.baseurl }}">Team</a></li>
@@ -15,25 +14,26 @@
 					<li><a href="{{'/outreach' | prepend: site.baseurl }}">Outreach</a></li>
 					<li><a href="{{'/store' | prepend: site.baseurl }}">Store</a></li>
 					<li><a href="{{'/contact' | prepend: site.baseurl }}">Contact</a></li>
-					<li><a href="https://www.facebook.com/CreateUnsw/" class="fa fa-facebook-official" target="_blank" style="font-size:20px;"></a></li>
-					
+					<li><a href="https://www.facebook.com/CreateUnsw/" class="fa fa-facebook-official" target="_blank"
+							style="font-size:20px;"></a></li>
+
 				</ul>
-				</div>
-				<a href="javascript:void(0);" class="menuicon" onclick="myFunction()">
-						<i class="fa fa-bars" style="font-size: 30px;
+			</div>
+			<a href="javascript:void(0);" class="menuicon" onclick="myFunction()">
+				<i class="fa fa-bars" style="font-size: 30px;
 						width: 30px;
 						height: 30px; color: white;"></i> Menu
-				</a>
-			</nav>
-			<script>
-					function myFunction() {
-					  var x = document.getElementById("menu");
-					  if (x.style.display === "block") {
-						x.style.display = "none";
-					  } else {
-						x.style.display = "block";
-					  }
-					}
-			</script>
-		</div>
-		</header>
+			</a>
+		</nav>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("menu");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
+	</div>
+</header>
