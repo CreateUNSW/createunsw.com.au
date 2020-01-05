@@ -10,6 +10,11 @@
             {% if page.sub-topic %}
             <h2>{{page.sub-topic}}</h2>
             {% endif %}
+            {% if page.button %}
+            <div class="centre">
+                <a href="{{page.button}}"><button class="buttong">{{page.button-text}}</button></a>
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
