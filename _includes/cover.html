@@ -1,10 +1,7 @@
 <!--cover image section-->
+{% if page.image %}
 <div class="cover-img">
-    {% if page.image %}
     <img src=" {{page.image}}" alt="Cover Photo">
-    {% else %}
-    <img src="images/image_unavilable_square.jpg" alt="Image Unavailable">
-    {% endif %}
     <div class="wrapper">
         <div class="title-block">
             {% if page.topic %}
@@ -16,3 +13,4 @@
         </div>
     </div>
 </div>
+{% endif %}
