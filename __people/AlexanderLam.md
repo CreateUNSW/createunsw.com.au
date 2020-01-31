@@ -1,15 +1,12 @@
 ---
 title: "Alexander Lam"
 image: /images/people/exec_alexander_lam.jpg
-degree: ""
 role: "Arc Delegate"
 index: 10
 email:
 linkedin-url:
-github-id:
 status: past_executive
 year: 2017
-layout: people
 ---
 2017 - Arc Delegate
 

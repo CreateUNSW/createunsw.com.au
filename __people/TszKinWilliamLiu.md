@@ -1,16 +1,11 @@
 ---
 title: "Tsz Kin LIU (William)"
 image: /images/people/TszKinWilliamLiu.jpg
-degree: 4th Year, Bachelor of Media Arts (Honours)
 role: Marketing Assistant, Project Illuminate
 index: 8
-instagram-id: liutk.william
-website-url:
 email: liutk.william@gmail.com
 linkedin-url: https://www.linkedin.com/in/liutkwilliam/
-github-id: liutkwilliam
 year: 2019
-layout: people
 status: past_executive
 manager:
 ---

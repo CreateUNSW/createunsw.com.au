@@ -1,19 +1,13 @@
 ---
-layout: people
 title: Dylan Sanusi-Goh
 status: current_executive
 year: 2019
 role: Vice President of Technology
 manager:
 index: 2
-degree: 2nd Year, Bachelor of Mechatronics Engineering (Honours) / Computer Science 
 image: /images/people/DylanSanusiGoh_Profile.jpg
 email:
-website-url: 
-instagram-id: 
-twitter-id: 
 linkedin-url: https://www.linkedin.com/in/dylansanusigoh/
-github-id: 
 ---
 Hi! I’m Dylan, and I’m experienced and passionate about all sorts of maker technologies.
 I help make stuff for startups, competitions and large organisations. <br>

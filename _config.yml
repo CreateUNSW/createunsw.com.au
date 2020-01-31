@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "CREATE UNSW"
+title: "Build - Learn - Inspire | CREATE UNSW"
 email: create@createunsw.com.au
 description: A student-led maker club based at UNSW Sydney. CREATE UNSW runs and provides workshops for beginners on electronics, programming, soldering, prototyping and 3D modelling. Weekly sales of electronic components on-campus, including Kits. Hackerspaces and makerspaces. Quadcopters. Funding and support for student projects.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -45,7 +45,6 @@ collections:
     permalink: /store/:title/
   _people:
     output: true
-    permalink: /team/:title/
   _media:
     output: true
     permalink: /media/:categories/:title/

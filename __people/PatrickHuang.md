@@ -1,15 +1,12 @@
 ---
 title: "Patrick Huang"
 image: /images/people/exec_patrick_huang.jpg
-degree: ""
 role: "Vice President of Events"
 index: 10
 email:
 linkedin-url:
-github-id:
 status: past_executive
 year: 2017
-layout: people
 ---
 2017 - Vice President of Events, 
 

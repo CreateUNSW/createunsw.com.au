@@ -1,15 +1,12 @@
 ---
 title: "Simon Taylor"
 image: /images/people/SimonTaylor.jpg
-degree: ""
 role: "Treasurer"
 index: 5
 email:
 linkedin-url:
-github-id:
 status: past_executive
 year: 2018
-layout: people
 ---
 Treasurer - 2018
 
