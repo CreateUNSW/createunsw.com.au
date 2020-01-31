@@ -5,7 +5,7 @@
 /*general*/
 *{padding: 0px;	margin: auto;}
 
-body {font-family: 'Roboto', sans-serif; color: #231f20; font-size: 16px; margin: 0px auto;}
+body {font-family: 'Roboto', sans-serif; font-size: 16px; margin: 0px auto;}
 h2, h3, h4, h5 {margin: 10px 0px; padding: 10px;}
 p {margin: 10px 0px; line-height: 1.6; padding-left: 10px; padding-right: 10px;}
 .wrapper {max-width: 1100px; margin:0 auto;}
