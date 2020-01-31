@@ -1,109 +1,43 @@
 ---
 layout: default
-title: Build - Learn - Inspire
-topic: CREATE UNSW
-sub-topic: A student-led maker club based at UNSW Sydney.
+title: 
+topic: Welcome to CREATE UNSW
+sub-topic: We are a student-led maker club based at UNSW Sydney.
 image: /images/home-cover-2019.gif
 ---
 
 <div class="main-content">
 		<div class="wrapper">
 			<div class="single-column">
-				<h3>What We Do</h3>
+				<h2>What We Do</h2>
 			</div>
-			<article>
-				<div class="columng black">
+
+			<div class="table-cell">
+				<div class="columns fourgrids black">
 					<img src="/images/20180409_CREATE_EGM_Arduino1-0028.jpg" alt="Workshop Image">
-					<h4>Workshops & Socials</h4>
+					<h3>Workshops & Socials</h3>
 					<p>CREATE runs various workshops & social events throughout the regular university terms. No formal arrangements are necessary to attend the workshops, just show up and join in. <a href="{{'/events' | prepend: site.baseurl }}">Learn More</a></p>
-					
 				</div>
-			</article>
-			<article>
-				<div class="columng black">
+				<div class="columns fourgrids black">
 					<img src="/images/20180416_CREATE_Arduino2-0006.jpg" alt="Sales Image">
-					<h4>Electronic Component Sales</h4>
+					<h3>Electronic Component Sales</h3>
 					<p>CREATE sells electronic parts including micro-controllers, breadboards, Arduino kits and quadcopters throughout the regular university terms. <a href="{{'/store' | prepend: site.baseurl }}">Learn More</a></p>
-					
 				</div>
-			</article>
-			<article>
-				<div class="columng black">
+				<div class="columns fourgrids black">
 					<img src="/images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg" alt="Team Projects Image">
-					<h4>Projects</a></h4>
+					<h3>Projects</a></h3>
 					<p>CREATE actively participates in various public projects including Vivid Sydney Light Festivals and Droid Racing Challenge (DRC). <a href="{{'/projects' | prepend: site.baseurl }}">Learn More</a></p>
-					
 				</div>
-			</article>
-			<article>
-				<div class="columng black">
+				<div class="columns fourgrids black">
 					<img src="/images/IMG_2709.jpg" alt="CREATE Starters Image">
-					<h4>Funding for Student Projects</h4>
+					<h3>Funding for Student Projects</h3>
 					<p>If you have an idea for a project that involves putting together and making any project, we want to provide you with everything needed to get your project off the ground. <a href="{{'/projects' | prepend: site.baseurl }}">Learn More</a></p>
-					
 				</div>
-			</article>
-			
+			</div>			
 	</div>
 </div>
 
-<div class="main-content bg-lgrey">
-<div class="wrapper">
-		<div class="single-column">
-				<h3>Latest Update from CREATE</h3>
-			</div>
-			{% assign cats = site._media | map: 'categories' | join: ',' | split: ',' | uniq %}
-	{% for cat in cats %}
-	<!--Blog section shortcut-->
-	{% if cat == 'blogs' %}
-	<article>
-		{% assign sorted = site._media | sort:"date" | reverse %}
-			{% for _media in sorted limit:2 %}
-			{% if _media.categories contains cat %}
-		<div class="columng section">
-			<h3>"CREATE" Blog</h3>
-		</div>
-		<a href="{{ _media.url }}">
-			<div class="columng black mediab">
-				<div class="mediaimg">
-					<img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
-				</div>
-				<h4>{{_media.title}}</h4>
-				<p>{{ _media.date | date: "%d %B %Y"}}</p>
-				<p>{{ _media.content | strip_html | truncatewords: 35}}</p>
-			</div>
-		</a>
-		{% endif %}	{% endfor %} 
-		
-	</article>
-	{% endif %}
-	<!--Announcement section shortcut-->
-	{% if cat == 'announcements' %}
-	<article>	
-			{% assign sorted = site._media | sort:"date" | reverse %}
-				{% for _media in sorted limit:2 %}
-				{% if _media.categories contains cat %}
-			<div class="columng section">
-				<h3>Announcements</h3>
-			</div>
-			<a href="{{ _media.url }}">
-				<div class="columng black mediab">
-					<div class="mediaimg">
-						<img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
-					</div>
-					<h4>{{_media.title}}</h4>
-					<p>{{ _media.date | date: "%d %B %Y"}}</p>
-					<p>{{ _media.content | strip_html | truncatewords: 35}}</p>
-				</div>
-			</a>
-			{% endif %}	{% endfor %} 
-			
-	</article>
-	{% endif %} {% endfor %}			
-</div>
-</div>
-
-<div class="main-content">
+<!--div class="main-content">
 	<div class="wrapper">
 		<div class="single-column centre">
 			<h3>Follow us on social media</h3>
@@ -112,4 +46,4 @@ image: /images/home-cover-2019.gif
 			<a href="https://www.instagram.com/createunsw/" target="_blank"><button class="buttong yellow">Instagram Page</button></a>
 		</div>
 	</div>
-</div>
+</!--div>

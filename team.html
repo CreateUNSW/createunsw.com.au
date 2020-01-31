@@ -9,162 +9,115 @@ image: /images/20181008_CREATE_AGM-0081.jpg
 permalink: /team/
 ---
 <!--Current Executives-->
-<div class="main-content row" id="currentexecs">
+<div class="main-content" id="currentexecs">
 	<div class="wrapper">
-		<br>
-			<div class="leftcolumn">
-				<h3>Meet the 2019 Executive Team</h3>
+		<div class="row">
+			<div class="left">
+				<h2>Meet the 2019 Executive Team</h2>
 			</div>
-			<div class="rightcolumn cbutton centre">
+			<div class="right-align">
 				<a href="#pastexecs"><button class="buttong yellow">Click Here for Past Executives</button></a>
 			</div>
-	</div>
-	</div>
-
-	<div class="main-content row">
-			{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
-			{% for position in positions %}
-			{% if position == 'current_executive' %}
-		<div class="wrapper">
-			{% assign people = site._people | sort:"index" %}
-			{% for person in people %}
-			{% if person.status contains position %}
-<div class="peopleimg">
-		<img src="{% if person.image %} {{ person.image }} {% else %} {{ 'images/people/default-avatar.jpg' }} {% endif %}" alt="{{ page.title }}">
-</div>
-<div class="bio">
-		<h3>{{ person.title }}</h3>
-		<h4>{{ person.role }}</h4>
-		<h5>{{ person.degree }}</h5>
-<div class="portfolio centre">
-		{% if person.email %}
-		<li><a href="mailto:{{ person.email }}" class="fa fa-envelope-o"target="_blank"></a></li>
-		{% endif %}
-		{% if person.website-url %}
-		<li><a href="{{ person.website-url }}" class="fa fa-globe"target="_blank"></a></li>
-		{% endif %}
-		{% if person.instagram-id %}
-		<li><a href="https://www.instagram.com/{{ person.instagram-id }}" class="fa fa-instagram"target="_blank"></a></li>
-		{% endif %}
-		{% if person.twitter-id %}
-		<li><a href="https://www.twitter.com/{{ person.twitter-id }}" class="fa fa-twitter"target="_blank"></a></li>
-		{% endif %}
-		{% if person.linkedin-url %}
-		<li><a href="{{ person.linkedin-url }}" class="fa fa-linkedin"target="_blank"></a></li>
-		{% endif %}
-		{% if person.github-id %}
-		<li><a href="https://github.com/{{ person.github-id }}" class="fa fa-github"target="_blank"></a></li>
-		{% endif %}
-</div>
-		<p>{{ person.content }}</p>
-</div>
-<div class="single-column"></div>
-{% endif %}
-		{% endfor %}	
-</div>
-{% endif %}
-	  {% endfor %}
-</div>
-	<!--Current Project Directors
-	<div class="main-content">
-		<div class="wrapper">
-	
-			<div class="single-column">
-				<h3>Meet the Project Team Directors</h3>
+		</div>
+		{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
+		{% for position in positions %}
+		{% if position == 'current_executive' %}
+		{% assign people = site._people | sort:"index" %}
+		{% for person in people %}
+		{% if person.status contains position %}
+		<div class="columns-team">
+			<div class="quarter-left left">
+					<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="{{ page.title }}">
+			</div>
+			<div class="third-quarter-right right">
+				<h2>{{ person.title }}</h2>
+				<p>{{ person.role }}</p>
+				<!--{% if person.email %}
+				<li><a href="mailto:{{ person.email }}" class="fa fa-envelope-o"target="_blank"></a></li>
+				{% endif %}-->
+				{% if person.linkedin-url %}
+				<a href="{{ person.linkedin-url }}" class="fa fa-linkedin"target="_blank"></a>
+				{% endif %}
+				<p>{{ person.content }}</p>
 			</div>
 		</div>
-	</div>
-	<div class="main-content">
-	<div class="wrapper">
-			{% assign people = site._people | sort:"index" %}
-      		{% for person in people %}
-      		{% if person.manager %}
-		<article>
-			<a href="{{person.url}}"><div class="columng white profile">
-				<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="profile picture">
-				<h5>{{ person.title }}</h5>
-				<p>{{ person.manager }}</p>
-			</div>
-		</a>
-		</article>
 		{% endif %}
-	  {% endfor %}
-	</div>
-	</div-->
+		{% endfor %}	
+		{% endif %}
+		{% endfor %}
+</div>
+</div>
 
 	<!--Past Executives-->
-	<div class="main-content row" id="pastexecs">
-			<div class="wrapper">
-	
-					<div class="leftcolumn centre">
-						<h3>Founders, Past Executives, Project Team Directors</h3>
-						<p>We appreicate the following executives for their services & contribution to CREATE! </p>
-					</div>
-					<div class="rightcolumn cbutton centre">
-						<a href="#currentexecs"><button class="buttong yellow">Back to Current Executives</button></a>
-					</div>
+<div class="main-content" id="pastexecs">
+		<div class="wrapper">
+			<div class="row">
+				<div class="left">
+					<h2>Founders, Past Executives, Project Team Directors</h2>
+					<p>We appreicate the following executives for their services & contribution to CREATE! </p>
+				</div>
+				<div class="right-align">
+					<a href="#currentexecs"><button class="buttong yellow">Back to Current Executives</button></a>
+				</div>
 			</div>
-			</div>
-			<div class="main-content">
-					{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
-					{% for position in positions %}
-					{% if position == 'founder' %}
-			<div class="wrapper">
-			<button class="collapsible centre">Check here for the Founding Members</button><div class="collape-content">
-					{% assign people = site._people | sort:"index" %}
-					  {% for person in people %}
-					  {% if person.status contains position %}
-				<article>
-					<a href="{{person.url}}"><div class="columng white profile">
-						<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="profile picture">
-						<h5>{{person.title}}</h5>
-						<p>{{person.role}} ({{person.year}})</p>
-					</div>
-				</a>
-				</article>
-				{% endif %}
-			  {% endfor %}
-			</div>
-			{% endif %}
-			  {% endfor %}
-			</div></div>
-			<div class="main-content">
-					{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
-					{% for position in positions %}
-					{% if position == 'past_executive' %}
-			<div class="wrapper">
-			<button class="collapsible centre">Check here for Past Exexcutives, Project Team Directors</button><div class="collape-content">
-					{% assign people = site._people | sort:"index" %}
-					  {% for person in people %}
-					  {% if person.status contains position %}
-				<article>
-					<a href="{{person.url}}"><div class="columng white profile">
-						<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="profile picture">
-						<h5>{{person.title}}</h5>
-						<p>{{person.role}} ({{person.year}})</p>
-					</div>
-				</a>
-				</article>
-				{% endif %}
-			  {% endfor %}
-			</div>
-			{% endif %}
-			  {% endfor %}
-			</div></div>
-			<script>
-			var coll = document.getElementsByClassName("collapsible");
-			var i;
 
-			for (i = 0; i < coll.length; i++) {
-			coll[i].addEventListener("click", function() {
-				this.classList.toggle("active");
-				var content = this.nextElementSibling;
-				if (content.style.display === "block") {
-				content.style.display = "none";
-				} else {
-				content.style.display = "block";
-				}
-			});
-			} 
-			</script>
+				{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
+				{% for position in positions %}
+				{% if position == 'founder' %}
+			<button class="collapsible">Check here for the Founding Members</button>
+				<div class="collape-content">
+				{% assign people = site._people | sort:"index" %}
+				{% for person in people %}
+				{% if person.status contains position %}
+					<div class="table-cell">
+						<div class="columns fourgrids white profile">
+							<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture">
+							<h2>{{person.title}}</h2>
+							<p>{{person.role}} ({{person.year}})</p>
+						</div>
+					</div>
+				{% endif %}
+				{% endfor %}
+				</div>
+				{% endif %}
+				{% endfor %}
+
+				{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
+				{% for position in positions %}
+				{% if position == 'past_executive' %}
+			<button class="collapsible">Check here for Past Exexcutives, Project Team Directors</button>
+			<div class="collape-content">
+				{% assign people = site._people | sort:"index" %}
+				{% for person in people %}
+				{% if person.status contains position %}
+					<div class="table-cell">
+						<div class="columns fourgrids white profile">
+							<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture">
+							<h2>{{person.title}}</h2>
+							<p>{{person.role}} ({{person.year}})</p>
+					</div>
+					</div>
+				{% endif %}
+				{% endfor %}
+			</div>
+				{% endif %}
+				{% endfor %}
+	</div>
+</div>
+				<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+
+				for (i = 0; i < coll.length; i++) {
+				coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.display === "block") {
+					content.style.display = "none";
+					} else {
+					content.style.display = "block";
+					}
+				});
+				} 
+				</script>
 

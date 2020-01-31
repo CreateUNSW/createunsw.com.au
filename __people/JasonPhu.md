@@ -1,15 +1,12 @@
 ---
 title: "Jason Phu"
 image: /images/people/JasonPhu.jpg
-degree: ""
 role: "VP of Events"
 index: 3
 email: events@createunsw.com.au
 linkedin-url:
-github-id:
 status: past_executive
 year: 2018
-layout: people
 ---
 VP of Events - 2018
 Co-Director of Sales - 2017

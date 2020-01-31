@@ -13,17 +13,17 @@ permalink: /projects/
 <div class="main-content">
     <div class="wrapper">
         <div class="single-column">
-            <h3>Projects</h3>
+            <h2>Projects</h2>
             <p>CREATE hosts their own series of projects that provide opportunities for makers across any faculty to collaborate on team-based endeavours.</p>
         </div>
         <div id="projectgroup">
+
             <button class="accordion">UNSW Illuminate (Previously known as Project Illuminate)</button>
                 <div class="panel" id="pi">
 					<p><img src="/images/logos/unsw-illuminate-dark.png" class="projectintro">UNSW Illuminate is a student project that aims to empower students to apply hands-on skills on large scale professional and multidisciplinary projects. We seek to foster deep interactions between designers and engineers, allowing students to realise their creative visions while gaining practical design and manufacturing experience. This project combines the creativity of art and the innovation of engineering to demonstrate the magic of art meeting technology through light. </p>
 					<p>The previous successor CREATE Project Illuminate (a collaborating team of CREATE UNSW & UNSW MAKE CLUB) is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE</p>
-					<p> Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information</p>
-										
-                </div>
+					<p> Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information</p>					
+				</div>
 
                 <button class="accordion">CREATE DRC</button>
                 <div class="panel" id="drc">
@@ -41,7 +41,8 @@ permalink: /projects/
                     ~ Marketing to Set Up a Team of Keen Individuals to Learn and Assist<br>
 										~ Allocated Funding of up to $500 to help you get started, with Additional Funding as the Project Expands.</p>
 										
-                </div> 
+				</div> 
+				
                 <script>
                     var acc = document.getElementsByClassName("accordion");
                     var i;
@@ -61,15 +62,13 @@ permalink: /projects/
                         }
                       });
                     } 
-
-								</script>
-								</div>
-
+				</script>
+		</div>
     </div>
-    </div>
+</div>
 
     <!--project list-->
-    <div class="main-content bg-lgrey">
+    <div class="main-content light-grey">
 		<div class="wrapper">
 			<div class="single-column"><p>Please note: CREATE UAS is now operating as <b>Flight Labs UNSW</b>. <a target="_blank" href="https://flightlabs.com.au/">Click here to their website</a>.</p></div>
 			<!--Type Filter-->
@@ -83,12 +82,12 @@ permalink: /projects/
 				</div>
 			<!--Products-->
 				<div id="container">
-{% assign sorted = site._projects | sort:"date" | reverse %}
-{% for _projects in sorted %}
-{% if _projects.link %}
-<a target="_blank" href="{{ _projects.link }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>
-{% else %}
-<a href="{{ _projects.url }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>{% endif %}{% endfor %}
+				{% assign sorted = site._projects | sort:"date" | reverse %}
+				{% for _projects in sorted %}
+				{% if _projects.link %}
+				<a target="_blank" href="{{ _projects.link }}"><div class="columns fourgrids filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>
+				{% else %}
+				<a href="{{ _projects.url }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>{% endif %}{% endfor %}
 
 							
 				<script>

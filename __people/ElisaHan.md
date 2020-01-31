@@ -1,15 +1,12 @@
 ---
 title: "Elisa Han"
 image: /images/people/ElisaHan.jpg
-degree: ""
 role: "Co-VP of Sales"
 index: 7
 email:
 linkedin-url:
-github-id:
 status: past_executive
 year: 2018
-layout: people
 ---
 2018 - Co-VP of Sales
 

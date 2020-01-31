@@ -1,0 +1,75 @@
+---
+layout: default
+title: Catalogue
+topic: Catalogue
+sub-topic: Search all of our products
+tagline: "Orders can be bought and collected from our Globe Lawn stall on Mondays from 12pm to 4pm during UNSW terms
+only."
+description: "Orders can be bought and collected from our Globe Lawn stall on Mondays from 12pm to 4pm during UNSW terms only."
+permalink: /catalogue/
+---
+
+<!--main content: Online Sales Store section-->
+<script src="/js/catalogue.js"></script>
+<div class="main-content" id="onlinestore">
+    <div class="wrapper">
+        <div class="single-column">
+            <h2>Online Catalogue</h2>
+            <p>Note: Email us before purchasing anything through this page. We may not have all items in stock.</p>
+            <p style="color: #bf0713; font-weight: bold;">Prices are in Australian Dollars (AUD).</p>
+        </div>
+        <!--Type Filter-->
+        <div>
+            <h3>Search for a specific product (Show all only) <input class="searchfunction" type="text" placeholder="Search.."
+                    name="search" id="search" onkeyup="searchFilter()"></h3>
+        </div>
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            {% assign cats = site._products | map: 'categories' | join: ',' | split: ',' | uniq %}
+            {% for cat in cats %}
+            <button class="btn" onclick="filterSelection('{{ cat }}')"
+                style="text-transform: capitalize;">{{ cat }}</button>
+            {% endfor %}
+        </div>
+
+        <!--Products-->
+        <div id="table-cell">
+            {% assign _products = site._products  | sort_title %}
+            {% for _products in site._products %}
+
+            <a href="{{ _products.url | relative_url }}">
+                <div class="columns fourgrids catalogue filterDiv {{ _products.category }}">
+                    <div class="salesimg"><img
+                        src="{% if _products.image %} {{ _products.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}"
+                        alt="{{ _products.title }}">
+                    </div>
+                    <div class="products-title">
+                        <p>{{ _products.title }}</p>
+                        {% assign price_split = _products.price | round: 2 | split: "." %}
+                        {% assign integral = price_split[0] %}
+                        {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                        <p>${{ integral }}.{{ fractional }}</p>
+                    </div>
+                    <div class="purchase">
+                        <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+                            <input type='hidden' name='add' value='1'>
+                            <input type='hidden' name='cmd' value='_cart'>
+                            <input type='hidden' name='business' value='sales@createunsw.com.au' />
+                            <input type='hidden' name='item_name' value='{{ _products.title }}' />
+                            <input type='hidden' name='item_number' value='' />
+                            <input type='hidden' name='amount' value='{{ _products.price }}' />
+                            <input type='hidden' name='no_note' value='1' />
+                            <input type='hidden' name='currency_code' value='AUD' />
+                            <input type='hidden' name='lc' value='AU'>
+                            <!--input style="width:30px; height: 20px; color:black;" type='number' name='quantity' value='1' min="1"-->
+                            <button class="btn btn-secondary" style="color:black;" type='submit' name='submit'
+                                alt='Add this item to your paypal cart.' value='Purchase'>
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button></form>
+                    </div>
+                </div>
+            </a>{% endfor %}
+        </div>
+    </div>
+</div>
+</div>
