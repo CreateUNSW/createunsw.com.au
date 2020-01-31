@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title | escape }} | {% endif %} {{ site.title | escape }}</title>
+    <title>{% if page.title %}{{ page.title | escape }} | {% else %} {% endif %} {{ site.title | escape }}</title>
     <link rel="stylesheet" href="{{ "/css/stylesheet.css" | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
