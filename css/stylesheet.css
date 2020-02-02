@@ -12,8 +12,8 @@ p {margin: 10px 0px; line-height: 1.6; padding-left: 10px; padding-right: 10px;}
 
 /*colors*/
 .black {background-color:#231f20; color: white;}
-.black a {color:#fcb72b;}
-.black a:hover {color:#e29803;}
+.black p a {color:#fcb72b;}
+.black p a:hover {color:#e29803;}
 .white {color: #231f20; background: white;}
 .yellow {background-color:#fcb72b; color: white}
 .yellow:hover {background-color:#e29803;}
@@ -32,18 +32,18 @@ p {margin: 10px 0px; line-height: 1.6; padding-left: 10px; padding-right: 10px;}
 .fa:hover {color:#fcb72b;}
 
 /*buttons general*/
-.buttong {margin: 5px; padding: 10px 30px; color: white; text-align: center; font-weight: 600; width: auto; cursor: pointer; border-width: 0px; border-radius: 20px; text-transform: uppercase;
+.buttong {width: 99%; margin:0 auto; padding: 10px 30px; color: white; text-align: center; font-weight: 600; cursor: pointer; border-width: 0px; border-radius: 10px; text-transform: uppercase;
 }
 
 /*header*/
 
 .header {width: 100%; height: 95px; color: white; top: 0; left: 0; position: relative; overflow: hidden;}
-.logo {margin: 20px 20px; float: left; display: block;}
+.logo {margin: 15px 20px; float: left; display: block;}
 .logo img {height:60px;}
 .logo-footer {margin: 20px auto; display:block;}
 .logo-footer img {height: 60px; margin: 0px auto;}
 .topnav {float:right;}
-.menuicon {display: none; right: 0; top: 20px; width: 85px; height: 30px; margin: 35px 10px; color: white; text-decoration: none;}
+.menuicon {display: none; height: 30px; margin: 30px; color: white; text-decoration: none;}
 .topnav ul {list-style: none; margin: 0; padding: 0; overflow: hidden; background: #1a2239;}
 .topnav li {float: left;}
 .topnav li a {display:block; color: white; text-align: center; text-transform: uppercase; text-decoration: none; padding: 40px 15px;}
@@ -52,9 +52,10 @@ p {margin: 10px 0px; line-height: 1.6; padding-left: 10px; padding-right: 10px;}
 
 /* Responsive layout for header*/
 @media screen and (max-width: 950px) {
-	.header {height: 150px; position: relative; overflow: visible;}
+	.header {height: auto; position: relative; overflow: visible;}
 	.menuicon {display:block;}
-	.topnav ul {display: none; position: absolute; background: #1a2239; border: 2px solid #ffffff; right: 10px; top: 65px; width: 130px; border-radius: 4px 0 4px 4px; z-index: 100;}
+	.menuicon .fa-bars:hover {display:block; color:#fcb72b;}
+	.topnav ul {display: none; position: absolute; background: #1a2239; border: 2px solid #ffffff; right: 35px; top: 80px; width: 130px; border-radius: 4px 0 4px 4px; z-index: 100;}
 	.topnav li {width: 100%;}
 	.topnav li a {padding: 15px 20px; text-align: center;}
 	.topnav:hover ul {display:block;}
@@ -65,8 +66,8 @@ p {margin: 10px 0px; line-height: 1.6; padding-left: 10px; padding-right: 10px;}
 .cover-img img{position: relative; transform: translateY(-25%); width: 100%; filter:brightness(60%)}
 .cover-button {text-align:center;}
 .title-block {color: white; position: absolute; top: 50%; left: 50%; padding: 5px;  transform: translate(-50%, -50%);}
-.title-block h1{font-size: 3vmax; font-weight: 800; text-transform: uppercase; text-align: center; margin: 10px 0px; line-height: 1.6; padding-left: 0px; padding-right: 0px;}
-.title-block p{font-size: 2vmax; font-size: 20px; font-weight: 500; text-transform: uppercase; text-align: center; margin: 10px 0px; line-height: 1.6; padding-left: 0px; padding-right: 0px;}
+.title-block h1{font-size: 50px; font-weight: 800; text-transform: uppercase; text-align: center; margin: 10px 0px; line-height: 1.6; padding-left: 0px; padding-right: 0px;}
+.title-block p{font-size: 25px; font-weight: 500; text-transform: uppercase; text-align: center; margin: 10px 0px; line-height: 1.6; padding-left: 0px; padding-right: 0px;}
 
 /*main-content*/
 
@@ -194,8 +195,8 @@ footer p {color: white;}
 .box img {height: 60px; margin: 10px 5px 10px 5px;}
 
 /*subscribe*/
-#mce-EMAIL{padding: 5px; border: none; font-size: 16px; height: 30px; width: 100%;}
-.subscribe_column {display:table-cell; color:#231f20; float: left;}
+#mce-EMAIL{padding: 5px; border: none; display:table-cell; font-size: 16px; height: 30px; width: 100%;}
+.subscribe_column {display:table-cell; color:#231f20; float: left; width: 100%;}
 
 /*top function*/
 		#topBtn {
@@ -222,13 +223,15 @@ footer p {color: white;}
 
 /* Responsive layout*/
 @media (max-width: 1100px) {
+	.title-block h1{font-size: 4vw;}
+	.title-block p{font-size: 3vw;}
 
 	.map {width:47vw; height:300px;}
 	.salesimg {width: 23.5vw; height: 12vw;}
 	.salesimg img{width: 23.5vw;}
 	.image {height: 23.5vw;}
-	.subscribe_column {width: 23.5vw;}
-	#mce-EMAIL {width:23vw;}
+	.subscribe_column {width: 99%;}
+	#mce-EMAIL {width:99%;}
 
 }
 
@@ -241,8 +244,6 @@ footer p {color: white;}
 	.salesimg {width: 23vw; height: 12vw;}
 	.salesimg img{width: 23vw;}
 	.image {height: 23vw;}
-	.subscribe_column {width: 100%; text-align: center;}
-	#mce-EMAIL {width:270px;}
 
 }
 
@@ -267,7 +268,6 @@ footer p {color: white;}
 	.salesimg {width: 47vw; height: 30vw;}
 	.salesimg img{width: 47vw;}
 	.image {height: 47vw;}
-	.subscribe_column {width: 100%; text-align: center;}
 }
 
 /* Responsive layout*/
