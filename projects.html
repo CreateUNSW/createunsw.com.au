@@ -71,8 +71,8 @@ permalink: /projects/
     <div class="main-content light-grey">
 		<div class="wrapper">
 			<div class="single-column">
-				<p>CREATE UAS is now operating as <b>Flight Labs UNSW under UNSW Engineering ChallENG Program</b>. <a target="_blank" href="https://flightlabs.com.au/">Click here to their website</a>.</p>
-				<p>Project Illuminate is now operating as <b>UNSW Illuminate under UNSW Engineering ChallENG Program</b>. <a target="_blank" href="https://www.unswilluminate.com/">Click here to their website</a>.</p>
+				<p>CREATE UAS is now operating as <b>Flight Labs UNSW</b> under UNSW Engineering ChallENG Program. <a target="_blank" href="https://flightlabs.com.au/">Click here to their website</a>.</p>
+				<p>Project Illuminate is now operating as <b>UNSW Illuminate</b> under UNSW Engineering ChallENG Program. <a target="_blank" href="https://www.unswilluminate.com/">Click here to their website</a>.</p>
 			</div>
 			<!--Type Filter-->
 				<div id="myBtnContainer">
@@ -87,9 +87,9 @@ permalink: /projects/
 				<div class="container">
 					{% assign sorted = site._projects | sort:"date" | reverse %}
 					{% for _projects in sorted %}
-						{% if _projects.link %}
+						
 						<div class="filterDiv {{ _projects.categories }}">
-							<a target="_blank" href="{{ _projects.link }}">
+							<a target="_blank" href="{% if _projects.link %}{{ _projects.link }}{% else %}{{ _projects.url }}{% endif %}">
 								<div class="imgcontainer">
 									<img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image">
 									<div class="overlay">
@@ -99,20 +99,7 @@ permalink: /projects/
 									</div>
 								</div>
 							</a>
-						</div>
-						{% else %}
-							<div class="filterDiv {{ _projects.categories }}">
-								<a href="{{ _projects.url }}">
-									<div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image">
-										<div class="overlay">
-											<div class="text">
-												<p>{{ _projects.title }}</p>
-											</div>
-										</div>
-									</div>
-								</a>
-							</div>
-						{% endif %}
+						</div>						
 					{% endfor %}
 				</div>
 
