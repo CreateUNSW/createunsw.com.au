@@ -42,7 +42,7 @@ permalink: /team/
 			</div>
 		</div>
 		{% endif %}
-		{% endfor %}	
+		{% endfor %}
 		{% endif %}
 		{% endfor %}
 </div>
@@ -65,18 +65,16 @@ permalink: /team/
 				{% for position in positions %}
 				{% if position == 'founder' %}
 			<button class="collapsible">Check here for the Founding Members</button>
-				<div class="collape-content">
+				<div class="collape-content container">
 				{% assign people = site._people | sort:"index" %}
 				{% for person in people %}
-				{% if person.status contains position %}
-					<div class="table-cell">
+					{% if person.status contains position %}
 						<div class="columns fourgrids white profile">
 							<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture">
 							<h2>{{person.title}}</h2>
 							<p>{{person.role}} ({{person.year}})</p>
 						</div>
-					</div>
-				{% endif %}
+					{% endif %}
 				{% endfor %}
 				</div>
 				{% endif %}
@@ -86,16 +84,14 @@ permalink: /team/
 				{% for position in positions %}
 				{% if position == 'past_executive' %}
 			<button class="collapsible">Check here for Past Exexcutives, Project Team Directors</button>
-			<div class="collape-content">
+			<div class="collape-content container">
 				{% assign people = site._people | sort:"index" %}
 				{% for person in people %}
 				{% if person.status contains position %}
-					<div class="table-cell">
-						<div class="columns fourgrids white profile">
-							<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture">
-							<h2>{{person.title}}</h2>
-							<p>{{person.role}} ({{person.year}})</p>
-					</div>
+					<div class="fourgrids columns white profile">
+						<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture">
+						<h2>{{person.title}}</h2>
+						<p>{{person.role}} ({{person.year}})</p>
 					</div>
 				{% endif %}
 				{% endfor %}
@@ -112,12 +108,12 @@ permalink: /team/
 				coll[i].addEventListener("click", function() {
 					this.classList.toggle("active");
 					var content = this.nextElementSibling;
-					if (content.style.display === "block") {
-					content.style.display = "none";
+					if (content.style.display === "flex") {
+						content.style.display = "none";
 					} else {
-					content.style.display = "block";
+						content.style.display = "flex";
 					}
 				});
-				} 
+				}
 				</script>
 

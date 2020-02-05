@@ -133,7 +133,7 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 	cursor: pointer;
 	box-shadow: 0 1px 3px 0 grey, 0 1px 3px 0 grey;
   }
-  
+
 .btn:hover {background-color:#ddd;}
 .btn.active {background-color:#bf0713; color: white;}
 
@@ -150,12 +150,18 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 	display: none;
 	box-shadow: 0 1px 2px 0 grey, 0 1px 2px 0 grey;
   }
-  
+
 .show {display: block;}
 
-#container {position: relative; margin: 5px auto; overflow: hidden;}
-#container a:hover .filterDiv{background-color: #eee;}
-#container p {font-size: 20px; font-weight: 700; padding: 2px; text-align: left; margin: 3px auto;}
+.container {
+	position: relative;
+	margin: 5px auto;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container a:hover .filterDiv{background-color: #eee;}
+.container p {font-size: 20px; font-weight: 700; padding: 2px; text-align: left; margin: 3px auto;}
 
 /*overlaying*/
 .imgcontainer {position: relative; width: 100%; padding-top: 0px; overflow: hidden;}
