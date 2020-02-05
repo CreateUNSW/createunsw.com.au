@@ -8,13 +8,17 @@
 
 ~~organise navbar~~
 
-update logo
-
 improve format of footer
 
 update outreach page
 
 display tagline and description fields
+
+center menu text on responsive site
+
+update logo
+
+mailing list modal
 
 clean up code
 
