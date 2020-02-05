@@ -65,7 +65,7 @@ permalink: /team/
 				{% for position in positions %}
 				{% if position == 'founder' %}
 			<button class="collapsible">Check here for the Founding Members</button>
-				<div class="collape-content container">
+				<div class="collapse-content ">
 				{% assign people = site._people | sort:"index" %}
 				{% for person in people %}
 					{% if person.status contains position %}
@@ -84,7 +84,7 @@ permalink: /team/
 				{% for position in positions %}
 				{% if position == 'past_executive' %}
 			<button class="collapsible">Check here for Past Exexcutives, Project Team Directors</button>
-			<div class="collape-content container">
+			<div class="collapse-content ">
 				{% assign people = site._people | sort:"index" %}
 				{% for person in people %}
 				{% if person.status contains position %}
@@ -108,6 +108,7 @@ permalink: /team/
 				coll[i].addEventListener("click", function() {
 					this.classList.toggle("active");
 					var content = this.nextElementSibling;
+					content.classList.add("container");
 					if (content.style.display === "flex") {
 						content.style.display = "none";
 					} else {
