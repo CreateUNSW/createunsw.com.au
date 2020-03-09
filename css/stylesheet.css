@@ -11,7 +11,7 @@ a:hover {color: #fcb72b;}
 
 /*header & nav bar*/
 header {font-size: 16px; color: white; background-color:#1a2239;}
-.logo img {height: 80px; margin: 5px;}
+.logo img {height: 60px; margin: 5px;}
 .nav-item a {display:block; color: white!important; text-align: center; text-transform: uppercase; text-decoration: none; padding: 30px 15px;}
 .nav-item a:hover{background-color: #253469!important; color: white!important;}
 .navbar {padding: 0px 1rem!important;}
