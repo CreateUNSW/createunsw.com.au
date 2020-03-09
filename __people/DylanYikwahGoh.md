@@ -1,10 +1,11 @@
 ---
+layout: people
 title: Dylan Yikwah Goh
 status: past_executive
 year: 2019
 role: Art & Design Team Director, Project Illuminate
 manager: 
-index:
+index: 20
 image: /images/people/DylanYikwahGoh_profile.jpg
 email:
 linkedin-url:

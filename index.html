@@ -6,44 +6,60 @@ sub-topic: We are a student-led maker club based at UNSW Sydney.
 image: /images/home-cover-2019.gif
 ---
 
-<div class="main-content">
-		<div class="wrapper">
-			<div class="single-column">
+<main type="main">
+	<div class="container-xl">
+		<div class="row">
+			<div class="col-md text-center">
 				<h2>What We Do</h2>
 			</div>
-
-			<div class="table-cell">
-				<div class="columns fourgrids black">
-					<img src="/images/20180409_CREATE_EGM_Arduino1-0028.jpg" alt="Workshop Image">
-					<h3>Workshops & Socials</h3>
-					<p>CREATE runs various workshops & social events throughout the regular university terms. No formal arrangements are necessary to attend the workshops, just show up and join in. <a href="{{'/events' | prepend: site.baseurl }}">Learn More</a></p>
-				</div>
-				<div class="columns fourgrids black">
-					<img src="/images/20180416_CREATE_Arduino2-0006.jpg" alt="Sales Image">
-					<h3>Electronic Component Sales</h3>
-					<p>CREATE sells electronic parts including micro-controllers, breadboards, Arduino kits and quadcopters throughout the regular university terms. <a href="{{'/store' | prepend: site.baseurl }}">Learn More</a></p>
-				</div>
-				<div class="columns fourgrids black">
-					<img src="/images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg" alt="Team Projects Image">
-					<h3>Projects</a></h3>
-					<p>CREATE actively participates in various public projects including Vivid Sydney Light Festivals and Droid Racing Challenge (DRC). <a href="{{'/projects' | prepend: site.baseurl }}">Learn More</a></p>
-				</div>
-				<div class="columns fourgrids black">
-					<img src="/images/IMG_2709.jpg" alt="CREATE Starters Image">
-					<h3>Funding for Student Projects</h3>
-					<p>If you have an idea for a project that involves putting together and making any project, we want to provide you with everything needed to get your project off the ground. <a href="{{'/projects' | prepend: site.baseurl }}">Learn More</a></p>
-				</div>
-			</div>			
-	</div>
-</div>
-
-<!--div class="main-content">
-	<div class="wrapper">
-		<div class="single-column centre">
-			<h3>Follow us on social media</h3>
-			<p>Hashtag <b>#createunsw</b> to share your photos with us.</p>
-			<a href="https://www.facebook.com/CreateUnsw/" target="_blank"><button class="buttong yellow">Facebook Page</button></a>
-			<a href="https://www.instagram.com/createunsw/" target="_blank"><button class="buttong yellow">Instagram Page</button></a>
 		</div>
+		<div class="row">
+			<div class="col-md">
+				<div class="columns threegrids black">
+					<img src="/images/20180409_CREATE_EGM_Arduino1-0028.jpg" alt="Workshop Image" class="card-img-top">
+					<div class="card-header">
+						<h5>Workshops & Socials</h5>
+					</div>
+					<div class="card-body">
+						<p>CREATE runs various workshops & social events throughout the regular university terms. No prior knowledge required. Just show up and join in. </p>
+						<a href="{{'/events' | prepend: site.baseurl }}" class="btn btn-primary">Learn More</a>
+					</div>
+					 
+				</div>
+				<div class="columns threegrids black">
+					<img src="/images/20180416_CREATE_Arduino2-0006.jpg" alt="Sales Image" class="card-img-top">
+					<div class="card-header">
+						<h5>Electronic Component Sales</h5>
+					</div>
+					<div class="card-body">
+						<p>CREATE sells electronic parts including micro-controllers, breadboards, Arduino kits and quadcopters throughout the regular university terms.</p>
+						<a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">Learn More</a>
+					</div>
+				</div>
+				
+				<div class="columns threegrids black">
+					<img src="/images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg" alt="Team Projects Image" class="card-img-top">
+					<div class="card-header">
+						<h5>Projects</h5>
+					</div>
+					<div class="card-body">
+						<p>CREATE participates in student-led projects such as Droid Racing Challenge (DRC).</p>
+						<a href="{{'/projects' | prepend: site.baseurl }}" class="btn btn-primary">Learn More</a>
+					</div>
+				</div>
+				<!--div class="columns fourgrids black">
+					<img src="/images/IMG_2709.jpg" alt="CREATE Starters Image" class="card-img-top">
+					<div class="card-header">
+						<h5>Funding for Student Projects</h5>
+					</div>
+					<div class="card-body">
+						<p>If you have an idea for a project that involves putting together and making any project, we want to provide you with everything needed to get your project off the ground.</p>
+					</div>
+					<div class="card-footer">
+						<a href="{{'/projects' | prepend: site.baseurl }}" class="btn btn-block btn-primary">Learn More</a>
+					</div>
+				</div-->
+			</div>
+		</div>			
 	</div>
-</!--div>
+</main>

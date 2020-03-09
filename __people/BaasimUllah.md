@@ -1,10 +1,10 @@
 ---
 layout: people
-title: Dan Koenen
-image:
-role: Director of Media and Marketing
+title: "Baasim Ullah"
+image: 
+role: "Co-Director of Sales"
 degree:
-index: 8
+index: 10
 linkedin-url:
 status: current_executive
 year: 2020

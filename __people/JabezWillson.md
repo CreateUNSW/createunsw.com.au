@@ -1,7 +1,8 @@
 ---
+layout: people
 title: "Jabez Willson"
 image: 
-role: "CREATE DRC"
+role: "CREATE DRC Team Leaders"
 index: 8
 email:
 linkedin-url:

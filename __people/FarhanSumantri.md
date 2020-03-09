@@ -1,6 +1,7 @@
 ---
+layout: people
 title: Farhan Sumantri
-status: current_executive
+status: past_executive
 year: 2019
 role: Director of Events
 manager: 

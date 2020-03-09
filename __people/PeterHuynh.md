@@ -1,10 +1,10 @@
 ---
 layout: people
-title: Dan Koenen
+title: Peter Huynh
 image:
-role: Director of Media and Marketing
+role: Director of Events
 degree:
-index: 8
+index: 7
 linkedin-url:
 status: current_executive
 year: 2020

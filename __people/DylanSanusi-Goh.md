@@ -1,6 +1,7 @@
 ---
+layout: people
 title: Dylan Sanusi-Goh
-status: current_executive
+status: past_executive
 year: 2019
 role: Vice President of Technology
 manager:

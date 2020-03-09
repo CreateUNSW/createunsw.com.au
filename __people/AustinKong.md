@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Austin Kong"
 image: /images/people/austin_kong.jpg
 role: "Founder / Chief Technical Officer"

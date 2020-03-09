@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Linda Truong"
 image: /images/people/LindaTruong.jpg
 role: "Arc Delegate"

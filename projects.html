@@ -10,38 +10,33 @@ permalink: /projects/
 ---
 
 <!--main content-->
-<div class="main-content">
-    <div class="wrapper">
-        <div class="single-column">
-            <h2>Projects</h2>
-            <p>CREATE hosts their own series of projects that provide opportunities for makers across any faculty to collaborate on team-based endeavours.</p>
-        </div>
-        <div id="projectgroup">
-
-            <!--button class="accordion">UNSW Illuminate (Previously known as Project Illuminate)</!--button>
-                <div class="panel" id="pi">
-					<p><img src="/images/logos/unsw-illuminate-dark.png" class="projectintro">UNSW Illuminate is a student project that aims to empower students to apply hands-on skills on large scale professional and multidisciplinary projects. We seek to foster deep interactions between designers and engineers, allowing students to realise their creative visions while gaining practical design and manufacturing experience. This project combines the creativity of art and the innovation of engineering to demonstrate the magic of art meeting technology through light. </p>
-					<p>The previous successor CREATE Project Illuminate (a collaborating team of CREATE UNSW & UNSW MAKE CLUB) is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE</p>
-					<p> Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information</p>
-				</div-->
-
-                <button class="accordion">CREATE DRC</button>
+<main type="main">
+    <div class="container-xl">
+		<div class="row">
+			<div class="col-md">
+				<p>CREATE hosts their own series of projects that provide opportunities for makers across any faculty to collaborate on team-based endeavours.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md" id="projectgroup">
+               <button class="accordion">CREATE Droid Racing Challenge (DRC)</button>
                 <div class="panel" id="drc">
                     <p>The Droid Racing Challenge (DRC) is a robotics competition hosted annually by the Queensland University of Technology (QUT) for three years running. Its aim is to design and build small, autonomous vehicles which can race around a track against one other competitor using only computer vision and ultrasonic sensors. Each year, CREATE hosts internal competitions and sends the two most successful teams up to participate in the competition.</p>
                     <p>We have found continuing success with new teams taking up the challenge, with CREATE placing 1st in 2016 and 2017 and 3rd in 2018. In building and programming their vehicles, our project members learn invaluable skills including hardware design, electrical interfacing and programming autonomous driving functions.</p>
                 </div>
 
-                <button class="accordion">CREATE Starters</button>
+                <!--button class="accordion disabled">CREATE Starters</button>
                 <div class="panel" id="starters">
                     <p><img src="/images/logos/create-starters.png" class="projectintro">CREATE Starters is our core project-incubation program that gives makers the opportunity to collaborate and start a new project! With financial and logistical assistnace from CREATE and our broad community, any proposed idea could be turned into a reality whether it’s just a passion project, competitive team submission or an innovative startup idea. All of our former projects were founded under this program including; Flight Labs UNSW (formerly CREATE UAS), our UGV platform Debbie and BB8 robot.</p>
 
                     <p>We can kick-start your project with:</p>
-                    <p>~ Basic Management Tools and Advice <br>
-                    ~ Dedicated Technical Advisor<br>
-                    ~ Marketing to Set Up a Team of Keen Individuals to Learn and Assist<br>
-										~ Allocated Funding of up to $500 to help you get started, with Additional Funding as the Project Expands.</p>
-
-				</div>
+                    <li>Basic Management Tools and Advice<li>
+					<li>Dedicated Technical Advisor</li>
+					<li>Marketing to Set Up a Team of Keen Individuals to Learn and Assist</li>
+					<li>Allocated Funding of up to $500 to help you get started, with Additional Funding as the Project Expands.</li>
+				</div-->
+			</div>
+		</div>
 
                 <script>
                     var acc = document.getElementsByClassName("accordion");
@@ -63,90 +58,105 @@ permalink: /projects/
                       });
                     }
 				</script>
-		</div>
-    </div>
-</div>
 
-    <!--project list-->
-    <div class="main-content light-grey">
-		<div class="wrapper">
-			<div class="single-column">
-				<p>CREATE UAS is now operating as <b>Flight Labs UNSW</b> under UNSW Engineering ChallENG Program. <a target="_blank" href="https://flightlabs.com.au/">Click here to their website</a>.</p>
-				<p>Project Illuminate is now operating as <b>UNSW Illuminate</b> under UNSW Engineering ChallENG Program. <a target="_blank" href="https://www.unswilluminate.com/">Click here to their website</a>.</p>
+	<!--project list-->
+		<hr class="my-4">
+		<div class="row">
+			<div class="col-md-8">
+				<p>CREATE UAS is now operating as <b>Flight Labs UNSW</b> under UNSW Engineering ChallENG Program.</p>
 			</div>
-			<!--Type Filter-->
+			<div class="col-md-4">
+				<a target="_blank" href="https://flightlabs.com.au/" class="btn btn-block btn-primary">Visit their website</a>
+			</div>
+		</div>
+		<hr class="my-4">
+		<div class="row">
+			<div class="col-md-8">
+				<p>Project Illuminate is now operating as <b>UNSW Illuminate</b> under UNSW Engineering ChallENG Program.</p>
+			</div>
+			<div class="col-md-4">
+				<a target="_blank" href="https://www.unswilluminate.com/" class="btn btn-block btn-primary">Visit their website</a>
+			</div>
+		</div>
+		<hr class="my-4">
+		<div class="row">
+			<div class="col-md">
+				<!--Type Filter-->
 				<div id="myBtnContainer">
-				  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-				  <button class="btn" onclick="filterSelection('pi')">Project Illuminate</button>
-				  <button class="btn" onclick="filterSelection('drc')">CREATE DRC</button>
-				  <button class="btn" onclick="filterSelection('uas')">CREATE UAS</button>
-				  <button class="btn" onclick="filterSelection('ugv')">CREATE UGV</button>
-				  <button class="btn" onclick="filterSelection('starters')"> CREATE Starters</button>
+				  <button class="btn btn-secondary active" onclick="filterSelection('all')"> Show all</button>
+				  <button class="btn btn-secondary" onclick="filterSelection('pi')">Project Illuminate</button>
+				  <button class="btn btn-secondary" onclick="filterSelection('drc')">CREATE DRC</button>
+				  <button class="btn btn-secondary" onclick="filterSelection('uas')">CREATE UAS</button>
+				  <button class="btn btn-secondary" onclick="filterSelection('ugv')">CREATE UGV</button>
+				  <button class="btn btn-secondary" onclick="filterSelection('starters')"> CREATE Starters</button>
 				</div>
-			<!--Products-->
-				<div class="container">
-					{% assign sorted = site._projects | sort:"date" | reverse %}
-					{% for _projects in sorted %}
+				<hr class="my-4">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md">
+				{% assign sorted = site._projects | sort:"date" | reverse %}
+				{% for _projects in sorted %}
 						
-						<div class="filterDiv {{ _projects.categories }}">
-							<a target="_blank" href="{% if _projects.link %}{{ _projects.link }}{% else %}{{ _projects.url }}{% endif %}">
-								<div class="imgcontainer">
-									<img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image">
-									<div class="overlay">
-										<div class="text">
-											<p>{{ _projects.title }}</p>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>						
-					{% endfor %}
-				</div>
-
-				<script>
-				// Projects
-				filterSelection("all")
-				function filterSelection(c) {
-				  var x, i;
-				  x = document.getElementsByClassName("filterDiv");
-				  if (c == "all") c = "";
-				  for (i = 0; i < x.length; i++) {
-					w3RemoveClass(x[i], "show");
-					if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-				  }
-				}
-
-				function w3AddClass(element, name) {
-				  var i, arr1, arr2;
-				  arr1 = element.className.split(" ");
-				  arr2 = name.split(" ");
-				  for (i = 0; i < arr2.length; i++) {
-					if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-				  }
-				}
-
-				function w3RemoveClass(element, name) {
-				  var i, arr1, arr2;
-				  arr1 = element.className.split(" ");
-				  arr2 = name.split(" ");
-				  for (i = 0; i < arr2.length; i++) {
-					while (arr1.indexOf(arr2[i]) > -1) {
-					  arr1.splice(arr1.indexOf(arr2[i]), 1);
-					}
-				  }
-				  element.className = arr1.join(" ");
-				}
-
-				var btnContainer = document.getElementById("myBtnContainer");
-				var btns = btnContainer.getElementsByClassName("btn");
-				for (var i = 0; i < btns.length; i++) {
-				  btns[i].addEventListener("click", function(){
-					var current = document.getElementsByClassName("active");
-					current[0].className = current[0].className.replace(" active", "");
-					this.className += " active";
-				  });
-				}
-				</script>
-				</div>
+				<div class="filterDiv {{ _projects.categories }}">
+					<a href="{% if _projects.link %}{{ _projects.link }}{% else %}{{ _projects.url }}{% endif %}">
+					<div class="imgcontainer">
+					<img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image">
+						<div class="overlay">
+							<div class="text">
+								<p>{{ _projects.title }}</p>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>						
+				{% endfor %}
+			</div>
 		</div>
-		</div>
+	</div>
+</main>
+
+<script>
+// Projects
+filterSelection("all")
+function filterSelection(c) {
+	var x, i;
+	x = document.getElementsByClassName("filterDiv");
+	if (c == "all") c = "";
+	for (i = 0; i < x.length; i++) {
+	w3RemoveClass(x[i], "show");
+	if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	}
+}
+
+function w3AddClass(element, name) {
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++) {
+	if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	}
+}
+
+function w3RemoveClass(element, name) {
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++) {
+	while (arr1.indexOf(arr2[i]) > -1) {
+		arr1.splice(arr1.indexOf(arr2[i]), 1);
+	}
+	}
+	element.className = arr1.join(" ");
+}
+
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+	btns[i].addEventListener("click", function(){
+	var current = document.getElementsByClassName("active");
+	current[0].className = current[0].className.replace(" active", "");
+	this.className += " active";
+	});
+}
+</script>

@@ -1,10 +1,10 @@
 ---
 layout: people
-title: Dan Koenen
-image:
-role: Director of Media and Marketing
+title: "Jiaqi Zhu"
+image: 
+role: "Secretary"
 degree:
-index: 8
+index: 4
 linkedin-url:
 status: current_executive
 year: 2020

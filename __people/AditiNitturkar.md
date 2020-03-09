@@ -1,10 +1,10 @@
 ---
 layout: people
-title: Dan Koenen
-image:
-role: Director of Media and Marketing
+title: "Aditi Nitturkar"
+image: 
+role: "President"
 degree:
-index: 8
+index: 1
 linkedin-url:
 status: current_executive
 year: 2020

@@ -1,10 +1,10 @@
 ---
 layout: people
-title: Dan Koenen
+title: Stephanie Liaw
 image:
-role: Director of Media and Marketing
+role: Vice President of Technology
 degree:
-index: 8
+index: 2
 linkedin-url:
 status: current_executive
 year: 2020

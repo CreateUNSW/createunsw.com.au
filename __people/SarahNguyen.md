@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Sarah Nguyen"
 image:
 role: "Digital Artist"

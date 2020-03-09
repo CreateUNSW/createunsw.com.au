@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Daniel Li"
 image: /images/people/exec_daniel_li_2.jpg
 role: "President"

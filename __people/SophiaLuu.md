@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Sophia Luu"
 image: /images/people/exec_sophia_luu.jpg
 role: "Head of Media and Marketing"

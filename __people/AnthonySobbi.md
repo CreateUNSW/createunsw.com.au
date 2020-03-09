@@ -1,7 +1,8 @@
 ---
+layout: people
 title: "Anthony Fezi-Sobbi"
 image: /images/people/exec_anthony_fezi-sobbi.jpeg
-role: President, CREATE UAS
+role: President, CREATE UAS Team Leader
 index: 2
 email: a.feizi-sobbi@createunsw.com.au
 linkedin-url:

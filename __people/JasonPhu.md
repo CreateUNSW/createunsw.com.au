@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Jason Phu"
 image: /images/people/JasonPhu.jpg
 role: "VP of Events"

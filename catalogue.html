@@ -11,39 +11,51 @@ permalink: /catalogue/
 
 <!--main content: Online Sales Store section-->
 <script src="/js/catalogue.js"></script>
-<div class="main-content" id="onlinestore">
-    <div class="wrapper">
-        <div class="single-column">
-            <h2>Online Catalogue</h2>
-            <p>Note: Email us before purchasing anything through this page. We may not have all items in stock.</p>
-            <p style="color: #bf0713; font-weight: bold;">Prices are in Australian Dollars (AUD).</p>
+<main type="main" id="onlinestore">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Online Catalogue</h2>
+                <p>Note: Email us before purchasing anything through this page. We may not have all items in stock.</p>
+                <b class="red">Prices are in Australian Dollars (AUD).</b>
+                <hr class="my-4">
+            </div>
+            <div class="col-md-4 right-align">
+                <a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">Back to Store Info Page</a>
+            </div>
         </div>
         <!--Type Filter-->
-        <div>
-            <h3>Search for a specific product (Show all only) <input class="searchfunction" type="text" placeholder="Search.."
-                    name="search" id="search" onkeyup="searchFilter()"></h3>
+        <div class="row">
+            <div class="col-md">
+                <h5>Search for a specific product (Show all only) <input class="searchfunction" type="text" placeholder="Search.." name="search" id="search" onkeyup="searchFilter()"></h5>
+            </div> 
         </div>
-        <div id="myBtnContainer">
-            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-            {% assign cats = site._products | map: 'categories' | join: ',' | split: ',' | uniq %}
-            {% for cat in cats %}
-            <button class="btn" onclick="filterSelection('{{ cat }}')"
-                style="text-transform: capitalize;">{{ cat }}</button>
-            {% endfor %}
+        <div class="row">
+            <div class="col-md">
+                <div id="myBtnContainer">
+                    <button class="btn btn-secondary active" onclick="filterSelection('all')"> Show all</button>
+                    {% assign cats = site._products | map: 'categories' | join: ',' | split: ',' | uniq %}
+                    {% for cat in cats %}
+                    <button class="btn btn-secondary" onclick="filterSelection('{{ cat }}')"
+                        style="text-transform: capitalize;">{{ cat }}</button>
+                    {% endfor %}
+                </div> 
+                <hr class="my-4">
+            </div>
         </div>
 
         <!--Products-->
-        <div id="table-cell">
+        <div class="row">
+            <div class="col-md">
             {% assign _products = site._products  | sort_title %}
             {% for _products in site._products %}
 
             <a href="{{ _products.url | relative_url }}">
                 <div class="columns fourgrids catalogue filterDiv {{ _products.category }}">
-                    <div class="salesimg"><img
-                        src="{% if _products.image %} {{ _products.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}"
-                        alt="{{ _products.title }}">
+                    <div class="salesimg">
+                    <img src="{% if _products.image %} {{ _products.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="{{ _products.title }}">
                     </div>
-                    <div class="products-title">
+                    <div class="card-body">
                         <p>{{ _products.title }}</p>
                         {% assign price_split = _products.price | round: 2 | split: "." %}
                         {% assign integral = price_split[0] %}
@@ -62,14 +74,15 @@ permalink: /catalogue/
                             <input type='hidden' name='currency_code' value='AUD' />
                             <input type='hidden' name='lc' value='AU'>
                             <!--input style="width:30px; height: 20px; color:black;" type='number' name='quantity' value='1' min="1"-->
-                            <button class="btn btn-secondary" style="color:black;" type='submit' name='submit'
+                            <button class="btn btn-secondary" style="font-size: 20px;" type='submit' name='submit'
                                 alt='Add this item to your paypal cart.' value='Purchase'>
                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                             </button></form>
                     </div>
                 </div>
-            </a>{% endfor %}
+            </a>
+            {% endfor %}
+            </div>
         </div>
     </div>
-</div>
-</div>
+</main>

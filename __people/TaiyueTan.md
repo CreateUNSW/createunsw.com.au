@@ -1,4 +1,5 @@
 ---
+layout: people
 title: Taiyue Tan
 status: past_executive
 year: 2019

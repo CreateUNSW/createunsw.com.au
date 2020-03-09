@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Kartin Leung"
 image: /images/people/KartinLeung.jpg
 role: "Head of Media & Marketing"

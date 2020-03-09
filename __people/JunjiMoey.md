@@ -1,6 +1,7 @@
 ---
+layout: people
 title: Junji Moey
-status: current_executive
+status: past_executive
 year: 2019
 role: Treasurer
 manager:

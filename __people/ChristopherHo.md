@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Christopher Ho"
 image: /images/people/ChristopherHo.jpg
 role: "VP of Sponsorship"

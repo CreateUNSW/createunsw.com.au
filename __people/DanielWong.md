@@ -1,6 +1,7 @@
 ---
+layout: people
 title: Daniel Wong
-status: current_executive
+status: past_executive
 year: 2019
 role: President
 manager:

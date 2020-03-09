@@ -1,6 +1,7 @@
 ---
+layout: people
 title: Emily Lau
-status: current_executive
+status: past_executive
 year: 2019
 role: Arc Delegate
 manager: 

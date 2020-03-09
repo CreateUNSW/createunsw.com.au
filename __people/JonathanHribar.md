@@ -1,4 +1,5 @@
 ---
+layout: people
 title: Jonathan Hribar
 status: past_executive
 year: 2018

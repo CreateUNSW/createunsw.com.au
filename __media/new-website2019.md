@@ -29,5 +29,5 @@ William would also like to acknowledge his team member Leesa Dang (A current com
 Should you have any feedback to the website or report issues or bugs, please go to our <a href="https://github.com/createunsw" target="_blank">GitHub Account Page</a> and find our repository project <b>"createunsw.com.au"</b> to report issues.
 
 <h4>About Tsz Kin LIU (William)</h4>
-William started volunteering as a sub-committee member in the media & marketing team since the year 2018. He was the art & design representative in the Project Illuminate Team for the Vivid Sydney 2018 entry and the President of our sister club MAKE CLUB in 2018. He is now finishing his Media Arts Honours Year at the Faculty of Art & Design, <a href="{{'/team/TszKinWilliamLiu' | prepend: site.baseurl }}">click here</a> for more information about him.
+William started volunteering as a sub-committee member in the media & marketing team since the year 2018. He was the art & design representative in the Project Illuminate Team for the Vivid Sydney 2018 entry and the President of our sister club MAKE CLUB in 2018. He is now finishing his Media Arts Honours Year at the Faculty of Art & Design.
 

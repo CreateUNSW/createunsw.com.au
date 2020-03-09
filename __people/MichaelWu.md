@@ -1,6 +1,7 @@
 ---
+layout: people
 title: Michael Wu
-status: current_executive
+status: past_executive
 year: 2019
 role: Vice President of Sponsorship & Outreach
 manager:
