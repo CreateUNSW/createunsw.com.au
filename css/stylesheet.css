@@ -6,13 +6,12 @@
 *{padding: 0px;}
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px; margin: 0px auto;}
-.wrapper {max-width: 1100px; margin:0 auto;}
 a {color: black; text-decoration: none;}
 a:hover {color: #fcb72b;}
 
 /*header & nav bar*/
 header {font-size: 16px; color: white; background-color:#1a2239;}
-.logo img {height:100px; margin: 5px;}
+.logo img {height: 80px; margin: 5px;}
 .nav-item a {display:block; color: white!important; text-align: center; text-transform: uppercase; text-decoration: none; padding: 30px 15px;}
 .nav-item a:hover{background-color: #253469!important; color: white!important;}
 .navbar {padding: 0px 1rem!important;}
