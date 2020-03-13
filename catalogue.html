@@ -61,23 +61,23 @@ permalink: /catalogue/
                         {% assign integral = price_split[0] %}
                         {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
                         <p>${{ integral }}.{{ fractional }}</p>
-                    </div>
-                    <div class="purchase">
-                        <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
-                            <input type='hidden' name='add' value='1'>
-                            <input type='hidden' name='cmd' value='_cart'>
-                            <input type='hidden' name='business' value='sales@createunsw.com.au' />
-                            <input type='hidden' name='item_name' value='{{ _products.title }}' />
-                            <input type='hidden' name='item_number' value='' />
-                            <input type='hidden' name='amount' value='{{ _products.price }}' />
-                            <input type='hidden' name='no_note' value='1' />
-                            <input type='hidden' name='currency_code' value='AUD' />
-                            <input type='hidden' name='lc' value='AU'>
-                            <!--input style="width:30px; height: 20px; color:black;" type='number' name='quantity' value='1' min="1"-->
-                            <button class="btn btn-secondary" style="font-size: 20px;" type='submit' name='submit'
-                                alt='Add this item to your paypal cart.' value='Purchase'>
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                            </button></form>
+                    
+                        <div class="purchase">
+                            <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+                                <input type='hidden' name='add' value='1'>
+                                <input type='hidden' name='cmd' value='_cart'>
+                                <input type='hidden' name='business' value='sales@createunsw.com.au' />
+                                <input type='hidden' name='item_name' value='{{ _products.title }}' />
+                                <input type='hidden' name='item_number' value='' />
+                                <input type='hidden' name='amount' value='{{ _products.price }}' />
+                                <input type='hidden' name='no_note' value='1' />
+                                <input type='hidden' name='currency_code' value='AUD' />
+                                <input type='hidden' name='lc' value='AU'>
+                                <button class="btn btn-block btn-secondary fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
+                                    alt='Add this item to your paypal cart.' value='Purchase'>
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </a>

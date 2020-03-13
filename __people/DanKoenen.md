@@ -1,9 +1,9 @@
 ---
 layout: people
-title: Dan Koenen
+title: Daniel Koenen
 image:
 role: Director of Media and Marketing
-degree:
+degree: Mechatronic Engineering
 index: 8
 linkedin-url:
 status: current_executive

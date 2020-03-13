@@ -32,6 +32,7 @@ button.active {background-color: #bf0713!important; color: white!important; bord
 .fa {color:#1a2239; padding: 5px 10px; text-decoration: none;}
 .fa:hover {color:#fcb72b;}
 .fa.fa-home:hover, .fa.fa-fa-angle-right:hover {color:black;}
+.btn-secondary .fa:hover {color: #bf0713;}
 
 /*cover image*/
 .cover-img {width:100%; height:35vw; overflow:hidden; position: relative;}
@@ -95,6 +96,7 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 /*images in markdown pages*/
 .contentimg {width: calc(50% - 20px); text-align:center; margin:5px 5px; display:inline-block;}
 .peopleimg img {width: 60%;}
+.degree {font-size: 14px; font-style: italic;}
 
 /*events*/
 table {border-collapse: collapse; width: 98%; margin: 10px;}
@@ -125,7 +127,6 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 .salesimg img{width: 265px; transform: translateY(-10%);}
 .products-title {float: left; text-align:left;}
 .purchase input, .productinfo input {padding: 10px;}
-.purchase form {float:right;}
 .productimg {width: 49%; text-align: center; float: left;}
 .productimg img {width: 50%; margin: 5px;}
 

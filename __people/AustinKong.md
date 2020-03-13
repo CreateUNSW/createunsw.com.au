@@ -6,6 +6,7 @@ role: "Founder / Chief Technical Officer"
 index: 3
 email:
 linkedin-url:
+degree: Aerospace Engineering / Science
 status: founder
 year: 2015
 ---

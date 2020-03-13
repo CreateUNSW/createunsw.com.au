@@ -3,6 +3,7 @@ layout: people
 title: "Raymond Zeng"
 image: /images/people/ray_zeng.jpg
 role: "Co-Head of Media and Marketing"
+degree: Industrial Design
 index: 12
 email:
 linkedin-url:

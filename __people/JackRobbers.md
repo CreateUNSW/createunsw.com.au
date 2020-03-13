@@ -1,9 +1,9 @@
 ---
 layout: people
 title: "Jack Robbers"
-image: 
+image: /images/people/Jack-Robbers.JPG
 role: "Co-Director of Sales"
-degree:
+degree: Mechatronic Engineering / Computer Science
 index: 9
 linkedin-url:
 status: current_executive

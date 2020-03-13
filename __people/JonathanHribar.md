@@ -4,8 +4,8 @@ title: Jonathan Hribar
 status: past_executive
 year: 2018
 role: Director, Project Illuminate
-manager:
 index: 5
+degree: Mechatronic / Biomedical Engineering
 image: /images/people/JonathanHribar.jpg
 email:
 linkedin-url:

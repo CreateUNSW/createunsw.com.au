@@ -1,9 +1,9 @@
 ---
 layout: people
 title: "Jiaqi Zhu"
-image: 
+image: /images/people/JiaqiZhu.jpeg
 role: "Secretary"
-degree:
+degree: Software Engineering / Science
 index: 4
 linkedin-url:
 status: current_executive

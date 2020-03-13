@@ -1,10 +1,10 @@
 ---
 layout: people
-title: Peter Huynh
+title: Shakeel Cameron
 image:
-role: Director of Events
-degree: Civil Engineering
-index: 7
+role: Treasurer
+degree:
+index: 5
 linkedin-url:
 status: current_executive
 year: 2020

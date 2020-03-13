@@ -5,10 +5,10 @@ image: /images/people/TszKinWilliamLiu.jpg
 role: Marketing Assistant, Project Illuminate
 index: 8
 email: liutk.william@gmail.com
+degree: Media Arts
 linkedin-url: https://www.linkedin.com/in/liutkwilliam/
 year: 2019
 status: past_executive
-manager:
 ---
 William is a final year (Honours Year) Media Arts student at UNSW Sydney: Art & Design, specialising in 2D Animation and Photography. He also studies projection mapping, 3D CGI Modelling, web design and graphic design.<br>
 

@@ -8,6 +8,5 @@ email:
 linkedin-url:
 year: 2018
 status: past_executive
-manager:
 ---
 CREATE DRC Project Director

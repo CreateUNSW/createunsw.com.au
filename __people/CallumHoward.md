@@ -6,6 +6,7 @@ role: "VP of Events"
 index: 13
 email:
 linkedin-url:
+degree: Computer Science / Media Arts
 status: past_executive
 year: 2014
 ---

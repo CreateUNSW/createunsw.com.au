@@ -4,9 +4,9 @@ title: Junji Moey
 status: past_executive
 year: 2019
 role: Treasurer
-manager:
 index: 5
 image: /images/people/JunjiMoey_profile.JPG
+degree: Mechatronic Engineering / Computer Science
 email:
 linkedin-url: https://www.linkedin.com/in/junji-moey/ 
 ---

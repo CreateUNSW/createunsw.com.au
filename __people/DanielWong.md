@@ -4,12 +4,11 @@ title: Daniel Wong
 status: past_executive
 year: 2019
 role: President
-manager:
+degree: 
 index: 1
 image: /images/people/DanielWong_profile.JPG
 email:
 linkedin-url: https://www.linkedin.com/in/daniel-s-wong
-github-id: 
 ---
 Daniel is a dedicated maker having started in first year of university. He aims to share his passion for making by educating and inspiring others, as he seeks opportunities to make things.
 <h4>Previous roles with CREATE</h4>

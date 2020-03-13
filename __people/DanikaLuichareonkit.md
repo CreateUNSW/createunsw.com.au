@@ -1,6 +1,6 @@
 ---
 layout: people
-title: "Danika Lui"
+title: Danika Luichareonkit
 image: 
 role: "Arc Delegate & Grievances Officer"
 degree:
