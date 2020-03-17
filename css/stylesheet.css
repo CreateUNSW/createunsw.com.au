@@ -104,7 +104,7 @@ th {height: 30px;}
 th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 
 /*Facebook*/
-.facebook-container {display: table; margin: 0px auto; width: 330px;}
+.facebook-container {display: block; margin: 0px auto; width: 330px;}
 
 /*3:2 aspect-ratio (square)*/
 .landscape-container {position: relative; width: 100%; padding-top: 66.66%;}
