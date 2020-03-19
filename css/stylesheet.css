@@ -6,7 +6,7 @@
 *{padding: 0px;}
 
 body {font-family: 'Roboto', sans-serif; font-size: 16px; margin: 0px auto;}
-a {color: black; text-decoration: none;}
+a {text-decoration: none;}
 a:hover {color: #fcb72b;}
 
 /*header & nav bar*/
@@ -17,7 +17,6 @@ header {font-size: 16px; color: white; background-color:#1a2239;}
 .navbar {padding: 0px 1rem!important;}
 
 /*buttons customs*/
-.btn {margin: 2px;}
 .btn-primary {background-color: #bf0713!important; color: white!important; text-transform: uppercase; border: 2px solid #bf0713;}
 .btn-primary:hover {background-color: white!important; color: #bf0713!important; border: 2px solid #bf0713;}
 .btn-secondary {background-color: #dbdbdb!important; color: black!important; text-transform: uppercase; border: 2px solid #dbdbdb!important;}
@@ -27,6 +26,7 @@ button.active {background-color: #bf0713!important; color: white!important; bord
 /*colors*/
 .black {background-color:#231f20; color: white;}
 .red {color: #bf0713;}
+.alert {background-color: #fee6e8} /*background only*/
 
 /*social media buttons*/
 .fa {color:#1a2239; padding: 5px 10px; text-decoration: none;}
@@ -104,7 +104,7 @@ th {height: 30px;}
 th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 
 /*Facebook*/
-.facebook-container {display: block; margin: 0px auto; width: 330px;}
+.facebook-container {display: block; margin: 0px auto; padding: 5px 0px; max-width: 330px;}
 
 /*3:2 aspect-ratio (square)*/
 .landscape-container {position: relative; width: 100%; padding-top: 66.66%;}
@@ -130,13 +130,15 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 .productimg {width: 49%; text-align: center; float: left;}
 .productimg img {width: 50%; margin: 5px;}
 
+#myBtnContainer button {margin-right: 5px; margin-bottom: 5px;}
+
 /*footer including sponsors and social media footer*/
 .sub-footer {background-color:#dbdbdb; padding: 15px 0px;}
 footer {background-color:#1a2239!important; padding:15px 0px;}
 footer a {color: white; text-decoration: none;}
 footer a:hover {color: #fcb72b; text-decoration: none;}
 footer p {color: white;}
-.box {display: block; width: 100%; margin: 20px auto; text-align: center;}
+.box {display: block; width: 100%; margin: 10px auto; text-align: center;}
 .box img {height: 60px; margin: 10px;}
 
 /*subscribe*/
@@ -180,9 +182,9 @@ footer p {color: white;}
 
 /* Responsive layout*/
 @media (max-width: 991.98px) {
-	.navbar {padding: 0px 1rem!important;}
 	.nav-item a {display:block; text-align: center; text-transform: uppercase; text-decoration: none; padding: 10px 15px!important;}
-
+	.logo img {margin: 10px auto; display: block;}
+	
 	.twogrids {width: calc(50% - 10px); }
 	.threegrids {width: calc(33.33% - 10px);}
 	.fourgrids, .filterDiv {width: calc(33.33% - 10px);}
@@ -199,7 +201,7 @@ footer p {color: white;}
 	.signup, .projects {width: calc(100% - 40px);}
 	.box {width: 100%; margin: 20px auto; text-align: center;}
 	.box .logo {width: 100%;}
-	.logo img {margin: 10px auto; display: block;}
+	
 
 	.left, .right-align {width: 100%; text-align: center;}
 	.right button {margin: auto;}

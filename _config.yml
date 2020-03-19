@@ -46,7 +46,7 @@ collections:
     permalink: /store/:title/
   _people:
     output: true
-    permalink: /team/:title/
+#    permalink: /team/:title/
   _media:
     output: true
     permalink: /media/:categories/:title/
