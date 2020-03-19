@@ -26,7 +26,7 @@ button.active {background-color: #bf0713!important; color: white!important; bord
 /*colors*/
 .black {background-color:#231f20; color: white;}
 .red {color: #bf0713;}
-.alert {background-color: #fee6e8} /*background only*/
+.alert {background-color: #fee6e8;} /*background only*/
 
 /*social media buttons*/
 .fa {color:#1a2239; padding: 5px 10px; text-decoration: none;}
