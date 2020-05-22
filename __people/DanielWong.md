@@ -1,17 +1,12 @@
 ---
-layout: people
 title: Daniel Wong
 status: current_executive
 year: 2019
 role: President
 manager:
 index: 1
-degree: 3rd Year, Bachelor of Aerospace Engineering (Honours)
 image: /images/people/DanielWong_profile.JPG
 email:
-website-url: 
-instagram-id: 
-twitter-id: 
 linkedin-url: https://www.linkedin.com/in/daniel-s-wong
 github-id: 
 ---

@@ -1,15 +1,12 @@
 ---
 title: "Daniel Li"
 image: /images/people/exec_daniel_li_2.jpg
-degree: ""
 role: "President"
 index: 1
 email: d.li@createunsw.com.au
 linkedin-url:
-github-id:
 status: past_executive
 year: 2018
-layout: people
 ---
 2018 - President
 2017 - Secretary

@@ -1,15 +1,12 @@
 ---
 title: "Karen Zhong"
 image: /images/people/exec_karen_zhong.jpg
-degree: ""
 role: "Head of Media & Marketing"
 index: 10
 email:
 linkedin-url:
-github-id:
 status: past_executive
 year: 2017
-layout: people
 ---
 2017 - Head of Media and Marketing
 

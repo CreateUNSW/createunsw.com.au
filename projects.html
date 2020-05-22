@@ -9,21 +9,21 @@ image: /images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM
 permalink: /projects/
 ---
 
-<!--main content-->	
+<!--main content-->
 <div class="main-content">
     <div class="wrapper">
         <div class="single-column">
-            <h3>Projects</h3>
+            <h2>Projects</h2>
             <p>CREATE hosts their own series of projects that provide opportunities for makers across any faculty to collaborate on team-based endeavours.</p>
         </div>
         <div id="projectgroup">
-            <button class="accordion">UNSW Illuminate (Previously known as Project Illuminate)</button>
+
+            <!--button class="accordion">UNSW Illuminate (Previously known as Project Illuminate)</!--button>
                 <div class="panel" id="pi">
 					<p><img src="/images/logos/unsw-illuminate-dark.png" class="projectintro">UNSW Illuminate is a student project that aims to empower students to apply hands-on skills on large scale professional and multidisciplinary projects. We seek to foster deep interactions between designers and engineers, allowing students to realise their creative visions while gaining practical design and manufacturing experience. This project combines the creativity of art and the innovation of engineering to demonstrate the magic of art meeting technology through light. </p>
 					<p>The previous successor CREATE Project Illuminate (a collaborating team of CREATE UNSW & UNSW MAKE CLUB) is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE</p>
 					<p> Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information</p>
-										
-                </div>
+				</div-->
 
                 <button class="accordion">CREATE DRC</button>
                 <div class="panel" id="drc">
@@ -40,8 +40,9 @@ permalink: /projects/
                     ~ Dedicated Technical Advisor<br>
                     ~ Marketing to Set Up a Team of Keen Individuals to Learn and Assist<br>
 										~ Allocated Funding of up to $500 to help you get started, with Additional Funding as the Project Expands.</p>
-										
-                </div> 
+
+				</div>
+
                 <script>
                     var acc = document.getElementsByClassName("accordion");
                     var i;
@@ -60,18 +61,19 @@ permalink: /projects/
                           panel.style.maxHeight = panel.scrollHeight + "px";
                         }
                       });
-                    } 
-
-								</script>
-								</div>
-
+                    }
+				</script>
+		</div>
     </div>
-    </div>
+</div>
 
     <!--project list-->
-    <div class="main-content bg-lgrey">
+    <div class="main-content light-grey">
 		<div class="wrapper">
-			<div class="single-column"><p>Please note: CREATE UAS is now operating as <b>Flight Labs UNSW</b>. <a target="_blank" href="https://flightlabs.com.au/">Click here to their website</a>.</p></div>
+			<div class="single-column">
+				<p>CREATE UAS is now operating as <b>Flight Labs UNSW</b> under UNSW Engineering ChallENG Program. <a target="_blank" href="https://flightlabs.com.au/">Click here to their website</a>.</p>
+				<p>Project Illuminate is now operating as <b>UNSW Illuminate</b> under UNSW Engineering ChallENG Program. <a target="_blank" href="https://www.unswilluminate.com/">Click here to their website</a>.</p>
+			</div>
 			<!--Type Filter-->
 				<div id="myBtnContainer">
 				  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
@@ -82,15 +84,25 @@ permalink: /projects/
 				  <button class="btn" onclick="filterSelection('starters')"> CREATE Starters</button>
 				</div>
 			<!--Products-->
-				<div id="container">
-{% assign sorted = site._projects | sort:"date" | reverse %}
-{% for _projects in sorted %}
-{% if _projects.link %}
-<a target="_blank" href="{{ _projects.link }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>
-{% else %}
-<a href="{{ _projects.url }}"><div class="filterDiv {{ _projects.categories }}"><div class="imgcontainer"><img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image"><div class="overlay"><div class="text"><p>{{ _projects.title }}</p></div></div></div></div></a>{% endif %}{% endfor %}
+				<div class="container">
+					{% assign sorted = site._projects | sort:"date" | reverse %}
+					{% for _projects in sorted %}
+						
+						<div class="filterDiv {{ _projects.categories }}">
+							<a target="_blank" href="{% if _projects.link %}{{ _projects.link }}{% else %}{{ _projects.url }}{% endif %}">
+								<div class="imgcontainer">
+									<img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image">
+									<div class="overlay">
+										<div class="text">
+											<p>{{ _projects.title }}</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>						
+					{% endfor %}
+				</div>
 
-							
 				<script>
 				// Projects
 				filterSelection("all")
@@ -119,7 +131,7 @@ permalink: /projects/
 				  arr2 = name.split(" ");
 				  for (i = 0; i < arr2.length; i++) {
 					while (arr1.indexOf(arr2[i]) > -1) {
-					  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+					  arr1.splice(arr1.indexOf(arr2[i]), 1);
 					}
 				  }
 				  element.className = arr1.join(" ");
@@ -134,7 +146,7 @@ permalink: /projects/
 					this.className += " active";
 				  });
 				}
-				</script>				
+				</script>
 				</div>
 		</div>
 		</div>
