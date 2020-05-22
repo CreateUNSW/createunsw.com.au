@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Adam Silk"
 image: /images/people/adam_silk.jpg
 role: "VP of Sponsorship"

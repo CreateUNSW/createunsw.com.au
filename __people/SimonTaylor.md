@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Simon Taylor"
 image: /images/people/SimonTaylor.jpg
 role: "Treasurer"

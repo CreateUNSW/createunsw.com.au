@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Nick Tucker"
 image: /images/people/nick_tucker.jpg
 role: "Co-Director of Sales"

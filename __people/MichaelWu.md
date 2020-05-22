@@ -1,9 +1,10 @@
 ---
+layout: people
 title: Michael Wu
-status: current_executive
+status: past_executive
 year: 2019
 role: Vice President of Sponsorship & Outreach
-manager:
+degree: Computational Design
 index: 3
 image: /images/people/MichaelWu_Profile.jpg
 email:

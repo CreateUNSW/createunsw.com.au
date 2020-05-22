@@ -1,4 +1,5 @@
 ---
+layout: people
 title: Yunzhen Zhang
 image: /images/people/exec_yunzhen_zhang.jpeg
 role: "Treasurer"

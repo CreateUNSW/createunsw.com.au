@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Elisa Han"
 image: /images/people/ElisaHan.jpg
 role: "Co-VP of Sales"

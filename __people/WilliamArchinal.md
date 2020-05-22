@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "William Archinal"
 image: /images/people/william_archinal.jpg
 role: "Secretary/Treasurer"

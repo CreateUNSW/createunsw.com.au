@@ -1,7 +1,9 @@
 ---
+layout: people
 title: "Linda Truong"
 image: /images/people/LindaTruong.jpg
 role: "Arc Delegate"
+degree: Computer Science / Vision Science
 index: 6
 email:
 linkedin-url:

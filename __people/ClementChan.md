@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Clement Chan"
 image: /images/people/clement_chan.jpg
 role: "Socials Co-ordinator"

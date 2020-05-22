@@ -1,9 +1,11 @@
 ---
+layout: people
 title: "Daniel Li"
 image: /images/people/exec_daniel_li_2.jpg
 role: "President"
 index: 1
 email: d.li@createunsw.com.au
+degree: Electrical Engineering / Computer Science
 linkedin-url:
 status: past_executive
 year: 2018

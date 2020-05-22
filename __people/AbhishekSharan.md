@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Abhishek Sharan"
 image: /images/people/exec_abhishek_sharan.jpg
 role: "UAS Team Leader"

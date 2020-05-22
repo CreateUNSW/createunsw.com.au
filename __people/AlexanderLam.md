@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Alexander Lam"
 image: /images/people/exec_alexander_lam.jpg
 role: "Arc Delegate"

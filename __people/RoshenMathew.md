@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Roshen Mathew"
 image: /images/people/roshen_mathew.jpg
 role: "Vice President of Events"

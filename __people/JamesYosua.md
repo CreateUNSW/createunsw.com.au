@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "James Yosua"
 image: /images/people/JamesYosua.jpg
 role: "Co-VP of Sales"

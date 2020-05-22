@@ -1,10 +1,11 @@
 ---
+layout: people
 title: Rosanna Liu
-status: current_executive
+status: past_executive
 year: 2019
 role: Secretary
-manager:
 index: 4
+degree: Civil Engineering / Commerce 
 image: /images/people/rosanna_liu_profile.JPG
 email:
 linkedin-url: https://www.linkedin.com/in/rosanna-liu-b3376b136/

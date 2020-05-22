@@ -23,6 +23,7 @@ github_username:  createunsw
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -45,6 +46,7 @@ collections:
     permalink: /store/:title/
   _people:
     output: true
+#    permalink: /team/:title/
   _media:
     output: true
     permalink: /media/:categories/:title/

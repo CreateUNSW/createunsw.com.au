@@ -1,10 +1,11 @@
 ---
+layout: people
 title: Vincent Mai
-status: current_executive
+status: past_executive
 year: 2019
 role: Co-Directors of Sales
-manager: 
 index: 9
+degree: Computer Science
 image: /images/people/vincent_mai_profile.jpg
 email:
 linkedin-url:

@@ -1,4 +1,5 @@
 ---
+layout: people
 title: "Evan Lister"
 image: /images/people/exec_evan_lister.jpg
 role: "VP of Sponsorship"

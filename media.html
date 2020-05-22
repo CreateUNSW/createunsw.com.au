@@ -2,51 +2,16 @@
 layout: default
 title: Media
 topic: Media
-sub-topic: Newsletters / Features
-tagline: "we are entirely composed of student volunteers."
-description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
-image: /images/media.jpg
-permalink: /media/
+sub-topic: Newsletters / Announcements / Blog
+tagline: "coming back soon"
+description: CREATE's latest newsletters, announcements and blogs.
+image: /images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg
+permalink: /projects/
 ---
-
-<!--main content-->
-<div class="main-content">
-        {% assign cats = site._media | map: 'categories' | join: ',' | split: ',' | uniq %}
-        {% for cat in cats %}
-    <div class="wrapper">        
-        <div class="single-column">
-            <h3>{{ cat }}</h3>
+<main type="main">
+    <div class="container-xl">
+        <div class="row">
+            <h2>This page is current under construction. A new refreshing page is coming back soon.</h2>
         </div>
-        {% assign sorted = site._media | sort:"date" | reverse %}
-        {% for _media in sorted limit:20 %}
-        {% if _media.categories contains cat %}
-            
-            {% if _media.link %}
-            <article>
-        <a target="_blank" href="{{ _media.link }}">
-            <div class="columng black mediab">
-                <div class="mediaimg">
-                <img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
-                </div>
-                <h4>{{_media.title}}</h4>
-                <p>{{ _media.date | date: "%d %B %Y"}}</p>
-                <p>{{ _media.content | strip_html | truncatewords: 35}}</p>
-            </div>
-        </article>
-            {% else %}
-            <article>
-            <a href="{{ _media.url }}">
-            <div class="columng black mediab">
-                    <div class="mediaimg">
-                    <img src="{% if _media.image %} {{ _media.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="Image">
-                </div>
-                    <h4>{{_media.title}}</h4>
-                    <p>{{ _media.date | date: "%d %B %Y"}}</p>
-                    <p>{{ _media.content | strip_html | truncatewords: 35}}</p>
-                </div></a></article>
-            {% endif %}
-        
-        {% endif %}{% endfor %}
     </div>
-    {% endfor %}
-    </div>
+</main>

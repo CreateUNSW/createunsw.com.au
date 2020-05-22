@@ -1,9 +1,10 @@
 ---
+layout: people
 title: Taiyue Tan
 status: past_executive
 year: 2019
 role: Director of Media and Marketing / Head of Marketing, Project Illuminate
-manager: 
+degree: Mechatronic Engineering / Computer Science
 index: 8
 image: /images/people/taiyue_tan.png
 email:
