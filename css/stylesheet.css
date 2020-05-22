@@ -43,35 +43,8 @@ button.active {background-color: #bf0713!important; color: white!important; bord
 .title-block p{font-size: 25px; font-weight: 500;}
 
 /*content, rows and columns*/
-<<<<<<< HEAD
-.main-content {display: block; clear:both; position: relative; margin: 20px auto;}
-.main-content ul {list-style-type:none; margin: 10px auto; text-align:left;}
-<<<<<<< HEAD
-.main-content li {padding-left: 10px;margin: 5px auto;text-align:left;}
-.contentimg {width:49.5%; text-align:center; margin:5px auto; display:inline-block;}
-
-
-/*row and columns (general)*/
-.row {display:flex; clear:both;}
-.row:after {content: ""; display: table; clear: both; margin-bottom: 5px;}
-.column {margin: 5px;}
-
-/*single column*/
-.single-column {display: block; width: 100%; height: auto; clear:both;margin: 10px auto;}
-=======
-.main-content li {padding-left: 5px;margin: 5px auto;text-align:left;}
-.main-content a {color: #253465; font-weight: 700; text-decoration: none;}
-.main-content a:hover {color: #fcb72b;}
-.row {display:block; clear:both; padding: 5px}
-.row:after {content: ""; display: table; clear: both;}
-.single-column {display: block; width: calc(100%-20px); height: auto; clear:both; padding: 10px;}
-.left {float: left; text-align:left; width:50%; margin: 5px auto;}
-.right {float: left; text-align: left; width: auto; margin: 5px auto;}
-.right-align {float: right; text-align:right; width: auto; margin: 5px auto;}
-=======
 main {margin: 20px auto;}
 .right-align {float: right; text-align:right; width: auto; margin: 0px auto;}
->>>>>>> master
 
 /*column grids*/
 .columns, .columns-footer {display: block; float: left; text-align:left; margin: 10px 5px; margin-bottom: 1rem;}
@@ -87,7 +60,6 @@ main {margin: 20px auto;}
 
 /*Event Table*/
 .Unsw_Terms {margin-top: 5px;}
->>>>>>> master
 
 /*accordion*/
 .projectintro {float: right; width: 260px; margin: 5px;}
@@ -102,22 +74,9 @@ main {margin: 20px auto;}
 .collapse-content {display: none; overflow: hidden; background-color: #dbdbdb;}
 
 /*event table*/
-<<<<<<< HEAD
-
-  table {
-	border-collapse: collapse;
-	width: 98%;
-	margin: 10px;
-  }
-
-  th {
-	height: 30px;
-  }
-=======
 table {border-collapse: collapse;	width: 98%;	margin: 10px;}
 th {height: 30px;}
 th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
->>>>>>> master
 
 /*filter*/
 .filterDiv {float: left; position: relative; background-color: #f2f2f2; color: #231f20; width: calc(25% - 10px); padding-top: 0px; line-height: 20px; 	text-align: center; margin: 5px; display: none; box-shadow: 0 1px 2px 0 grey, 0 1px 2px 0 grey;}
@@ -134,35 +93,16 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 .overlay {position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: .5s ease; background-color: #231f20;}
 .text {color: white; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center;}
 
-<<<<<<< HEAD
-.centre {text-align: center; width: 100%;}
-
-/*sales section*/
-.accordion {
-  cursor: pointer; padding: 15px; width: 99%; font-size: 16px; text-align: left; border: none; outline: none; transition: 0.4s;box-shadow: 0 1px 1px 0 grey, 0 1px 1px 0 grey;}
-=======
 /*images in markdown pages*/
 .contentimg {width: calc(50% - 20px); text-align:center; margin:5px 5px; display:inline-block;}
-<<<<<<< HEAD
->>>>>>> master
-=======
 .peopleimg img {width: 60%;}
 .degree {font-size: 14px; font-style: italic;}
->>>>>>> master
 
 /*events*/
 table {border-collapse: collapse; width: 98%; margin: 10px;}
 th {height: 30px;}
 th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.question {font-weight: bold;}
-
-.map {width:530px; height:300px; margin-left: 5px; margin-right: 5px;}
-.salesimg {width:265px; height:150px; margin: auto; overflow:hidden;}
-=======
-=======
 /*Facebook*/
 .facebook-container {display: block; margin: 0px auto; padding: 5px 0px; max-width: 330px;}
 
@@ -180,12 +120,10 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
   vertical-align: middle; float: none; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%)}
 .squared img {width: 100%; object-fit: contain;}
 
->>>>>>> master
 /*sales section*/
 .map {width:530px; height:300px; margin-left: 5px; margin-right: 5px;}
 .searchfunction {padding: 5px;width: 200px; margin:5px;}
 .salesimg {width: 100%; height:150px; margin: auto; overflow:hidden;}
->>>>>>> master
 .salesimg img{width: 265px; transform: translateY(-10%);}
 .products-title {float: left; text-align:left;}
 .purchase input, .productinfo input {padding: 10px;}
@@ -276,29 +214,11 @@ footer p {color: white;}
 }
 
 /* Responsive layout*/
-<<<<<<< HEAD
-@media (max-width: 620px) {
-	h3 {text-align: center;}
-	h4 {text-align: center;}
-	h5 {text-align: center;}
-	.buttong {margin-bottom: 5px;}
-	.leftcolumn, .rightcolumn {width: 100%;}
-	.twocolumn {width: 98%;}
-	.productimg {width: 98%;}
-	.productinfo {width: 98%; text-align: left;}
-	.category {text-align: center;}
-=======
 @media (max-width: 575.98px) {
 	.twogrids, .threegrids, .fourgrids, .filterDiv {width: calc(100% - 10px); }
 	.columns-footer {width: 100%; text-align: center;}
 
 	.productimg {width: 100%;}
-<<<<<<< HEAD
->>>>>>> master
-	.team {display: table; width: 265px; margin: auto;float: none;}
-	.main-content article {margin: 5px;}
-=======
->>>>>>> master
 	.mediab {width: 80%; height:auto; margin: auto 10vw;}
 	.accordion {text-align: center;}
 	.map {width:100%; height:300px;}
