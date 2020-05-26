@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 _archived
 _useful
+node_modules/
+yarn.lock
