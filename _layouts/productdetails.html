@@ -28,7 +28,9 @@ layout: page
                 </p-->
             </div>
             <div class="col-md-6 right-align">
-                <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+                {% unless page.dont_index %}
+                    <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+                {% endunless %}
                 <p>Enquires: <a href="mailto:sales@createunsw.com.au">sales@createunsw.com.au</a></p>
             </div>
         </div>
