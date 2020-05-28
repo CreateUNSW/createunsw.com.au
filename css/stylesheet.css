@@ -16,13 +16,6 @@ header {font-size: 16px; color: white; background-color:#1a2239;}
 .nav-item a:hover{background-color: #253469!important; color: white!important;}
 .navbar {padding: 0px 1rem!important;}
 
-/*buttons customs*/
-.btn-primary {background-color: #bf0713!important; color: white!important; text-transform: uppercase; border: 2px solid #bf0713;}
-.btn-primary:hover {background-color: white!important; color: #bf0713!important; border: 2px solid #bf0713;}
-.btn-secondary {background-color: #dbdbdb!important; color: black!important; text-transform: uppercase; border: 2px solid #dbdbdb!important;}
-.btn-secondary:hover {background-color: white!important; color: #bf0713!important; border: 2px solid #bf0713!important;}
-button.active {background-color: #bf0713!important; color: white!important; border: 2px solid #bf0713!important;}
-
 /*colors*/
 .black {background-color:#231f20; color: white;}
 .red {color: #bf0713;}

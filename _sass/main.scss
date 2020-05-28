@@ -1,0 +1,67 @@
+/* from the create pallete */
+$create-red: #D42128;
+$create-brown: #5D4037;
+$create-yellow: #F9BF2C;
+$create-orange: #FFA000;
+$create-blue: #283593;
+$create-dark-blue: #1A237E;
+$create-black: #212121;
+$create-white: #FFFFFF;
+
+/* from this site design */
+$site-dark-red: #BF0713;
+$site-grey: #DBDBDB;
+
+.btn-primary, .btn-primary:focus {
+    background-color: $create-red;
+    color: $create-white;
+    border: 2px solid $create-red;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: $create-white;
+    color: $create-red;
+    border: 2px solid $create-red;
+}
+
+.btn-secondary, .btn-secondary:focus{
+    background-color: $site-grey;
+    color: $create-black;
+    border: 2px solid $site-grey;
+    box-shadow: none;
+}
+
+.btn-secondary:hover {
+    background-color: $create-white;
+    color: $create-red;
+    border: 2px solid $create-red;
+}
+
+button.active {
+    background-color: $create-red;
+    color: $site-dark-red;
+    border: 2px solid $create-red;
+}
+
+.sales-category {
+    text-transform: capitalize;
+}
+
+.sales-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sales-product {
+    width: 20%;
+    text-align: center;
+    border: 2px solid $create-dark-blue;
+    box-shadow: 1px 1px 2px $create-dark-blue;
+    margin: 5px;
+}
+
+.filtered {
+    display: none;
+}

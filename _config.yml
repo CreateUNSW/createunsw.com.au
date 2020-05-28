@@ -18,7 +18,7 @@ email: create@createunsw.com.au
 description: A student-led maker club based at UNSW Sydney. CREATE UNSW runs and provides workshops for beginners on electronics, programming, soldering, prototyping and 3D modelling. Weekly sales of electronic components on-campus, including Kits. Hackerspaces and makerspaces. Quadcopters. Funding and support for student projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  createunsw
+github_username: createunsw
 
 # Build settings
 markdown: kramdown
