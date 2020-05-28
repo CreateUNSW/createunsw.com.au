@@ -1,5 +1,6 @@
 var categories = [];
 var products = [];
+var searched = false;
 
 /**
  * @returns {Array<string>} the currently selected categories
@@ -18,7 +19,7 @@ function showProducts() {
     for (product of document.getElementsByClassName('sales-product')) {
         if (
             (intersection(selected, product.classList).length == 0 && selected.length > 0) ||
-            (!matched.includes(product.id))
+            (!matched.includes(product.id) && searched)
         ) {
             product.classList.add('filtered');
         } else {
@@ -29,7 +30,6 @@ function showProducts() {
 
 function toggleCategory(toggler) {
     const index = categories.findIndex(category => category.name == toggler)
-    console.log(index)
     categories[index]['state'] = !categories[index]['state'];
     var toggle =
     document.getElementById(toggler)
@@ -47,14 +47,20 @@ function getAlphanumericChars(s) {
 }
 
 function search() {
-    const query = document.getElementById("search").value
-    for ([index, product] of products.entries()) {
-        if (getAlphanumericChars(product.name).includes(getAlphanumericChars(query))) {
-            products[index].matched = true;
-        } else {
-            products[index].matched = false;
+    const query = getAlphanumericChars(document.getElementById("search").value)
+    if (query.length > 0) {
+        for ([index, product] of products.entries()) {
+            if (getAlphanumericChars(product.name).includes(query)) {
+                products[index].matched = true;
+            } else {
+                products[index].matched = false;
+            }
         }
+        searched = true;
+    } else {
+        searched = false;
     }
+
     showProducts();
 }
 
