@@ -57,11 +57,15 @@ button.active {
 .sales-product {
     width: 20%;
     text-align: center;
-    border: 2px solid $create-dark-blue;
-    box-shadow: 1px 1px 2px $create-dark-blue;
+    box-shadow: 1px 1px 2px $create-black;
+    padding: 5px;
     margin: 5px;
 }
 
 .filtered {
     display: none;
+}
+
+.sales-image img {
+    width: 100%;
 }

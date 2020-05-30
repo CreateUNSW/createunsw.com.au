@@ -116,8 +116,6 @@ th, td {padding: 10px;text-align: left; border-bottom: 1px solid #ddd;}
 /*sales section*/
 .map {width:530px; height:300px; margin-left: 5px; margin-right: 5px;}
 .searchfunction {padding: 5px;width: 200px; margin:5px;}
-.salesimg {width: 100%; height:150px; margin: auto; overflow:hidden;}
-.salesimg img{width: 265px; transform: translateY(-10%);}
 .products-title {float: left; text-align:left;}
 .purchase input, .productinfo input {padding: 10px;}
 .productimg {width: 49%; text-align: center; float: left;}
@@ -167,8 +165,6 @@ footer p {color: white;}
 	.title-block p{font-size: 3vw;}
 
 	.map {width:47vw; height:300px;}
-	.salesimg {width: 23.5vw; height: 12vw;}
-	.salesimg img{width: 23.5vw;}
 	.image {height: 23.5vw;}
 
 }
@@ -182,8 +178,6 @@ footer p {color: white;}
 	.threegrids {width: calc(33.33% - 10px);}
 	.fourgrids, .filterDiv {width: calc(33.33% - 10px);}
 
-	.salesimg {width: 23vw; height: 12vw;}
-	.salesimg img{width: 23vw;}
 	.image {height: 23vw;}
 }
 
@@ -201,8 +195,6 @@ footer p {color: white;}
 	.buttong, .right .buttong {margin: 20px auto;}
 
 	.peopleimg img {width: 60%;}
-	.salesimg {width: 47vw; height: 30vw;}
-	.salesimg img{width: 47vw;}
 	.image {height: 47vw;}
 }
 
@@ -215,8 +207,6 @@ footer p {color: white;}
 	.mediab {width: 80%; height:auto; margin: auto 10vw;}
 	.accordion {text-align: center;}
 	.map {width:100%; height:300px;}
-	.salesimg {width: 100%; height: 60vw;}
-	.salesimg img{width: 100%;}
 	.image {height: 98vw;}
 	.contentimg {width: 100%; text-align:center; margin:5px}
 }

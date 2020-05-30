@@ -6,6 +6,7 @@ slug: 11-Propeller-Pair
 sku: HGW
 image: /images/sales/quad_prop_pair.jpg
 layout: productdetails
+out_of_stock: true
 ---
 Carbon-plastic. 11 inch 4.7 degrees.
 <br>

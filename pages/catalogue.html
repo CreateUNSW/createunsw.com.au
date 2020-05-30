@@ -48,7 +48,7 @@ permalink: /catalogue/
                     {% unless product.dont_index  %}
                         <div id="{{ product.slug }}" class="sales-product {{ product.category }}">
                             <a href="{{ product.url | relative_url }}">
-                                <div class="salesimg">
+                                <div class="sales-image">
                                     <img src="{% if product.image %} {{ product.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="{{ product.title }}">
                                 </div>
                                 <div class="card-body">
@@ -57,22 +57,26 @@ permalink: /catalogue/
                                     {% assign integral = price_split[0] %}
                                     {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
                                     <p>${{ integral }}.{{ fractional }}</p>
-                                    <div class="purchase">
-                                        <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
-                                            <input type='hidden' name='add' value='1'>
-                                            <input type='hidden' name='cmd' value='_cart'>
-                                            <input type='hidden' name='business' value='sales@createunsw.com.au' />
-                                            <input type='hidden' name='item_name' value='{{ product.title }}' />
-                                            <input type='hidden' name='item_number' value='' />
-                                            <input type='hidden' name='amount' value='{{ product.price }}' />
-                                            <input type='hidden' name='no_note' value='1' />
-                                            <input type='hidden' name='currency_code' value='AUD' />
-                                            <input type='hidden' name='lc' value='AU'>
-                                            <button class="btn btn-block btn-secondary fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
-                                                alt='Add this item to your paypal cart.' value='Purchase'>
-                                            </button>
-                                        </form>
-                                    </div>
+                                    {% if product.out_of_stock %}
+                                        <p>Out of Stock</p>
+                                    {% else %}
+                                        <div class="purchase">
+                                            <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+                                                <input type='hidden' name='add' value='1'>
+                                                <input type='hidden' name='cmd' value='_cart'>
+                                                <input type='hidden' name='business' value='sales@createunsw.com.au' />
+                                                <input type='hidden' name='item_name' value='{{ product.title }}' />
+                                                <input type='hidden' name='item_number' value='' />
+                                                <input type='hidden' name='amount' value='{{ product.price }}' />
+                                                <input type='hidden' name='no_note' value='1' />
+                                                <input type='hidden' name='currency_code' value='AUD' />
+                                                <input type='hidden' name='lc' value='AU'>
+                                                <button class="btn btn-block btn-secondary fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
+                                                    alt='Add this item to your paypal cart.' value='Purchase'>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    {% endif %}
                                 </div>
                             </a>
                         </div>
