@@ -43,7 +43,7 @@ permalink: /catalogue/
         <!--Products-->
         <div class="row">
             <div class="col-md sales-products">
-                {% assign products = site._products | sort_title %}
+                {% assign products = site._products | sort_natural: 'title' %}
                 {% for product in products %}
                     {% unless product.dont_index  %}
                         <div id="{{ product.slug }}" class="sales-product {{ product.category }}">
