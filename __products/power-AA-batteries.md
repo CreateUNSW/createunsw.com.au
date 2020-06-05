@@ -6,5 +6,6 @@ slug: AA-batteries
 sku: HGW
 image: /images/sales/power-aa-batteries.png
 layout: productdetails
+out_of_stock: true
 ---
-Heavy duty. 
+Heavy duty.
