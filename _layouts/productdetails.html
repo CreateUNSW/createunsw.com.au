@@ -18,10 +18,11 @@ layout: page
                 <h2>{{ page.title }}</h2>
             </div>
             <div class="col-md-6 right-align">
-                {% unless page.dont_index %}
+                {% if page.catalogue == 'main' %}
                     <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-                {% endunless %}
-                <p>Enquires: <a href="mailto:sales@createunsw.com.au">sales@createunsw.com.au</a></p>
+                {% else %}
+                    <a href="{{'/catalogue/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+                {% endif %}
             </div>
         </div>
         <hr class="my-4">
