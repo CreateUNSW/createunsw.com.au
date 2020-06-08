@@ -46,7 +46,17 @@ collections:
     permalink: /store/:title/
   _people:
     output: true
-#    permalink: /team/:title/
+  #    permalink: /team/:title/
   _media:
     output: true
     permalink: /media/:categories/:title/
+  _catalogue:
+    output: true
+    permalink: /catalogue/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "_catalogue"
+    values:
+      layout: "catalogue"
