@@ -52,7 +52,6 @@ collections:
     permalink: /media/:categories/:title/
   _catalogue:
     output: true
-    permalink: /catalogue/:title/
 
 defaults:
   - scope:
