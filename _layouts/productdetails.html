@@ -21,7 +21,7 @@ layout: page
                 {% if page.catalogue == 'main' %}
                     <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
                 {% else %}
-                    <a href="{{'/catalogue/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+                    <a href="{{'/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
                 {% endif %}
             </div>
         </div>
