@@ -18,10 +18,10 @@ layout: page
                 <h2>{{ page.title }}</h2>
             </div>
             <div class="col-md-6 right-align">
-                {% if page.catalogue == 'main' %}
-                    <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-                {% else %}
+                {% if page.catalogue %}
                     <a href="{{'/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+                {% else %}
+                    <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
                 {% endif %}
             </div>
         </div>
