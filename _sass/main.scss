@@ -184,9 +184,11 @@ header {
     background-color: $create-dark-blue;
 }
 
-.logo img {
+.logo img, .logo-footer img {
     height: 60px;
 }
+
+
 
 .nav-item a {
     display: block;
@@ -197,9 +199,14 @@ header {
     padding: 35px 15px !important;
 }
 
+.nav-item .highlight {
+    background-color: $create-yellow !important;
+    color: $create-black !important;
+}
+
 .nav-item a:hover {
-    background-color: $create-blue !important;
-    color: $create-white !important;
+    background-color: $create-white !important;
+    color: $create-black !important;
 }
 
 .navbar {
@@ -549,10 +556,6 @@ footer a:hover {
     }
     .right button {
         margin: auto;
-    }
-    .buttong,
-    .right .buttong {
-        margin: 20px auto;
     }
     .image {
         height: 47vw;
