@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Aidan O’Brien"
 image: /images/people/aidan_obrien.jpg
 role: "Vice President"

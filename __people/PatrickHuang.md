@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Patrick Huang"
 image: /images/people/exec_patrick_huang.jpg
 role: "Vice President of Events"

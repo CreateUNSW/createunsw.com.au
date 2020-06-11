@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Daniel Koenen
 image:
 role: Director of Media and Marketing

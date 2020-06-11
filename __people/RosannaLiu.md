@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Rosanna Liu
 status: past_executive
 year: 2019

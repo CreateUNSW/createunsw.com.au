@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Kevin Lerdwichagul"
 image: /images/people/kevin_lerdwichagul.jpg
 role: "Co-Head of UGV Team"

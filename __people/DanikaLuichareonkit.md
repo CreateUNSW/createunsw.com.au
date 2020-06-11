@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Danika Luichareonkit
 image: 
 role: "Arc Delegate & Grievances Officer"

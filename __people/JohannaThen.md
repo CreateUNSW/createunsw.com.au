@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Johanna Then
 status: past_executive
 year: 2019

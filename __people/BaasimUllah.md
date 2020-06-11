@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Baasim Ullah"
 image: 
 role: "Co-Director of Sales"

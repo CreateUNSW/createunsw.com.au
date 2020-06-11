@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Daniel Castillo"
 image: /images/people/exec_daniel_castillo.jpeg
 role: "Chief Technical Officer"

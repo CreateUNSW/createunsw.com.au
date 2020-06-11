@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Jiaqi Zhu"
 image: /images/people/JiaqiZhu.jpeg
 role: "Secretary"

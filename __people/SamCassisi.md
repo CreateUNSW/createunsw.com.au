@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Sam Cassisi"
 image: /images/people/sam_cassisi.jpg
 role: "Founding President"

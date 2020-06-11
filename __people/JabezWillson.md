@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Jabez Willson"
 image: 
 role: "CREATE DRC Team Leaders"

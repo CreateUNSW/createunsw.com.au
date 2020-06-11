@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Victoria Ruming
 image: 
 role: Vice President of Outreach and Sponsorship

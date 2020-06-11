@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Karen Zhong"
 image: /images/people/exec_karen_zhong.jpg
 role: "Head of Media & Marketing"

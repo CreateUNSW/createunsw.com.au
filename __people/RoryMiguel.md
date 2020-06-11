@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Rory San Miguel"
 image: /images/people/rory_san_miguel.jpg
 role: "VP of Sponsorship"

@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Raymond Zeng"
 image: /images/people/ray_zeng.jpg
 role: "Co-Head of Media and Marketing"

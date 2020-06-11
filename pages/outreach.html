@@ -29,42 +29,46 @@ permalink: /outreach/
             </div> 
         </div>
         <div class="row">
-            <div class="col-md">
-                <button class="accordion">Arduino Programming and Electrical Interfacing</button>
-                <div class="panel">
-                    <p><img src="/images/arduino.jpg" class="projectintro">By far our most popular series of workshops yet, this series of Arduino workshops will get you started into robotic projects.</p>
-                    <p>This workshop teaches the fundamentals in computer programming and electronic components.</p>
-                    <p>The Arduino programming language is derived from C++, a universal programming language adapted in a majority of the software you see today.</p>
-                    <p>Each series aims to develop a final product, for example: a robotic car.</p>
-                </div>
-
-                <button class="accordion">Computer Aided Design (CAD) and Digital Fabrication</button>
-                <div class="panel">
-                    <p><img src="/images/20180430_CREATE_CAD1-0015.jpg" class="projectintro">CREATE hosts a series of workshops teaching computer aided design or CAD, whereby you generate 3D model representations of objects digitally. It is highly useful for producing detailed renders for presentation as well as modelling and testing prototypes before manufacture.</p>
-                    <p>In this series, CREATE also teaches basic digital fabrication techniques in laser cutting and 3D printing, both of which can be done in UNSW’s makerspaces. They enable versatile prototyping in 2D and 3D respectively</p>
+			<div class="col-md">
+				<div class="columns twogrids black">
+					<img src="/images/arduino.jpg" alt="arduino" class="card-img-top">
+					<div class="card-header">
+						<h5>Arduino Programming and Electrical Interfacing</h5>
+					</div>
+					<div class="card-body">
+						<p>
+                            By far our most popular series of workshops yet, this series of Arduino workshops 
+                            will get you started into robotic projects.
+                        </p>
+                        <p>
+                            This workshop teaches the fundamentals in computer programming and electronic components. 
+                            The Arduino programming language is derived from C++, a universal programming language 
+                            adapted in a majority of the software you see today. Each series aims to develop a final 
+                            product, for example: a robotic car.
+                        </p>
+					</div>
+					 
+				</div>
+				<div class="columns twogrids black">
+					<img src="/images/20180430_CREATE_CAD1-0015.jpg" alt="CAD" class="card-img-top">
+					<div class="card-header">
+						<h5>Computer Aided Design (CAD) and Digital Fabrication</h5>
+					</div>
+					<div class="card-body">
+					    <p>
+                            CREATE hosts a series of workshops teaching computer aided design or CAD, whereby you 
+                            generate 3D model representations of objects digitally. It is highly useful for producing 
+                            detailed renders for presentation as well as modelling and testing prototypes before 
+                            manufacture.
+                        </p>
+                        <p>
+                            In this series, CREATE also teaches basic digital fabrication techniques in laser cutting 
+                            and 3D printing, both of which can be done in UNSW’s makerspaces. They enable versatile 
+                            prototyping in 2D and 3D respectively
+                        </p>
+					</div>
                 </div>
             </div>
         </div>
     </div>
 </main>
->
-<script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight){
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
-    }
-</script>

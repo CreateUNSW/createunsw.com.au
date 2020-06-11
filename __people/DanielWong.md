@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Daniel Wong
 status: past_executive
 year: 2019

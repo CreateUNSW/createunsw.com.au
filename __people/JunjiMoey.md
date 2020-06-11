@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Junji Moey
 status: past_executive
 year: 2019

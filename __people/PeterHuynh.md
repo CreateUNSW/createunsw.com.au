@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Peter Huynh
 image:
 role: Director of Events

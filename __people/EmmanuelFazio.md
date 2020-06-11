@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Emmanuel Fazio"
 image: /images/people/emmanuel_fazio.jpg
 role: "Co-Director of Sales"

@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Michael O'Connor"
 image: /images/people/michael_oconnor.jpg
 role: "Head of 3D Printing"

@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Mark Johnson"
 image: /images/people/mark_johnson.jpg
 role: "Co-Director of Sales"

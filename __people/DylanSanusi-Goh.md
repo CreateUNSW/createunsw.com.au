@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Dylan Sanusi-Goh
 status: past_executive
 year: 2019
