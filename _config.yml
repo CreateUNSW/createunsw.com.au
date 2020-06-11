@@ -19,6 +19,14 @@ description: A student-led maker club based at UNSW Sydney. CREATE UNSW runs and
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site, e.g. http://example.com
 github_username: createunsw
+facebook: https://www.facebook.com/CreateUnsw/
+instagram: https://www.instagram.com/createunsw/
+linkedin: https://www.linkedin.com/company/create-nsw-inc-/
+youtube: https://www.youtube.com/user/createunsw/
+
+#club logo
+logo-pos: /images/logos/create_logo_2019T3-POS.png
+logo-neg: /images/logos/create_logo_2019T3-NEG.png
 
 # Build settings
 markdown: kramdown

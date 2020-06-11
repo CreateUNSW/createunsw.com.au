@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Molly McManus"
 image: /images/people/molly_mcmanus.jpg
 role: "Treasurer"

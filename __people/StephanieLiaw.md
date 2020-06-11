@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Stephanie Liaw
 image:
 role: Vice President of Technology

@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Nathan Lam"
 image: /images/people/exec_nathan_lam.jpg
 role: "Co-Director of Sales"

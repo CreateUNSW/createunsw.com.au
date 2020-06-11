@@ -39,9 +39,8 @@
 
             <div class="col-md-4 box">
                 <h5>Follow us</h5>
-                <a href="https://www.facebook.com/CreateUnsw/" class="fa fa-facebook-official" target="_blank" style="font-size: 40px;"></a>
-                <a href="https://www.instagram.com/createunsw/" class="fa fa-instagram" target="_blank" style="font-size: 40px;"></a>
-                <!--a href="https://www.youtube.com/user/createunsw" class="fa fa-youtube" target="_blank" style="font-size: 40px;"></a-->
+                <a href="{{ site.facebook }}" class="fa fa-facebook-official" target="_blank" style="font-size: 40px;"></a>
+                <a href="{{ site.instagram }}" class="fa fa-instagram" target="_blank" style="font-size: 40px;"></a>
             </div>
 
             <div class="col-md-4 box">
@@ -90,12 +89,12 @@
 <footer>
     <div class="container-xl">
         <div class="row">
-			<div class="col-md-6 left">
+			<div class="col-md-6 text-center text-md-left">
                 <p>Copyright, {{ 'now' | date: "%Y" }}, <a href="{{'/index' | prepend: site.baseurl }}">CREATE NSW Inc.</a></p>
                 <p>Build - Learn - Inspire</p>
-                <p><a href="mailto:create@createunsw.com.au">create@createunsw.com.au</a></p>
+                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
             </div>
-            <div class="col-md-6 right-align">
+            <div class="col-md-6 text-center text-md-right">
                 <p>Site Design by <a href="http://liutkwilliam.github.io" target="_blank">TSZ KIN LIU (William)</a>
             </div>
         </div>

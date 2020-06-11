@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Aditi Nitturkar"
 image: 
 role: "President"

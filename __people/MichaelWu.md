@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Michael Wu
 status: past_executive
 year: 2019

@@ -12,15 +12,12 @@ permalink: /team/
 <main type="main" id="currentexecs">
 	<div class="container-xl">
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-md text-center text-md-left">
 				<h2>Meet the 2020 Executive Team</h2>
-			</div>
-			<div class="col-md-4 right-align">
-				<a href="#pastexecs" class="btn btn-primary">Click Here for Past Executives</a>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md">
+			<div class="col-md column-flex">
 		{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
 		{% for position in positions %}
 		{% if position == 'current_executive' %}
@@ -34,11 +31,6 @@ permalink: /team/
 						<p>{{person.role}}</p>
 						<p class="degree">{{person.degree}}</p>
 					</div>
-					<!--div class="card-footer">
-						{% if person.linkedin-url %}
-						<a href="{{ person.linkedin-url }}" class="fa fa-linkedin"target="_blank"></a>
-						{% endif %}
-					</div-->
 				</div>
 		{% endif %}
 		{% endfor %}
@@ -46,6 +38,7 @@ permalink: /team/
 		{% endfor %}
 			</div>
 		</div>
+		<hr class="my-4">
 	</div>
 </main>
 
@@ -54,18 +47,15 @@ permalink: /team/
 	<div class="container-xl">
 		<div class="row">
 			<div class="col-md-8">
-				<h2>Founders, Past Executives, Project Team Directors</h2>
+				<h2>Past Executives</h2>
 				<p>We appreicate the following executives for their services & contribution to CREATE! </p>
-			</div>
-			<div class="col-md-4 right-align">
-				<a href="#currentexecs" class="btn btn-primary">Back to Current Executives</a>
 			</div>
 		</div>
 			{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
 			{% for position in positions %}
 			{% if position == 'founder' %}
-		<button class="collapsible">Check here for the Founding Members</button>
-			<div class="collapse-content">
+		<a class="btn btn-block collapsible text-center text-md-left">Check here for the Founding Members</a>
+			<div class="collapse-content column-flex">
 			{% assign people = site._people | sort:"index" %}
 			{% for person in people %}
 			{% if person.status contains position %}
@@ -85,8 +75,8 @@ permalink: /team/
 			{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
 			{% for position in positions %}
 			{% if position == 'past_executive' %}
-		<button class="collapsible">Check here for Past Exexcutives, Project Team Directors</button>
-		<div class="collapse-content">
+		<a class="btn btn-block collapsible text-center text-md-left">Check here for Past Exexcutives, Project Team Directors</a>
+		<div class="collapse-content column-flex">
 			{% assign people = site._people | sort:"index" %}
 			{% for person in people %}
 			{% if person.status contains position %}
@@ -102,6 +92,10 @@ permalink: /team/
 		</div>
 			{% endif %}
 			{% endfor %}
+		<hr class="my-4">
+		<div class="col-md-4 text-center text-md-right">
+			<a href="#currentexecs" class="btn btn-primary">Back to Current Executives</a>
+		</div>
 	</div>
 </main>
 

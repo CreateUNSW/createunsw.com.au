@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Farhan Sumantri
 status: past_executive
 year: 2019

@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "William Weng"
 image: /images/people/WilliamWeng.jpg
 role: "Chief Technical Officer"

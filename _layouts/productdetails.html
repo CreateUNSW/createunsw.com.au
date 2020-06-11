@@ -1,28 +1,16 @@
 ---
 layout: page
 ---
-<div class="cover-img">
-    <img src="/images/20181022_CREATE_FlashSales-0013.jpg" alt="Cover Photo">
-    <div class="container-xl">
-        <div class="title-block">
-            <h1>Online Store</h1>
-        </div>
-    </div>
+<div class="jumbotron text-center">
+    <h1>Online Store</h1>
 </div>
 
 <!--main content: Store intro-->
 <main type="main">
     <div class="container-xl">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md text-center text-md-left">
                 <h2>{{ page.title }}</h2>
-            </div>
-            <div class="col-md-6 right-align">
-                {% if page.catalogue %}
-                    <a href="{{'/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-                {% else %}
-                    <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-                {% endif %}
             </div>
         </div>
         <hr class="my-4">
@@ -57,13 +45,20 @@ layout: page
                             <input type='hidden' name='currency_code' value='AUD' />
                             <input type='hidden' name='lc' value='AU'>
                             <input style="width:45px; height: 30px; color:black;" type='number' name='quantity' value='1' min="1">
-                            <button class="btn btn-secondary" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
-                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <button class="btn btn-secondary fa fa-shopping-cart" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
                             </button>
                         </form>
                     </h5>
                 {% endif %}
             </div>
+        </div>
+        <hr class="my-4">
+        <div class="col-md text-center">
+            {% if page.catalogue %}
+                <a href="{{'/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+            {% else %}
+                <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+            {% endif %}
         </div>
     </div>
 </main>

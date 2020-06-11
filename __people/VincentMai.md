@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Vincent Mai
 status: past_executive
 year: 2019

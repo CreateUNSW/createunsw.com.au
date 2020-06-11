@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Kate Apel"
 image: /images/people/exec_kate_apel.jpg
 role: "VP of Events"

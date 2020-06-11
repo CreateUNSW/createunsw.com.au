@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Tsz Kin LIU (William)"
 image: /images/people/TszKinWilliamLiu.jpg
 role: Marketing Assistant, Project Illuminate

@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Pascal Hendricks"
 image: /images/people/pascal_hendricks.jpg
 role: "Events Co-ordinator"

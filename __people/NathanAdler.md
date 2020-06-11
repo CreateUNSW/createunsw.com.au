@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Nathan Adler"
 image: /images/people/nathan_adler.jpg
 role: "Founder / President"

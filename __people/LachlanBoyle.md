@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "Lachlan Boyle"
 image: /images/people/exec_lachlan_boyle.jpg
 role: "Co-Director of Sales"

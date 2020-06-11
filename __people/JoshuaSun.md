@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Joshua Sun
 status: past_executive
 year: 2019

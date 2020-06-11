@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: "William Luo"
 image: /images/people/william_luo.jpg
 role: "Head of Media and Marketing"

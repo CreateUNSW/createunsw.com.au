@@ -1,5 +1,5 @@
 ---
-layout: people
+
 title: Shakeel Cameron
 image:
 role: Treasurer
