@@ -20,7 +20,7 @@ permalink: /team/
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md">
+			<div class="col-md column-flex">
 		{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
 		{% for position in positions %}
 		{% if position == 'current_executive' %}
@@ -60,7 +60,7 @@ permalink: /team/
 			{% for position in positions %}
 			{% if position == 'founder' %}
 		<a class="btn btn-block collapsible">Check here for the Founding Members</a>
-			<div class="collapse-content">
+			<div class="collapse-content column-flex">
 			{% assign people = site._people | sort:"index" %}
 			{% for person in people %}
 			{% if person.status contains position %}
@@ -81,7 +81,7 @@ permalink: /team/
 			{% for position in positions %}
 			{% if position == 'past_executive' %}
 		<a class="btn btn-block collapsible">Check here for Past Exexcutives, Project Team Directors</a>
-		<div class="collapse-content">
+		<div class="collapse-content column-flex">
 			{% assign people = site._people | sort:"index" %}
 			{% for person in people %}
 			{% if person.status contains position %}

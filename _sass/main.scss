@@ -135,6 +135,11 @@ header {font-size: 16px; color: $create-white; background-color:$create-dark-blu
 .title-block {color: $create-white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);text-transform: uppercase;; margin: 10px 0px; line-height: 1.6;}
 
 /*column grids*/
+.column-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .columns, .columns-footer {display: block; float: left; text-align:left; margin: 5px; margin-bottom: 0.5rem;}
 .columns img, .columns-footer {width: 100%;}
 .shadows {box-shadow: 0 0px 5px $site-grey;}
