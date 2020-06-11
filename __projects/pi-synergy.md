@@ -7,7 +7,7 @@ completedate: 25 May 2018 - 16 June 2018
 author: Junji Moey
 date: 2018-06-15 00:00:00 +1000
 teamlogo: /images/logos/create_project_illuminate_navyblue_transparent.png
-image: /images/20180522_CREATE_Synergy_BumpIn-3593.jpg
+image: /images/vivid2018/20180522_CREATE_Synergy_BumpIn-3593.jpg
 slug: pi-synergy
 link:
 ---
@@ -23,13 +23,13 @@ The Project Illuminate Team for 2018 is led by Jonathan Hribar, with project man
 
 For aspiring engineers and designers, this project provides provision of practical skills in project management, design and fabrication skills, client relations, collaboration and communication. It represents an experience-rich opportunity for the maker community to sink their teeth into and supplement their university studies. Synergy also marks CREATE’s most ambitious project to date, a feat which would not have been possible without the combination of all the member’s skills and experiences.
 
-<img src="/images/20180503_CREATEProjectIlluminate-0020.jpg" class="contentimg">
-<img src="/images/20180519_CREATE_Synergy_BumpIn-0740.jpg" class="contentimg">
+<img src="/images/vivid2018/20180503_CREATEProjectIlluminate-0020.jpg" class="contentimg">
+<img src="/images/vivid2018/20180519_CREATE_Synergy_BumpIn-0740.jpg" class="contentimg">
 
 Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illuminate, UNSW
 
-<img src="/images/MG_5949final.jpg" class="contentimg">
-<img src="/images/MG_5886.jpg" class="contentimg">
+<img src="/images/vivid2018/MG_5949final.jpg" class="contentimg">
+<img src="/images/vivid2018/MG_5886.jpg" class="contentimg">
 
 <p>Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering</p>
 

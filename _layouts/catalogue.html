@@ -54,7 +54,7 @@ description: "Orders can be bought and collected from our Globe Lawn stall on Mo
                         <div id="{{ product.slug }}" class="sales-product {{ product.category }} shadows">
                             <a href="{{ product.url | relative_url }}">
                                 <div class="squared">
-                                    <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="{{ product.title }}">
+                                    <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/not-found.png' }} {% endif %}" alt="{{ product.title }}">
                                 </div>
                                 <div class="card-body">
                                     <b>{{ product.title }}</b>
