@@ -12,19 +12,18 @@ description: "Orders can be bought and collected from our Globe Lawn stall on Mo
 <main type="main" id="onlinestore">
     <div class="container-xl">
         <div class="row">
-            <div class="col-md-8 text-center text-md-left">
+            <div class="col-md-10 text-center text-md-left">
                 <h2>{{ page.title }}</h2>
                 <p>{{ page.description }}</p>
-                <b class="red">Prices are in Australian Dollars (AUD).</b><br>
+                <b class="red">Prices are in Australian Dollars (AUD).</b><br><br>
             </div>
             {% unless page.disable_store_info %}
-            <hr class="my-4">
-                <div class="col-md-4 text-center text-md-right">
-                    <a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">Back to Store Info Page</a>
+                <div class="col-md-2 text-center text-md-right">
+                    <a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">Store Info & FAQ</a>
                 </div>
-            <hr class="my-4">
             {% endunless %}
         </div>
+        <hr class="my-4">
         
         {{ content }}
         {% unless page.disable_search %}
