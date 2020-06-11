@@ -24,7 +24,7 @@ description: "Orders can be bought and collected from our Globe Lawn stall on Mo
             {% endunless %}
         </div>
         <hr class="my-4">
-        
+
         {{ content }}
         {% unless page.disable_search %}
             <div class="row">
@@ -53,10 +53,8 @@ description: "Orders can be bought and collected from our Globe Lawn stall on Mo
                     {% if page.catalogue == 'main' or page.catalogue == product.catalogue %}
                         <div id="{{ product.slug }}" class="sales-product {{ product.category }} shadows">
                             <a href="{{ product.url | relative_url }}">
-                                <div class="squared-container">
-                                    <div class="squared">
-                                        <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="{{ product.title }}">
-                                    </div>
+                                <div class="squared">
+                                    <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/image_unavilable_square.jpg' }} {% endif %}" alt="{{ product.title }}">
                                 </div>
                                 <div class="card-body">
                                     <b>{{ product.title }}</b>

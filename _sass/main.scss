@@ -399,12 +399,6 @@ header {
     max-width: 330px;
 }
 
-/*1:1 aspect-ratio (square)*/
-.squared-container {
-    position: relative;
-    width: 100%;
-    padding-top: 100%;
-}
 
 .photo-sized-container {
     position: relative;
@@ -412,14 +406,12 @@ header {
 }
 
 .squared {
-    position: absolute;
     margin: auto;
     vertical-align: middle;
-    float: none;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    padding-top: 25%;
+    padding-left: 25%;
+    -ms-transform: translate(-10%, -10%);
+    transform: translate(-12.5%, -12.5%);
 }
 
 .squared img {
