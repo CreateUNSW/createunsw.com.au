@@ -239,9 +239,12 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
     margin: 10px 0px;
-    line-height: 1.6;
+    line-height: 1.2;
+}
+
+.title-block h1 {
+    text-transform: uppercase;
 }
 
 /*column grids*/
@@ -490,12 +493,6 @@ footer a:hover {
 
 /* Responsive layout*/
 @media (max-width: 1100px) {
-    .title-block h1 {
-        font-size: 25px;
-    }
-    .title-block h4 {
-        font-size: 20px;
-    }
     .map {
         width: 47vw;
         height: 300px;
@@ -564,7 +561,15 @@ footer a:hover {
 
 /* Responsive layout*/
 @media (max-width: 575.98px) {
-    // .twogrids, .threegrids, .fourgrids, .filterDiv {width: calc(100% - 10px); }
+    // .twogrids, .threegrids, .fourgrids, .filterDiv {
+    //     width: calc(100% - 10px); 
+    // }
+    .title-block h1 {
+        font-size: 20px;
+    }
+    .title-block h4 {
+        font-size: 16px;
+    }
     .columns-footer {
         width: 100%;
         text-align: center;
