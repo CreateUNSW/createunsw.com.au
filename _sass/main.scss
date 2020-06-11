@@ -20,7 +20,6 @@ $site-alert: #f8d3d4;
 /*general*/
 *{padding: 0px;}
 body {font-family: 'Roboto', sans-serif; font-size: 16px; margin: 0px auto;}
-main {margin: 20px auto;}
 
 /*text*/
 a {text-decoration: none;}
@@ -81,6 +80,7 @@ button.active {
 /*sales*/
 .sales-category {
     text-transform: capitalize;
+    margin: 2px 2px 2px 0px;
 }
 
 .sales-products {
@@ -152,7 +152,7 @@ header {font-size: 16px; color: $create-white; background-color:$create-dark-blu
 .fivegrids {width: calc(20% - 10px);}
 
 /*collapsible content*/
-.collapsible {background-color: $site-grey; color: $create-black; cursor: pointer; width: 100%; text-align: left; padding-top: 5px!important; padding-bottom: 5px!important;}
+.collapsible {background-color: $site-grey; color: $create-black; cursor: pointer; width: 100%; text-align: left; padding-top: 10px!important; padding-bottom: 10px!important;}
 .collapsible:hover {background-color: $create-red; color: $create-white!important;}
 .collapsible.active {background-color: $create-red; color: $create-white!important;}
 .collapse-content {display: none; overflow: hidden; background-color: $site-grey; padding-top: 5px;}
@@ -195,6 +195,7 @@ footer a:hover {color: $create-yellow; text-decoration: none;}
 
 /*images in markdown pages*/
 .contentimg {width: calc(50% - 20px); text-align:center; margin:5px 5px; display:inline-block;}
+.projectintro {height: 100px;}
 
 
 /* Responsive layout*/

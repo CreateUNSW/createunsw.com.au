@@ -9,15 +9,8 @@ layout: page
 <main type="main">
     <div class="container-xl">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md text-center text-md-left">
                 <h2>{{ page.title }}</h2>
-            </div>
-            <div class="col-md-6 text-center text-md-right">
-                {% if page.catalogue == 'main' %}
-                    <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-                {% else %}
-                    <a href="{{'/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-                {% endif %}
             </div>
         </div>
         <hr class="my-4">
@@ -58,6 +51,14 @@ layout: page
                     </h5>
                 {% endif %}
             </div>
+        </div>
+        <hr class="my-4">
+        <div class="col-md text-center">
+            {% if page.catalogue == 'main' %}
+                <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+            {% else %}
+                <a href="{{'/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
+            {% endif %}
         </div>
     </div>
 </main>
