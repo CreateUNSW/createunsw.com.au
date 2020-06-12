@@ -61,6 +61,13 @@ a:hover {
     border-color: $site-alert;
     border-width: thin;
 }
+.circle {
+    display: block;
+    border-radius: 50%;
+    width: 80%!important;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*top function*/
 #topBtn {

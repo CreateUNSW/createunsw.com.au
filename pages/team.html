@@ -25,7 +25,7 @@ permalink: /team/
 		{% for person in people %}
 		{% if person.status contains position %}
 				<div class="columns fourgrids">
-					<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture" class="card-img-top">
+					<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture" class="card-img-top circle">
 					<div class="card-body text-center">
 						<h5>{{person.title}}</h5>
 						<p>{{person.role}}</p>
@@ -60,7 +60,7 @@ permalink: /team/
 			{% for person in people %}
 			{% if person.status contains position %}
 				<div class="columns fourgrids">
-					<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture" class="card-img-top">
+					<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture" class="card-img-top circle">
 					<div class="card-body text-center">
 						<h5>{{person.title}}</h5>
 						<p>{{person.role}} ({{person.year}})</p>
@@ -77,11 +77,11 @@ permalink: /team/
 			{% if position == 'past_executive' %}
 		<a class="btn btn-block collapsible text-center text-md-left">Check here for Past Exexcutives, Project Team Directors</a>
 		<div class="collapse-content column-flex">
-			{% assign people = site._people | sort:"index" %}
+			{% assign people = site._people | sort:"title" %}
 			{% for person in people %}
 			{% if person.status contains position %}
 				<div class="columns fourgrids">
-					<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture" class="card-img-top">
+					<img src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" alt="profile picture" class="card-img-top circle">
 					<div class="card-body text-center">
 						<h5>{{person.title}}</h5>
 						<p>{{person.role}} ({{person.year}})</p>
