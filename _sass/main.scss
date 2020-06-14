@@ -512,9 +512,11 @@ footer a:hover {
 
 /* Responsive layout*/
 @media (max-width: 991.98px) {
-    .logo img {
-        margin: 10px auto;
-        display: block;
+	.navbar {
+        padding: 0px 0px!important;
+    }
+    .logo, .navbar button {
+        margin: 10px!important;
     }
     .nav-item a {
         padding: 15px !important;
