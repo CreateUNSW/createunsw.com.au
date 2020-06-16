@@ -22,7 +22,7 @@ layout: page
                 <h5>Category:</h5>
                 <p>{{ page.category | capitalize }}</p>
                 <h5>Specifications / More info:</h5>
-                <p>{% if page.content %} {{ page.content | capitalize }} {% else %} {{ 'N/A' }} {% endif %}</p>
+                <p>{% if page.content %} {{ page.content }} {% else %} {{ 'N/A' }} {% endif %}</p>
                 {% assign price_split = page.price | round: 2 | split: "." %}
                 {% assign integral = price_split[0] %}
                 {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
