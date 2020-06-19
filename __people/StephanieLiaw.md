@@ -3,7 +3,7 @@
 title: Stephanie Liaw
 image:
 role: Vice President of Technology
-degree:
+degree: Mechatronics Engineering / Computer Science
 index: 2
 linkedin-url:
 status: current_executive
