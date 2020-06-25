@@ -50,7 +50,7 @@ function search() {
     const query = getAlphanumericChars(document.getElementById("search").value)
     if (query.length > 0) {
         for ([index, product] of products.entries()) {
-            if (getAlphanumericChars(product.name).includes(query)) {
+            if (getAlphanumericChars(product.name.toLowerCase()).includes(query.toLowerCase())) {
                 products[index].matched = true;
             } else {
                 products[index].matched = false;
