@@ -123,9 +123,9 @@ a:hover {
 }
 
 button.active {
-    background-color: $create-red;
-    color: $create-white;
-    border: 2px solid $create-red;
+    background-color: $create-red!important;
+    color: $create-white!important;
+    border: 2px solid $create-red!important;
 }
 
 /*sales*/
@@ -492,7 +492,7 @@ footer a:hover {
 }
 
 .projectintro {
-    height: 100px;
+    height: 60px;
 }
 
 /* Responsive layout*/

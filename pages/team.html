@@ -12,11 +12,33 @@ permalink: /team/
 <main type="main" id="currentexecs">
 	<div class="container-xl">
 		<div class="row">
-			<div class="col-md text-center text-md-left">
+			<div class="col-md text-center text-md-left py-2">
 				<h2>Meet the 2020 Executive Team</h2>
 			</div>
 		</div>
+
+		<!--temporary-->
 		<div class="row">
+		{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
+		{% for position in positions %}
+		{% if position == 'current_executive' %}
+		{% assign people = site._people | sort:"index" %}
+		{% for person in people %}
+		{% if person.status contains position %}	
+				<div class="col-md-6 text-md-left text-center">
+					<h5>{{person.role}}</h5>
+				</div>
+				<div class="col-md-6 text-md-left text-center">
+					<p>{{person.title}}</p>
+				</div>
+		{% endif %}
+		{% endfor %}
+		{% endif %}
+		{% endfor %}
+		</div>
+
+		<!--will be used when profile imaages arrives-->
+		<!-- <div class="row">
 			<div class="col-md column-flex">
 		{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
 		{% for position in positions %}
@@ -37,7 +59,7 @@ permalink: /team/
 		{% endif %}
 		{% endfor %}
 			</div>
-		</div>
+		</div> -->
 		<hr class="my-4">
 	</div>
 </main>
@@ -48,7 +70,7 @@ permalink: /team/
 		<div class="row">
 			<div class="col-md-8">
 				<h2>Past Executives</h2>
-				<p>We appreicate the following executives for their services & contribution to CREATE! </p>
+				<p>We appreicate all former executives for their contribution to CREATE! </p>
 			</div>
 		</div>
 			{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
