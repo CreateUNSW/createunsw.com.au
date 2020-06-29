@@ -5,7 +5,6 @@ price: 20.00
 slug: brushless-motor
 sku: HGW
 image: /images/sales/quad_motor.jpg
-layout: productdetails
 out_of_stock: true
 ---
 Model: KV950 <br><br>

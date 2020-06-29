@@ -1,5 +1,4 @@
 ---
-layout: projectsite
 categories: ugv
 title: Unmanned Ground Vehicle
 location: UNSW
@@ -24,4 +23,3 @@ Affectionately nicknamed “Deborah” or “Debbie”, the UGV feature motors c
 Our current aim is to get the robotic vehicle to navigate itself from lower campus at UNSW Kensington (Anzac Parade) all the way up to the top of campus on Botany St. Not an insignificant distance! As part of this challenge, it will need to navigate itself through wheelchair access routes. We also hope to do various modifications on the platform to enter competitions in the near future.
 
 This project is open to participation from anyone.
- 

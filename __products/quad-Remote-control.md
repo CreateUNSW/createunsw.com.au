@@ -5,7 +5,6 @@ price: 78.00
 slug: Remote-control
 sku: HGW
 image: /images/sales/quad_remote.jpg
-layout: productdetails
 ---
 Model: FS-T6
 <br>2.6GHz

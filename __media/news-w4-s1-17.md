@@ -3,7 +3,6 @@ categories: newsletters
 title: Our most popular workshop & Learn Arduino
 slug: w4-s1-2017
 image: /images/wk4-s1-17.jpg
-layout: post
 author: Karen Zhong
 date: 2017-03-23 19:45:31 +1000
 ---

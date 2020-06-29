@@ -5,7 +5,6 @@ price: 8.00
 slug: big-motor-driver
 sku: HGW
 image: /images/sales/motordriver_L298.jpg
-layout: productdetails
 ---
 Model: <a href="https://www.sparkfun.com/datasheets/Robotics/L298_H_Bridge.pdf">L298N</a>
 <br>Number of bridges: 2

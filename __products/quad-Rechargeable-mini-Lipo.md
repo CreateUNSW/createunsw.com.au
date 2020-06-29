@@ -5,7 +5,6 @@ price: 7.00
 slug: Rechargeable-mini-Lipo
 sku: HGW
 image: /images/sales/power_lipo_mini.jpg
-layout: productdetails
 ---
 For mini-quadcopters. 1 cell 350mAh. Average voltage: 3.7V, fully charged: 4.2V
 

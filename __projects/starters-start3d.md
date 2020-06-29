@@ -1,5 +1,4 @@
 ---
-layout: projectsite
 categories: starters
 title: Start3D - 3D Printer
 location: UNSW
@@ -17,4 +16,3 @@ We are building 1 METER CUBED 3D printer. The printer will feature a huge build 
 We are currently in the process of establishing team roles and structure. We meet every Monday evening at the MCIC.
 
 If you are interested in joining the team, head over to CREATE Starters to sign up.
- 

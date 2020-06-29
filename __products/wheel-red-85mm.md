@@ -5,5 +5,4 @@ price: 6.00
 slug: wheel-red-85mm
 sku: HGW
 image: /images/sales/mech_wheel_85mm.jpg
-layout: productdetails
 ---

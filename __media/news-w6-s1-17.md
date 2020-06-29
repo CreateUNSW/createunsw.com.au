@@ -3,7 +3,6 @@ categories: newsletters
 title: Final Arduino workshop, quad kits and job opportunities!
 slug: w6-s1-2017
 image: /images/wk6-s1-17.gif
-layout: post
 author: Karen Zhong
 date: 2017-04-6 19:45:31 +1000
 ---

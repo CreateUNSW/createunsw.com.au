@@ -1,5 +1,4 @@
 ---
-layout: projectsite
 categories: pi
 title: Celestial Pancake - Vivid Sydney 2019
 location: Overseas Passenger Terminal, Circular Quay, Sydney
@@ -31,12 +30,12 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 <h2>Meet the team</h2>
 <hr class="my-4">
 <h4>Project Manager - Joshua Sun</h4>
-<b>Secretary - Teresa Feng</b> 
-<h5>Head of Marketing - Taiyue Tan</h5> 
+<b>Secretary - Teresa Feng</b>
+<h5>Head of Marketing - Taiyue Tan</h5>
 <b>Marketing Assistant - Tsz Kin (William) Liu</b>
 <h4>Art & Design Team Director - Dylan Yikwah Goh</h4>
 <h5>Concept Lead - Jasmine Tan</h5>
-<h5>Render Lead - Bettina Zhang, Nathalie Tun Barreto</h5> 
+<h5>Render Lead - Bettina Zhang, Nathalie Tun Barreto</h5>
 <h5>Interactive Media Lab Advisors - Genevieve Collier, Ryley Edwards</h5>
 <b>Art & Design Collaborators: </b>
 <p>Anakha Menon, Christopher Yang Wang, Danae-Irene Kyriakaki, Dhwani Sahetai, Kaveri Gopalakrishnan, Krishna Adka, Nishant Pandav, Polly Rise, Selina Chan, Tongzheng Zhao, Xiao Fang, Xiaowei Luo</p>
@@ -44,7 +43,7 @@ Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (
 <h5>Electrical Lead - Aly Virani</h5>
 <h5>Senior Electrical Engineers: Anthony Feizi Sobbi, Luke Jackson</h5>
 <b>Electrical Engineers:</b>
-<p>Alfred Yeh, Anthony Leung, Bethany Hoyt, Ching Ting Li, Christopher Harris, Christopher Tran, Cristian Bernal, Danika Luichareonkit, Dunya Vasic, Felice Tan, Jessica Phe Li, Jungbin Lee, Junji Moey, Kevinly Santoso, Lakshan Perera, Madeline Younes, Minh Duc Duong, Nhu Dinh, Prithvi Guntha, Rachel Feng, Samantha Choy, Samantha Mesia, Shevaani Rams, Stephanie Liaw, Steven Kassiou, Taban Khurram, Tavishi Makhija, Tristan Ranee, Xiaowei Luo</p> 
+<p>Alfred Yeh, Anthony Leung, Bethany Hoyt, Ching Ting Li, Christopher Harris, Christopher Tran, Cristian Bernal, Danika Luichareonkit, Dunya Vasic, Felice Tan, Jessica Phe Li, Jungbin Lee, Junji Moey, Kevinly Santoso, Lakshan Perera, Madeline Younes, Minh Duc Duong, Nhu Dinh, Prithvi Guntha, Rachel Feng, Samantha Choy, Samantha Mesia, Shevaani Rams, Stephanie Liaw, Steven Kassiou, Taban Khurram, Tavishi Makhija, Tristan Ranee, Xiaowei Luo</p>
 <h5>Mechanical Lead - Michael Wu, Prithvi Guntha</h5>
 <h5>Senior Mechanical Engineer: Matthew Payor</h5>
 <b>Mechanical Engineers:</b>

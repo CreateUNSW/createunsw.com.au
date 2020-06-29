@@ -5,7 +5,6 @@ price: 27.00
 slug: battery-charger-upgrade
 sku: HGW
 image: /images/sales/quad_IMAX_B6_AC_Battery_Balance_Charger.jpg
-layout: productdetails
 out_of_stock: true
 ---
 purchase with quad for a discount <br><br>

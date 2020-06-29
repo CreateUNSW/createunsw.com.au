@@ -3,7 +3,6 @@ categories: newsletters
 title: Solder a Light Display
 slug: w3-s1-2017
 image: /images/wk3-s1-17.jpg
-layout: post
 author: Karen Zhong
 date: 2017-03-16 19:45:31 +1000
 ---

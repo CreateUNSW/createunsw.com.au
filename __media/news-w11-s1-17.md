@@ -3,7 +3,6 @@ categories: newsletters
 title: OpenCV workshop
 slug: w11-s1-2017
 image: /images/wk11-s1-17.jpg
-layout: post
 author: Karen Zhong
 date: 2017-05-19 19:45:31 +1000
 ---

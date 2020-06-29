@@ -5,7 +5,6 @@ price: 4.00
 slug: small-motor-driver
 sku: HGW
 image: /images/sales/motordriver_L9110_blue.jpg
-layout: productdetails
 ---
 Model: <a href="https://nvhs.files.wordpress.com/2013/02/datasheet-l9110.pdf">L9110</a>
 <br>Number of bridges: 2

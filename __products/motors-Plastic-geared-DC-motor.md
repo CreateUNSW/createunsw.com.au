@@ -5,7 +5,6 @@ price: 3.50
 slug: Plastic-geared-DC-motor
 sku: HGW
 image: /images/sales/motor_yellow.jpg
-layout: productdetails
 ---
 Rectangular shaft, suits our yellow 65mm wheels.
 

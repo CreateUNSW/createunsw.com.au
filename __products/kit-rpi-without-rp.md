@@ -5,7 +5,6 @@ price: 85.00
 slug: rpi-kit-without-pi
 sku: HGW
 image:
-layout: productdetails
 ---
 Raspberry Pi Kit for CREATE Workshop (Rasberry Pi not included)
 <br>The Raspberry Pi Kit ($85) is great for those who wants to try out on basic programming and electronics.

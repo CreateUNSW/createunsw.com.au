@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Projects
 topic: Projects
 sub-topic: DRC / Vivid / Starters
@@ -22,28 +21,28 @@ permalink: /projects/
 				<a class="btn btn-block collapsible">CREATE Droid Racing Challenge (DRC)</a>
 				<div class="collapse-content">
 					<p>
-						The Droid Racing Challenge (DRC) is a robotics competition hosted annually by the 
-						Queensland University of Technology (QUT) for three years running. Its aim is to 
-						design and build small, autonomous vehicles which can race around a track against 
-						one other competitor using only computer vision and ultrasonic sensors. Each year, 
-						CREATE hosts internal competitions and sends the two most successful teams up to 
+						The Droid Racing Challenge (DRC) is a robotics competition hosted annually by the
+						Queensland University of Technology (QUT) for three years running. Its aim is to
+						design and build small, autonomous vehicles which can race around a track against
+						one other competitor using only computer vision and ultrasonic sensors. Each year,
+						CREATE hosts internal competitions and sends the two most successful teams up to
 						participate in the competition.
 					</p>
 					<p>
-						We have found continuing success with new teams taking up the challenge, with CREATE 
-						placing 1st in 2016 and 2017 and 3rd in 2018. In building and programming their 
-						vehicles, our project members learn invaluable skills including hardware design, 
+						We have found continuing success with new teams taking up the challenge, with CREATE
+						placing 1st in 2016 and 2017 and 3rd in 2018. In building and programming their
+						vehicles, our project members learn invaluable skills including hardware design,
 						electrical interfacing and programming autonomous driving functions.
 					</p>
 				</div>
 				<!-- <a class="btn btn-block collapsible">CREATE Starters</a>
 				<div class="collapse-content">
 					<p>
-						CREATE Starters is our core project-incubation program that gives makers the opportunity 
-						to collaborate and start a new project! With financial and logistical assistnace from 
-						CREATE and our broad community, any proposed idea could be turned into a reality whether 
-						it’s just a passion project, competitive team submission or an innovative startup idea. 
-						All of our former projects were founded under this program including; Flight Labs UNSW 
+						CREATE Starters is our core project-incubation program that gives makers the opportunity
+						to collaborate and start a new project! With financial and logistical assistnace from
+						CREATE and our broad community, any proposed idea could be turned into a reality whether
+						it’s just a passion project, competitive team submission or an innovative startup idea.
+						All of our former projects were founded under this program including; Flight Labs UNSW
 						(formerly CREATE UAS), our UGV platform Debbie and BB8 robot.
 					</p>
 					<p>We can kick-start your project with:</p>
@@ -93,7 +92,7 @@ permalink: /projects/
 			<div class="col-md column-flex">
 				{% assign sorted = site._projects | sort:"date" | reverse %}
 				{% for _projects in sorted %}
-						
+
 				<div class="filterDiv {{ _projects.categories }}">
 					<a href="{% if _projects.link %}{{ _projects.link }}{% else %}{{ _projects.url }}{% endif %}">
 					<div class="imgcontainer">
@@ -105,7 +104,7 @@ permalink: /projects/
 						</div>
 					</div>
 					</a>
-				</div>						
+				</div>
 				{% endfor %}
 			</div>
 		</div>

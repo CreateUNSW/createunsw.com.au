@@ -5,7 +5,6 @@ price: 145.00
 slug: rpi-kit-with-pi
 sku: HGW
 image:
-layout: productdetails
 ---
 Raspberry Pi Kit for CREATE Workshop (Complete)
 <br>The Raspberry Pi Kit ($145) is great for those who wants to try out on basic programming and electronics.

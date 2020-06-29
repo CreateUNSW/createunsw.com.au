@@ -5,7 +5,6 @@ price: 45.00
 slug: uno-kit
 sku: HGW
 image: /images/sales/kit_comprehensive2.jpg
-layout: productdetails
 ---
 The more comprehensive kits ($45 Uno, $50 Mega) are for hobbyists and students who wants to get a bit more hands-on with creating! It will include an Arduino Uno or Arduino Mega, and the following items: <br><br>
 

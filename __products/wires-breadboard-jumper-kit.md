@@ -5,7 +5,6 @@ price: 4.00
 slug: Breadboard-Jumper-Kit
 sku: HGW
 image: /images/sales/wires_kit.jpeg
-layout: productdetails
 out_of_stock: true
 ---
 Pack of various sized jumpers for breadboards.

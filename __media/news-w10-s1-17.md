@@ -3,7 +3,6 @@ categories: newsletters
 title: CREATE & CSEsoc present - OpenCV & Raspberry Pi workshop
 slug: w10-s1-2017
 image: /images/wk10-s1-17.gif
-layout: post
 author: Karen Zhong
 date: 2017-05-11 19:45:31 +1000
 ---

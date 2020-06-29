@@ -5,7 +5,6 @@ price: 3.00
 slug: AA-battery-holders
 sku: HGW
 image: /images/sales/power_4xAA.jpg
-layout: productdetails
 ---
 $1.50 - 2x
 <br>$2.00 - 4x

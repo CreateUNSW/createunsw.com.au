@@ -5,7 +5,6 @@ price: 2.00
 slug: propeller-adapter
 sku: HGW
 image: /images/sales/quad_prop_adapter.jpg
-layout: productdetails
 ---
 Aluminium, 4mm
 

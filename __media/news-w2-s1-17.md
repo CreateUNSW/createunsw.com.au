@@ -3,7 +3,6 @@ categories: newsletters
 title: Project Recruitment & First Hackerspace Workshop
 slug: w2-s1-2017
 image: /images/wk2-s1-17.jpg
-layout: post
 author: Karen Zhong
 date: 2017-03-9 19:45:31 +1000
 ---

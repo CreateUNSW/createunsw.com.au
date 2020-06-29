@@ -5,7 +5,6 @@ price: 0.50
 slug: ir-leds-and-phototransistors
 sku: HGW
 image: /images/sales/light_IRpair.jpg
-layout: productdetails
 ---
 $0.20 - LED
 <br>$0.20 - Photo T.

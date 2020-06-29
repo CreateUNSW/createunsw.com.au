@@ -3,7 +3,6 @@ categories: newsletters
 title: AutoCAD 3D
 slug: w7-s1-2017
 image: /images/wk8-s1-17.gif
-layout: post
 author: Karen Zhong
 date: 2017-04-27 19:45:31 +1000
 ---

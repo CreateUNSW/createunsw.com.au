@@ -5,7 +5,6 @@ price: 10.00
 slug: large-metal-geared-servo
 sku: HGW
 image: /images/sales/servo_large.jpg
-layout: productdetails
 ---
 Model: <a href="http://www.towerpro.com.tw/driver/drivers/Towerpro%20servo%20spec.pdf">MG996R</a>
 

@@ -1,5 +1,4 @@
 ---
-
 title: "Jack Robbers"
 image: /images/people/Jack-Robbers.JPG
 role: "Co-Director of Sales"

@@ -5,7 +5,6 @@ price: 4.00
 slug: jumper-wires-strips
 sku: HGW
 image: /images/sales/wires_dupont.jpg
-layout: productdetails
 ---
 $4.00 - male to male
 <br>$4.00 - female to female

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Team
 topic: Team
 sub-topic: Executive Members | Committee | Team Directors
@@ -24,7 +23,7 @@ permalink: /team/
 		{% if position == 'current_executive' %}
 		{% assign people = site._people | sort:"index" %}
 		{% for person in people %}
-		{% if person.status contains position %}	
+		{% if person.status contains position %}
 				<div class="col-md-6 text-md-left text-center">
 					<h5>{{person.role}}</h5>
 				</div>
@@ -138,4 +137,3 @@ permalink: /team/
 	});
 	}
 </script>
-

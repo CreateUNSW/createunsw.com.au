@@ -5,7 +5,6 @@ price: 35.00
 slug: raspberry-pi-zero-w
 sku: HGW
 image: /images/sales/raspberry-pi-zero-w.png
-layout: productdetails
 ---
 1GHz, single-core CPU <br>
 512MB RAM <br>

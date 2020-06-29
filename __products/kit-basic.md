@@ -5,7 +5,6 @@ price: 28.00
 slug: basics-kit
 sku: HGW
 image: /images/sales/basic-kit.jpg
-layout: productdetails
 ---
 The Arduino Basics Kit is great for those who wants to try out on basic programming and electronics. It includes the following:<br><br>
 * 1 x Uno board <br>

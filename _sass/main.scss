@@ -561,7 +561,7 @@ footer a:hover {
 /* Responsive layout*/
 @media (max-width: 575.98px) {
     // .twogrids, .threegrids, .fourgrids, .filterDiv {
-    //     width: calc(100% - 10px); 
+    //     width: calc(100% - 10px);
     // }
     .title-block h1 {
         font-size: 20px;
@@ -588,4 +588,10 @@ footer a:hover {
     .single-md-column div{
         width: calc(100% - 10px);
     }
+}
+
+//style images from markdown with #post at the end of their urls.
+img[src*="#post"] {
+    display: block;
+    width: 100%;
 }

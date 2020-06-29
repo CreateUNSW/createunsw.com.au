@@ -5,7 +5,6 @@ price: 2.50
 slug: single-chip-motor-driver
 sku: HGW
 image: /images/sales/package_dip16.jpg
-layout: productdetails
 ---
 Model: <a href="http://arduino.cc/documents/datasheets/L293D.pdf">L293D</a>
 <br>Number of bridges: 2

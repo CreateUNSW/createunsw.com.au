@@ -3,7 +3,6 @@ categories: newsletters
 title: Ardunio Part 2 - Quad kits
 slug: w5-s1-2017
 image: /images/wk5-s1-17.jpg
-layout: post
 author: Karen Zhong
 date: 2017-03-31 19:45:31 +1000
 ---

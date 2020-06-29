@@ -1,5 +1,4 @@
 ---
-layout: projectsite
 categories: pi
 title: Mondrian Cube - Vivid Sydney 2016
 location: First Fleet Prk, Circular Quay, Sydney
@@ -35,7 +34,6 @@ Finally, CREATE acknowledges the following faculties and organisations who have 
 </p>
 
 <h3>More Info</h3>
-	
+
 <p><a href="https://www.facebook.com/CreateUnsw/photos/?tab=album&album_id=590946197747506" target="_blank">Behind the scenes</a></p>
 <p><a href="https://newsroom.unsw.edu.au/news/students/student-group-create-lights-vivid-mondrian-cube" target="_blank">Student group CREATE lights up Vivid with a Mondrian Cube | UNSW Newsroom</a></p>
-

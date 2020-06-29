@@ -46,24 +46,43 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  _projects:
+  _catalogues:
     output: true
-    permalink: /projects/:title/
-  _products:
-    output: true
-    permalink: /store/:title/
-  _people:
-    output: true
-  #    permalink: /team/:title/
   _media:
     output: true
     permalink: /media/:categories/:title/
-  _catalogue:
+  _products:
     output: true
+    permalink: /store/:title/
+  _projects:
+    output: true
+    permalink: /projects/:title/
+  _people:
+
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
-      type: "_catalogue"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "__catalogues"
     values:
       layout: "catalogue"
+  -
+    scope:
+      path: "__media"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "__products"
+    values:
+      layout: "productdetails"
+  -
+    scope:
+      path: "__projects"
+    values:
+      layout: "projectsite"

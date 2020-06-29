@@ -1,5 +1,4 @@
 ---
-layout: projectsite
 categories: pi
 title: Robotic Pacman - Vivid Sydney 2015
 location: Martin Place, Sydney
@@ -23,9 +22,8 @@ Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unsw
 <img src="/images/pacman2.jpg" class="contentimg">
 
 <p>The game consists of a large wooden gameboard with robots navigating within the maze. The player controls a Pacman robot via radio control whilst the ghost robots are all AI controlled. </p>
-				
+
 <h3>More Info</h3>
-	
+
 <p><a href="https://newsroom.unsw.edu.au/news/students/mazing-robotic-pac-man-light-vivid-festival" target="_blank">A-mazing robotic Pac-Man to light up Vivid Festival | UNSW Newsroom</a></p>
 <p><a href="http://www.abc.net.au/tv/goodgame/stories/s4303926.htm" target="_blank">ABC Australia - Good Game Stories - Robotic Pac-Man</a></p>
-

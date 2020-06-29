@@ -5,7 +5,6 @@ price: 4.00
 slug: jumper-wires-loose-M-M
 sku: HGW
 image: /images/sales/wires_mm_65.jpg
-layout: productdetails
 ---
 $4.00 - 65pc bundle
 <br>Set of 65, male to male

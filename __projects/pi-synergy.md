@@ -1,5 +1,4 @@
 ---
-layout: projectsite
 categories: pi
 title: Synergy - Vivid Sydney 2018
 location: Jessie Street Garden, Circular Quay, Sydney
@@ -37,23 +36,23 @@ Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illumi
 <h4>Directors</h4>
 <p>Jonathan Hribar - 4th year Mechatronic/Biomedical Engineering</p>
 <p>Junji Moey - 3rd year Mechatronic Engineering and Computer Science</p>
- 
+
 <h4>Computational design</h4>
-                    
+
 <p>Christopher Ho - 4th year Civil Engineering/Architecture, Project Advisor</p>
-                       
+
 <h4>Concept design</h4>
-                    
+
 <p>Christie Wong - Master of Arts</p>
 <p>Jane Fan - 5th year Computer Science/Media Arts (Hons)</p>
-                     
+
 <h4>Structural engineering</h4>
-                    
+
 <p>Jeremy Low - 4th year Mechanical Engineering</p>
 <p>Emily Chan - 4th year Mechanical Engineering</p>
-                     
+
 <h4>Electrical engineering</h4>
-                    
+
 <p>Yuen Chan - 4th year Mechatronic Engineering/Mathematics</p>
 <p>Andy Zheng - 4th year Electrical Engineering/Commerce</p>
 <p>Mahima Mandal - 3rd year Electrical Engineering</p>
@@ -61,32 +60,32 @@ Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illumi
 <p>Daniel Wong – 2nd year Aerospace Engineering</p>
 <p>David Xue – 4th year Electrical Engineering</p>
 <p>Aly Virani - 3rd year Mechatronic Engineering</p>
-                     
+
 <h4>Programming</h4>
-                    
+
 <p>Jason Chu - 2nd year Software Engineering</p>
 <p>Kevin Yu - 3rd year Electrical Engineering/Computer Science</p>
 <p>Shiyuan Liang - 3rd year Software Engineering</p>
 <p>Nevin Suriyaa - 2nd year Computer Science</p>
-                    
+
 <h4>Manufacturing</h4>
-                    
+
 <p>Anthony Feizi-Sobbi - 4th year Mechatronic Engineering</p>
 <p>Austin Kong – PhD candidate, Mechanical Engineering</p>
-                    
+
 <h4>Marketing</h4>
-                    
+
 <p>Tsz Kin (William) Liu - 4th year Media Arts (Hons), Project Secretary & Representative in Faculty of Art & Design / MAKE CLUB President</p>
 <p>Dylan Goh - 2nd year Commerce/Design (Hons)</p>
 
 <h3>Acknowledgements</h3>
 
 Our heartfelt thanks go out to the following individuals or organisations for their hard work, without which our project would not have been possible.
-            
+
 Destination NSW, AGB Events, Event Engineering, UNSW Engineering, UNSW Built Environment, UNSW Faculty of Art & Design, UNSW Michael Crouch Innovation Centre, Arc @UNSW
 
 This project has been supported by Arc @ UNSW Ltd under their 2018 Student Community & Development Grants scheme
-                    
+
 <h4>Our volunteers</h4>
 <h4>CREATE UNSW</h4>
 
@@ -95,11 +94,10 @@ Matthew Pisto, Leo Chan, Ken Ba Vi Le, Alexander Lam, Louis Wong, Deborah Lui, J
 <h4>MAKE CLUB / UNSW Art & Design</h4>
 
 Ghadeer Al-badri, Danae-Irene Kyriakaki, Doreen Zheng, Aris Ioannou-Marsh, Konnor Kwan, Toshi, Zhouquan (William) Pang
-                        
+
 <h3>More Info</h3>
-    
+
 <p><a href="https://www.vividsydney.com/event/light/synergy" target="_blank">Synergy - Vivid Sydney 2018 Website</a></p>
 <p><a href="https://www.engineering.unsw.edu.au/news/shining-lights" target="_blank">Shining Lights | UNSW Engineering</a></p>
 <p><a href="https://newsroom.unsw.edu.au/news/general/unsw-lights-vivid-art-engineering-and-ideas" target="_blank">UNSW lights up Vivid with art, engineering and ideas | UNSW Newsroom</a></p>
 <p><a href="https://www.facebook.com/unsw.illuminate/videos/1563004990664662/" target="_blank">Synergy | Vivid Sydney 2018 - Opening Night Timelapse on 25 May 2018</a></p>
-

@@ -3,7 +3,6 @@ categories: newsletters
 title: Learn AutoCAD 2D/3D!
 slug: w7-s1-2017
 image: /images/wk7-s1-17.gif
-layout: post
 author: Karen Zhong
 date: 2017-04-21 19:45:31 +1000
 ---

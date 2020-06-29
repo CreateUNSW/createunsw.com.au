@@ -1,5 +1,4 @@
 ---
-layout: projectsite
 categories: pi
 title: Crystallise - Vivid Sydney 2017
 location: Campbells Cove, Circular Quay, Sydney
@@ -17,10 +16,10 @@ Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unsw
 
 <h3>The artwork, its function and meaning</h3>
 
-<h4>Briefly describe your artwork.</h4>		
-				
+<h4>Briefly describe your artwork.</h4>
+
 <p>Crystallise is a lighted mural comprising of multi-coloured triangular and quadrilateral forms. The installation appears to as a mosaic, but encourages viewers to come close through displaying randomly generated colours and patterns. As they come into close proximity with the mural, sections of the canvas fade, leaving behind only a pair of wings.</p>
-				
+
 <h4>What is the design inspiration of your work? Does it have any special meaning to you?</h4>
 
 <p> Our main inspiration is Colette Miller’s angel wings murals, which were exhibited as street art in Sydney (Australia), Los Angeles (United States), Juarez (Mexico), Nairobi (Kenya) and many other locations. To Miller, the wings “represent our inner angel” and remind individuals of the pure and good part of the human condition that emerges even as individuals experience trauma and guilt in their lives. The wings’ embodiment of the human spirit challenges individuals to consider their choices as humanity and work towards a greater good. </p>
@@ -98,8 +97,7 @@ Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unsw
 
  <p>We are currently working on further improvements to the artwork by adding in more patterns and fun easter eggs for people to find. After the event, there are plans for the installation to be transferred to the UNSW Faculty of Engineering for exhibition.</p>
 
-	
-<h3>More Info</h3>
-	
-<p><a href="https://www.vividsydney.com/event/light/crystallise" target="_blank">Crystallise - Vivid Sydney 2017 Website</a></p>
 
+<h3>More Info</h3>
+
+<p><a href="https://www.vividsydney.com/event/light/crystallise" target="_blank">Crystallise - Vivid Sydney 2017 Website</a></p>
