@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Build - Learn - Inspire | CREATE UNSW"
 email: create@createunsw.com.au
+sales_email: sales@createunsw.com.au
 description: A student-led maker club based at UNSW Sydney. CREATE UNSW runs and provides workshops for beginners on electronics, programming, soldering, prototyping and 3D modelling. Weekly sales of electronic components on-campus, including Kits. Hackerspaces and makerspaces. Quadcopters. Funding and support for student projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site, e.g. http://example.com
@@ -23,6 +24,7 @@ facebook: https://www.facebook.com/CreateUnsw/
 instagram: https://www.instagram.com/createunsw/
 linkedin: https://www.linkedin.com/company/create-nsw-inc-/
 youtube: https://www.youtube.com/user/createunsw/
+
 
 #club logo
 logo-pos: /images/logos/create_logo_2019T3-POS.png

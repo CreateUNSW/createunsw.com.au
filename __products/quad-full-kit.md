@@ -16,7 +16,7 @@ Create sells full-size quadcopters, full-size hexacopters and mini quadcopters. 
 <br><br>
 <h4>Payment / Pick-up (UNSW students only) </h4>
 <br><br>Purchase of the quadcopter kits may be made either through Paypal (includes credit card payment feature) below or by cash, or alternately by bank transfer if requested (please email). Payment must be made ASAP.
-<br><br>If paying by Paypal, please include your student number and full name in the "instructions to seller" box that will appear when you check out. If you forget or cannot find this dialog box, follow your purchase up with an email to sales@createunsw.com.au using the subject line "Full size Quad", and including those details in your message.
+<br><br>If paying by Paypal, please include your student number and full name in the "instructions to seller" box that will appear when you check out. If you forget or cannot find this dialog box, follow your purchase up with an email to {% include sales/email.html %} using the subject line "Full size Quad", and including those details in your message.
 <br><br>Cash orders can be made at the Monday sales stall only. If you cannot make it during that time please send us an email and we will try to organise an alternate time.
 <br><br>Kits will hopefully be ready for collection on the expected delivery date (see above). We will organize a group collection time closer to the date.
 <br><br>

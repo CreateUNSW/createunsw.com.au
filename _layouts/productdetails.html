@@ -30,7 +30,7 @@ layout: default
                 <p>${{ integral }}.{{ fractional }} AUD (for each {{ page.title | capitalize }})</p>
                 {% if page.out_of_stock %}
                     <h5>Item out of stock, send an email to
-                        <a href="mailto:sales@createunsw.com.au">sales@createunsw.com.au</a>
+                        {% include sales/email.html %}
                     to enquire about when it will be next available</h5>
                 {% else %}
                     <h5>Add to cart:

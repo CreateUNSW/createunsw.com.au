@@ -9,30 +9,52 @@ image: /images/20181022_CREATE_FlashSales-0013.jpg
 permalink: /store/
 button: /catalogue/
 button-text: View Catalogue
+javascript: store
+leaflet: True
+layout: default_enhanced
 ---
 
 # Welcome to the CREATE Store
 
+{% include sales/COVID-19-notice.html %}
 
-We sell affordable electronic components and robotic parts to all students and staff of UNSW. You may visit our pop up stall or shop online <a href="/catalogue/">here</a>.
+We sell a range of electronic components to UNSW Students. You can view the full catalogue [here](/catalogue).
 
-<p>We also operate a vending machine outside the MCIC Makerspace which can be used at any time. <br><b>We cannot guarantee that stock is available</b>.
-</p>
-<h2>Stall Opening Hours</h2>
-<p>Every <b>Monday from 12pm to 4pm</b> during UNSW academic teaching periods only (not including summer term). <br>Click <a href="https://student.unsw.edu.au/calendar" tagret="_blank">Here</a> for more information.</p>
-<h2>Sales Store Enquiry</h2>
-<p>Please email us at <a href="mailto:sales@createunsw.com.au">sales@createunsw.com.au</a></p>
-<h2>Frequently Asked Questions</h2>
-<h5>I need an urgent pickup, how fast can I pickup the order?</b></h5>
-<p>Please send us an email to organise a time to collect. </p>
-<h5>Can I pickup my order outside UNSW or via delivery service?</h5>
-<p>This service is primarily for UNSW students and staff only. However we may fulfil bulk orders from outside UNSW</p>
-<h2>Location</h2>
-<b>Globe Lawn on UNSW main walkway </b>
-<p>*In rainy weather the stall will be moved to Michael Crouch Innovation Center</p>
-<p>Keep up to date on our stall locations on our <a href="https://www.facebook.com/CreateUnsw" target="_blank">Facebook Page</a>.</p>
-<iframe
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13243.594933082686!2d151.2312444!3d-33.9180058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8db53cd2dc45f569!2sGlobe+Lawn%2C+UNSW!5e0!3m2!1sen!2sau!4v1546975893679"
-    style="border:0" class="map" allowfullscreen>
-</iframe>
-<a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-block btn-primary">View Catalogue</a>
+Direct all enquiries to {% include sales/email.html %}
+
+## Stall
+
+During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12-4. In case of wet weather, the stall will be moved to the outside of MCIC. Follow our [Facebook Page](https://www.facebook.com/CreateUnsw) for up to date information.
+
+## Pickups
+
+We offer pickups for orders. Send us an email at {% include sales/email.html %} and we'll organise a time.
+
+## Payments
+
+We take cash and card. If you need an invoice to get reimbursed by faculty, let us now at {% include sales/email.html %}
+
+## Refunds and Replacements
+
+We offer full refunds and replacements (depending on stock availability) on all items.
+
+## Faq
+
+### Do you offer delivery?
+
+We only offer delivery on bulk orders (over $250). Send us an email at {% include sales/email.html %} to enquire.
+
+### When will this component be back in stock?
+
+If you urgently need something that is out of stock, please look for other options such as jaycar or ebay. Our components are normally ordered in bulk from overseas, so restocking times may be long.
+
+### Do you supply components or kits for courses?
+
+Yes! We've worked with many course conveners and lecturers in the past to supply components for courses such as ENGG1000 and BIOM1010. Send us an email at {% include sales/email.html %} with the quantities and components required. We can consult on project and kit design and may offer reduced prices for large orders. Our team has a range of mentoring experience and we can find mentoring staff within our network.
+
+### Can you run an extra stall for my course?
+
+Generally we run an extra stall during the later weeks of ENGG1000 on build days to supply students with convenient last-minute parts. If you'd like us to do something similar for your course send us an email at {% include sales/email.html %}.
+
+## Map
+<div id="salesmap"></div>

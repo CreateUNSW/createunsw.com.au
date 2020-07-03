@@ -12,10 +12,10 @@ permalink: /contact/
             <div class="col-md py-2">
                 <h3>General Enquires</h3>
                 <p>For all general enquires, sponsorships, events enquires (except Sales). We will redirect you to the relevant representative who can address your query.</p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                <p>{% include email.html %}</a></p>
                 <h3>Sales Enquires</h3>
                 <p>Online store, Product enquriries, Order Pickup enquires</p>
-                <p><a href="mailto:sales@createunsw.com.au">sales@createunsw.com.au</a></p>
+                <p>{% include sales/email.html %}</p>
             </div>
         </div>
     </div>

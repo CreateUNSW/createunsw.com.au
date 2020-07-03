@@ -6,11 +6,14 @@ sub-topic: Search all of our products
 tagline: "Orders can be bought and collected from our Globe Lawn stall on Mondays from 12pm to 4pm during UNSW terms
 only."
 description: "Orders can be bought and collected from our Globe Lawn stall on Mondays from 12pm to 4pm during UNSW terms only."
+javasript: catalogue
 ---
 <!--main content: Online Sales Store section-->
-<script src="/js/catalogue.js"></script>
 <main type="main" id="onlinestore">
     <div class="container-xl">
+        {% if page.catalogue == 'main' %}
+            {% include sales/COVID-19-notice.html %}
+        {% endif %}
         <div class="row">
             <div class="col-md-10 text-center text-md-left">
                 <h2>{{ page.title }}</h2>
