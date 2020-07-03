@@ -8,89 +8,84 @@ only."
 description: "Orders can be bought and collected from our Globe Lawn stall on Mondays from 12pm to 4pm during UNSW terms only."
 javasript: catalogue
 ---
-<!--main content: Online Sales Store section-->
-<main type="main" id="onlinestore">
-    <div class="container-xl">
-        {% if page.catalogue == 'main' %}
-            {% include sales/COVID-19-notice.html %}
-        {% endif %}
-        <div class="row">
-            <div class="col-md-10 text-center text-md-left">
-                <h2>{{ page.title }}</h2>
-                <p>{{ page.description }}</p>
-                <b class="red">Prices are in Australian Dollars (AUD).</b><br><br>
-            </div>
-            {% unless page.disable_store_info %}
-                <div class="col-md-2 text-center text-md-right">
-                    <a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">Store Info & FAQ</a>
-                </div>
-            {% endunless %}
+{% if page.catalogue == 'main' %}
+    {% include sales/COVID-19-notice.html %}
+{% endif %}
+<div class="row">
+    <div class="col-md-10 text-center text-md-left">
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+        <b class="red">Prices are in Australian Dollars (AUD).</b><br><br>
+    </div>
+    {% unless page.disable_store_info %}
+        <div class="col-md-2 text-center text-md-right">
+            <a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">Store Info & FAQ</a>
         </div>
-        <hr class="my-4">
+    {% endunless %}
+</div>
+<hr class="my-4">
 
-        {{ content }}
-        {% unless page.disable_search %}
-            <div class="row">
-                <div class="col-md py-2 text-center text-md-left">
-                    <h5>Search for a specific product <input class="searchfunction" type="text" placeholder="Search.." name="search" id="search" onkeyup="search()"></h5>
-                </div>
-            </div>
-        {% endunless %}
-        {% unless page.disable_categories %}
-            <div class="row">
-                <div id="categories" class="col-md">
-                    {% assign cats = site._products | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
-                    {% for cat in cats %}
-                        <button id="{{ cat }}"class="btn btn-secondary sales-category" onclick="toggleCategory('{{ cat }}')">{{ cat }}</button>
-                    {% endfor %}
-                    <hr class="my-4">
-                </div>
-            </div>
-        {% endunless %}
-
-        <!--Products-->
-        <div class="row">
-            <div class="col-md sales-products">
-                {% assign products = site._products | sort_natural: 'title' %}
-                {% for product in products %}
-                    {% if page.catalogue == 'main' or page.catalogue == product.catalogue %}
-                        <div id="{{ product.slug }}" class="sales-product {{ product.category }} shadows">
-                            <a href="{{ product.url | relative_url }}">
-                                <div class="squared">
-                                    <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/not-found.png' }} {% endif %}" alt="{{ product.title }}">
-                                </div>
-                                <div class="card-body">
-                                    <b>{{ product.title }}</b>
-                                    {% assign price_split = product.price | round: 2 | split: "." %}
-                                    {% assign integral = price_split[0] %}
-                                    {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-                                    <p>${{ integral }}.{{ fractional }}</p>
-                                    {% if product.out_of_stock %}
-                                        <p class="red"><b>Out of Stock</b></p>
-                                    {% else %}
-                                        <div class="purchase">
-                                            <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
-                                                <input type='hidden' name='add' value='1'>
-                                                <input type='hidden' name='cmd' value='_cart'>
-                                                <input type='hidden' name='business' value='sales@createunsw.com.au' />
-                                                <input type='hidden' name='item_name' value='{{ product.title }}' />
-                                                <input type='hidden' name='item_number' value='' />
-                                                <input type='hidden' name='amount' value='{{ product.price }}' />
-                                                <input type='hidden' name='no_note' value='1' />
-                                                <input type='hidden' name='currency_code' value='AUD' />
-                                                <input type='hidden' name='lc' value='AU'>
-                                                <button class="btn btn-block btn-secondary fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
-                                                    alt='Add this item to your paypal cart.' value='Purchase'>
-                                                </button>
-                                            </form>
-                                        </div>
-                                    {% endif %}
-                                </div>
-                            </a>
-                        </div>
-                    {% endif %}
-                {% endfor %}
-            </div>
+{{ content }}
+{% unless page.disable_search %}
+    <div class="row">
+        <div class="col-md py-2 text-center text-md-left">
+            <h5>Search for a specific product <input class="searchfunction" type="text" placeholder="Search.." name="search" id="search" onkeyup="search()"></h5>
         </div>
     </div>
-</main>
+{% endunless %}
+{% unless page.disable_categories %}
+    <div class="row">
+        <div id="categories" class="col-md">
+            {% assign cats = site._products | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+            {% for cat in cats %}
+                <button id="{{ cat }}"class="btn btn-secondary sales-category" onclick="toggleCategory('{{ cat }}')">{{ cat }}</button>
+            {% endfor %}
+            <hr class="my-4">
+        </div>
+    </div>
+{% endunless %}
+
+<!--Products-->
+<div class="row">
+    <div class="col-md sales-products">
+        {% assign products = site._products | sort_natural: 'title' %}
+        {% for product in products %}
+            {% if page.catalogue == 'main' or page.catalogue == product.catalogue %}
+                <div id="{{ product.slug }}" class="sales-product {{ product.category }} shadows">
+                    <a href="{{ product.url | relative_url }}">
+                        <div class="squared">
+                            <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/not-found.png' }} {% endif %}" alt="{{ product.title }}">
+                        </div>
+                        <div class="card-body">
+                            <b>{{ product.title }}</b>
+                            {% assign price_split = product.price | round: 2 | split: "." %}
+                            {% assign integral = price_split[0] %}
+                            {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                            <p>${{ integral }}.{{ fractional }}</p>
+                            {% if product.out_of_stock %}
+                                <p class="red"><b>Out of Stock</b></p>
+                            {% else %}
+                                <div class="purchase">
+                                    <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+                                        <input type='hidden' name='add' value='1'>
+                                        <input type='hidden' name='cmd' value='_cart'>
+                                        <input type='hidden' name='business' value='sales@createunsw.com.au' />
+                                        <input type='hidden' name='item_name' value='{{ product.title }}' />
+                                        <input type='hidden' name='item_number' value='' />
+                                        <input type='hidden' name='amount' value='{{ product.price }}' />
+                                        <input type='hidden' name='no_note' value='1' />
+                                        <input type='hidden' name='currency_code' value='AUD' />
+                                        <input type='hidden' name='lc' value='AU'>
+                                        <button class="btn btn-block btn-secondary fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
+                                            alt='Add this item to your paypal cart.' value='Purchase'>
+                                        </button>
+                                    </form>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -4,9 +4,11 @@
     <body>
         {% include header.html %}
         {% include cover.html %}
-        <div class="page-content py-4">
-            {{ content }}
-        </div>
+        <main type="main">
+            <div class="py-4 container-xl">
+                {{ content }}
+            </div>
+        </main>
         {% include footer.html %}
     </body>
 </html>

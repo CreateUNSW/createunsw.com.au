@@ -11,7 +11,6 @@ button: /catalogue/
 button-text: View Catalogue
 javascript: store
 leaflet: True
-layout: default_enhanced
 ---
 
 # Welcome to the CREATE Store
