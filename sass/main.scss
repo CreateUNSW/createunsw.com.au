@@ -2,6 +2,9 @@
 /*Assisted by Leesa Deng (Jan 2019)*/
 /*SCSS Developed By Jack Robbers (Jun 2020)*/
 
+// library for nice media queries https://eduardoboucas.github.io/include-media/
+@import 'node_modules/include-media/dist/_include-media.scss';
+
 /* from the create pallete */
 $create-red: #d42128;
 $create-brown: #5d4037;
@@ -597,5 +600,10 @@ img[src*="#post"] {
 }
 
 #salesmap {
-    height: 30vh;
+    @include media(">phone", "<=tablet") {
+        height: 25em;
+    }
+    @include media(">tablet") {
+        height: 50em;
+    }
 }
