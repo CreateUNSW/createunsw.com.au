@@ -28,8 +28,7 @@ layout: default_old
 						one other competitor using only computer vision and ultrasonic sensors. Each year,
 						CREATE hosts internal competitions and sends the two most successful teams up to
 						participate in the competition.
-					</p>
-					<p>
+					<br>
 						We have found continuing success with new teams taking up the challenge, with CREATE
 						placing 1st in 2016 and 2017 and 3rd in 2018. In building and programming their
 						vehicles, our project members learn invaluable skills including hardware design,
@@ -59,16 +58,15 @@ layout: default_old
 		<hr class="my-4">
 		<div class="row">
 			<div class="col-md-8">
-				<p>CREATE UAS is now operating as <b>Flight Labs UNSW</b> under UNSW Engineering ChallENG Program.</p>
+				<p>CREATE UAS is now operating as <b>Flight Labs UNSW</b>.</p>
 			</div>
 			<div class="col-md-4">
 				<a target="_blank" href="https://flightlabs.com.au/" class="btn btn-block btn-primary">Visit Flight Labs UNSW</a>
 			</div>
 		</div>
-		<hr class="my-4">
 		<div class="row">
 			<div class="col-md-8">
-				<p>Project Illuminate is now operating as <b>UNSW Illuminate</b> under UNSW Engineering ChallENG Program.</p>
+				<p>Project Illuminate is now operating as <b>UNSW Illuminate</b>.</p>
 			</div>
 			<div class="col-md-4">
 				<a target="_blank" href="https://www.unswilluminate.com/" class="btn btn-block btn-primary">Visit UNSW Illuminate</a>
@@ -79,18 +77,18 @@ layout: default_old
 			<div class="col-md">
 				<!--Type Filter-->
 				<div id="myBtnContainer">
-				  <button class="btn btn-secondary active" onclick="filterSelection('all')"> Show all</button>
-				  <button class="btn btn-secondary" onclick="filterSelection('pi')">Project Illuminate</button>
-				  <button class="btn btn-secondary" onclick="filterSelection('drc')">CREATE DRC</button>
-				  <button class="btn btn-secondary" onclick="filterSelection('uas')">CREATE UAS</button>
-				  <button class="btn btn-secondary" onclick="filterSelection('ugv')">CREATE UGV</button>
-				  <button class="btn btn-secondary" onclick="filterSelection('starters')"> CREATE Starters</button>
+				  <button class="btn btn-outline-primary active" onclick="filterSelection('all')"> Show all</button>
+				  <button class="btn btn-outline-primary" onclick="filterSelection('pi')">Project Illuminate</button>
+				  <button class="btn btn-outline-primary" onclick="filterSelection('drc')">CREATE DRC</button>
+				  <button class="btn btn-outline-primary" onclick="filterSelection('uas')">CREATE UAS</button>
+				  <button class="btn btn-outline-primary" onclick="filterSelection('ugv')">CREATE UGV</button>
+				  <button class="btn btn-outline-primary" onclick="filterSelection('starters')"> CREATE Starters</button>
 				</div>
 				<hr class="my-4">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md column-flex">
+			<div class="column-flex">
 				{% assign sorted = site._projects | sort:"date" | reverse %}
 				{% for _projects in sorted %}
 
@@ -106,6 +104,7 @@ layout: default_old
 					</div>
 					</a>
 				</div>
+				
 				{% endfor %}
 			</div>
 		</div>

@@ -34,3 +34,17 @@ function intersection(a, b) {
     }
 
 }
+
+// active link on current page function
+
+$(document).ready(function() {
+    $('.nav-link[href="/' + location.pathname.split("/")[1] + '"]').addClass('highlight');
+});
+
+// click anywhere to close the mobile menu
+
+$(function() {
+    $(document).click(function (event) {
+      $('.navbar-collapse').collapse('hide');
+    });
+});

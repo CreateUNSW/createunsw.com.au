@@ -1,6 +1,6 @@
 <!--header section-->
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <div class="container-xl">
             <a class="navbar-brand logo" href="{{'/' | prepend: site.baseurl }}"
                 ><img src="{{ site.logo-neg }}" alt="CREATE Logo"
@@ -22,16 +22,10 @@
                 id="navbarsExample07XL"
             >
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    {% assign navs = 'about, team, events, projects, outreach, store, contact' | split: ', ' %}
-                    {% for nav in navs %}
+                    {% for nav in site.data.nav %}
                         <li class="nav-item">
-                            {% assign title = nav | capitalize %}
-                            {% if page.title == title %}
-                                <a class="nav-link highlight" href="{{ '/' | append: nav | prepend: site.baseurl }}">
-                            {% else %}
-                                <a class="nav-link " href="{{ '/' | append: nav | prepend: site.baseurl }}">
-                            {% endif %}
-                                {{ nav }}
+                            <a class="nav-link " href="{{site.baseurl}}{{nav.link}}">
+                                {{ nav.name }}
                             </a>
                         </li>
                     {% endfor %}

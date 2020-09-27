@@ -1,0 +1,79 @@
+$sales-box: 265px;
+
+// product filter
+.sales-category {
+    text-transform: capitalize;
+    margin: 2px 2px 2px 0px;
+}
+
+.filtered {
+    display: none;
+}
+
+.sales-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+// product list
+.sales-product {
+    width: $sales-box;
+    text-align: center;
+    box-shadow: 1px 1px 2px $create-black;
+    margin: 5px;
+    a {
+        color: $create-black;
+        text-decoration: none;
+    }
+}
+
+// product image box
+.product-box {
+    margin: auto;
+    vertical-align: middle;
+    img {
+        padding: 10px;
+        width: $sales-box;
+        height: $sales-box;
+        object-fit: contain;
+    }
+    &:hover p{
+        color: inherit;
+    }
+}
+
+// search function
+.searchfunction {
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+}
+
+// product details page
+.purchase input,
+.productinfo input {
+    padding: 10px;
+}
+.productimg {
+    width: 49%;
+    text-align: center;
+    float: left;
+    img {
+        width: 50%;
+        margin: 5px;
+    }
+    @media (max-width: 767.98px) {
+        width: 100%;
+    }
+}
+
+// map
+#salesmap {
+    @include media(">phone", "<=tablet") {
+        height: 25em;
+    }
+    @include media(">tablet") {
+        height: 50em;
+    }
+}

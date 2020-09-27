@@ -1,0 +1,16 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: Team
+  link: /team
+- name: Events
+  link: /events
+- name: Projects
+  link: /projects
+- name: Outreach
+  link: /outreach
+- name: Store
+  link: /store
+- name: Contact
+  link: /contact

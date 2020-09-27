@@ -28,7 +28,7 @@ javascript: catalogue
 {{ content }}
 {% unless page.disable_search %}
     <div class="row">
-        <div class="col-md py-2 text-center text-md-left">
+        <div class="col-md text-center text-md-left">
             <h5>Search for a specific product <input class="searchfunction" type="text" placeholder="Search.." name="search" id="search" onkeyup="search()"></h5>
         </div>
     </div>
@@ -38,7 +38,7 @@ javascript: catalogue
         <div id="categories" class="col-md">
             {% assign cats = site._products | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
             {% for cat in cats %}
-                <button id="{{ cat }}"class="btn btn-secondary sales-category" onclick="toggleCategory('{{ cat }}')">{{ cat }}</button>
+                <button id="{{ cat }}"class="btn btn-outline-primary sales-category" onclick="toggleCategory('{{ cat }}')">{{ cat }}</button>
             {% endfor %}
             <hr class="my-4">
         </div>
@@ -47,13 +47,13 @@ javascript: catalogue
 
 <!--Products-->
 <div class="row">
-    <div class="col-md sales-products">
+    <div class="column-flex sales-products">
         {% assign products = site._products | sort_natural: 'title' %}
         {% for product in products %}
             {% if page.catalogue == 'main' or page.catalogue == product.catalogue %}
                 <div id="{{ product.slug }}" class="sales-product {{ product.category }} shadows">
                     <a href="{{ product.url | relative_url }}">
-                        <div class="squared">
+                        <div class="product-box">
                             <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/not-found.png' }} {% endif %}" alt="{{ product.title }}">
                         </div>
                         <div class="card-body">
@@ -76,7 +76,7 @@ javascript: catalogue
                                         <input type='hidden' name='no_note' value='1' />
                                         <input type='hidden' name='currency_code' value='AUD' />
                                         <input type='hidden' name='lc' value='AU'>
-                                        <button class="btn btn-block btn-secondary fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
+                                        <button class="btn btn-block btn-third fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
                                             alt='Add this item to your paypal cart.' value='Purchase'>
                                         </button>
                                     </form>

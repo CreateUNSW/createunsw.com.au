@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Build - Learn - Inspire | CREATE UNSW"
+title: "CREATE UNSW: Build - Learn - Inspire"
 email: create@createunsw.com.au
 sales_email: sales@createunsw.com.au
 description: A student-led maker club based at UNSW Sydney. CREATE UNSW runs and provides workshops for beginners on electronics, programming, soldering, prototyping and 3D modelling. Weekly sales of electronic components on-campus, including Kits. Hackerspaces and makerspaces. Quadcopters. Funding and support for student projects.
