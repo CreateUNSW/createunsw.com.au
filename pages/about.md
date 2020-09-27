@@ -20,7 +20,6 @@ CREATE also fosters team projects including: Project Illuminate making annual en
 
 CREATE has gained many accomplishments over the years, and strives to continue expanding their community and carry forth the maker movement of UNSW. **Some of these achievements include:**
 
-
 * Arc Club of the Year - 2013 and 2015
 * Arc Regular Club of the Year - 2017
 * Arc Best Off-Campus Activity - Crystallise 2017
