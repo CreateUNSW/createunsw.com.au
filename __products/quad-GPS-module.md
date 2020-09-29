@@ -5,6 +5,7 @@ price: 35.00
 slug: GPS-module
 sku: HGW
 image: /images/sales/quad_gps.jpg
+out_of_stock: true
 ---
 Model: U-Blox NEO-6H-0-001
 
