@@ -1,0 +1,75 @@
+---
+layout: noheader_nocover
+---
+
+<div class="invoice-header">
+    <div id="logo">
+        <img src="/images/logos/create-logo-2020-new.png">
+    </div>
+    <h1>Invoice, Date: {{ page.date | truncate: 10, '' }}</h1>
+    <h2>CREATE NSW INC.</h2>
+    <p>Phone: 0498182912</p>
+    <p>Email: sales@createunsw.com.au</p>
+    <p>Web: createunsw.com.au</p>
+
+    <p>To: {{ page.name }} ({{ page.email }})</p>
+    <p></p>
+</div>
+
+<table class="invoice-table">
+    <thead>
+        <th>Item</th><th>Quantity</th><th>Notes</th><th>Price</th><th>Total</th>
+    </thead>
+    <tbody>
+        {% assign total = 0 %}
+        {% for item in page.items %}
+            <tr>
+                {% assign values = item | split: ',' %}
+                {% assign i = 0 %}
+                {% assign price = 0 %}
+                {% for value in values %}
+                    <td>{{ value }}</td>
+                    {% if i == 0 %}
+                        {% for product in site._products %}
+                            {% if product.title == value %}
+                                {% assign price = product.price %}
+                            {% endif %}
+                        {% endfor %}
+                    {% elsif i == 1 %}
+                        {% assign quantity = value %}
+                    {% endif %}
+                    {% assign i = i | plus: 1 %}
+                {% endfor %}
+                {% if i == 2 %}
+                    <td></td>
+                {% endif %}
+                {% assign price_split = price | round: 2 | split: "." %}
+                {% assign integral = price_split[0] %}
+                {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                {% capture price %}{{ integral }}.{{ fractional }}{% endcapture %}
+                <td>${{ price }}</td>
+                {% assign item_total = price | times: quantity %}
+                {% assign price_split = item_total | round: 2 | split: "." %}
+                {% assign integral = price_split[0] %}
+                {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+                {% capture item_total %}{{ integral }}.{{ fractional }}{% endcapture %}
+                <td>${{ item_total }}</td>
+                {% assign total = total | plus: item_total %}
+            </tr>
+        {% endfor %}
+        {% assign price_split = total | round: 2 | split: "." %}
+        {% assign integral = price_split[0] %}
+        {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+        <tr><td></td><td></td><td></td><td><b>Total:</b></td><td>${{ integral }}.{{ fractional }}</td></tr>
+    </tbody>
+</table>
+
+<div id="invoice-payment">
+    <br>
+    <p>Please pay to:</p>
+    <p>Name: CREATE</p>
+    <p>BSB: 062 303</p>
+    <p>Account Number: 1085 1269</p>
+</div>
+
+{{ content }}

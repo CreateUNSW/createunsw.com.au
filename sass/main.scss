@@ -273,7 +273,7 @@ header {
     a:hover .filterDiv {
         background-color: $site-grey;
     }
-} 
+}
 
 // Facebook
 .facebook-container {
@@ -392,4 +392,34 @@ footer {
 img[src*="#post"] {
     display: block;
     width: 100%;
+}
+
+.invoice-header {
+    img {
+        width: 50%;
+    }
+    #logo {
+        background-color: $create-blue;
+    }
+}
+
+.invoice-table {
+    empty-cells: show;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid $create-blue;
+
+    td, th {
+        padding: 10px;
+        border: 3px solid $create-blue;
+    }
+
+    td:nth-child(2), th:nth-child(2), td:nth-child(4), th:nth-child(4), td:nth-child(5), th:nth-child(5) {
+        text-align: right;
+    }
+
+    tr:nth-child(even) {
+        background-color: $site-grey;
+    }
 }
