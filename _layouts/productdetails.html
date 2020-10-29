@@ -35,16 +35,7 @@ layout: default
                 {% else %}
                     <h5>Add to cart:
                         <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
-                            <input type='hidden' name='add' value='1'>
-                            <input type='hidden' name='cmd' value='_cart'>
-                            <input type='hidden' name='business' value='sales@createunsw.com.au' />
-                            <input type='hidden' name='item_name' value='{{ page.title }}' />
-                            <input type='hidden' name='item_number' value='' />
-                            <input type='hidden' name='amount' value='{{ page.price }}' />
-                            <input type='hidden' name='no_note' value='1' />
-                            <input type='hidden' name='currency_code' value='AUD' />
-                            <input type='hidden' name='lc' value='AU'>
-                            <input type="hidden" name="no_shipping" value="1">
+                            {% include /sales/paypal-inputs.html title=page.title price=page.price %}
                             <input style="width:45px; height: 30px; color:black;" type='number' name='quantity' value='1' min="1">
                             <button class="btn btn-third fa fa-shopping-cart" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
                             </button>

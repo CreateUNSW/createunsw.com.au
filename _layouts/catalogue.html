@@ -67,15 +67,7 @@ javascript: catalogue
                             {% else %}
                                 <div class="purchase">
                                     <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
-                                        <input type='hidden' name='add' value='1'>
-                                        <input type='hidden' name='cmd' value='_cart'>
-                                        <input type='hidden' name='business' value='sales@createunsw.com.au' />
-                                        <input type='hidden' name='item_name' value='{{ product.title }}' />
-                                        <input type='hidden' name='item_number' value='' />
-                                        <input type='hidden' name='amount' value='{{ product.price }}' />
-                                        <input type='hidden' name='no_note' value='1' />
-                                        <input type='hidden' name='currency_code' value='AUD' />
-                                        <input type='hidden' name='lc' value='AU'>
+                                        {% include sales/paypal-inputs.html title=product.title price=product.price %}
                                         <button class="btn btn-block btn-third fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
                                             alt='Add this item to your paypal cart.' value='Purchase'>
                                         </button>
