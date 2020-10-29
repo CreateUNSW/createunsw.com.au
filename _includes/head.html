@@ -1,6 +1,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.redirect %}
+        <meta http-equiv="refresh" content="0; URL='{{page.redirect}}'" />
+    {% endif %}
     <title>{% if page.title %}{{ page.title | escape }} | {% else %} {% endif %} {{ site.title | escape }}</title>
     <link rel="stylesheet" href="{{ "/css/styles.css" | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">

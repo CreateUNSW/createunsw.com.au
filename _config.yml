@@ -63,7 +63,10 @@ collections:
     output: true
     permalink: /projects/:title/
   _people:
-
+    output: false
+  _pages:
+    output: true
+    permalink: /:name/
 
 defaults:
   -
