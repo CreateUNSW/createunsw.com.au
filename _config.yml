@@ -65,7 +65,11 @@ collections:
   _invoices:
     output: true
     permalink: /invoices/:title/
-
+  _people:
+    output: false
+  _pages:
+    output: true
+    permalink: /:name/
 
 defaults:
   -
