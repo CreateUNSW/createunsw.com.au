@@ -24,13 +24,10 @@ nocover: true
         </p>
 
         <!-- Additional content that needs to be on multiple pages -->
-        {% for type in page.types %}
-          {% include sales/{{ type }}.md %}
-        {% endfor %}
-
-        {% assign price_split = page.price | round: 2 | split: "." %} {% assign
-        integral = price_split[0] %} {% assign fractional = price_split[1] |
-        append: "00" | truncate: 2, "" %}
+        {% for type in page.types %} {% include sales/{{ type }}.md %} {% endfor
+        %} {% assign price_split = page.price | round: 2 | split: "." %} {%
+        assign integral = price_split[0] %} {% assign fractional =
+        price_split[1] | append: "00" | truncate: 2, "" %}
         <h5>Price:</h5>
         <p>${{ integral }}.{{ fractional }} AUD</p>
         {% if page.out_of_stock %}
@@ -65,13 +62,12 @@ nocover: true
           </form>
         </h5>
         {% endif %}
-        <h5>Category:</h5>
-        <p>{{ page.category | capitalize }}</p>
       </div>
     </div>
     <hr class="my-4" />
     <div class="col-md text-center">
-      {% if page.catalogue %}
+      <!-- allows for single products that don't belong to a catalogue -->
+      {% if page.collection == '_products' %} {% if page.catalogue %}
       <a
         href="{{'/' | append: page.catalogue | prepend: site.baseurl }}"
         class="btn btn-primary"
@@ -83,7 +79,7 @@ nocover: true
         class="btn btn-primary"
         >Back to Online Store Catalogue</a
       >
-      {% endif %}
+      {% endif %} {% endif %}
     </div>
   </div>
 </main>
