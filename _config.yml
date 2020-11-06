@@ -62,6 +62,9 @@ collections:
   _projects:
     output: true
     permalink: /projects/:title/
+  _invoices:
+    output: true
+    permalink: /invoices/:title/
   _people:
     output: false
   _pages:
@@ -94,3 +97,7 @@ defaults:
       path: "__projects"
     values:
       layout: "projectsite"
+  - scope:
+      path: "__invoices"
+    values:
+      layout: "invoice"
