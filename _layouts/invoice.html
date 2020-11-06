@@ -2,6 +2,17 @@
 layout: noheader_nocover
 ---
 
+<!--
+Uses invoices of the following format from the font matter
+name:
+email:
+date: yyyy-mm-dd
+items:
+    - exact name (from page title),quantity (integer),notes
+    - more items
+discount: name,percent (as integer)
+-->
+
 <div class="invoice-header">
     <div id="logo">
         <img src="/images/logos/create-logo-2020-new.png">
@@ -56,6 +67,19 @@ layout: noheader_nocover
                 {% assign total = total | plus: item_total %}
             </tr>
         {% endfor %}
+        {% assign price_split = total | round: 2 | split: "." %}
+        {% assign integral = price_split[0] %}
+        {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+        <tr><td></td><td></td><td></td><td><b>Subtotal:</b></td><td>${{ integral }}.{{ fractional }}</td></tr>
+        {% if page.discount %}
+            {% assign discount = page.discount | split: "," %}
+            {% assign subtract = discount[1] | times: total | times: 0.01 %}
+            {% assign price_split = subtract | round: 2 | split: "." %}
+            {% assign integral = price_split[0] %}
+            {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
+            <tr><td>{{ discount[0] }}</td><td></td><td></td><td>{{ discount[1] }}%</td><td>-${{ integral }}.{{ fractional }}</td></tr>
+            {% assign total = total | minus: subtract %}
+        {% endif %}
         {% assign price_split = total | round: 2 | split: "." %}
         {% assign integral = price_split[0] %}
         {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}

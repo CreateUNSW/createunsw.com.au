@@ -163,16 +163,16 @@ header {
     overflow: hidden;
     position: relative;
     @media (max-width: 1199.98px) {
-            
+
     }
     @media (max-width: 991.98px) {
-        
+
     }
     @media (max-width: 767.98px) {
 
     }
     @media (max-width: 575.98px) {
-        height: 300px;   
+        height: 300px;
     }
     img {
         position: relative;
@@ -182,16 +182,16 @@ header {
         object-fit: cover;
         filter: brightness(40%);
         @media (max-width: 1199.98px) {
-            
+
         }
         @media (max-width: 991.98px) {
-            
+
         }
         @media (max-width: 767.98px) {
-    
+
         }
         @media (max-width: 575.98px) {
-            height: 600px; 
+            height: 600px;
         }
     }
     .title-block {
@@ -439,5 +439,9 @@ img[src*="#post"] {
 
     tr:nth-child(even) {
         background-color: $site-grey;
+    }
+
+    tbody tr:nth-last-child(1) {
+        background-color: $site-dark-grey;
     }
 }
