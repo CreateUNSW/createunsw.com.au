@@ -3,7 +3,6 @@ category: quadcopters
 title: Boscam 5.8GHz Receiver
 price: 25.00
 slug: Boscam-5.8GHz-Receiver
-sku: HGW
 image: /images/sales/quad_Boscam_5.8GHz_Receiver.jpg
 out_of_stock: true
 ---

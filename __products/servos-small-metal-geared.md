@@ -3,7 +3,6 @@ category: servos
 title: Small metal-geared servo
 price: 8.00
 slug: small-metal-geared-servo
-sku: HGW
 image: /images/sales/servo_small_metal.jpg
 ---
 Model: <a href="http://www.electronicoscaldas.com/datasheet/MG90S_Tower-Pro.pdf">MG90S</a>

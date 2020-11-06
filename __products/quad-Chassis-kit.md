@@ -3,7 +3,6 @@ category: quadcopters
 title: Chassis kit
 price: 17.00
 slug: chassis-kit
-sku: HGW
 image: /images/sales/quad_chassis.jpg
 ---
 Model: HJ450

@@ -3,7 +3,6 @@ category: wires
 title: Jumper wires
 price: 4.00
 slug: jumper-wires-loose-M-M
-sku: HGW
 image: /images/sales/wires_mm_65.jpg
 ---
 $4.00 - 65pc bundle

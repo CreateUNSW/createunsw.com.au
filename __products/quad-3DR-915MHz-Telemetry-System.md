@@ -3,7 +3,6 @@ category: quadcopters
 title: 3DR 915MHz Telemetry System
 price: 48.00
 slug: 3DR-915MHz-Telemetry-System
-sku: HGW
 image: /images/sales/quad_telemetry.jpg
 out_of_stock: true
 ---

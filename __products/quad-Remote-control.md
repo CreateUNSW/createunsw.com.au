@@ -3,7 +3,6 @@ category: quadcopters
 title: Remote control
 price: 78.00
 slug: Remote-control
-sku: HGW
 image: /images/sales/quad_remote.jpg
 ---
 Model: FS-T6

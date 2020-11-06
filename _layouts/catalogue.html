@@ -51,13 +51,13 @@ javascript: catalogue
         {% assign products = site._products | sort_natural: 'title' %}
         {% for product in products %}
             {% if page.catalogue == 'main' or page.catalogue == product.catalogue %}
-                <div id="{{ product.slug }}" class="sales-product {{ product.category }} shadows">
+                <div id="{{ product.slug }}" class="sales-product shadows {{ product.categories | join: ' ' }}">
                     <a href="{{ product.url | relative_url }}">
                         <div class="product-box">
                             <img src ="{% if product.image %} {{ product.image }} {% else %} {{ '/images/not-found.png' }} {% endif %}" alt="{{ product.title }}">
                         </div>
                         <div class="card-body">
-                            <b>{{ product.title }}</b>
+                            <b>{% include titlecase.html title=product.title %}</b>
                             {% assign price_split = product.price | round: 2 | split: "." %}
                             {% assign integral = price_split[0] %}
                             {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}

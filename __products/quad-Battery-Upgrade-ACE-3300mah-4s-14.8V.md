@@ -3,7 +3,6 @@ category: quadcopters
 title: Battery Upgrade-ACE 3300mah 4s 14.8V
 price: 20.00
 slug: Battery-Upgrade-ACE-3300mah-4s-14.8V
-sku: HGW
 image: /images/sales/quad_Battery_Upgrade_ACE_3300mah_4s_14.8V.jpg
 out_of_stock: true
 ---

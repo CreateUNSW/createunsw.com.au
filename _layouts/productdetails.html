@@ -1,56 +1,89 @@
 ---
 layout: default
+nocover: true
 ---
-<div class="jumbotron text-center">
-    <h1>Online Store</h1>
-</div>
 
-<!--main content: Store intro-->
 <main type="main">
-    <div class="container-xl">
-        <div class="row">
-            <div class="col-md text-center text-md-left">
-                <h2>{{ page.title }}</h2>
-            </div>
-        </div>
-        <hr class="my-4">
-        <div class="row">
-            <div class="col-md-6 left productimg">
-                <img src="{% if page.image %} {{ page.image }} {% else %} {{ '/images/not-found.png' }} {% endif %}" alt="{{ page.title }}">
-            </div>
-            <div class="col-md-6 right">
-                <h5>Category:</h5>
-                <p>{{ page.category | capitalize }}</p>
-                <h5>Specifications / More info:</h5>
-                <p>{% if page.content %} {{ page.content }} {% else %} {{ 'N/A' }} {% endif %}</p>
-                {% assign price_split = page.price | round: 2 | split: "." %}
-                {% assign integral = price_split[0] %}
-                {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
-                <h5>Price:</h5>
-                <p>${{ integral }}.{{ fractional }} AUD (for each {{ page.title | capitalize }})</p>
-                {% if page.out_of_stock %}
-                    <h5>Item out of stock, send an email to
-                        {% include sales/email.html %}
-                    to enquire about when it will be next available</h5>
-                {% else %}
-                    <h5>Add to cart:
-                        <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
-                            {% include /sales/paypal-inputs.html title=page.title price=page.price %}
-                            <input style="width:45px; height: 30px; color:black;" type='number' name='quantity' value='1' min="1">
-                            <button class="btn btn-third fa fa-shopping-cart" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
-                            </button>
-                        </form>
-                    </h5>
-                {% endif %}
-            </div>
-        </div>
-        <hr class="my-4">
-        <div class="col-md text-center">
-            {% if page.catalogue %}
-                <a href="{{'/' | append: page.catalogue | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-            {% else %}
-                <a href="{{'/catalogue' | prepend: site.baseurl }}" class="btn btn-primary">Back to Online Store Catalogue</a>
-            {% endif %}
-        </div>
+  <div class="container-xl">
+    <div class="row product-title">
+      <h1>{% include titlecase.html title=page.title %}</h1>
     </div>
+    <div class="row">
+      <div class="col-md-6 left productimg">
+        <img
+          src="{% if page.image %} {{ page.image }} {% else %} {{ '/images/not-found.png' }} {% endif %}"
+          alt="{{ page.title }}"
+          class="productimg"
+        />
+      </div>
+      <div class="col-md-6 right">
+        <h5>Specifications / More info:</h5>
+        <p>
+          {% if page.content %} {{ page.content }} {% else %} {{ 'N/A' }} {%
+          endif %}
+        </p>
+
+        <!-- Additional content that needs to be on multiple pages -->
+        {% for type in page.types %}
+          {% include sales/{{ type }}.md %}
+        {% endfor %}
+
+        {% assign price_split = page.price | round: 2 | split: "." %} {% assign
+        integral = price_split[0] %} {% assign fractional = price_split[1] |
+        append: "00" | truncate: 2, "" %}
+        <h5>Price:</h5>
+        <p>${{ integral }}.{{ fractional }} AUD</p>
+        {% if page.out_of_stock %}
+        <h5>
+          Item out of stock, send an email to {% include sales/email.html %} to
+          enquire about when it will be next available
+        </h5>
+        {% else %}
+        <h5>
+          Add to cart:
+          <form
+            target="paypal"
+            action="https://www.paypal.com/cgi-bin/webscr"
+            method="post"
+          >
+            {% include /sales/paypal-inputs.html title=page.title
+            price=page.price %}
+            <input
+              style="width: 45px; height: 30px; color: black"
+              type="number"
+              name="quantity"
+              value="1"
+              min="1"
+            />
+            <button
+              class="btn btn-third fa fa-shopping-cart"
+              type="submit"
+              name="submit"
+              alt="Add this item to your paypal cart."
+              value="Purchase"
+            ></button>
+          </form>
+        </h5>
+        {% endif %}
+        <h5>Category:</h5>
+        <p>{{ page.category | capitalize }}</p>
+      </div>
+    </div>
+    <hr class="my-4" />
+    <div class="col-md text-center">
+      {% if page.catalogue %}
+      <a
+        href="{{'/' | append: page.catalogue | prepend: site.baseurl }}"
+        class="btn btn-primary"
+        >Back to Online Store Catalogue</a
+      >
+      {% else %}
+      <a
+        href="{{'/catalogue' | prepend: site.baseurl }}"
+        class="btn btn-primary"
+        >Back to Online Store Catalogue</a
+      >
+      {% endif %}
+    </div>
+  </div>
 </main>

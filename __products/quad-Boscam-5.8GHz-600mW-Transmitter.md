@@ -3,7 +3,6 @@ category: quadcopters
 title: Boscam 5.8GHz 600mW Transmitter
 price: 40.00
 slug: Boscam-5.8GHz-600mW-Transmitter
-sku: HGW
 image: /images/sales/quad_Boscam_5.8GHz_600mW_Transmitter.jpg
 out_of_stock: true
 ---

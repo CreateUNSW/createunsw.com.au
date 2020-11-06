@@ -3,7 +3,6 @@ category: quadcopters
 title: Rechargeable Lipo 3S
 price: 25.00
 slug: Rechargeable-Lipo-3S
-sku: HGW
 image: /images/sales/power_lipo_3s.jpg
 out-of-stock: true
 ---

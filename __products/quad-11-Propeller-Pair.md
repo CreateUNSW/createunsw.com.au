@@ -3,7 +3,6 @@ category: quadcopters
 title: 11 Propeller Pair
 price: 4.00
 slug: 11-Propeller-Pair
-sku: HGW
 image: /images/sales/quad_prop_pair.jpg
 out_of_stock: true
 ---

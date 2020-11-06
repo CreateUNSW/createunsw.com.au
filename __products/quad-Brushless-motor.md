@@ -3,7 +3,6 @@ category: quadcopters
 title: Brushless motor
 price: 20.00
 slug: brushless-motor
-sku: HGW
 image: /images/sales/quad_motor.jpg
 out_of_stock: true
 ---

@@ -1,7 +1,7 @@
 <!--cover image section-->
-{% if page.image %}
+{% if layout.nocover == nil and page.image %}
 <div class="cover-img">
-    <img src=" {{page.image}}" alt="Cover Photo">
+    <img src="{{ page.image }}" alt="Cover Photo">
     <div class="container-xl">
         <div class="title-block text-center">
             {% if page.title %}

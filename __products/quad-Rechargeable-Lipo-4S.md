@@ -3,7 +3,6 @@ category: quadcopters
 title: Rechargeable Lipo 4S
 price: 45.00
 slug: Rechargeable-Lipo-4S
-sku: HGW
 image: /images/sales/power_lipo_4S.jpg
 out-of-stock: true
 ---

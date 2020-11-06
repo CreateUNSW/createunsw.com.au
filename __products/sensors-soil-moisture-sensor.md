@@ -3,7 +3,6 @@ category: sensors
 title: Soil Moisture Sensor
 price: 4.00
 slug: soil-moisture-sensor
-sku: HGW
 image: /images/sales/soil-moisture-sensor.png
 ---
 Operating Voltage: DC 3.3-5.5V <br>

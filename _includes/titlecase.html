@@ -1,0 +1,5 @@
+{% assign titlecase = '' %}
+{% for word in include.title | split: ' ' %}
+    {% assign titlecase = titlecase | append: " " | append: word %}
+{% endfor %}
+{{ titlecase }}

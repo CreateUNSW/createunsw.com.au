@@ -3,7 +3,6 @@ category: servos
 title: Small plastic-geared servo
 price: 6.00
 slug: small-plastic-geared-servo
-sku: HGW
 image: /images/sales/servo_small_plastic.jpg
 ---
 Model: <a href="http://www.towerpro.com.tw/driver/drivers/Towerpro%20servo%20spec.pdf">SG90</a>

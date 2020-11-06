@@ -3,7 +3,6 @@ category: quadcopters
 title: Battery CHARGER upgrade
 price: 27.00
 slug: battery-charger-upgrade
-sku: HGW
 image: /images/sales/quad_IMAX_B6_AC_Battery_Balance_Charger.jpg
 out_of_stock: true
 ---

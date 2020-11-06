@@ -3,7 +3,6 @@ category: quadcopters
 title: Current-Voltage monitor
 price: 15.00
 slug: Current-Voltage-monitor
-sku: HGW
 image: /images/sales/quad_power_monitor.jpg
 ---
 Comes with wires.

@@ -3,7 +3,6 @@ category: quadcopters
 title: Quadcopters Full Size Kit
 price: 435.00
 slug: Quadcopters-Full-Size-Kit
-sku: HGW
 image: /images/sales/quad_fullpicture.jpg
 ---
 Create sells full-size quadcopters, full-size hexacopters and mini quadcopters. Whilst spare parts and the mini quadcopters can be bought from our normal sales, the full-size quadcopters are only offered once per semester. Keep an eye on the Facebook group and newsletters for announcements about the full-size kits.

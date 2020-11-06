@@ -3,7 +3,6 @@ category: quadcopters
 title: Ardupilot Mega 2.8 Flight Board
 price: 55.00
 slug: Ardupilot-Mega-Flight-Board
-sku: HGW
 image: /images/sales/quad_flightboard.jpg
 out_of_stock: true
 ---

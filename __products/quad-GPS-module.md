@@ -3,7 +3,6 @@ category: quadcopters
 title: GPS module
 price: 35.00
 slug: GPS-module
-sku: HGW
 image: /images/sales/quad_gps.jpg
 out_of_stock: true
 ---
