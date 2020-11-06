@@ -1,3 +1,12 @@
+GIT
+  remote: git@github.com:jekyll-pdf/jekyll-pdf.git
+  revision: 4faa62d421f7e33f25b621d545b403960530018c
+  branch: master
+  specs:
+    jekyll-pdf (0.1.7)
+      jekyll (~> 3.1, >= 2.0)
+      pdfkit (~> 0.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -17,7 +26,7 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.7)
-    dnsruby (1.61.4)
+    dnsruby (1.61.5)
       simpleidn (~> 0.1)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
@@ -27,8 +36,9 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
-    faraday (1.0.1)
+    faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
+      ruby2_keywords
     ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     forwardable-extended (2.6.0)
@@ -215,11 +225,12 @@ GEM
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    octokit (4.18.0)
+    octokit (4.19.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    pdfkit (0.8.4.3.2)
     public_suffix (3.1.1)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
@@ -228,6 +239,7 @@ GEM
     rouge (3.23.0)
     ruby-enum (0.8.0)
       i18n
+    ruby2_keywords (0.0.2)
     rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -252,7 +264,7 @@ GEM
     unf_ext (0.0.7.7)
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
-    zeitwerk (2.4.0)
+    zeitwerk (2.4.1)
 
 PLATFORMS
   ruby
@@ -260,7 +272,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed (= 0.15.1)
+  jekyll-feed (~> 0.15)
+  jekyll-pdf!
   jekyll-seo-tag
 
 BUNDLED WITH
