@@ -4,7 +4,7 @@ title: 11 Propeller Pair
 price: 4.00
 slug: 11-Propeller-Pair
 image: /images/sales/quad_prop_pair.jpg
-out_of_stock: true
+out-of-stock: true
 ---
 Carbon-plastic. 11 inch 4.7 degrees.
 <br>

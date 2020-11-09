@@ -4,7 +4,7 @@ title: GPS module
 price: 35.00
 slug: GPS-module
 image: /images/sales/quad_gps.jpg
-out_of_stock: true
+out-of-stock: true
 ---
 Model: U-Blox NEO-6H-0-001
 

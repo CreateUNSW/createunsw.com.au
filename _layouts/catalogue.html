@@ -62,7 +62,7 @@ javascript: catalogue
                             {% assign integral = price_split[0] %}
                             {% assign fractional = price_split[1] | append: "00" | truncate: 2, "" %}
                             <p>${{ integral }}.{{ fractional }}</p>
-                            {% if product.out_of_stock %}
+                            {% if product.out-of-stock %}
                                 <p class="red"><b>Out of Stock</b></p>
                             {% else %}
                                 <div class="purchase">
