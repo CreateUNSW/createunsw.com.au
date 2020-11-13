@@ -32,8 +32,13 @@ nocover: true
         <p>${{ integral }}.{{ fractional }} AUD</p>
         {% if page.out-of-stock %}
         <h5>
-          Item out of stock, send an email to {% include sales/email.html %} to
+          Item out of stock.
+          {% if page.out-of-stock-message %}
+            {{ page.out-of-stock-message }}
+          {% else %}
+          Send an email to {% include sales/email.html %} to
           enquire about when it will be next available
+          {% endif %}
         </h5>
         {% else %}
         <h5>
