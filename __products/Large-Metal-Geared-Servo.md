@@ -1,6 +1,5 @@
 ---
 category: servos
-title: Large metal-geared servo
 price: 10.00
 slug: large-metal-geared-servo
 image: /images/sales/servo_large.jpg
