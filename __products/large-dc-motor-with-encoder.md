@@ -1,4 +1,5 @@
 ---
+title: Large DC Motor With Encoder
 category: motors
 price: 22.00
 image: /images/sales/motor-large-metal-geared-dc-motor.png
