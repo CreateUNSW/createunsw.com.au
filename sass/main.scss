@@ -184,11 +184,12 @@ header {
     @media (max-width: 1199.98px) {
     }
     @media (max-width: 991.98px) {
+      height: 450px;
     }
     @media (max-width: 767.98px) {
     }
     @media (max-width: 575.98px) {
-      height: 600px;
+      height: 300px;
     }
   }
   .title-block {
@@ -196,6 +197,7 @@ header {
     position: absolute;
     top: 40%;
     left: 50%;
+    min-width: 300px;
     transform: translate(-50%, -50%);
     margin: 10px 0px;
     line-height: 1.2;
@@ -348,8 +350,8 @@ footer {
     color: $create-white;
     text-decoration: none;
     &:hover {
-      color: $create-yellow;
-      text-decoration: none;
+      color: $create-white;
+      text-decoration: underline;
     }
   }
 }
