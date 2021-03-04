@@ -1,4 +1,5 @@
 ---
+title: Comprehensive Arduino Mega Kit
 category: kits
 price: 50.00
 image: /images/sales/kit_comprehensive2.jpg

@@ -1,4 +1,5 @@
 ---
+title: Basic Arduino Uno Kit
 category: kits
 price: 28.00
 image: /images/sales/basic-kit.jpg
