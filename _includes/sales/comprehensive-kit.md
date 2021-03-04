@@ -1,6 +1,3 @@
-The more comprehensive kits are for hobbyists and students who wants to get a bit more hands-on with creating! They include either an Arduino Uno or Arduino Mega, and the following items:
-
-
 * 1 x 830pt Breadboard
 * 10 x LED
 * 2 x RGB LED
@@ -22,6 +19,8 @@ The more comprehensive kits are for hobbyists and students who wants to get a bi
 * 1 x IR phototransistor
 * 1 x NPN transistor BC547
 * 1 x Flathead Screwdriver
+
+The more comprehensive kits are for hobbyists and students who wants to get a bit more hands-on with creating!
 
 ![table comparing uno and mega](/images/sales/arduino_comp.jpg)
 
