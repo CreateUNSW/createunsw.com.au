@@ -10,7 +10,7 @@ image: /images/vivid2018/20180522_CREATE_Synergy_BumpIn-3593.jpg
 slug: pi-synergy
 link:
 ---
-CREATE Project Illuminate is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
+CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
 Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
 
@@ -30,55 +30,71 @@ Image: Tsz Kin LIU (William), Art & Design Representative, CREATE Project Illumi
 <img src="/images/vivid2018/MG_5949final.jpg" class="contentimg">
 <img src="/images/vivid2018/MG_5886.jpg" class="contentimg">
 
-<p>Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering</p>
+Image: Gary Compton Photography, commissioned for the UNSW Faculty of Engineering
 
-<h3>Meet the team</h3>
-<h4>Directors</h4>
-<p>Jonathan Hribar - 4th year Mechatronic/Biomedical Engineering</p>
-<p>Junji Moey - 3rd year Mechatronic Engineering and Computer Science</p>
+### Meet the team
 
-<h4>Computational design</h4>
+#### Directors
 
-<p>Christopher Ho - 4th year Civil Engineering/Architecture, Project Advisor</p>
+Jonathan Hribar - 4th year Mechatronic/Biomedical Engineering
 
-<h4>Concept design</h4>
+Junji Moey - 3rd year Mechatronic Engineering and Computer Science
 
-<p>Christie Wong - Master of Arts</p>
-<p>Jane Fan - 5th year Computer Science/Media Arts (Hons)</p>
+#### Computational design
 
-<h4>Structural engineering</h4>
+Christopher Ho - 4th year Civil Engineering/Architecture, Project Advisor
 
-<p>Jeremy Low - 4th year Mechanical Engineering</p>
-<p>Emily Chan - 4th year Mechanical Engineering</p>
+#### Concept design
 
-<h4>Electrical engineering</h4>
+Christie Wong - Master of Arts
 
-<p>Yuen Chan - 4th year Mechatronic Engineering/Mathematics</p>
-<p>Andy Zheng - 4th year Electrical Engineering/Commerce</p>
-<p>Mahima Mandal - 3rd year Electrical Engineering</p>
-<p>Daniel Li - 4th year Electrical Engineering/Computer Science, CREATE UNSW President</p>
-<p>Daniel Wong – 2nd year Aerospace Engineering</p>
-<p>David Xue – 4th year Electrical Engineering</p>
-<p>Aly Virani - 3rd year Mechatronic Engineering</p>
+Jane Fan - 5th year Computer Science/Media Arts (Hons)
 
-<h4>Programming</h4>
+#### Structural engineering
 
-<p>Jason Chu - 2nd year Software Engineering</p>
-<p>Kevin Yu - 3rd year Electrical Engineering/Computer Science</p>
-<p>Shiyuan Liang - 3rd year Software Engineering</p>
-<p>Nevin Suriyaa - 2nd year Computer Science</p>
+Jeremy Low - 4th year Mechanical Engineering
 
-<h4>Manufacturing</h4>
+Emily Chan - 4th year Mechanical Engineering
 
-<p>Anthony Feizi-Sobbi - 4th year Mechatronic Engineering</p>
-<p>Austin Kong – PhD candidate, Mechanical Engineering</p>
+#### Electrical engineering
 
-<h4>Marketing</h4>
+Yuen Chan - 4th year Mechatronic Engineering/Mathematics
 
-<p>Tsz Kin (William) Liu - 4th year Media Arts (Hons), Project Secretary & Representative in Faculty of Art & Design / MAKE CLUB President</p>
-<p>Dylan Goh - 2nd year Commerce/Design (Hons)</p>
+Andy Zheng - 4th year Electrical Engineering/Commerce
 
-<h3>Acknowledgements</h3>
+Mahima Mandal - 3rd year Electrical Engineering
+
+Daniel Li - 4th year Electrical Engineering/Computer Science, CREATE UNSW President
+
+Daniel Wong – 2nd year Aerospace Engineering
+
+David Xue – 4th year Electrical Engineering
+
+Aly Virani - 3rd year Mechatronic Engineering
+
+#### Programming
+
+Jason Chu - 2nd year Software Engineering
+
+Kevin Yu - 3rd year Electrical Engineering/Computer Science
+
+Shiyuan Liang - 3rd year Software Engineering
+
+Nevin Suriyaa - 2nd year Computer Science
+
+#### Manufacturing
+
+Anthony Feizi-Sobbi - 4th year Mechatronic Engineering
+
+Austin Kong – PhD candidate, Mechanical Engineering
+
+#### Marketing
+
+Tsz Kin (William) Liu - 4th year Media Arts (Hons), Project Secretary & Representative in Faculty of Art & Design / MAKE CLUB President
+
+Dylan Goh - 2nd year Commerce/Design (Hons)
+
+### Acknowledgements
 
 Our heartfelt thanks go out to the following individuals or organisations for their hard work, without which our project would not have been possible.
 
@@ -86,16 +102,17 @@ Destination NSW, AGB Events, Event Engineering, UNSW Engineering, UNSW Built Env
 
 This project has been supported by Arc @ UNSW Ltd under their 2018 Student Community & Development Grants scheme
 
-<h4>Our volunteers</h4>
-<h4>CREATE UNSW</h4>
+#### Our volunteers
+
+##### CREATE UNSW
 
 Matthew Pisto, Leo Chan, Ken Ba Vi Le, Alexander Lam, Louis Wong, Deborah Lui, James Williams, Stanley Ching, Lakshan Jayakody, Yi Jun Tai, Belinda Zhang, William Zhan, May Xuan Chew, Subrina Rahman, Daniel Shung Kit Wong, James Yosua Yo, Whitney Xu, Jason Minh Phu, David Xue, Michael Wu, Rosanna Lee, William Weng, Linda Truong
 
-<h4>MAKE CLUB / UNSW Art & Design</h4>
+##### MAKE CLUB / UNSW Art & Design
 
 Ghadeer Al-badri, Danae-Irene Kyriakaki, Doreen Zheng, Aris Ioannou-Marsh, Konnor Kwan, Toshi, Zhouquan (William) Pang
 
-<h3>More Info</h3>
+### More Info
 
 <p><a href="https://www.vividsydney.com/event/light/synergy" target="_blank">Synergy - Vivid Sydney 2018 Website</a></p>
 <p><a href="https://www.engineering.unsw.edu.au/news/shining-lights" target="_blank">Shining Lights | UNSW Engineering</a></p>

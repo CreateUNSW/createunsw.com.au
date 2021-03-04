@@ -10,7 +10,7 @@ image: /images/vivid2019/20190518_CREATE_PI_BumpInDay3-0330-WM.jpg
 slug: pi-celestial-pancake
 link:
 ---
-CREATE Project Illuminate is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
+CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
 Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
 
@@ -18,7 +18,7 @@ Celestial Pancake is our sixth year of involvement with the Vivid Sydney festiva
 
 Celestial Pancake is a suspended audio-visual installation that visitors can walk under. It is composed of a four-meter radius 'ceiling' with fiber optics and an evolving four-point soundtrack. From afar, the whole terminal is bathed in washes of light, drawing people in and encouraging them to pause reflectively. Set to alternating colour palettes inspired by space phenomenon that enchanted us as kids, the installation transports a slice of the sky and brings it to us on the ground.
 
-Fun Facts of this project, we have used: <b>17,500 LEDs, 10km of wires and running it with only 2 power plugs.</b>
+Fun Facts of this project, we have used: **17,500 LEDs, 10km of wires and running it with only 2 power plugs**.
 
 The Project Illuminate for 2019 is formed by three major teams, the art & design team, technical team and administration team. The student project group consists upwards of 90 students who participate in artistic design, engineering design, manufacturing, operations and marketing.
 
@@ -27,38 +27,60 @@ The Project Illuminate for 2019 is formed by three major teams, the art & design
 
 Production of our artwork at the UNSW James N Kirby Makerspace. Image: Tsz Kin (William) Liu
 
-<h2>Meet the team</h2>
-<hr class="my-4">
-<h4>Project Manager - Joshua Sun</h4>
-<b>Secretary - Teresa Feng</b>
-<h5>Head of Marketing - Taiyue Tan</h5>
-<b>Marketing Assistant - Tsz Kin (William) Liu</b>
-<h4>Art & Design Team Director - Dylan Yikwah Goh</h4>
-<h5>Concept Lead - Jasmine Tan</h5>
-<h5>Render Lead - Bettina Zhang, Nathalie Tun Barreto</h5>
-<h5>Interactive Media Lab Advisors - Genevieve Collier, Ryley Edwards</h5>
-<b>Art & Design Collaborators: </b>
-<p>Anakha Menon, Christopher Yang Wang, Danae-Irene Kyriakaki, Dhwani Sahetai, Kaveri Gopalakrishnan, Krishna Adka, Nishant Pandav, Polly Rise, Selina Chan, Tongzheng Zhao, Xiao Fang, Xiaowei Luo</p>
-<h4>Technical Team Director - Dylan Sanusi-Goh</h4>
-<h5>Electrical Lead - Aly Virani</h5>
-<h5>Senior Electrical Engineers: Anthony Feizi Sobbi, Luke Jackson</h5>
-<b>Electrical Engineers:</b>
-<p>Alfred Yeh, Anthony Leung, Bethany Hoyt, Ching Ting Li, Christopher Harris, Christopher Tran, Cristian Bernal, Danika Luichareonkit, Dunya Vasic, Felice Tan, Jessica Phe Li, Jungbin Lee, Junji Moey, Kevinly Santoso, Lakshan Perera, Madeline Younes, Minh Duc Duong, Nhu Dinh, Prithvi Guntha, Rachel Feng, Samantha Choy, Samantha Mesia, Shevaani Rams, Stephanie Liaw, Steven Kassiou, Taban Khurram, Tavishi Makhija, Tristan Ranee, Xiaowei Luo</p>
-<h5>Mechanical Lead - Michael Wu, Prithvi Guntha</h5>
-<h5>Senior Mechanical Engineer: Matthew Payor</h5>
-<b>Mechanical Engineers:</b>
-<p>Beryl Li, Daniel Wong, Eric Lin, Havish Krishna, Jeremy Low, Jonathan Hribar, Junji Moey, Kathy Fan, Kelly Yi, Lek Hong Fong, Louis Wong, Lucas Pun, Luke Simmonds, Nanqi Chen, Rosanna Liu, Royi Yu, Sanjaya Stenly Hoo, Yash Kedar, Yasmin Manovel, Yonghao Lu, Yu Ning Oliver Long</p>
-<h5>Software Lead - Mahima Mandal</h5>
-<h5>Senior Software Engineer: Inura De Zoysa</h5>
-<b>Software Engineers:</b>
-<p>Alison Truong, Alvin Cheng, Daniel Fan, Elizabeth Willer, Isheeta Sinha, Kevin Chen, Kevin Zhang, Micheal Mamansala, Nathan Ng, Onkesh Sharma, Pheobe Zhou, Sergio Mercado, Stephen Leung, Xavier Poon, Zixin (Cindy) Zhou</p>
+## Meet the team
+---
+#### Project Manager - Joshua Sun
+
+**Secretary - Teresa Feng**
+
+##### Head of Marketing - Taiyue Tan
+
+**Marketing Assistant - Tsz Kin (William) Liu**
+
+#### Art & Design Team Director - Dylan Yikwah Goh
+
+##### Concept Lead - Jasmine Tan
+
+##### Render Lead - Bettina Zhang, Nathalie Tun Barreto
+
+##### Interactive Media Lab Advisors - Genevieve Collier, Ryley Edwards
+
+##### Art & Design Collaborators:
+
+Anakha Menon, Christopher Yang Wang, Danae-Irene Kyriakaki, Dhwani Sahetai, Kaveri Gopalakrishnan, Krishna Adka, Nishant Pandav, Polly Rise, Selina Chan, Tongzheng Zhao, Xiao Fang, Xiaowei Luo
+
+#### Technical Team Director - Dylan Sanusi-Goh
+
+##### Electrical Lead - Aly Virani
+
+###### Senior Electrical Engineers: Anthony Feizi Sobbi, Luke Jackson
+
+**Electrical Engineers:**
+
+Alfred Yeh, Anthony Leung, Bethany Hoyt, Ching Ting Li, Christopher Harris, Christopher Tran, Cristian Bernal, Danika Luichareonkit, Dunya Vasic, Felice Tan, Jessica Phe Li, Jungbin Lee, Junji Moey, Kevinly Santoso, Lakshan Perera, Madeline Younes, Minh Duc Duong, Nhu Dinh, Prithvi Guntha, Rachel Feng, Samantha Choy, Samantha Mesia, Shevaani Rams, Stephanie Liaw, Steven Kassiou, Taban Khurram, Tavishi Makhija, Tristan Ranee, Xiaowei Luo
+
+##### Mechanical Lead - Michael Wu, Prithvi Guntha
+
+###### Senior Mechanical Engineer: Matthew Payor
+
+**Mechanical Engineers:**
+
+Beryl Li, Daniel Wong, Eric Lin, Havish Krishna, Jeremy Low, Jonathan Hribar, Junji Moey, Kathy Fan, Kelly Yi, Lek Hong Fong, Louis Wong, Lucas Pun, Luke Simmonds, Nanqi Chen, Rosanna Liu, Royi Yu, Sanjaya Stenly Hoo, Yash Kedar, Yasmin Manovel, Yonghao Lu, Yu Ning Oliver Long
+
+##### Software Lead - Mahima Mandal
+
+###### Senior Software Engineer: Inura De Zoysa
+
+**Software Engineers:**
+
+Alison Truong, Alvin Cheng, Daniel Fan, Elizabeth Willer, Isheeta Sinha, Kevin Chen, Kevin Zhang, Micheal Mamansala, Nathan Ng, Onkesh Sharma, Pheobe Zhou, Sergio Mercado, Stephen Leung, Xavier Poon, Zixin (Cindy) Zhou
 
 <img src="/images/vivid2019/20190415_UNSWVividInstallationBuild_SCREEN-147.jpg" class="contentimg">
 <img src="/images/vivid2019/20190415_CREATE_PI_Tyree-0080-WM.jpg" class="contentimg">
 
 Left: The Team Leaders. Image courtesy of UNSW Engineering / Right: Team photo during the major working day. Image: Tsz Kin (William) Liu
 
-<h2>Acknowledgements</h2>
+## Acknowledgements
 Our heartfelt thanks go out to the following organisations for their hard work, without which our project would not have been possible.
 
 <div class="row">

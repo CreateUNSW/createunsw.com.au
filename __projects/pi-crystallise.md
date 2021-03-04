@@ -10,7 +10,7 @@ image: /images/20170522-P5221018.jpg
 slug: pi-crystallise
 link:
 ---
-CREATE Project Illuminate is now rebranded as <b>UNSW Illuminate</b> and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
+CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
 Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
 
