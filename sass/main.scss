@@ -64,6 +64,10 @@ body {
   margin: 0px auto;
 }
 
+main {
+  padding: 20px;
+}
+
 /*text*/
 a {
   text-decoration: none;
@@ -88,21 +92,23 @@ a {
 #topBtn {
   display: none;
   position: fixed;
-  bottom: 25px;
-  right: 25px;
+  bottom: 100px;
+  right: 0px;
   z-index: 99;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: $site-grey;
-  opacity: 0.5;
-  color: $create-black;
+  background-color: $create-red;
+  opacity: 0.9;
+  color: $white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 10px 15px;
+  border-radius: 5px 0px 0px 5px;
   &:hover {
-    background-color: $create-yellow;
     opacity: 1;
+  }
+  i {
+      font-size: 30px;
   }
 }
 

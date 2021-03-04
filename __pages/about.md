@@ -16,13 +16,14 @@ The core aim of CREATE is to provide opportunities for students to learn practic
 CREATE runs an array of activities to further this ideal, hosting a series of workshops teaching basic technical skills in Arduino, electronics, programming, CAD, and digital fabrication. CREATE operates a weekly electronics stall to supply students with the parts they need for projects big or small. CREATE facilitates a number of projects including the QUT Robotic Club's Droid Racing Competition and Sumobots in collaboration with UNSW MTRNSoc. UNSW Illuminate and Flight Labs UNSW both started as CREATE projects and have since grown into their own independent organisations.
 
 ## Awards:
+
 * Arc Club of the Year - 2013 and 2015
 * Arc Regular Club of the Year - 2017
 * Arc Best Off-Campus Activity - Crystallise 2017
 * UNSW Engineering Student Service Awards - 2014:
-    * Founding Member Nathan Adler
-    * Founding President Sam Cassisi
-    * Founding Member Austin Kong
+    - Founding Member Nathan Adler
+    - Founding President Sam Cassisi
+    - Founding Member Austin Kong
 
 
 <hr class="my-4">
