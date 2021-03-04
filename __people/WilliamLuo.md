@@ -1,13 +1,15 @@
 ---
-
 title: "William Luo"
-image: /images/people/william_luo.jpg
 role: "Head of Media and Marketing"
 index: 13
+year: 2014
+status: past_executive
+image: /images/people/william_luo.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2014
 ---
-2014 Head of Media and Marketing
+##### Previous roles with CREATE
+
+- 2014 Head of Media and Marketing
 

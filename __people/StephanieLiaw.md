@@ -1,11 +1,14 @@
 ---
-
 title: Stephanie Liaw
-image:
 role: Vice President of Technology
-degree: Mechatronics Engineering / Computer Science
 index: 2
-linkedin-url:
-status: current_executive
 year: 2020
+status: past_executive
+image:
+degree: Mechatronic Engineering / Computer Science
+email:
+linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2020 Vice President of Technology

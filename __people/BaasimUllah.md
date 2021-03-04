@@ -1,11 +1,14 @@
 ---
-
 title: "Baasim Ullah"
-image: 
 role: "Co-Director of Sales"
-degree: Mechatronic Engineering
 index: 10
-linkedin-url:
-status: current_executive
 year: 2020
+status: past_executive
+image: 
+degree: Mechatronic Engineering
+email:
+linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2020 Co-Director of Sales

@@ -1,13 +1,17 @@
 ---
-
 title: "Nathan Adler"
-image: /images/people/nathan_adler.jpg
 role: "Founder / President"
-year: "2015"
 index: 2
+year: "2015"
+status: founder
+image: /images/people/nathan_adler.jpg
+degree:
 email:
 linkedin-url:
-status: founder
 ---
-2014-2015 President, 2013 VP of Events
+##### Previous roles with CREATE
+
+- 2012 Founder
+- 2013 Vice President of Events
+- 2014-2015 President
 

@@ -1,11 +1,14 @@
 ---
-
 title: "Jiaqi Zhu"
-image: /images/people/JiaqiZhu.jpeg
-role: "Secretary"
-degree: Software Engineering / Science
-index: 4
-linkedin-url:
+role: "President / Arc Delegate & Grievances Officer"
+index: 1
+year: 2021
 status: current_executive
-year: 2020
+image: /images/people/JiaqiZhu.jpeg
+degree: Software Engineering / Science
+email:
+linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2020 Secretary

@@ -1,13 +1,15 @@
 ---
-
 title: "Mark Johnson"
-image: /images/people/mark_johnson.jpg
 role: "Co-Director of Sales"
 index: 12
+year: 2015
+status: past_executive
+image: /images/people/mark_johnson.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2015
 ---
-2015 Co-Director of Sales, 2014 Head of Sales
+##### Previous roles with CREATE
 
+- 2014 Head of Sales
+- 2015 Co-Director of Sales

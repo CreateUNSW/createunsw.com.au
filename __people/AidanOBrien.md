@@ -1,13 +1,15 @@
 ---
-
 title: "Aidan O’Brien"
-image: /images/people/aidan_obrien.jpg
 role: "Vice President"
 index: 15
+year: 2013
+status: past_executive
+image: /images/people/aidan_obrien.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2013
 ---
-2013 Vice President
+##### Previous roles with CREATE
+
+- 2013 Vice President
 

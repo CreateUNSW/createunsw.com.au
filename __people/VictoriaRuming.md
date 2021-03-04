@@ -1,11 +1,14 @@
 ---
-
 title: Victoria Ruming
-image: 
 role: Vice President of Outreach and Sponsorship
-degree: Mechatronic / Biomedical Engineering
 index: 3
-linkedin-url:
-status: current_executive
 year: 2020
+status: past_executive
+image: 
+degree: Mechatronic / Biomedical Engineering
+email:
+linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2020 Vice President of Outreach and Sponsorship

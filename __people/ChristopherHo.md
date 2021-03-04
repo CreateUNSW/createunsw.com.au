@@ -1,17 +1,17 @@
 ---
-
 title: "Christopher Ho"
-image: /images/people/ChristopherHo.jpg
-role: "VP of Sponsorship"
+role: "Vice President of Sponsorship"
 index: 10
+year: 2017
+status: past_executive
+image: /images/people/ChristopherHo.jpg
+degree: Civil Engineering with Architecture
 email:
 linkedin-url:
-degree: Civil Engineering with Architecture
-status: past_executive
-year: 2017
 ---
-2017 - Vice President of Sponsorship
+##### Previous roles with CREATE
 
-2016 - Secretary
+- 2016 Arc Delegate, Secretary
+- 2017 Vice President of Sponsorship
 
-2016 - Arc Delegate
+

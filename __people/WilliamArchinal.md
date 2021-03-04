@@ -1,13 +1,15 @@
 ---
-
 title: "William Archinal"
-image: /images/people/william_archinal.jpg
-role: "Secretary/Treasurer"
+role: "Secretary / Treasurer"
 index: 13
+year: 2014
+status: past_executive
+image: /images/people/william_archinal.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2014
 ---
-2014 Secretary/Treasurer
+##### Previous roles with CREATE
+
+- 2014 Secretary / Treasurer
 

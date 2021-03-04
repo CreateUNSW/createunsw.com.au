@@ -1,12 +1,15 @@
 ---
-
 title: "Abhishek Sharan"
-image: /images/people/exec_abhishek_sharan.jpg
 role: "UAS Team Leader"
 index: 10
+year: 2017
+status: past_executive
+image: /images/people/exec_abhishek_sharan.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2017
 ---
+##### Previous roles with CREATE
+
+- 2017 UAS Team Leader
 

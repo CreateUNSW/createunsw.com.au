@@ -1,11 +1,14 @@
 ---
-
 title: Shakeel Cameron
-image:
-role: Treasurer
-degree:
+role: Director of Events
 index: 5
-linkedin-url:
+year: 2021
 status: current_executive
-year: 2020
+image:
+degree:
+email:
+linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2020 Treasurer

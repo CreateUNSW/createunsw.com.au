@@ -1,13 +1,15 @@
 ---
-
 title: "Emmanuel Fazio"
-image: /images/people/emmanuel_fazio.jpg
 role: "Co-Director of Sales"
 index: 12
+year: 2015
+status: past_executive
+image: /images/people/emmanuel_fazio.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2015
 ---
-2015 Co-Director of Sales
+##### Previous roles with CREATE
+
+- 2015 Co-Director of Sales
 

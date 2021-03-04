@@ -1,13 +1,14 @@
 ---
-
 title: "Pascal Hendricks"
-image: /images/people/pascal_hendricks.jpg
 role: "Events Co-ordinator"
 index: 15
+year: 2013
+status: past_executive
+image: /images/people/pascal_hendricks.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2013
 ---
-2013 Events Co-ordinator
+##### Previous roles with CREATE
 
+2013 Events Co-ordinator

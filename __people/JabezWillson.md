@@ -1,12 +1,14 @@
 ---
-
 title: "Jabez Willson"
-image: 
 role: "CREATE DRC Team Leaders"
 index: 8
-email:
-linkedin-url:
 year: 2018
 status: past_executive
+image: 
+degree:
+email:
+linkedin-url:
 ---
-CREATE DRC Project Director
+##### Previous roles with CREATE
+
+- 2018 DRC Project Director

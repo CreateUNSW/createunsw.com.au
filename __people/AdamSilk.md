@@ -1,13 +1,16 @@
 ---
-
 title: "Adam Silk"
-image: /images/people/adam_silk.jpg
-role: "VP of Sponsorship"
+role: "Vice President of Sponsorship"
 index: 13
+year: 2014
+status: past_executive
+image: /images/people/adam_silk.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2014
 ---
-2014 VP of Sponsorship, 2013 Arc Delegate
+##### Previous roles with CREATE
+
+- 2013 Arc Delegate
+- 2014 Vice President of Sponsorship
 

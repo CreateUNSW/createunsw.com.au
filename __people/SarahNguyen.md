@@ -1,13 +1,15 @@
 ---
-
 title: "Sarah Nguyen"
-image:
 role: "Digital Artist"
 index: 11
+year: 2016
+status: past_executive
+image:
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2016
 ---
-2016 Digital Artist
+##### Previous roles with CREATE
+
+- 2016 Digital Artist
 

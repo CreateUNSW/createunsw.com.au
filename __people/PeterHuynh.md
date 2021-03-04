@@ -1,11 +1,14 @@
 ---
-
 title: Peter Huynh
-image:
 role: Director of Events
-degree: Civil Engineering
 index: 7
-linkedin-url:
-status: current_executive
 year: 2020
+status: past_executive
+image:
+degree: Civil Engineering
+email:
+linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2019 Events Team Sub-committee

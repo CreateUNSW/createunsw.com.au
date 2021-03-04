@@ -1,14 +1,16 @@
 ---
-
 title: "Michael O'Connor"
-image: /images/people/michael_oconnor.jpg
 role: "Head of 3D Printing"
 index: 13
+year: 2014
+status: past_executive
+image: /images/people/michael_oconnor.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2014
 ---
-2014 Co-Head of Sales
-<br>2014 Head of 3D Printing
+##### Previous roles with CREATE
+
+- 2014 Co-Head of Sales
+- 2014 Head of 3D Printing
 

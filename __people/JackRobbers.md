@@ -1,10 +1,15 @@
 ---
 title: "Jack Robbers"
-image: /images/people/Jack-Robbers.JPG
-role: "Co-Director of Sales"
-degree: Mechatronic Engineering / Computer Science
-index: 9
-linkedin-url:
+role: "Vice President of Technology / Secretary"
+index: 2
+year: 2021
 status: current_executive
-year: 2020
+image: /images/people/Jack-Robbers.JPG
+degree: Mechatronic Engineering / Computer Science
+email:
+linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2019 Sales Team Sub-committee
+- 2020 Co-Director of Sales

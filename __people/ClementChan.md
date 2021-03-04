@@ -1,13 +1,16 @@
 ---
 
 title: "Clement Chan"
-image: /images/people/clement_chan.jpg
 role: "Socials Co-ordinator"
 index: 13
+year: 2014
+status: past_executive
+image: /images/people/clement_chan.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2014
 ---
-2014 Socials Co-ordinator
+##### Previous roles with CREATE
+
+- 2014 Socials Co-ordinator
 

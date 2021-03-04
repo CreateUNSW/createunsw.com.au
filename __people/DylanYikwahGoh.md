@@ -1,16 +1,17 @@
 ---
-
 title: Dylan Yikwah Goh
-status: past_executive
-year: 2019
 role: Art & Design Director, Project Illuminate
 index: 20
-degree: Commerce / Design
+year: 2019
+status: past_executive
 image: /images/people/DylanYikwahGoh_profile.jpg
+degree: Commerce / Design
 email:
 linkedin-url:
 ---
-Dylan is a current President of MAKE CLUB (Sister club of CREATE).
-<h4>Previous roles with CREATE</h4>
-2018 - Head of Marketing, Project Illuminate <br>
-2019 - Art & Design Team Director, Project Illuminate
+Dylan is a former President of MAKE CLUB (Sister club of CREATE).
+
+##### Previous roles with CREATE
+
+- 2018 - Head of Marketing, Project Illuminate
+- 2019 - Art & Design Team Director, Project Illuminate

@@ -1,14 +1,15 @@
 ---
-
 title: "Rory San Miguel"
-image: /images/people/rory_san_miguel.jpg
-role: "VP of Sponsorship"
+role: "Vice President of Sponsorship"
 index: 12
+year: 2015
+status: past_executive
+image: /images/people/rory_san_miguel.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2015
 ---
-2015 VP of Sponsorship
-<br>2013 CTO
+##### Previous roles with CREATE
 
+- 2013 Chief Technical Officer
+- 2015 Vice President of Sponsorship

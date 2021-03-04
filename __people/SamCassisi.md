@@ -1,12 +1,14 @@
 ---
-
 title: "Sam Cassisi"
-image: /images/people/sam_cassisi.jpg
 role: "Founding President"
 index: 1
+year: 2013
+status: founder
+image: /images/people/sam_cassisi.jpg
+degree:
 email:
 linkedin-url:
-status: founder
-year: 2013
 ---
-2013 Founder / President
+##### Previous roles with CREATE
+
+- 2013 Founding President

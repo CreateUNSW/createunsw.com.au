@@ -1,13 +1,14 @@
 ---
-
 title: "Raymond Zeng"
-image: /images/people/ray_zeng.jpg
 role: "Co-Head of Media and Marketing"
-degree: Industrial Design
 index: 12
+year: 2015
+status: past_executive
+image: /images/people/ray_zeng.jpg
+degree: Industrial Design
 email:
 linkedin-url:
-status: past_executive
-year: 2015
 ---
+##### Previous roles with CREATE
 
+- 2015 Co-Head of Media and Marketing

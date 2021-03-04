@@ -1,12 +1,14 @@
 ---
-
 title: "William Weng"
-image: /images/people/WilliamWeng.jpg
 role: "Chief Technical Officer"
 index: 3
+year: 2018
+status: past_executive
+image: /images/people/WilliamWeng.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2018
 ---
-2018 - Chief Technical Officer
+##### Previous roles with CREATE
+
+- 2018 Chief Technical Officer

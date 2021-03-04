@@ -1,12 +1,14 @@
 ---
-
 title: "Kartin Leung"
-image: /images/people/KartinLeung.jpg
 role: "Head of Media & Marketing"
 index: 9
+year: 2018
+status: past_executive
+image: /images/people/KartinLeung.jpg
+degree: Interior Architecture
 email:
 linkedin-url:
-status: past_executive
-year: 2018
 ---
-2018 - Head of Media & Marketing
+##### Previous roles with CREATE
+
+- 2018 Head of Media & Marketing

@@ -1,13 +1,15 @@
 ---
-
 title: "Lachlan Boyle"
-image: /images/people/exec_lachlan_boyle.jpg
 role: "Co-Director of Sales"
 index: 11
+year: 2016
+status: past_executive
+image: /images/people/exec_lachlan_boyle.jpg
+degree:
 email:
 linkedin-url:
-status: past_executive
-year: 2016
 ---
-2016 Co-Director of Sales
+##### Previous roles with CREATE
+
+- 2016 Co-Director of Sales
 

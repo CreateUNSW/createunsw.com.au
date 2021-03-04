@@ -1,13 +1,16 @@
 ---
-
 title: "Austin Kong"
-image: /images/people/austin_kong.jpg
 role: "Founder / Chief Technical Officer"
 index: 3
+year: 2015
+status: founder
+image: /images/people/austin_kong.jpg
+degree: Aerospace Engineering / Science
 email:
 linkedin-url:
-degree: Aerospace Engineering / Science
-status: founder
-year: 2015
 ---
-2015 Doer of Things (CTO), 2013 Secretary
+##### Previous roles with CREATE
+
+- 2012 Founding Member
+- 2013 Secretary
+- 2015 Chief Technical Officer
