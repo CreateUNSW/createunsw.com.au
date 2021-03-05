@@ -12,7 +12,7 @@ link:
 ---
 CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
-Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
+Visit <a href="{{ site.unswilluminate }}">{{ site.unswilluminate }}</a> for more information
 
 <p>CREATE has built a giant robotic Pacman game! The project appeared at Vivid Sydney 2015, and also featured at a number of events throughout 2015. </p>
 
@@ -25,5 +25,5 @@ Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unsw
 
 <h3>More Info</h3>
 
-<p><a href="https://newsroom.unsw.edu.au/news/students/mazing-robotic-pac-man-light-vivid-festival" target="_blank">A-mazing robotic Pac-Man to light up Vivid Festival | UNSW Newsroom</a></p>
-<p><a href="http://www.abc.net.au/tv/goodgame/stories/s4303926.htm" target="_blank">ABC Australia - Good Game Stories - Robotic Pac-Man</a></p>
+<p><a href="https://newsroom.unsw.edu.au/news/students/mazing-robotic-pac-man-light-vivid-festival">A-mazing robotic Pac-Man to light up Vivid Festival | UNSW Newsroom</a></p>
+<p><a href="http://www.abc.net.au/tv/goodgame/stories/s4303926.htm">ABC Australia - Good Game Stories - Robotic Pac-Man</a></p>

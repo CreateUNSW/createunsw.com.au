@@ -12,7 +12,7 @@ link:
 ---
 CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
-Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
+Visit <a href="{{ site.unswilluminate }}">{{ site.unswilluminate }}</a> for more information
 
 <h3>The artwork, its function and meaning</h3>
 
@@ -100,4 +100,4 @@ Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unsw
 
 <h3>More Info</h3>
 
-<p><a href="https://www.vividsydney.com/event/light/crystallise" target="_blank">Crystallise - Vivid Sydney 2017 Website</a></p>
+<p><a href="https://www.vividsydney.com/event/light/crystallise">Crystallise - Vivid Sydney 2017 Website</a></p>

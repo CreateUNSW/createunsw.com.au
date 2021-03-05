@@ -55,9 +55,10 @@ $enable-responsive-font-sizes: true;
 @import "store-page";
 
 /*general*/
-* {
-  padding: 0px;
+html {
+  scroll-behavior: smooth;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -65,7 +66,7 @@ body {
 }
 
 main {
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 /*text*/

@@ -12,7 +12,7 @@ link:
 ---
 CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
-Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
+Visit <a href="{{ site.unswilluminate }}">{{ site.unswilluminate }}</a> for more information
 
 <p>
 
@@ -35,5 +35,5 @@ Finally, CREATE acknowledges the following faculties and organisations who have 
 
 <h3>More Info</h3>
 
-<p><a href="https://www.facebook.com/CreateUnsw/photos/?tab=album&album_id=590946197747506" target="_blank">Behind the scenes</a></p>
-<p><a href="https://newsroom.unsw.edu.au/news/students/student-group-create-lights-vivid-mondrian-cube" target="_blank">Student group CREATE lights up Vivid with a Mondrian Cube | UNSW Newsroom</a></p>
+<p><a href="https://www.facebook.com/CreateUnsw/photos/?tab=album&album_id=590946197747506">Behind the scenes</a></p>
+<p><a href="https://newsroom.unsw.edu.au/news/students/student-group-create-lights-vivid-mondrian-cube">Student group CREATE lights up Vivid with a Mondrian Cube | UNSW Newsroom</a></p>

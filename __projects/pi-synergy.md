@@ -12,7 +12,7 @@ link:
 ---
 CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
-Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
+Visit <a href="{{ site.unswilluminate }}">{{ site.unswilluminate }}</a> for more information
 
 Synergy is our fifth year of invovlement with the Vivid Sydney festival. This project also marks our first collaboration with MAKE CLUB (est. 2016), CREATE’s sister club from university’s Art & Design campus. In addition, the existing Vivid Team within CREATE has been officially branded Project Illuminate. This has been done to mark the welcome introduction of skilled designers into our team, our long-term commitment to the Vivid Sydney program, and this team’s unique specialisation in interactive artworks.
 
@@ -114,7 +114,7 @@ Ghadeer Al-badri, Danae-Irene Kyriakaki, Doreen Zheng, Aris Ioannou-Marsh, Konno
 
 ### More Info
 
-<p><a href="https://www.vividsydney.com/event/light/synergy" target="_blank">Synergy - Vivid Sydney 2018 Website</a></p>
-<p><a href="https://www.engineering.unsw.edu.au/news/shining-lights" target="_blank">Shining Lights | UNSW Engineering</a></p>
-<p><a href="https://newsroom.unsw.edu.au/news/general/unsw-lights-vivid-art-engineering-and-ideas" target="_blank">UNSW lights up Vivid with art, engineering and ideas | UNSW Newsroom</a></p>
-<p><a href="https://www.facebook.com/unsw.illuminate/videos/1563004990664662/" target="_blank">Synergy | Vivid Sydney 2018 - Opening Night Timelapse on 25 May 2018</a></p>
+<p><a href="https://www.vividsydney.com/event/light/synergy">Synergy - Vivid Sydney 2018 Website</a></p>
+<p><a href="https://www.engineering.unsw.edu.au/news/shining-lights">Shining Lights | UNSW Engineering</a></p>
+<p><a href="https://newsroom.unsw.edu.au/news/general/unsw-lights-vivid-art-engineering-and-ideas">UNSW lights up Vivid with art, engineering and ideas | UNSW Newsroom</a></p>
+<p><a href="https://www.facebook.com/unsw.illuminate/videos/1563004990664662/">Synergy | Vivid Sydney 2018 - Opening Night Timelapse on 25 May 2018</a></p>

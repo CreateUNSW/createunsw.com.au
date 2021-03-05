@@ -26,7 +26,7 @@ William would also like to acknowledge his team member Leesa Dang (A current com
 
 ![Screenshot comparing the old and new website](/images/website_rebrand2019.jpg#post)
 
-Should you have any feedback to the website or report issues or bugs, please go to our <a href="https://github.com/createunsw" target="_blank">GitHub Account Page</a> and find our repository project **createunsw.com.au** to report issues.
+Should you have any feedback to the website or report issues or bugs, please go to our <a href="https://github.com/createunsw">GitHub Account Page</a> and find our repository project **createunsw.com.au** to report issues.
 
 ##### About Tsz Kin LIU (William)
 

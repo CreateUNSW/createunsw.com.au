@@ -12,7 +12,7 @@ link:
 ---
 CREATE Project Illuminate is now rebranded as **UNSW Illuminate** and operating as a student project under UNSW Engineering ChallENG program, while the project will still remains in close collaboration with CREATE
 
-Visit <a href="https://www.unswilluminate.com/" target="_blank">https://www.unswilluminate.com/</a> for more information
+Visit <a href="{{ site.unswilluminate }}">{{ site.unswilluminate }}</a> for more information
 
 Celestial Pancake is our sixth year of involvement with the Vivid Sydney festival (fifth time with a light installation). Since the branding launch of Project Illuminate during <a href="{{'/projects/pi-synergy' | prepend: site.baseurl }}">Synergy (Vivid Sydney 2018) project</a>, we have pushed our creative and technical boundaries to make this artwork bigger than our last year's Synergy. The project is fully supported by UNSW Sydney.
 
@@ -87,38 +87,38 @@ Our heartfelt thanks go out to the following organisations for their hard work, 
 <div class="col-md">
 <div class="columns twogrids">
 <h5>Major sponsor:</h5>
-<p><a href="https://www.unsw.edu.au" target="_blank">UNSW Sydney</a>, <a href="http://engineering.unsw.edu.au/" target="_blank">UNSW Engineering</a></p>
+<p><a href="https://www.unsw.edu.au">UNSW Sydney</a>, <a href="http://engineering.unsw.edu.au/">UNSW Engineering</a></p>
 <h5>Financial sponsors:</h5>
-<p><a href="http://engineering.unsw.edu.au/" target="_blank">UNSW Engineering</a>, <a href="http://artdesign.unsw.edu.au/" target="_blank">UNSW Art & Design</a>, <a href="https://www.arc.unsw.edu.au/" target="_blank">Arc @ UNSW Ltd</a> (under 2019 Student Community & Development Grants scheme)</p>
+<p><a href="http://engineering.unsw.edu.au/">UNSW Engineering</a>, <a href="http://artdesign.unsw.edu.au/">UNSW Art & Design</a>, <a href="https://www.arc.unsw.edu.au/">Arc @ UNSW Ltd</a> (under 2019 Student Community & Development Grants scheme)</p>
 <h5>Manufacturing sponsors:</h5>
-<p><a href="https://kandaelectronics.com.au/" target="_blank">K&A Electronics</a>, <a href="https://www.be.unsw.edu.au/" target="_blank">UNSW Built Environment</a>: Design Future Lab, <a href="https://www.making.unsw.edu.au/" target="_blank">UNSW Making</a></p>
+<p><a href="https://kandaelectronics.com.au/">K&A Electronics</a>, <a href="https://www.be.unsw.edu.au/">UNSW Built Environment</a>: Design Future Lab, <a href="https://www.making.unsw.edu.au/">UNSW Making</a></p>
 <h5>Interactive and programming advisor:</h5>
-<p>Ryley Edwards & Genevieve Collier from <a href="https://artdesign.unsw.edu.au/campus/interactive-media-lab" target="_blank">UNSW Art & Design: Interactive Media Lab</a></p>
+<p>Ryley Edwards & Genevieve Collier from <a href="https://artdesign.unsw.edu.au/campus/interactive-media-lab">UNSW Art & Design: Interactive Media Lab</a></p>
 <h5>Supported by sister club:</h5>
 <p>MAKE CLUB at UNSW Art & Design</p>
 </div>
 <div class="columns twogrids">
 <h5>Venue support:</h5>
-<p><a href="https://www.portauthoritynsw.com.au/" target="_blank">Port Authority of New South Wales</a></p>
+<p><a href="https://www.portauthoritynsw.com.au/">Port Authority of New South Wales</a></p>
 <h5>Audio Equipment support</h5>
-<p><a href="buzzspeakerhiresydney.com.au/" target="_blank">Buzz Speaker Hire Sydney</a></p>
+<p><a href="buzzspeakerhiresydney.com.au/">Buzz Speaker Hire Sydney</a></p>
 <h5>Event technical support</h5>
-<p>Val and the team from <a href="http://tripointrigging.com/" target="_blank">Tri Point Rigging</a><br>
-Morgan and the team from <a href="https://www.eventengineering.com.au/" target="_blank">Event Engineering</a></p>
+<p>Val and the team from <a href="http://tripointrigging.com/">Tri Point Rigging</a><br>
+Morgan and the team from <a href="https://www.eventengineering.com.au/">Event Engineering</a></p>
 <h5>Event organiser and producer:</h5>
-<p>Timothy Spohr, Indi Belle, Tony Fahr and the rest of the team at <a href="https://www.destinationnsw.com.au/" target="_blank">Destination NSW</a> and the NSW Government</p>
+<p>Timothy Spohr, Indi Belle, Tony Fahr and the rest of the team at <a href="https://www.destinationnsw.com.au/">Destination NSW</a> and the NSW Government</p>
 </div>
 </div>
 </div>
 <div class="row">
 <div class="col-md">
 <h2>More Info</h2>
-<p><a href="https://www.vividsydney.com/event/light/celestial-pancake" target="_blank">Celestial Pancake - Vivid Sydney 2019 Website</a></p>
-<p><a href="https://www.facebook.com/unsw.illuminate/" target="_blank">UNSW Illuminate (previously known as CREATE Project Illuminate) - Facebook Page</a></p>
-<p><a href="https://www.facebook.com/unsw/videos/616841378821977/" target="_blank">Our Behind the scenes at UNSW, produced by UNSW</a></p>
-<p><a href="https://newsroom.unsw.edu.au/news/general/unsw-shines-bright-vivid-sydney" target="_blank">
+<p><a href="https://www.vividsydney.com/event/light/celestial-pancake">Celestial Pancake - Vivid Sydney 2019 Website</a></p>
+<p><a href="https://www.facebook.com/unsw.illuminate/">UNSW Illuminate (previously known as CREATE Project Illuminate) - Facebook Page</a></p>
+<p><a href="https://www.facebook.com/unsw/videos/616841378821977/">Our Behind the scenes at UNSW, produced by UNSW</a></p>
+<p><a href="https://newsroom.unsw.edu.au/news/general/unsw-shines-bright-vivid-sydney">
 UNSW shines bright at Vivid Sydney | UNSW Newsroom</a></p>
-<p><a href="https://artdesign.unsw.edu.au/whats-on/news/under-celestial-pancake-student%E2%80%99s-shimmering-vivid-installation" target="_blank">
+<p><a href="https://artdesign.unsw.edu.au/whats-on/news/under-celestial-pancake-student%E2%80%99s-shimmering-vivid-installation">
 Under the Celestial Pancake: student’s shimmering Vivid installation | UNSW Art & Design</a></p>
 </div>
 </div>

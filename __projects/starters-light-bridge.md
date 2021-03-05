@@ -16,4 +16,4 @@ link:
  <img src="/images/lightbridge2.jpg" class="contentimg">
  <img src="/images/lightbridge3.jpg" class="contentimg">
  <p>It is an incredible opportunity to have our work exposed to a vastly different audience, numbering between 6000-­8000 people (as attracted in previous years). In order to make the most of this opportunity, I’m planning quite an ambitious work. My intent in applying for funding is to have my work reach its best potential.</p>
- <p>Scarlett’s work can be viewed in <a href ="https://www.youtube.com/watch?v=sF6wnBgo5nc" target="_blank">Randwick City Council’s video here</a> (0:30 - 0:33)</p>
+ <p>Scarlett’s work can be viewed in <a href ="https://www.youtube.com/watch?v=sF6wnBgo5nc">Randwick City Council’s video here</a> (0:30 - 0:33)</p>

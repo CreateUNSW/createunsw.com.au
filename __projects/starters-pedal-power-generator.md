@@ -29,4 +29,4 @@ An UNO R3 microcontroller and current sensor was used to control the LED strip w
 
 The power output of the pedal power generator is estimated to be around 100W. The bike is able to charge phones, power the aforementioned LED lights, and run a small drinks cooler. It has been featured in several internal UNSW events such as Stress Less Week, and First Friday: Bespoke City at UNSW Art & Design.
 
- <p>You can view the progress video <a href ="https://www.facebook.com/CreateUnsw/videos/483971138445013/?permPage=1" target="_blank"> here</a></p>
+ <p>You can view the progress video <a href ="https://www.facebook.com/CreateUnsw/videos/483971138445013/?permPage=1"> here</a></p>

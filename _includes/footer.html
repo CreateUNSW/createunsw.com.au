@@ -27,15 +27,16 @@
         <div class="row justify-content-md-center">
             <div class="col-md col-md-4 text-center">
                 <h5>UNSW Students Sign Up</h5>
-                <a href="https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016F0000371Vx5QAE" target="_blank" class="btn btn-block btn-primary">Sign Up Here</a>
+                <a href="{{ site.signup }}" target="_blank" class="btn btn-block btn-primary">Sign Up Here</a>
             </div>
 
             <div class="col-md col-md-4 text-center" id="followus">
                 <h5>Social Media</h5>
-                <a href="{{ site.facebook }}" target="_blank" class="btn btn-facebook"><i class="fab fa-facebook"></i> Facebook</a>
-                <!-- <a href="{{ site.instagram }}" target="_blank" class="btn btn-instagram"><i class="fa fa-instagram"></i> Instagram</a> -->
-                <a href="{{ site.youtube }}" target="_blank" class="btn btn-youtube"><i class="fab fa-youtube"></i> YouTube</a>
-                <a href="https://web.cse.unsw.edu.au/~apps/discord/create/" class="btn btn-discord"><i class="fab fa-discord"></i> Discord</a>
+                <a href="{{ site.facebook }}" class="btn btn-facebook"><i class="fab fa-facebook"></i> Facebook</a>
+                <!-- <a href="{{ site.instagram }}" class="btn btn-instagram"><i class="fa fa-instagram"></i> Instagram</a> -->
+                <a href="{{ site.linkedin }}" target="blank" class="btn btn-linkedin"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="{{ site.youtube }}" class="btn btn-youtube"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="{{ site.discord }}" class="btn btn-discord"><i class="fab fa-discord"></i> Discord</a>
             </div>
 
             <!--div class="col-md-4 box" id="mailing">
@@ -64,14 +65,14 @@
             <div class="col-md">
                 <div class="box text-center">
                     <h5>Partners</h5>
-                    <a target="_blank" href="https://www.arc.unsw.edu.au/"><img src="/images/logos/Arc Clubs Logo_Black_FILL.png" alt="Arc UNSW Logo"></a>
-                    <a target="_blank" href="https://www.engineering.unsw.edu.au/"><img src="/images/logos/UNSWEngineering-Landscape-Logo-Print-POS.png" alt="UNSW Engineering Logo"></a>
-                    <a target="_blank" href="http://mcic.unsw.edu.au/"><img src="/images/logos/mcic_logo.png" alt="MCIC Logo"></a>
+                    <a href="https://www.arc.unsw.edu.au/"><img src="/images/logos/Arc Clubs Logo_Black_FILL.png" alt="Arc UNSW Logo"></a>
+                    <a href="https://www.engineering.unsw.edu.au/"><img src="/images/logos/UNSWEngineering-Landscape-Logo-Print-POS.png" alt="UNSW Engineering Logo"></a>
+                    <a href="http://mcic.unsw.edu.au/"><img src="/images/logos/mcic_logo.png" alt="MCIC Logo"></a>
                 </div>
                 <div class="box text-center">
                     <h5>Associated Project Teams</h5>
-                    <a target="_blank" href="https://www.unswilluminate.com/"><img src="/images/logos/unsw-illuminate-dark.png" alt="UNSW Illuminate Logo"></a>
-                    <a target="_blank" href="https://flightlabs.com.au/"><img src="/images/logos/FlightLabsUNSW.png" alt="Flight Labs UNSW Logo"></a>
+                    <a href="{{ site.unswilluminate }}"><img src="/images/logos/unsw-illuminate-dark.png" alt="UNSW Illuminate Logo"></a>
+                    <a href="https://flightlabs.com.au/"><img src="/images/logos/FlightLabsUNSW.png" alt="Flight Labs UNSW Logo"></a>
                 </div>
             </div>
         </div>
@@ -86,10 +87,9 @@
 			<div class="col-md-6 text-center text-md-left">
                 <p>Copyright, {{ 'now' | date: "%Y" }}, <a href="{{'/index' | prepend: site.baseurl }}">CREATE NSW Inc.</a></p>
                 <p>Build - Learn - Inspire</p>
-                <!-- <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p> -->
             </div>
             <div class="col-md-6 text-center text-md-right">
-                <p>Design by <a href="http://liutkwilliam.github.io" target="_blank">TSZ KIN LIU (William)</a></p>
+                <p>Design by <a href="http://liutkwilliam.github.io">TSZ KIN LIU (William)</a></p>
             </div>
         </div>
     </div>
