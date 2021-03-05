@@ -50,13 +50,17 @@ We only offer delivery on bulk orders (over $250). Send us an email at {% includ
 
 If you urgently need something that is out of stock, please look for other options such as jaycar or ebay. Our components are normally ordered in bulk from overseas, so restocking times may be long.
 
-#### Do you supply components or kits for courses?
+#### Can you supply components or custom kits for my course or program?
 
-Yes! We've worked with many course conveners and lecturers in the past to supply components for courses such as ENGG1000 and BIOM1010. Send us an email at {% include sales/email.html %} with the quantities and components required. We can consult on project and kit design and may offer reduced prices for large orders. Our team has a range of mentoring experience and we can find mentoring staff within our network.
+Yes! We've worked with course conveners and lecturers in the past to supply components for courses such as ENGG1000 and BIOM1010. In 2020 we produced kits for a UNSW Girls in Engineering workshop including procurement, packaging, and delivery of kits.
+
+Send us an email at {% include sales/email.html %} with the quantities and components required. We can consult on project kit design and offer reduced prices for bulk orders. 
+
+Our team has a range of mentoring and tutoring experience and can recommend course staff from within our network.
 
 #### Can you run an extra stall for my course?
 
-Generally we run an extra stall during the later weeks of ENGG1000 on build days to supply students with convenient last-minute parts. If you'd like us to do something similar for your course send us an email at {% include sales/email.html %}.
+Generally we run an extra stall during the later weeks of ENGG1000 on build days for convenient last-minute parts. If you'd like us to do something similar for your course send us an email at {% include sales/email.html %}.
 
 ---
 
