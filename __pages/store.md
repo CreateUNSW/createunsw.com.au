@@ -28,7 +28,7 @@ During university terms (not including summer term) we run a stall on Globe Lawn
 
 #### Pickups
 
-We offer pickups for orders. Send us an email at {% include sales/email.html %} and we'll organise a time.
+We offer pickups for orders. Send us an email at {% include sales/email.html %} and we'll organise a time. Currently for Term 1 2021; Monday, Tuesday, and Wednesday are the only days that we'll be able to offer pickups (updated 7th March 2021).
 
 #### Payments
 
