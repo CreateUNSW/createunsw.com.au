@@ -3,5 +3,6 @@ category: led
 title: 5mm LEDs - diffused green
 price: 0.20
 image: /images/sales/light_5mmleds-green.jpg
+out-of-stock: true
 ---
 {% include sales/diffused-description.md %}
