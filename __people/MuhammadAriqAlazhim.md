@@ -1,7 +1,7 @@
 ---
-title: "Jeremy Mang"
-role: "Treasurer"
-index: 4
+title: Shakeel Cameron
+role: Director of Events
+index: 6
 year: 2021
 status: current_executive
 image:
