@@ -1,7 +1,9 @@
 ---
 category: wires
 price: 4.00
-image: /images/sales/wires_dupont.jpg
+image: 
 ---
+
+AKA Male-Female. Pin / Plug at 1 end, Socket at the other
 
 {% include sales/jumper-wires.md %}
