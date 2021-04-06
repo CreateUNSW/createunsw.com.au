@@ -1,7 +1,7 @@
 ---
-title: Shakeel Cameron
-role: Director of Events
-index: 6
+title: Muhammad Ariq Alazhim
+role: Co-Director of Sales
+index: 7
 year: 2021
 status: current_executive
 image:
