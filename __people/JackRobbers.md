@@ -1,6 +1,6 @@
 ---
 title: "Jack Robbers"
-role: "Vice President of Technology / Secretary"
+role: "Vice President of Technology"
 index: 2
 year: 2021
 status: current_executive

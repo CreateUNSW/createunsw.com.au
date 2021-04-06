@@ -1,7 +1,7 @@
 ---
-title: Muhammad Ariq Alazhim
+title: Spenser Tan
 role: Co-Director of Sales
-index: 7
+index: 8
 year: 2021
 status: current_executive
 image:
@@ -9,6 +9,3 @@ degree:
 email:
 linkedin-url:
 ---
-##### Previous roles with CREATE
-
-- 2020 Treasurer
