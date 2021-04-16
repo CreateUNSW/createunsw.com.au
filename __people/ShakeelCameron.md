@@ -1,7 +1,7 @@
 ---
 title: Shakeel Cameron
 role: Director of Events
-index: 5
+index: 6
 year: 2021
 status: current_executive
 image:
@@ -12,3 +12,4 @@ linkedin-url:
 ##### Previous roles with CREATE
 
 - 2020 Treasurer
+

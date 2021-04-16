@@ -126,7 +126,6 @@ button.active {
 
 // header and navigation
 header {
-  font-size: 16px;
   .navbar {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
@@ -167,17 +166,19 @@ header {
 // cover image
 .cover-img {
   width: 100%;
-  height: 600px;
+  height: 90vh;
   object-fit: cover;
   overflow: hidden;
   position: relative;
+  transition: 0.3s;
   @media (max-width: 1199.98px) {
-    height: 550px;
+    height: 600px;
   }
-  @media (max-width: 991.98px) {
-    height: 450px;
-  }
+  // @media (max-width: 991.98px) {
+  
+  // }
   @media (max-width: 767.98px) {
+      height: 450px;
   }
   @media (max-width: 575.98px) {
     height: 300px;
@@ -185,15 +186,17 @@ header {
   img {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 90vh;
     object-fit: cover;
     filter: brightness(40%);
     @media (max-width: 1199.98px) {
+      height: 600px;
     }
-    @media (max-width: 991.98px) {
-      height: 450px;
-    }
+    // @media (max-width: 991.98px) {
+    //   height: 450px;
+    // }
     @media (max-width: 767.98px) {
+        height: 450px;
     }
     @media (max-width: 575.98px) {
       height: 300px;
@@ -207,7 +210,6 @@ header {
     min-width: 300px;
     transform: translate(-50%, -50%);
     margin: 10px 0px;
-    line-height: 1.2;
     h1 {
       text-transform: uppercase;
     }
@@ -316,7 +318,7 @@ header {
   display: block;
   margin: 0px auto;
   padding: 5px 0px;
-  max-width: 330px;
+  max-width: 330px; 
 }
 
 // subscribe
