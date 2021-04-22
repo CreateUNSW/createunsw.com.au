@@ -4,7 +4,7 @@ title: Breadboard Jumper Kit
 price: 4.00
 slug: Breadboard-Jumper-Kit
 image: /images/sales/wires_kit.jpeg
-out-of-stock: true
+out-of-stock: false
 ---
 Pack of various sized jumpers for breadboards.
 
