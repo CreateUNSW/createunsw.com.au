@@ -7,7 +7,7 @@ price: 60.00
 
 Kit for Sumobots, includes:
 
-* Arduino Nano
+* Arduino Nano (with USB cable)
 * L298N Motor Controller
 * Ultrasonic Sensor
 * IR Sensor
