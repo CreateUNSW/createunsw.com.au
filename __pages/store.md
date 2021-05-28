@@ -38,6 +38,10 @@ We take cash and card. If you need an invoice to get reimbursed by faculty, let 
 
 We offer full refunds and replacements (depending on stock availability) on all items.
 
+<div class="py-2 text-center">
+    <a href="{{page.button}}" class="btn btn-primary">{{page.button-text}}</a>
+</div>
+
 ---
 
 ## FAQs
