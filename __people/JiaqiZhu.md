@@ -1,6 +1,6 @@
 ---
 title: "Jiaqi Zhu"
-role: "President / Arc Delegate & Grievances Officer"
+role: "President"
 index: 1
 year: 2021
 status: current_executive
