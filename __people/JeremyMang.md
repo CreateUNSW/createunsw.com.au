@@ -1,7 +1,7 @@
 ---
 title: "Jeremy Mang"
 role: "Treasurer"
-index: 4
+index: 5
 year: 2021
 status: current_executive
 image:

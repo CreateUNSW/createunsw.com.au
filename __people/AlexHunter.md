@@ -1,7 +1,7 @@
 ---
-title: Shakeel Cameron
-role: Director of Events
-index: 7
+title: "Alex Hunter"
+role: "Director of Media and Marketing"
+index: 10
 year: 2021
 status: current_executive
 image:
@@ -10,6 +10,4 @@ email:
 linkedin-url:
 ---
 ##### Previous roles with CREATE
-
-- 2020 Treasurer
 

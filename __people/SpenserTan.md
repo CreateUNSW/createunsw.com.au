@@ -1,7 +1,7 @@
 ---
 title: Spenser Tan
 role: Co-Director of Sales
-index: 8
+index: 9
 year: 2021
 status: current_executive
 image:
