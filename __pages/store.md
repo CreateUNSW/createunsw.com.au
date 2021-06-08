@@ -24,11 +24,11 @@ Direct all enquiries to {% include sales/email.html %}
 
 ## Stall
 
-During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12-4. In case of wet weather, the stall will be moved to the outside of MCIC. Follow our [Facebook Page](https://www.facebook.com/CreateUnsw) for up to date information.
+During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12:00-16:00. In case of wet weather, the stall will be moved to the outside of MCIC. Follow our [Facebook Page](https://www.facebook.com/CreateUnsw) for up to date information.
 
 #### Pickups
 
-We offer pickups for orders. Send us an email at {% include sales/email.html %} and we'll organise a time. Currently for Term 1 2021; Monday, Tuesday, and Wednesday are the only days that we'll be able to offer pickups (updated 7th March 2021). Generally pickups will be at the lockers in the hallway behind the MCIC makerspace. Make sure you've confimed the pickup time via email before coming to the lockers.
+We offer pickups for orders, but you must have bought at least $10 worth of components for pickup, otherwise please come to the Monday Stall for pickups. Send us an email at {% include sales/email.html %} and we'll organise a time. Currently for Term 2 2021; All days are available for pickups (updated 9th June 2021). Generally pickups will be at the lockers in the hallway behind the MCIC makerspace. Make sure you've confimed the pickup time via email before coming to the lockers.
 
 #### Payments
 
