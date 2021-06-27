@@ -24,15 +24,15 @@ Direct all enquiries to {% include sales/email.html %}
 
 ## Stall
 
-During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12:00-16:00. In case of wet weather, the stall will be moved to the outside of MCIC. Follow our [Facebook Page](https://www.facebook.com/CreateUnsw) for up to date information.
+During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12:00-16:00. In the case of wet weather, the stall will likely be cancelled depending on conditions. Follow our [Facebook Page](https://www.facebook.com/CreateUnsw) for up to date information.
 
 #### Pickups
 
-We offer pickups for orders, but you must buy at least $5 worth of components for pickup, otherwise please come to the Monday Stall for pickups. Send us an email at {% include sales/email.html %} and we'll organise a time. Currently for Term 2 2021; All days are available for pickups (updated 9th June 2021). Generally pickups will be at the lockers in the hallway behind the MCIC makerspace. Make sure you've confimed the pickup time via email before coming to the lockers.
+We offer pickups for orders, but you must buy at least $5 worth of components for pickup, otherwise please come to the Monday Stall for pickups. Send us an email at {% include sales/email.html %} and we'll organise a time. Currently for Term 2 2021; All days are available for pickups (updated 9th June 2021). Generally pickups will be at the lockers in the hallway behind the MCIC makerspace. (Please enter via Hilmer Building Entrance and go through the double doors next to the disabled unisex toilets and the lockers will be the final set of the lockers before the double doors at the other end.) Make sure you've confimed the pickup time via email before coming to the lockers.
 
 #### Payments
 
-We take cash and card. If you need an invoice to get reimbursed by faculty, let us now at {% include sales/email.html %}
+We take cash and card. If you need an invoice to get reimbursed by faculty, let us know at {% include sales/email.html %}
 
 #### Refunds and Replacements
 
