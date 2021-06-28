@@ -48,7 +48,7 @@ We offer full refunds and replacements (depending on stock availability) on all 
 
 #### Do you offer delivery?
 
-We only offer delivery on bulk orders (over $250). Send us an email at {% include sales/email.html %} to enquire.
+We only offer delivery on bulk orders (over $250). Send us an email at {% include sales/email.html %} to enquire. (Currently due to the lockdown we will suspend this rule for now.)
 
 #### When will this component be back in stock?
 
