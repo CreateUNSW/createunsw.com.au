@@ -28,7 +28,7 @@ During university terms (not including summer term) we run a stall on Globe Lawn
 
 #### Pickups
 
-<p>We offer pickups for orders, but you must buy at least $5 worth of components for pickup, otherwise please come to the Monday Stall for pickups. Send us an email at {% include sales/email.html %} and we'll organise a time.</p> <p><b>Currently for Term 2 2021:</b> <u>Pickups are only for those who need products urgently </u>(updated 27th June 2021). Generally pickups will be at the lockers in the hallway behind the MCIC makerspace. (Please enter via Hilmer Building Entrance and go through the double doors next to the disabled unisex toilets. The lockers will be the final set of the lockers before the double doors at the other end.) Make sure you've confimed the pickup time via email before coming to the lockers.</p>
+<p>We offer pickups for orders, but you must buy at least $5 worth of components for pickup, otherwise please come to the Monday Stall for pickups. Send us an email at {% include sales/email.html %} and we'll organise a time.</p> <p><b>Currently for Term 2 2021:</b> <u>No pickups are allowed.</u>(updated 27th June 2021). Generally pickups will be at the lockers in the hallway behind the MCIC makerspace. (Please enter via Hilmer Building Entrance and go through the double doors next to the disabled unisex toilets. The lockers will be the final set of the lockers before the double doors at the other end.) Make sure you've confimed the pickup time via email before coming to the lockers.</p>
 
 #### Payments
 
