@@ -66,12 +66,12 @@ javascript: catalogue
                                 <p class="red"><b>Out of Stock</b></p>
                             {% else %}
                                 <div class="purchase">
-                                    <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
+                                    <!-- <form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
                                         {% include sales/paypal-inputs.html title=product.title price=product.price %}
                                         <button class="btn btn-block btn-third fa fa-shopping-cart" style="font-size: 25px;" aria-hidden="true" type='submit' name='submit'
                                             alt='Add this item to your paypal cart.' value='Purchase'>
                                         </button>
-                                    </form>
+                                    </form> -->
                                 </div>
                             {% endif %}
                         </div>
