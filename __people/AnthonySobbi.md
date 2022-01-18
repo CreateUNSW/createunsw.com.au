@@ -2,7 +2,7 @@
 title: "Anthony Fezi-Sobbi"
 role: President, CREATE UAS Team Leader
 index: 2
-year: 2017
+year: "2017"
 status: past_executive
 image: /images/people/exec_anthony_fezi-sobbi.jpeg
 degree: Mechatronic Engineering

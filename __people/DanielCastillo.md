@@ -2,7 +2,7 @@
 title: "Daniel Castillo"
 role: "Chief Technical Officer"
 index: 10
-year: 2017
+year: "2017"
 status: past_executive
 image: /images/people/exec_daniel_castillo.jpeg
 degree:

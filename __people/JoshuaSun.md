@@ -2,7 +2,7 @@
 title: Joshua Sun
 role: Arc Delegate / Project Manager, Project Illuminate
 index: 6
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/Josh_Sun.jpg
 degree: Mechatronic Engineering and Commerce

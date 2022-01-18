@@ -2,7 +2,7 @@
 title: "Mark Johnson"
 role: "Co-Director of Sales"
 index: 12
-year: 2015
+year: "2015"
 status: past_executive
 image: /images/people/mark_johnson.jpg
 degree:

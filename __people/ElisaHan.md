@@ -2,7 +2,7 @@
 title: "Elisa Han"
 role: "Co-Vice President of Sales"
 index: 7
-year: 2018
+year: "2018"
 status: past_executive
 image: /images/people/ElisaHan.jpg
 degree: Computer Science

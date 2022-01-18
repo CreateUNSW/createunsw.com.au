@@ -2,7 +2,7 @@
 title: Stephanie Liaw
 role: Vice President of Technology
 index: 2
-year: 2020
+year: "2020"
 status: past_executive
 image:
 degree: Mechatronic Engineering / Computer Science

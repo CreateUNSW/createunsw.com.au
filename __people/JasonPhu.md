@@ -2,7 +2,7 @@
 title: "Jason Phu"
 role: "Vice President of Events"
 index: 3
-year: 2018
+year: "2018"
 status: past_executive
 image: /images/people/JasonPhu.jpg
 degree: Mechatronic Engineering

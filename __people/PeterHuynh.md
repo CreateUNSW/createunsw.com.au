@@ -2,7 +2,7 @@
 title: Peter Huynh
 role: Director of Events
 index: 7
-year: 2020
+year: "2020"
 status: past_executive
 image:
 degree: Civil Engineering

@@ -2,7 +2,7 @@
 title: Farhan Sumantri
 role: Director of Events
 index: 7
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/FarhanSumantri_profile.JPG
 degree: Mechatronic Engineering

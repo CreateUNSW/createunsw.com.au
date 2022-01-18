@@ -2,7 +2,7 @@
 title: "Austin Kong"
 role: "Founder / Chief Technical Officer"
 index: 3
-year: 2015
+year: "2015"
 status: founder
 image: /images/people/austin_kong.jpg
 degree: Aerospace Engineering / Science

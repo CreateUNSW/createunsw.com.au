@@ -2,7 +2,7 @@
 title: "Christopher Ho"
 role: "Vice President of Sponsorship"
 index: 10
-year: 2017
+year: "2017"
 status: past_executive
 image: /images/people/ChristopherHo.jpg
 degree: Civil Engineering with Architecture

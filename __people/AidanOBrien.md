@@ -2,7 +2,7 @@
 title: "Aidan O’Brien"
 role: "Vice President"
 index: 15
-year: 2013
+year: "2013"
 status: past_executive
 image: /images/people/aidan_obrien.jpg
 degree:

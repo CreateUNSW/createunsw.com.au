@@ -2,7 +2,7 @@
 title: "Pascal Hendricks"
 role: "Events Co-ordinator"
 index: 15
-year: 2013
+year: "2013"
 status: past_executive
 image: /images/people/pascal_hendricks.jpg
 degree:

@@ -2,7 +2,7 @@
 title: Johanna Then
 role: Co-Directors of Sales
 index: 10
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/JohannaThen_profile.jpg
 degree: Environmental Engineering

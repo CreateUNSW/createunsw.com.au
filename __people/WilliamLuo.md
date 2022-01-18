@@ -2,7 +2,7 @@
 title: "William Luo"
 role: "Head of Media and Marketing"
 index: 13
-year: 2014
+year: "2014"
 status: past_executive
 image: /images/people/william_luo.jpg
 degree:

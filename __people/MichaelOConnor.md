@@ -2,7 +2,7 @@
 title: "Michael O'Connor"
 role: "Head of 3D Printing"
 index: 13
-year: 2014
+year: "2014"
 status: past_executive
 image: /images/people/michael_oconnor.jpg
 degree:

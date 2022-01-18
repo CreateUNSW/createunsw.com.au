@@ -2,7 +2,7 @@
 title: "Patrick Huang"
 role: "Vice President of Events"
 index: 10
-year: 2017
+year: "2017"
 status: past_executive
 image: /images/people/exec_patrick_huang.jpg
 degree:
