@@ -1,67 +1,46 @@
 ---
-title:
-topic: CREATE UNSW
-sub-topic: A student-led maker club at UNSW Sydney.
+layout: default
+subtitle: A student-led maker club at UNSW Sydney.
 image: /images/home-cover-2019.gif
+btn-name: Learn More
+btn-url: /#about-create
 ---
-	<div class="container-xl">
-		<div class="row">
-			<div class="col-md text-center">
-				<h2>What We Do</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column-flex single-md-column">
-				<div class="columns threegrids black">
-					<img src="/images/2020-CREATE-Events.jpg" alt="Workshop Image" class="card-img-top">
-					<div class="card-header">
-						<h5>Workshops & Socials</h5>
-					</div>
-					<div class="card-body">
-						<p>CREATE runs various workshops & social events throughout the regular university terms. No prior knowledge required. Just show up and join in. </p>
-						<div class="text-right">
-							<a href="{{'/events' | prepend: site.baseurl }}" class="btn btn-primary">Learn More</a>
-						</div>
-					</div>
-
-				</div>
-				<div class="columns threegrids black">
-					<img src="/images/20180416_CREATE_Arduino2-0006.jpg" alt="Sales Image" class="card-img-top">
-					<div class="card-header">
-						<h5>Electronic Component Sales</h5>
-					</div>
-					<div class="card-body">
-						<p>CREATE sells electronic parts including micro-controllers, breadboards, Arduino kits and quadcopters throughout the regular university terms.</p>
-						<div class="text-right">
-							<a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">Learn More</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="columns threegrids black">
-					<img src="/images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg" alt="Team Projects Image" class="card-img-top">
-					<div class="card-header">
-						<h5>Projects</h5>
-					</div>
-					<div class="card-body">
-						<p>CREATE participates in student-led projects such as Droid Racing Challenge (DRC).</p>
-						<div class="text-right">
-							<a href="{{'/projects' | prepend: site.baseurl }}" class="btn btn-primary">Learn More</a>
-						</div>
-					</div>
-				</div>
-				<!--div class="columns fourgrids black">
-					<img src="/images/IMG_2709.jpg" alt="CREATE Starters Image" class="card-img-top">
-					<div class="card-header">
-						<h5>Funding for Student Projects</h5>
-					</div>
-					<div class="card-body">
-						<p>If you have an idea for a project that involves putting together and making any project, we want to provide you with everything needed to get your project off the ground.</p>
-					</div>
-					<div class="card-footer">
-						<a href="{{'/projects' | prepend: site.baseurl }}" class="btn btn-block btn-primary">Learn More</a>
-					</div>
-				</div-->
-			</div>
+<!--Home Cover-->
+<div class="home-cover">
+    <img src="{{ page.image }}" alt="Cover Photo">
+	<div class="cover-filter"></div>
+	<div class="title-block">
+		<p>CREATE UNSW</p>
+		<p class="big-title">BUILD. LEARN. INSPIRE.</p>
+		<p>{{ page.subtitle }}</p>
+		<a href="{{ page.btn-url }}" class="btn btn-lg btn-warning my-4 font-weight-bold">{{ page.btn-name }}</a>
+    </div>
+</div>
+<!--About CREATE-->
+<div class="container-xl py-4" id="about-create">
+	<div class="row">
+		<div class="col-md">
+			<h2>About CREATE</h2>
 		</div>
 	</div>
+	<div class="row row-cols-1 row-cols-md-3">
+		{% for card in site.data.home-cards %}
+		<div class="col mb-4">
+			<div class="card h-100 bg-light shadow">
+				<img src="{{ card.image }}" class="card-img-top" alt="{{ card.alt }}">
+				<div class="card-body">
+					<h3 class="card-title">{{ card.title }}</h3>
+					<p class="card-text">{{ card.description }}</p>
+				</div>
+				<div class="card-footer">
+					<a href="{{ card.btn-link }}" class="btn btn-block btn-outline-primary font-weight-bold">{{ card.btn-text }}</a>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+<!--Get Involved-->
+<div class="container-xl py-4">
+	{% include get-involved.html %}
+</div>

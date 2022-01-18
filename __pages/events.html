@@ -1,12 +1,11 @@
 ---
+layout: default-page
 title: Events
-topic: Events
-sub-topic: Workshops / Social / Sales
-tagline: "we run various workshops throughout the year."
-description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
-image: /images/20180409_CREATE_EGM_Arduino1-0048.jpg
-layout: default_old
+subtitle: Get involved in our exciting workshops
+description: "We run various workshops in engineering, invention and design, and collaborate on ideas and projects throughout the year."
+image: /images/2020-CREATE-Events.jpg
 ---
+<!--Facebook plugin-->
 <div id="fb-root"></div>
 <script>
   (function (d, s, id) {
@@ -19,103 +18,50 @@ layout: default_old
   }(document, 'script', 'facebook-jssdk'));
 </script>
 
-  <div class="container-xl">
+<div class="row">
+  <!--Our Events-->
+  <div class="col-md">
     <div class="row">
       <div class="col-md">
-        <p>Follow our <a href="#facebook-events">Facebook Events</a> for upcoming events & announcements.</p>
+        <h2>Our Events</h2>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-lg-2">
+      {% for card in site.data.our-events %}
+      <div class="col mb-4">
+          <div class="card h-100 bg-light shadow">
+              <img src="{{ card.image }}" class="card-img-top" alt="{{ card.alt }}">
+              <div class="card-body">
+                  <h3 class="card-title">{{ card.title }}</h3>
+                  <ul>
+                    {% for item in card.list %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                  </ul>
+              </div>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <!--Facebook Plugin Insert-->
+  <div class="facebook-col">
+    <div class="row">
+      <div class="col-md">
+        <h2>Upcoming Events</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 column-flex single-md-column">
-        <h2>Key Workshop and Activities </h2>
-
-          <div class="columns twogrids black">
-            <img src="/images/20180409_CREATE_EGM_Arduino1-0050.jpg" id="arduino" class="card-img-top">
-            <div class="card-body">
-              <h5>Basic Electronics & Arduino</h5>
-              <p>The workshops cover the basics of:
-              <li>Electronics and wiring</li>
-              <li>Arduino programming and wiring</li>
-              <li>And use of breadboards, sensors and other parts</li>
-            </div>
-          </div>
-
-          <div class="columns twogrids black">
-            <img src="/images/20180430_CREATE_CAD1-0016.jpg" alt="2D / 3D CAD" class="card-img-top">
-            <div class="card-body">
-              <h5>2D / 3D CAD</h5>
-              <p>The workshops cover: how to model laser cut and 3D printed objects in Fusion 360. You will need to bring in your laptop if you already have the software installed. </p>
-            </div>
-          </div>
-
-          <div class="columns twogrids black">
-            <img src="/images/20181022_CREATE_FlashSales-0013.jpg" alt="Sales Store" class="card-img-top">
-            <div class="card-body">
-              <h5>Sales Store</h5>
-              <p>CREATE sells electronic parts including microcontrollers, breadboards, Arduino kits and quadcopters throughout the terms. Find us every Monday.</p>
-              <div class="text-right">
-                <a href="{{'/store' | prepend: site.baseurl }}" class="btn btn-primary">CREATE Online Store</a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="columns twogrids black">
-            <img src="/images/IMG_9179.jpg" alt="Projects Info Night" class="card-img-top">
-            <div class="card-body">
-              <h5>Projects Info Night</h5>
-              <p>CREATE runs various projects each year, keep an eye on project info nights and attend to express your interest.</p>
-              <div class="text-right">
-                <a href="{{'/projects' | prepend: site.baseurl }}" class="btn btn-primary">Previous Projects</a>
-              </div>
-            </div>
-          </div>
-
-      </div>
-        <div class="col-md-4 text-center">
-            <h3>Upcoming Events</h3>
-
-            <div class="facebook-container">
-
-              <div class="fb-page" data-href="https://www.facebook.com/createUNSW" data-tabs="events" data-width="320" date-height="400" data-small-header="true"
-                data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
-                <blockquote cite="https://www.facebook.com/createUNSW" class="fb-xfbml-parse-ignore">
-                  <a href="https://www.facebook.com/createUNSW">CREATE UNSW</a>
-                </blockquote>
-              </div>
-
-            </div>
-
-          </div>
+      <div class="col-md">
+        <div class="fb-page" data-href="https://www.facebook.com/createUNSW" data-tabs="events" data-width="320" date-height="400" data-small-header="true"
+          data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+          <blockquote cite="https://www.facebook.com/createUNSW" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/createUNSW">CREATE UNSW</a>
+          </blockquote>
         </div>
+      </div>
     </div>
   </div>
+</div>
 
-<!--Archived Activities-->
-
-        <!--div class="columns threegrids black">
-          <img src="/images/wk2-s1-17.jpg" alt="projectfair" class="card-img-top">
-          <div class="card-body">
-            <h5>Maker Faire</h5>
-            <p>If you have a cool personal project of your own or with your friends, come and showcase them to the rest of our community in CREATE’s hackathon! There will be complimentary food, potential networking opportunities with other passionate makers and cash prizes for the ‘people’s choice’.</p>
-            <a href="#workshops" class="btn btn-primary">More info here</a>
-          </div>
-        </div-->
-
-        <!--div class="columns threegrids black">
-          <img src="/images/IMG_2014_08_29_15_38_10_04491.JPG" alt="Socials" class="card-img-top">
-          <div class="card-body">
-            <h5>Socials</h5>
-            <p>Three times a term, CREATE will be hosting a social event for all members in our community.</p>
-            <p>Come and meet other passionate makers, our executive team, project leaders and members in this all-chill event, there will be fun games and free food for all attending.</p>
-          </div>
-        </div-->
-
-        <!--div class="columns threegrids black">
-          <img src="/images/create-starters-banner.png" alt="starters" class="card-img-top">
-          <div class="card-body">
-            <h5>Starters Pitch Night</h5>
-            <p>To reboot the Starters program, CREATE will be hosting a pitch night. Present your great ideas to the audience for a chance to receive $500 from CREATE and additional technical and logistical support for your great project.</p>
-            <p>Come and join us to hear some innovative ideas, or pitch your own.</p>
-          </div>
-        </div-->
+<!-- <p>Follow our <a href="#facebook-events">Facebook Events</a> for upcoming events & announcements.</p> -->
