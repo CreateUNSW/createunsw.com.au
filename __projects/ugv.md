@@ -1,5 +1,6 @@
 ---
-categories: ugv
+categories:
+- CREATE UGV
 title: Unmanned Ground Vehicle
 location: UNSW
 completedate:

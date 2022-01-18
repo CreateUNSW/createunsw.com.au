@@ -1,5 +1,6 @@
 ---
-categories: starters
+categories:
+- CREATE Starters
 title: Pedal Power Generator
 location: UNSW Art & Design
 completedate: 30 August 2015
@@ -19,6 +20,7 @@ When pedalling, the magnets inside the motor will spin and low voltage AC (alter
 
  <img src="/images/bikeology1.jpg" class="contentimg">
  <img src="/images/bikeology3.jpg" class="contentimg">
+
  Experiment has shown the motor-turned-generator can produce maximum 50V DC when pedalled at Tour de France cyclist speed!
 
 This 50V DC voltage is stepped down to 12V using a DC-DC Buck converter. 12V was chosen as we use car cigarette sockets for the appliances to plug in. We made it such that anything that you can put into the cigarette plug of your car - whether it’d be a phone charging cable or drinks cooler - you can do the same with the pedal power generator.
@@ -29,4 +31,4 @@ An UNO R3 microcontroller and current sensor was used to control the LED strip w
 
 The power output of the pedal power generator is estimated to be around 100W. The bike is able to charge phones, power the aforementioned LED lights, and run a small drinks cooler. It has been featured in several internal UNSW events such as Stress Less Week, and First Friday: Bespoke City at UNSW Art & Design.
 
- <p>You can view the progress video <a href ="https://www.facebook.com/CreateUnsw/videos/483971138445013/?permPage=1"> here</a></p>
+You can view the progress video [here](https://www.facebook.com/CreateUnsw/videos/483971138445013/?permPage=1).
