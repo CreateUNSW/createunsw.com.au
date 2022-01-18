@@ -4,7 +4,7 @@ role: "Director of Events"
 index: 7
 year: "2022"
 status: current_executive
-image:
+image: /images/people/AlexHunter.jpg
 degree:
 email:
 linkedin-url:

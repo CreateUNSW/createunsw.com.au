@@ -4,7 +4,7 @@ role: Co-Director of Sales
 index: 9
 year: "2022"
 status: current_executive
-image:
+image: /images/people/SpencerTan.png
 degree:
 email:
 linkedin-url:

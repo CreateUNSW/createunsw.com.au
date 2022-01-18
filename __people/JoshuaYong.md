@@ -2,9 +2,9 @@
 title: "Joshua Yong"
 role: "Treasurer"
 index: 5
-year: 202w
+year: "2022"
 status: current_executive
-image:
+image: /images/people/JoshuaYong.jpg
 degree:
 email:
 linkedin-url:

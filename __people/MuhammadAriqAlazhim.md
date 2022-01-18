@@ -4,7 +4,7 @@ role: Co-Director of Sales
 index: 8
 year: "2022"
 status: current_executive
-image:
+image: /images/people/AriqAlazhim.png
 degree:
 email:
 linkedin-url:
