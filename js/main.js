@@ -54,3 +54,22 @@ $("document").ready(function() {
     $("a[href^='http://']").attr("target", "_blank");
     $("a[href^='https://']").attr("target", "_blank");
   });
+
+// footer topbtn return function
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      document.getElementById("topBtn").classList.add('show');
+    } else {
+    document.getElementById("topBtn").classList.remove('show');
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
