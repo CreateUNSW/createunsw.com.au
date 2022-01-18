@@ -1,0 +1,14 @@
+---
+layout: default-cover
+comments: Applies on paages that only has a single section only or a markdown page
+---
+<div class="container-xl">
+    {% assign sections = content | split: "SECTION" %}
+    {% for section in sections %}
+    <div class="row py-4">
+        <div class="col-md">
+            {{ section }}
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,26 +1,12 @@
 ---
-layout: default
+layout: default-page
 ---
-<!--main content-->	
-<div id="projects">
-  <div class="container-xl">
-    <div class="row">
-      <div class="col-md-8">
-        <h2>{{ page.title }}</h2>
-        <h5>{{ page.location }}</h5>
-        <h5>{{ page.completedate }}</h5>
-        <a href="{{'/projects' | prepend: site.baseurl }}" class="btn btn-primary">Projects</a>
-      </div>
-      <div class="col-md-4 text-center text-md-right">
-        <p> Written by <b>{{ page.author }}</b> <br> <p>{{ page.date | date: "%d %B %Y %H:%M"}}</p>
-        <p><img src="{{ page.teamlogo }}" class="projectintro"></p>
-      </div>
-    </div>
-    <hr class="my-4">
-    <div class="row">
-      <div class="col-md">
-        {{ page.content }}
-      </div>
-    </div>
+<p> Written by <b>{{ page.author }}</b> on {{ page.date | date: "%d %B %Y"}}</p>
+{% assign sections = content | split: "SECTION" %}
+{% for section in sections %}
+<div class="row py-4">
+  <div class="col-md">
+    {{ section }}
   </div>
 </div>
+{% endfor %}
