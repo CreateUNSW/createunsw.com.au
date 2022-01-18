@@ -1,23 +1,46 @@
-<!--cover image section-->
-{% if layout.nocover == nil and page.image %}
-<div class="cover-img">
-    <img src="{{ page.image }}" alt="Cover Photo">
-    <div class="container-xl">
-        <div class="title-block text-center">
-            {% if page.title %}
-            <h1>{{page.title}}</h1>
-            {% else %}
-            <h1>{{page.topic}}</h1>
-            {% endif %}
-            {% if page.sub-topic %}
-            <h4>{{page.sub-topic}}</h4>
-            {% endif %}
-            {% if page.button %}
-                <div class="cover-button py-2">
-                    <a href="{{page.button}}" class="btn btn-primary">{{page.button-text}}</a>
+<div class="top-cover">  
+    <div class="full-img-container">
+        {% if page.image %}
+        <img src="{{ page.image }}" class="homeimg" alt="Hero Cover Image for {{ page.title }} page">
+        {% endif %}
+        <div class="gradient">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 308.3">
+                <g>
+                  <path d="M206,0a15.5,15.5,0,0,0-3.1.3H206Z"/>
+                  <path d="M80,69.7l116-67A17.8,17.8,0,0,1,202.9.3H0v308H206v-.4a19.8,19.8,0,0,1-10-2.7l-116-67a19.8,19.8,0,0,1-10-17.3V87A19.8,19.8,0,0,1,80,69.7Z" />
+                </g>
+            </svg>
+            <div class="overlay-content">
+                <div class="container-xl">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md">
+                                    {% if page.categories %}
+                                        <p class="text-warning">{{ page.categories }}</p>
+                                    {% endif %}
+                                        <h1 class="text-uppercase font-weight-bold">{{ page.title }}</h1>
+                                    {% if page.subtitle %}
+                                        <p>{{ page.subtitle }}</p>
+                                    {% endif %}
+                                    {% if page.location %}
+                                        <p>{{ page.location }}</p>
+                                    {% endif %}
+                                    {% if page.completedate %}
+                                        <p>{{ page.completedate }}</p>
+                                    {% endif %}
+                                    {% if page.btn-url %}
+                                        <a href="{{ page.btn-url }}" class="btn btn-warning my-4 font-weight-bold">{{ page.btn-name }}</a>
+                                    {% endif %}
+                                    {% if page.btn2-url %}
+                                        <a href="{{ page.btn2-url }}" class="btn btn-outline-light my-4 font-weight-bold">{{ page.btn2-name }}</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            {% endif %}
+            </div>
         </div>
-    </div>
+	</div>
 </div>
-{% endif %}
