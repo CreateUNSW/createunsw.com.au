@@ -2,7 +2,7 @@
 title: "William Archinal"
 role: "Secretary / Treasurer"
 index: 13
-year: 2014
+year: "2014"
 status: past_executive
 image: /images/people/william_archinal.jpg
 degree:

@@ -2,7 +2,7 @@
 title: "William Weng"
 role: "Chief Technical Officer"
 index: 3
-year: 2018
+year: "2018"
 status: past_executive
 image: /images/people/WilliamWeng.jpg
 degree:

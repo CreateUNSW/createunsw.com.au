@@ -1,0 +1,18 @@
+- title: Workshops
+  description: CREATE runs various workshops & social events throughout the regular university terms. No prior knowledge required. Just show up and join in.
+  image: /images/2020-CREATE-Events.jpg
+  alt: Image of students atttending a workshop
+  btn-text: Check out our events
+  btn-link: /events
+- title: Electronic Component Sales
+  description: CREATE sells electronic parts including micro-controllers, breadboards, Arduino kits and quadcopters throughout the regular university terms.
+  image: /images/20181022_CREATE_FlashSales-0013.jpg
+  alt: Image of sales store at UNSW
+  btn-text: Visit our sales store
+  btn-link: /store
+- title: Projects
+  description: CREATE participates in student-led projects such as Droid Racing Challenge (DRC).
+  image: /images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg
+  alt: Image of a team working on a Vivid Sydney Project in 2019.
+  btn-text: View our projects
+  btn-link: /projects

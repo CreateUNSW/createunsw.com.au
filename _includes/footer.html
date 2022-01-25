@@ -1,95 +1,59 @@
 <!--shortcut back to top of the page-->
 <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+<script src="{{ "/js/footer-topbtn.js" | relative_url }}"></script>
 
-    <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-        document.getElementById("topBtn").style.display = "block";
-        } else {
-        document.getElementById("topBtn").style.display = "none";
-        }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-    </script>
-
-
-<!---bottom-rearranged--->
-<div class="sub-footer">
+<!---Partners--->
+<div class="section-partners">
     <div class="container-xl">
-        <div class="row justify-content-md-center">
-            <div class="col-md col-md-4 text-center">
-                <h5>UNSW Students Sign Up</h5>
-                <a href="{{ site.signup }}" target="_blank" class="btn btn-block btn-primary">Sign Up via SpArc</a>
-            </div>
-
-            <div class="col-md col-md-4 text-center" id="followus">
-                <h5>Social Media</h5>
-                <a href="{{ site.facebook }}" class="btn btn-facebook"><i class="fab fa-facebook"></i> Facebook</a>
-                <!-- <a href="{{ site.instagram }}" class="btn btn-instagram"><i class="fa fa-instagram"></i> Instagram</a> -->
-                <a href="{{ site.linkedin }}" target="blank" class="btn btn-linkedin"><i class="fab fa-linkedin"></i> Linkedin</a>
-                <a href="{{ site.youtube }}" class="btn btn-youtube"><i class="fab fa-youtube"></i> YouTube</a>
-                <a href="{{ site.discord }}" class="btn btn-discord"><i class="fab fa-discord"></i> Discord</a>
-            </div>
-
-            <!--div class="col-md-4 box" id="mailing">
-                <form action="https://createunsw.us5.list-manage.com/subscribe/post?u=bf3fdf02d52ce0a3e088caa0b&amp;id=da08fa2c29" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll" class="subscribe_column">
-                    <h5>Subscribe to newsletter</h5>
-                    </div>
-                    <div class="subscribe_column">
-                        <input type="email" value="" name="EMAIL" placeholder="Email" id="mce-EMAIL">
-                    </div>
-                    <div id="mce-responses" class="subscribe_column">
-                        <div class="response" id="mce-error-response" style="display:none"></div>
-                        <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>
-                    <div style="position: relative; left: -5000px;" aria-hidden="true"><input type="text"
-                            name="b_bf3fdf02d52ce0a3e088caa0b_da08fa2c29" tabindex="-1" value=""></div>
-                    !-- real people should not fill this in and expect good things - do not remove this or risk form bot signups->
-
-                    <div class="subscribe_column"><input type="submit" value="Subscribe" name="subscribe"
-                            class="btn btn-block btn-primary"></div>
-                </form>
-            </div-->
-
-        </div>
         <div class="row">
-            <div class="col-md">
-                <div class="box text-center">
-                    <h5>Partners</h5>
-                    <a href="https://www.arc.unsw.edu.au/"><img src="/images/logos/Arc Clubs Logo_Black_FILL.png" alt="Arc UNSW Logo"></a>
-                    <a href="https://www.engineering.unsw.edu.au/"><img src="/images/logos/UNSWEngineering-Landscape-Logo-Print-POS.png" alt="UNSW Engineering Logo"></a>
-                    <a href="http://mcic.unsw.edu.au/"><img src="/images/logos/mcic_logo.png" alt="MCIC Logo"></a>
-                </div>
-                <!-- <div class="box text-center">
-                    <h5>Associated Project Teams</h5>
-                    <a href="{{ site.unswilluminate }}"><img src="/images/logos/unsw-illuminate-dark.png" alt="UNSW Illuminate Logo"></a>
-                    <a href="https://flightlabs.com.au/"><img src="/images/logos/FlightLabsUNSW.png" alt="Flight Labs UNSW Logo"></a>
-                </div> -->
+            <div class="col-md text-center">
+                <p class="font-weight-bold">We thank the partners for their support!</p>
+                {% for partner in site.data.partners %}
+                <a href="{{ partner.url }}"><img src="{{ partner.logo }}" alt="{{ partner.name }} Logo"></a>
+                {% endfor %}
             </div>
         </div>
     </div>
 </div>
 
-
-<!--footer section-->
-<footer class="bg-dark">
-    <div class="container-xl">
+<!--Footer-->
+<footer class="bg-dark text-white navbar-dark py-4">
+    <div class='container-xl'>
         <div class="row">
-			<div class="col-md-6 text-center text-md-left">
-                <p>Copyright, {{ 'now' | date: "%Y" }}, <a href="{{'/index' | prepend: site.baseurl }}">CREATE NSW Inc.</a></p>
-                <p>Build - Learn - Inspire</p>
+            <div class="col-md-3">
+                <a href="{{'/' | prepend: site.baseurl }}">
+                    <img src="{{ site.logo }}" alt="footer-logo" class="footer-logo">
+                </a>
             </div>
-            <div class="col-md-6 text-center text-md-right">
-                <p>Design by <a href="http://liutkwilliam.github.io">TSZ KIN LIU (William)</a></p>
+            <div class="col-md-3">
+                <div class="pb-4">
+                    <p class="h5 pb-3">General enquries</p>
+                    {% include email.html %}
+                </div>
+                <div class="pb-4">
+                    <p class="h5 pb-3">Helpful Links</p>
+                    {% for link in site.data.helpful-links %}
+                        <p><a href="{{ link.url }}">{{ link.name }}</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-3">
+                <p class="h5 pb-3">About CREATE</p>
+                {% for link in site.data.about-create %}
+                    <p><a href="{{ link.url }}">{{ link.name }}</a></p>
+                {% endfor %}
+            </div>
+            <div class="col-md-3 social">
+                <p class="h5 pb-3">Follow Us</p>
+                {% include socials.html %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <p>
+                    We acknowledge the Bedegal people who are the Traditional Custodians of the Land where CREATE NSW Inc. operates. We pay our respect to their Elders past, present and future, and extend the respect to other Aboriginal and Torres Strait Islanders people across Australia.
+                </p>
+                <p>© {{ 'now' | date: "%Y" }} <a href="{{ '/' }}">CREATE NSW Inc.</a></p>
             </div>
         </div>
     </div>

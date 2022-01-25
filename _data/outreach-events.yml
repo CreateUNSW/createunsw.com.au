@@ -1,0 +1,12 @@
+- title: Arduino Programming and Electrical Interfacing
+  image: /images/arduino.jpg
+  alt: Image of an illustrated Arduino
+  description:
+  - 'By far our most popular series of workshops yet, this series of Arduino workshops will get you started into robotic projects.'
+  - 'This workshop teaches the fundamentals in computer programming and electronic components. The Arduino programming language is derived from C++, a universal programming language adapted in a majority of the software you see today. Each series aims to develop a final product, for example: a robotic car.'
+- title: Computer Aided Design (CAD) and Digital Fabrication
+  image: /images/20180430_CREATE_CAD1-0015.jpg
+  alt: Image of CAD workshop presentation
+  description:
+  - 'CREATE hosts a series of workshops teaching computer aided design or CAD, whereby you generate 3D model representations of objects digitally. It is highly useful for producing detailed renders for presentation as well as modelling and testing prototypes before manufacture.'
+  - 'In this series, CREATE also teaches basic digital fabrication techniques in laser cutting and 3D printing, both of which can be done in UNSW’s makerspaces. They enable versatile prototyping in 2D and 3D respectively'

@@ -2,7 +2,7 @@
 title: Vincent Mai
 role: Co-Directors of Sales
 index: 9
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/vincent_mai_profile.jpg
 degree: Computer Science

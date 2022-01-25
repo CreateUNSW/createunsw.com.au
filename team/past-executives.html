@@ -1,0 +1,44 @@
+---
+layout: default-cover
+title: Past Executives
+subtitle: We appreciate all former executives for their contribution to CREATE!
+description: We appreicate all former executives for their contribution to CREATE!
+image: /images/20181008_CREATE_AGM-0081.JPG
+---
+<div class="container-xl py-4">
+	<div class="row">
+		<div class="col-md">
+			<h2>Co-Founders</h2>
+		</div>
+	</div>
+	{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
+	{% for position in positions %}
+	{% if position == 'founder' %}
+	<div class="column-flex">
+	{% assign people = site._people | sort:"index" %}
+		{% include profile.html %}
+	</div>
+	{% endif %}
+	{% endfor %}
+</div>
+<div class="container-xl py-4">
+	<div class="row">
+		<div class="col-md">
+			<h2>Past Executives</h2>
+		</div>
+	</div>
+	{% assign positions = site._people | map: 'status' | join: ','  | split: ',' | uniq %}
+	{% for position in positions %}
+	{% if position == 'past_executive' %}
+	<div class="column-flex">
+	{% assign people = site._people | sort: 'year' | reverse %}
+		{% include profile.html %}
+	</div>
+	{% endif %}
+	{% endfor %}
+	<div class="row">
+		<div class="col-md">
+			<a href="/team" class="btn btn-primary font-weight-bold">Back to Current Executives</a>
+		</div>
+	</div>
+</div>

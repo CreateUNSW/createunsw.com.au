@@ -20,10 +20,10 @@ $sales-box: 265px;
 .sales-product {
   width: $sales-box;
   text-align: center;
-  box-shadow: 1px 1px 2px $create-black;
+  box-shadow: 1px 1px 2px $dark;
   margin: 5px;
   a {
-    color: $create-black;
+    color: $dark;
     text-decoration: none;
   }
 }

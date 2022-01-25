@@ -2,7 +2,7 @@
 title: "Callum Howard"
 role: "Vice President of Events"
 index: 13
-year: 2014
+year: "2014"
 status: past_executive
 image: /images/people/callum_howard.jpg
 degree: Computer Science / Media Arts

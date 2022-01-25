@@ -2,7 +2,7 @@
 title: "Sophia Luu"
 role: "Head of Media and Marketing"
 index: 11
-year: 2016
+year: "2016"
 status: past_executive
 image: /images/people/exec_sophia_luu.jpg
 degree:

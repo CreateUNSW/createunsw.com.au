@@ -2,7 +2,7 @@
 title: "Sam Cassisi"
 role: "Founding President"
 index: 1
-year: 2013
+year: "2013"
 status: founder
 image: /images/people/sam_cassisi.jpg
 degree:

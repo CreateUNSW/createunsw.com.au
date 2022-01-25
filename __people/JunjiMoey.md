@@ -2,7 +2,7 @@
 title: Junji Moey
 role: Treasurer
 index: 5
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/JunjiMoey_profile.JPG
 degree: Mechatronic Engineering / Computer Science

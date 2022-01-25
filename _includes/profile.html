@@ -1,0 +1,37 @@
+{% for person in people %}
+{% if person.status contains position %}
+<div class="columns fourgrids">
+    <img 
+    src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" 
+    alt="profile picture of {{ person.name }}" 
+    class="card-img-top rounded-circle shadow"
+    >
+    <div class="card-body text-center">
+        <p class="h5 text-primary font-weight-bold">{{ person.title }}</p>
+        <p>{{ person.role }} 
+            {% if position == 'founder' or position == 'past_executive' %}
+            ({{ person.year }})
+            {% endif %}
+        </p>
+        <!-- {% if person.degree %}
+        <p class="font-italic">{{ person.degree }}</p>
+        {% endif %} -->
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 307.89" class="hexagon-shape">
+    <g>
+        <clipPath id="hexagonal-mask">
+            <path d="M272,220.92V87a20,20,0,0,0-10-17.32l-116-67a20,20,0,0,0-20,0l-116,67A20,20,0,0,0,0,87v134a20,20,0,0,0,10,17.32l116,67a20,20,0,0,0,20,0l116-67A20,20,0,0,0,272,220.92Z" />
+        </clipPath>
+    </g> 
+        <image 
+        clip-path="url(#hexagonal-mask)"
+        alt="profile picture of {{ person.name }}"
+        height="100%" 
+        width="100%" 
+        xlink:href="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" 
+        />
+</svg>-->

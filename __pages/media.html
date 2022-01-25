@@ -1,15 +1,30 @@
 ---
+layout: default-page
 title: Media
-topic: Media
-sub-topic: Newsletters / Announcements / Blog
-tagline: "coming back soon"
+subtitle: Newsletters / Announcements / Blog
 description: CREATE's latest newsletters, announcements and blogs.
-image: /images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg
+image: /images/IMG_2014_08_29_15_38_10_04491.JPG
 ---
-<main type="main">
-    <div class="container-xl">
-        <div class="row">
-            <h2>This page is current under construction. A new refreshing page is coming back soon.</h2>
+<div class="row">
+    <div class="col-md">
+        <p class="h5">This page is currently archived.</p>
+    </div>  
+</div>
+<!--Display media posts-->
+<div class="card-grids-media">
+    {% for post in site._media %}
+    <div class="card">
+        <img src="{{ post.image | prepend: site.baseurl }}" alt="Picture for - {{post.title}}">
+        <div class="card-body">
+            <a href="{{ post.url | prepend:site.baseurl }}" class="stretched-link"><p class="h5 mt-0">{{ post.title }}</p></a>
+            <p class="date">{{ post.date | date_to_long_string }}</p>
+            <h6>
+                {% for tag in post.categories %}
+                <span class="badge bg-light">{{ tag | capitalize }}</span>
+                {% endfor %}
+            </h6>
         </div>
     </div>
-</main>
+    {% endfor %}
+</div>
+

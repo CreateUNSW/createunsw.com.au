@@ -2,7 +2,7 @@
 title: Dylan Sanusi-Goh
 role: Vice President of Technology / Technical Director, Project Illuminate
 index: 2
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/DylanSanusiGoh_Profile.jpg
 degree: Mechatronic Engineering / Computer Science

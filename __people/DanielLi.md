@@ -2,7 +2,7 @@
 title: "Daniel Li"
 role: "President"
 index: 1
-year: 2018
+year: "2018"
 status: past_executive
 image: /images/people/exec_daniel_li_2.jpg
 degree: Electrical Engineering / Computer Science

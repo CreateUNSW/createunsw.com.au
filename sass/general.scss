@@ -1,0 +1,226 @@
+//IMPORT FONT
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// GENERAL
+
+html {scroll-behavior: smooth;}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+a {font-weight: bold;} // color and text-decoration are already applied with bootstrap
+
+h2,
+.h2 {
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3,
+.h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+// ID scroll
+// scroll margin - anchored points
+[id] {
+  @media (min-height: 85px) {
+    scroll-margin-top: 85px;
+  }
+}
+
+// ICONS
+
+// svg-icons 
+.svg-icon {
+  width: 10rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+// socials links
+.social a{
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+// BUTTONS
+
+#topBtn {
+  position: fixed;
+  bottom: 3rem;
+  right: 0;
+  z-index: 99;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background-color: $primary;
+  color: $white;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: .5rem 1.25rem;
+  border-radius: .5rem 0 0 .5rem;
+  transform: translate(100px, 0);
+  @include standard-transition;
+  &:hover {opacity: 1;}
+  &.show {transform: translate(0, 0);
+  }
+  @media (max-width: 767.98px) {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    bottom: 6rem;
+  }
+}
+
+// HEADER AND NAVIGATION
+
+header {
+  .navbar {
+    .logo img {
+      height: 80px;
+      padding: 1rem 0;
+      @media (max-width: 991.98px) {
+        height: 40px;
+        padding: 0;
+      }
+    }
+  }
+  .nav-item {
+    .highlight {
+      color: $white !important;
+      font-weight: bold;
+    }
+  }
+}
+
+// COLUMNS AND CARDS
+
+// Flexible Columns
+.column-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+[class*="col-"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.columns {
+  display: block;
+  float: left;
+  text-align: left;
+  margin: .5rem;
+  img {
+    width: 100%;
+  }
+}
+
+// cards on hover
+.card {
+  @include standard-transition;
+  &:hover {
+    background-color: $card-hover!important;
+  }
+}
+
+// hexagon clippath
+.hexagon-shape {
+  filter: drop-shadow(0 .5rem 1rem rgba($dark, 0.25));
+}
+
+// column equal grids
+.fourgrids {
+  width: calc(25% - 1rem);
+  @media (max-width: 991.98px) {
+    width: calc(33.33% - 1rem);
+  }
+  @media (max-width: 767.98px) {
+    width: calc(50% - 1rem);
+  }
+}
+
+// Custom - Facebook
+.facebook-col {
+  margin: 10px 0;
+  padding: 0 15px;
+  min-width: 330px;
+}
+
+// Custom - Media Cards
+.card-grids-media {
+  display: grid;
+  grid-gap: 20px;
+  padding: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  @media (max-width: 767.98px) {
+      grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 575.98px) { 
+      grid-template-columns: 1fr;
+  } 
+  img {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0px auto;
+      @media (max-width: 575.98px) {
+          width: 30%;
+          height: auto;
+          margin: auto 1rem auto auto;
+      }
+  }
+}
+
+// IMAGES IN MARKDOWN PAAGES
+
+.contentimg {
+  width: calc(50% - 20px);
+  text-align: center;
+  margin: .5rem;
+  display: inline-block;
+  @media (max-width: 575.98px) {
+    width: 100%;
+    text-align: center;
+    margin: .5rem;
+  }
+}
+
+//style images from markdown with #post at the end of their urls.
+img[src*="#post"] {
+  display: block;
+  width: 100%;
+}
+
+// FOOTER
+
+// Sponsors
+.section-partners {
+  background-color: $light;
+  padding: 1rem 0;
+  img {
+    height: 60px;
+    margin: 1rem;
+  }
+}
+
+// General
+footer {
+  .footer-logo {
+      height: 50px;
+  }
+  a {
+    color: $light;
+    text-decoration: none;
+    &:hover {
+      color: darken($light, 15%)!important;
+    }
+  }
+}

@@ -2,8 +2,8 @@
 title: "Jiaqi Zhu"
 role: "President"
 index: 1
-year: 2021
-status: current_executive
+year: "2021"
+status: past_executive
 image: /images/people/JiaqiZhu.jpeg
 degree: Software Engineering / Science
 email:

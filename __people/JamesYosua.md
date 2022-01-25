@@ -2,7 +2,7 @@
 title: "James Yosua Yo"
 role: "Co-Vice President of Sales"
 index: 8
-year: 2018
+year: "2018"
 status: past_executive
 image: /images/people/JamesYosua.jpg
 degree: Mechatronic Engineering

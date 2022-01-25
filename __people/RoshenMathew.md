@@ -2,7 +2,7 @@
 title: "Roshen Mathew"
 role: "Vice President of Events"
 index: 12
-year: 2015
+year: "2015"
 status: past_executive
 image: /images/people/roshen_mathew.jpg
 degree:

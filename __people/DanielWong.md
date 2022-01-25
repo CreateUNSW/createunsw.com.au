@@ -2,7 +2,7 @@
 title: Daniel Wong
 role: President
 index: 1
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/DanielWong_profile.JPG
 degree: Aerospace Engineering

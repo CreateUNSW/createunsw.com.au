@@ -2,8 +2,8 @@
 title: "Jack Robbers"
 role: "Vice President of Technology"
 index: 2
-year: 2021
-status: current_executive
+year: "2021"
+status: past_executive
 image: /images/people/Jack-Robbers.JPG
 degree: Mechatronic Engineering / Computer Science
 email:

@@ -33,8 +33,8 @@ signup: https://member.arc.unsw.edu.au/s/clubdetail?clubid=0016F0000371Vx5QAE
 unswilluminate: https://www.unswilluminate.com/
 
 #club logo
-logo-pos: /images/logos/create_logo_2019T3-POS.png
-logo-neg: /images/logos/create_logo_2019T3-NEG.png
+logo: /images/logos/logo-color.svg
+favicon: /images/logos/favicon-2022.svg
 
 # Build settings
 markdown: kramdown
@@ -62,15 +62,15 @@ collections:
   _media:
     output: true
     permalink: /media/:categories/:title/
-  _products:
-    output: true
-    permalink: /store/:title/
+  # _products:
+  #   output: true
+  #   permalink: /store/:title/
   _projects:
     output: true
     permalink: /projects/:title/
-  _invoices:
-    output: true
-    permalink: /invoices/:title/
+  # _invoices:
+  #  output: true
+  #  permalink: /invoices/:title/
   _people:
     output: false
   _pages:
@@ -82,28 +82,28 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
-  -
-    scope:
-      path: "__catalogues"
-    values:
-      layout: "catalogue"
+      layout: "default-page"
+  # -
+  #   scope:
+  #     path: "__catalogues"
+  #   values:
+  #     layout: "catalogue"
   -
     scope:
       path: "__media"
     values:
       layout: "post"
-  -
-    scope:
-      path: "__products"
-    values:
-      layout: "productdetails"
+  # -
+  #   scope:
+  #     path: "__products"
+  #   values:
+  #     layout: "productdetails"
   -
     scope:
       path: "__projects"
     values:
       layout: "projectsite"
-  - scope:
-      path: "__invoices"
-    values:
-      layout: "invoice"
+  # - scope:
+  #     path: "__invoices"
+  #   values:
+  #     layout: "invoice"

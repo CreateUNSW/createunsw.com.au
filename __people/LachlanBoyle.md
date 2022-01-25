@@ -2,7 +2,7 @@
 title: "Lachlan Boyle"
 role: "Co-Director of Sales"
 index: 11
-year: 2016
+year: "2016"
 status: past_executive
 image: /images/people/exec_lachlan_boyle.jpg
 degree:

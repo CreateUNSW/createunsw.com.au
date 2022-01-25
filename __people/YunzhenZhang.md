@@ -1,7 +1,7 @@
 ---
 title: Yunzhen Zhang
 role: "Treasurer"
-year: 2016
+year: "2016"
 status: past_executive
 index: 11
 image: /images/people/exec_yunzhen_zhang.jpeg

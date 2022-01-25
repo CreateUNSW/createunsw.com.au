@@ -2,7 +2,7 @@
 title: "Linda Truong"
 role: "Arc Delegate"
 index: 6
-year: 2018
+year: "2018"
 status: past_executive
 image: /images/people/LindaTruong.jpg
 degree: Computer Science / Vision Science

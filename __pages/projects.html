@@ -1,173 +1,53 @@
 ---
+layout: default-page
 title: Projects
-topic: Projects
-sub-topic:
-tagline: "create starters and projects"
-description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
+subtitle:
+description: "create starters and projects"
 image: /images/vivid2019/20190520_CREATE_PI_BumpInDay5_ArtDesignSoftware-0039-WM.jpg
-layout: default_old
 ---
-
-<!--main content-->
-	<div class="container-xl">
-		<div class="row">
-			<div class="col-md">
-				<p>CREATE hosts their own series of projects that provide opportunities for makers across any faculty to collaborate on team-based endeavours.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md">
-				<a class="btn btn-block collapsible">CREATE Droid Racing Challenge (DRC)</a>
-				<div class="collapse-content">
-					<p>
-						The Droid Racing Challenge (DRC) is a robotics competition hosted annually by the
-						Queensland University of Technology (QUT) for three years running. Its aim is to
-						design and build small, autonomous vehicles which can race around a track against
-						one other competitor using only computer vision and ultrasonic sensors. Each year,
-						CREATE hosts internal competitions and sends the two most successful teams up to
-						participate in the competition.
-					</p>
-					<p>
-						We have found continuing success with new teams taking up the challenge, with CREATE
-						placing 1st in 2016 and 2017 and 3rd in 2018. In building and programming their
-						vehicles, our project members learn invaluable skills including hardware design,
-						electrical interfacing and programming autonomous driving functions.
-					</p>
-				</div>
-				<!-- <a class="btn btn-block collapsible">CREATE Starters</a>
-				<div class="collapse-content">
-					<p>
-						CREATE Starters is our core project-incubation program that gives makers the opportunity
-						to collaborate and start a new project! With financial and logistical assistnace from
-						CREATE and our broad community, any proposed idea could be turned into a reality whether
-						it’s just a passion project, competitive team submission or an innovative startup idea.
-						All of our former projects were founded under this program including; Flight Labs UNSW
-						(formerly CREATE UAS), our UGV platform Debbie and BB8 robot.
-					</p>
-					<p>We can kick-start your project with:</p>
-						<li>Basic Management Tools and Advice<li>
-						<li>Dedicated Technical Advisor</li>
-						<li>Marketing to Set Up a Team of Keen Individuals to Learn and Assist</li>
-						<li>Allocated Funding of up to $500 to help you get started, with Additional Funding as the Project Expands.</li>
-				</div> -->
-			</div>
-		</div>
-
-	<!--project list-->
-		<hr class="my-4">
-		<div class="row">
-			<div class="col-md-8">
-				<p>CREATE UAS is now operating as <b>Flight Labs UNSW</b>.</p>
-			</div>
-			<div class="col-md-4">
-				<a href="https://flightlabs.com.au/" class="btn btn-block btn-primary">Visit Flight Labs UNSW</a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<p>Project Illuminate is now operating as <b>UNSW Illuminate</b>.</p>
-			</div>
-			<div class="col-md-4">
-				<a href="{{ site.unswilluminate }}" class="btn btn-block btn-primary">Visit UNSW Illuminate</a>
-			</div>
-		</div>
-		<hr class="my-4">
-		<div class="row">
-			<div class="col-md">
-				<!--Type Filter-->
-				<div id="myBtnContainer">
-					<button class="btn btn-outline-primary active" onclick="filterSelection('all')"> Show all</button>
-					<button class="btn btn-outline-primary" onclick="filterSelection('pi')">Project Illuminate</button>
-					<button class="btn btn-outline-primary" onclick="filterSelection('drc')">CREATE DRC</button>
-					<button class="btn btn-outline-primary" onclick="filterSelection('uas')">CREATE UAS</button>
-					<button class="btn btn-outline-primary" onclick="filterSelection('ugv')">CREATE UGV</button>
-					<button class="btn btn-outline-primary" onclick="filterSelection('starters')"> CREATE Starters</button>
-				</div>
-				<hr class="my-4">
-			</div>
-		</div>
-		<div class="row">
-			<div class="column-flex">
-				{% assign sorted = site._projects | sort:"date" | reverse %}
-				{% for _projects in sorted %}
-
-				<div class="filterDiv {{ _projects.categories }}">
-					<a href="{% if _projects.link %}{{ _projects.link }}{% else %}{{ _projects.url }}{% endif %}">
-					<div class="imgcontainer">
-					<img src="{{ _projects.image }}" alt="{{ _projects.slug }}" class="image">
-						<div class="overlay">
-							<div class="text">
-								<p>{{ _projects.title }}</p>
-							</div>
-						</div>
-					</div>
-					</a>
-				</div>
-
-				{% endfor %}
-			</div>
+<!--General Information-->
+<div class="row">
+	<div class="col-md">
+		<h2>Student Projects</h2>
+		<p>CREATE hosts their own series of projects that provide opportunities for makers across any faculty to collaborate on team-based endeavours.</p>
+		<div class="alert alert-primary my-2" role="alert">
+			CREATE Project Illuminate is rebranded and operated as **UNSW Illuminate**, <a href="{{ site.unswilluminate }}">click here to visit their website</a>.
 		</div>
 	</div>
+</div>
+<!--Type Filter-->
+<div class="row">
+	<div class="col-md">
+		<div id="myBtnContainer">
+			<button class="btn btn-outline-danger font-weight-bold my-2 mr-2 active" onclick="filterSelection('all')"> Show all</button>
+			{% assign cmap = site._projects | map: 'categories' | uniq %}
+			{% assign cats = cmap | sort %}
+			{% for cat in cats %}
+			<button class="btn btn-outline-danger font-weight-bold my-2 mr-2" onclick="filterSelection('{{ cat }}')">{{ cat }}</button>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<!--Display projects-->
+<div class="row">
+	<div class="column-flex">
+		{% assign sorted = site._projects | sort:"date" | reverse %}
+		{% for _projects in sorted %}
+		<div class="filterDiv {{ _projects.categories }} shadow">
+			<a href="{% if _projects.link %}{{ _projects.link }}{% else %}{{ _projects.url }}{% endif %}">
+			<div class="imgcontainer">
+				<img src="{{ _projects.image }}" alt="{{ _projects.slug }}">
+				<div class="overlay">
+					<div class="text">
+						<p>{{ _projects.title }}</p>
+					</div>
+				</div>
+			</div>
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
 
-<script>
-// Projects
-filterSelection("all")
-function filterSelection(c) {
-	var x, i;
-	x = document.getElementsByClassName("filterDiv");
-	if (c == "all") c = "";
-	for (i = 0; i < x.length; i++) {
-	w3RemoveClass(x[i], "show");
-	if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-	}
-}
-
-function w3AddClass(element, name) {
-	var i, arr1, arr2;
-	arr1 = element.className.split(" ");
-	arr2 = name.split(" ");
-	for (i = 0; i < arr2.length; i++) {
-	if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-	}
-}
-
-function w3RemoveClass(element, name) {
-	var i, arr1, arr2;
-	arr1 = element.className.split(" ");
-	arr2 = name.split(" ");
-	for (i = 0; i < arr2.length; i++) {
-	while (arr1.indexOf(arr2[i]) > -1) {
-		arr1.splice(arr1.indexOf(arr2[i]), 1);
-	}
-	}
-	element.className = arr1.join(" ");
-}
-
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-	btns[i].addEventListener("click", function(){
-	var current = document.getElementsByClassName("active");
-	current[0].className = current[0].className.replace(" active", "");
-	this.className += " active";
-	});
-}
-</script>
-
-<script>
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
-
-	for (i = 0; i < coll.length; i++) {
-	coll[i].addEventListener("click", function() {
-		this.classList.toggle("active");
-		var content = this.nextElementSibling;
-		content.classList.add("container");
-		if (content.style.display === "flex") {
-			content.style.display = "none";
-		} else {
-			content.style.display = "flex";
-		}
-	});
-	}
-</script>
+<!--Run javascript onload-->
+<script src="{{ "/js/project-filters.js" | relative_url }}"></script>

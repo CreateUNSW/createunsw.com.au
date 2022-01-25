@@ -2,7 +2,7 @@
 title: "Karen Zhong"
 role: "Head of Media & Marketing"
 index: 10
-year: 2017
+year: "2017"
 status: past_executive
 image: /images/people/exec_karen_zhong.jpg
 degree:

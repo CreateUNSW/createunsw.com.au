@@ -2,7 +2,7 @@
 title: "Nathan Lam"
 role: "Co-Director of Sales"
 index: 10
-year: 2017
+year: "2017"
 status: past_executive
 image: /images/people/exec_nathan_lam.jpg
 degree:

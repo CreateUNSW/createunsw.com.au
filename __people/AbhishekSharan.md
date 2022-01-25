@@ -2,7 +2,7 @@
 title: "Abhishek Sharan"
 role: "UAS Team Leader"
 index: 10
-year: 2017
+year: "2017"
 status: past_executive
 image: /images/people/exec_abhishek_sharan.jpg
 degree:

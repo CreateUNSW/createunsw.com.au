@@ -2,7 +2,7 @@
 title: Rosanna Liu
 role: Secretary
 index: 4
-year: 2019
+year: "2019"
 status: past_executive
 image: /images/people/rosanna_liu_profile.JPG
 degree: Civil Engineering / Commerce 

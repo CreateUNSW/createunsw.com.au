@@ -2,7 +2,7 @@
 title: "Simon Taylor"
 role: "Treasurer"
 index: 5
-year: 2018
+year: "2018"
 status: past_executive
 image: /images/people/SimonTaylor.jpg
 degree:

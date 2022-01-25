@@ -1,461 +1,75 @@
-/*Written by Tsz Kin LIU, for CREATE NSW Inc. (CREATE UNSW)*/
-/*Assisted by Leesa Deng (Jan 2019)*/
-/*SCSS Developed By Jack Robbers (Jun 2020)*/
+// Written by Tsz Kin LIU, for CREATE NSW Inc. (CREATE UNSW)
+// Assisted by Leesa Deng (Jan 2019)
+// SCSS Developed By Jack Robbers (Jun 2020)
+// Redesigned in January 2022*
 
 // library for nice media queries https://eduardoboucas.github.io/include-media/
 @import "node_modules/include-media/dist/_include-media.scss";
 
-// import bootstrap base
-@import "bootstrap/_functions";
-@import "bootstrap/_variables";
+// New Color Palette
+$create-blue-01: #01084A;
+$create-blue-02: #1A237E; // logo
+$create-blue-03: #283593;
+$create-red-01: #BC1823;
+$create-red-02: #D42128; // logo
+$create-orange-01: #FF8210;
+$create-orange-02: #FFA000; // logo
+$create-yellow-01: #f9bf2c;
+$create-dark-01: #212121; // mono dark
+$create-light-01: #FFFFFF; // mono light
 
-/* from the create pallete */
-$create-red: #d42128;
-$create-brown: #5d4037;
-$create-yellow: #f9bf2c;
-$create-orange: #ffa000;
-$create-blue: #283593;
-$create-dark-blue: #1a237e;
-$create-black: #212121;
-$create-white: #ffffff;
+// Supporting Colors
+$blue-04: #D5D7F6;
+$red-03: #E1686C;
+$red-04: #F1A7A9;
+$orange-03: #FFC766;
+$orange-04: #FFECCC;
+$yellow-02: #FBD983;
+$yellow-03: #FDE8B5;
+$dark-02: #666666;
+$dark-03: #A6A6A6;
+$light-02: #f1f1f1;
 
-/* from this site design */
-$site-grey: #dbdbdb;
-$site-dark-grey: #999999;
+// OVERWRITE BOOTSTRAP
 
-// social media variables
-$facebook: #1877f2;
-$instagram: #4c5fd7;
-$twitter: #1da1f2;
-$linkedin: #007bb5;
-$youtube: #ff0000;
-$discord: #2c2f33;
-$email: #606060;
-$flickrblue: #006add;
+// Colors
+$primary:       $create-blue-02;
+$secondary:     $dark-02;
+// $success:       $green !default;
+$info:          $blue-04;
+$warning:       $create-orange-02;
+$danger:        $create-red-02;
+$light:         $light-02;
+$dark:          $create-dark-01;
 
-// bootstrap variables
-$theme-colors: (
-  primary: $create-red,
-  secondary: $create-blue,
-  third: $site-grey,
-  dark: $create-black,
-  facebook: $facebook,
-  instagram: $instagram,
-  linkedin: $linkedin,
-  youtube: $youtube,
-  discord: $discord,
-  flickr: $flickrblue,
-);
+// components
+$enable-responsive-font-sizes:  true;
+$input-btn-padding-x:           1.5rem;
+$border-radius:                 .5rem;
+$nav-link-padding-x:            2rem;
+$link-color:                    $create-blue-03;
+$link-decoration:               underline;
 
-//responsive fonts
-$enable-responsive-font-sizes: true;
-
+// import bootstrap and apply overwritten variables, we are using bootstrap version 4.6, older or newer version may cause some class failing to work
 @import "bootstrap/bootstrap";
+
+// CUSTOM
+
+$hero-cover-color: $create-blue-01;
+$card-hover: $blue-04;
+$speed: all .25s ease;
+
+@mixin standard-transition {
+  -webkit-transition: $speed;
+  -moz-transition: $speed;
+  -ms-transition: $speed;
+  -o-transition: $speed;
+  transition: $speed;
+}
+
+// IMPORT OTHER SCSS
+
+@import "general";
+@import "cover-img";
 @import "project-page";
 @import "store-page";
-
-/*general*/
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  margin: 0px auto;
-}
-
-main {
-  padding: 20px 0px;
-}
-
-/*text*/
-a {
-  text-decoration: none;
-}
-
-.red {
-  color: $create-red;
-}
-.degree {
-  font-size: 14px;
-  font-style: italic;
-}
-
-// social media icons
-#followus {
-  .fa {
-    padding-right: 5px;
-  }
-}
-
-/*top function*/
-#topBtn {
-  display: none;
-  position: fixed;
-  bottom: 100px;
-  right: 0px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: $create-red;
-  opacity: 0.9;
-  color: $white;
-  cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 5px 0px 0px 5px;
-  &:hover {
-    opacity: 1;
-  }
-  i {
-      font-size: 30px;
-  }
-}
-
-// buttons
-.btn {
-  margin: 2px;
-}
-
-button.active {
-  background-color: $create-red !important;
-  color: $create-white !important;
-  border: 2px solid $create-red !important;
-}
-
-// header and navigation
-header {
-  .navbar {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    @media (max-width: 991.98px) {
-      padding: 0px 0px !important;
-    }
-    .logo img {
-      height: 60px;
-      @media (max-width: 767.98px) {
-        height: 40px;
-      }
-    }
-  }
-  .nav-item {
-    a {
-      display: block;
-      color: $create-white !important;
-      text-align: center;
-      text-transform: uppercase;
-      text-decoration: none;
-      padding: 35px 15px !important;
-      &:hover {
-        background-color: $create-dark-blue !important;
-        color: $create-white !important;
-      }
-      @media (max-width: 991.98px) {
-        padding: 10px 15px !important;
-      }
-    }
-    .highlight {
-      background-color: $create-dark-blue !important;
-      color: $create-white !important;
-      font-weight: bold;
-    }
-  }
-}
-
-// cover image
-.cover-img {
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
-  overflow: hidden;
-  position: relative;
-  transition: 0.3s;
-  @media (max-width: 1199.98px) {
-    height: 600px;
-  }
-  // @media (max-width: 991.98px) {
-  
-  // }
-  @media (max-width: 767.98px) {
-      height: 450px;
-  }
-  @media (max-width: 575.98px) {
-    height: 300px;
-  }
-  img {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-    filter: brightness(40%);
-    @media (max-width: 1199.98px) {
-      height: 600px;
-    }
-    // @media (max-width: 991.98px) {
-    //   height: 450px;
-    // }
-    @media (max-width: 767.98px) {
-        height: 450px;
-    }
-    @media (max-width: 575.98px) {
-      height: 300px;
-    }
-  }
-  .title-block {
-    color: $create-white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    min-width: 300px;
-    transform: translate(-50%, -50%);
-    margin: 10px 0px;
-    h1 {
-      text-transform: uppercase;
-    }
-  }
-  .cover-button {
-    text-align: center;
-  }
-}
-
-// columns
-.column-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-[class*="col-"] {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.columns {
-  display: block;
-  float: left;
-  text-align: left;
-  margin: 5px;
-  margin-bottom: 0.5rem;
-  img {
-    width: 100%;
-  }
-}
-
-.shadows {
-  box-shadow: 0 0px 5px $site-grey;
-  &:hover {
-    box-shadow: 0 5px 10px $site-dark-grey;
-  }
-}
-
-// columns designs
-.black {
-  background-color: $create-black;
-  color: $create-white;
-}
-
-.circle {
-  display: block;
-  border-radius: 50%;
-  width: 80% !important;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// column equal grids
-.twogrids {
-  width: calc(50% - 10px);
-}
-
-.threegrids {
-  width: calc(33.33% - 10px);
-}
-
-.fourgrids {
-  width: calc(25% - 10px);
-}
-
-// collapsible content
-.collapsible {
-  background-color: $site-grey;
-  color: $create-black;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  &:hover {
-    background-color: $create-red;
-    color: $create-white !important;
-  }
-}
-
-.collapsible.active {
-  background-color: $create-red;
-  color: $create-white !important;
-}
-.collapse-content {
-  display: none;
-  overflow: hidden;
-  background-color: $site-grey;
-  padding-top: 5px;
-}
-
-.container {
-  position: relative;
-  margin: 5px auto;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  a:hover .filterDiv {
-    background-color: $site-grey;
-  }
-}
-
-// Facebook
-.facebook-container {
-  display: block;
-  margin: 0px auto;
-  padding: 5px 0px;
-  max-width: 330px; 
-}
-
-// subscribe
-.subscribe_column {
-  display: table-cell;
-  float: left;
-  width: 100%;
-  #mce-EMAIL {
-    padding: 5px;
-    border: none;
-    display: table-cell;
-    font-size: 16px;
-    height: 40px;
-    width: 100%;
-  }
-}
-
-// footer including sponsors and social media footer
-.sub-footer {
-  background-color: $site-grey;
-  padding: 10px 0px;
-  .box {
-    display: block;
-    width: 100%;
-    margin: 10px auto;
-    text-align: center;
-    img {
-      height: 50px;
-      margin: 10px;
-    }
-  }
-}
-
-footer {
-  color: $create-white;
-  padding: 5px 0px;
-  a {
-    color: $create-white;
-    text-decoration: none;
-    &:hover {
-      color: $create-white;
-      text-decoration: underline;
-    }
-  }
-}
-
-// images in markdown pages
-.contentimg {
-  width: calc(50% - 20px);
-  text-align: center;
-  margin: 5px 5px;
-  display: inline-block;
-}
-
-// Responsive layout
-@media (max-width: 1199.98px) {
-}
-
-@media (max-width: 991.98px) {
-  .logo,
-  .navbar button {
-    margin: 10px !important;
-  }
-  .fourgrids {
-    width: calc(33.33% - 10px);
-  }
-}
-
-@media (max-width: 767.98px) {
-  .threegrids,
-  .fourgrids {
-    width: calc(50% - 10px);
-  }
-  .box {
-    width: 100%;
-    margin: 20px auto;
-    text-align: center;
-  }
-  .right button {
-    margin: auto;
-  }
-}
-
-/* Responsive layout*/
-@media (max-width: 575.98px) {
-  .contentimg {
-    width: 100%;
-    text-align: center;
-    margin: 5px;
-  }
-  .single-md-column div {
-    width: 100%;
-  }
-}
-
-//style images from markdown with #post at the end of their urls.
-img[src*="#post"] {
-  display: block;
-  width: 100%;
-}
-
-.invoice-header {
-  img {
-    width: 50%;
-  }
-  #logo {
-    background-color: $create-blue;
-  }
-}
-
-.invoice-table {
-  empty-cells: show;
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border: 3px solid $create-blue;
-
-  td,
-  th {
-    padding: 10px;
-    border: 3px solid $create-blue;
-  }
-
-  td:nth-child(2),
-  th:nth-child(2),
-  td:nth-child(4),
-  th:nth-child(4),
-  td:nth-child(5),
-  th:nth-child(5) {
-    text-align: right;
-  }
-
-  tr:nth-child(even) {
-    background-color: $site-grey;
-  }
-
-  tbody tr:nth-last-child(1) {
-    background-color: $site-dark-grey;
-  }
-}
