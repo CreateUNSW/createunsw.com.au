@@ -5,7 +5,7 @@ image: /images/20181008_CREATE_AGM-0003.jpg
 ---
 ## General Enquiries
 
-For all general enquires, sponsorships, events enquires (except Sales).
+For all general enquiries, sponsorships, events enquires (except Sales).
 
 {% include email.html %}
 
