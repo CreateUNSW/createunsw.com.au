@@ -3,7 +3,7 @@ title: Contact
 subtitle: Get in touch with us
 image: /images/20181008_CREATE_AGM-0003.jpg
 ---
-## General Enquires
+## General Enquiries
 
 For all general enquires, sponsorships, events enquires (except Sales).
 
@@ -11,7 +11,7 @@ For all general enquires, sponsorships, events enquires (except Sales).
 
 SECTION
 
-## Sales Enquires
+## Sales Enquiries
 
 For any enquiries about the online store, products, or ordering.
 
