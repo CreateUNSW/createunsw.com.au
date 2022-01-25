@@ -24,7 +24,6 @@ During university terms (not including summer term) we run a stall on Globe Lawn
 
 In the case of wet weather, the stall will likely be cancelled depending on conditions. Follow our Facebook Page for up to date information.
 
-We also have a vending machine located outside MCIC Makerspace, while stock list, contact us if the stock runs out or the machine is not working properly.
 
 SECTION
 
