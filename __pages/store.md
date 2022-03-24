@@ -20,7 +20,7 @@ SECTION
 
 ## Weekly Sales Store on campus
 
-During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12:00-16:00.
+During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12:00-16:00 and Thursdays from 12:00-15:00 except for flexible week.
 
 In the case of wet weather, the stall will likely be cancelled depending on conditions. Follow our Facebook Page for up to date information.
 
