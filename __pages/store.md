@@ -22,7 +22,7 @@ SECTION
 
 During university terms (not including summer term) we run a stall on Globe Lawn on Mondays from 12:00-16:00 and Thursdays from 12:00-15:00 (Except T2) at the MCIC except for flexible week.
 
-In the case of wet weather, the stall will likely be cancelled depending on conditions. Follow our Facebook Page for up to date information.
+In the case of wet weather, the stall will be moved to the MCIC. Follow our Facebook Page for up to date information.
 
 
 SECTION
