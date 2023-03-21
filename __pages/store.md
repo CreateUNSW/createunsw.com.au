@@ -16,17 +16,14 @@ We sell a range of electronic components to UNSW Students. You may purchase prod
     <a href="https://store.createunsw.com.au/">Visit our new online store here for the full catalogue</a>.
 </div>
 
-<!--
 SECTION
 
 ## Weekly Sales Store on campus
 
-During university terms (not including summer term) we run a stall at MCIC on Mondays from 12:00-15:00.  Follow our Facebook Page for up-to-date information.
-
+This Term (T1 2023), we are running a stall at MCIC on Tuesdays from 12:00-15:00. Be sure to check out Instagram or Discord for up-to-date information.
 
 SECTION
 
 ## Map
 
 <div id="salesmap"></div>
--->
