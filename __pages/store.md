@@ -16,6 +16,7 @@ We sell a range of electronic components to UNSW Students. You may purchase prod
     <a href="https://store.createunsw.com.au/">Visit our new online store here for the full catalogue</a>.
 </div>
 
+<!--
 SECTION
 
 ## Weekly Sales Store on campus
@@ -28,3 +29,4 @@ SECTION
 ## Map
 
 <div id="salesmap"></div>
+-->
