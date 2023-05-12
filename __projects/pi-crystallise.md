@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Project Illuminate
+- Project Illuminate
 title: Crystallise - Vivid Sydney 2017
 location: Campbells Cove, Circular Quay, Sydney
 completedate: 26 May 2017 - 17 June 2017

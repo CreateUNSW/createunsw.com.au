@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Starters
+- Starters
 title: Start3D - 3D Printer
 location: UNSW
 completedate:

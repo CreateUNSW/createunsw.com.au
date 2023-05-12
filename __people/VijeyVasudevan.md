@@ -3,7 +3,7 @@ title: Vijey Vasudevan
 role: President
 index: 1
 year: "2022"
-status: current_executive
+status: past_executive
 image: /images/people/VijeyVasudevan.jpg
 degree:
 email:

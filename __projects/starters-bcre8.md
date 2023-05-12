@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Starters
+- Starters
 title: Star Wars - BCRE8
 location: CREATE UNSW
 completedate: 12 February 2016

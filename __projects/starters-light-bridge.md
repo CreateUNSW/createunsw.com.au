@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Starters
+- Starters
 title: Light Bridge
 location: Randwick Environment Park, Sydney
 completedate: 13 September 2015

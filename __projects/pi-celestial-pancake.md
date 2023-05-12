@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Project Illuminate
+- Project Illuminate
 title: Celestial Pancake - Vivid Sydney 2019
 location: Overseas Passenger Terminal, Circular Quay, Sydney
 completedate: 24 May 2019 - 15 June 2019

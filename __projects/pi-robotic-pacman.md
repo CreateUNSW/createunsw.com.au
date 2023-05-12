@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Project Illuminate
+- Project Illuminate
 title: Robotic Pacman - Vivid Sydney 2015
 location: Martin Place, Sydney
 completedate: 22 - 24 May and 29 - 31 May in 2015

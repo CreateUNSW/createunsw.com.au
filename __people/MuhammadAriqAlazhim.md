@@ -3,7 +3,7 @@ title: Muhammad Ariq Alazhim
 role: Co-Director of Sales
 index: 8
 year: "2022"
-status: current_executive
+status: past_executive
 image: /images/people/AriqAlazhim.jpg
 degree:
 email:

@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Starters
+- Starters
 title: Pedal Power Generator
 location: UNSW Art & Design
 completedate: 30 August 2015

@@ -13,11 +13,11 @@ It is important to note that since our team runs completely by university studen
 
 SECTION
 
-## UNSW Sydney exams periods in 2022
+## UNSW Sydney exams periods in 2023
 
-- 29 Apr - 12 May
-- 12 Aug – 25 Aug
-- 25 Nov – 8 Dec
+- 28 Apr - 11 May
+- 11 Aug – 24 Aug
+- 24 Nov – 7 Dec
 
 For more information, please email us at [{{ site.email }}](mailto:{{site.email}}).
 

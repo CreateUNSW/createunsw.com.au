@@ -1,6 +1,6 @@
 ---
 categories:
-- CREATE Project Illuminate
+- Project Illuminate
 title: Synergy - Vivid Sydney 2018
 location: Jessie Street Garden, Circular Quay, Sydney
 completedate: 25 May 2018 - 16 June 2018
