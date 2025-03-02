@@ -20,7 +20,7 @@ SECTION
 
 ## Weekly Sales Store on campus
 
-This Term (T1 2024), we are running a stall at MCIC on Thursdays from 12:00pm - 2:00pm. Be sure to check out our page on Instagram, Facebook or Discord for up-to-date information.
+This Term (T1 2025), we are running a stall at MCIC on Thursdays from 12:00pm - 2:00pm. Be sure to check out our page on Instagram, Facebook or Discord for up-to-date information.
 
 SECTION
 
