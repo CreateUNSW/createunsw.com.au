@@ -5,7 +5,7 @@
     src="{% if person.image %} {{ person.image }} {% else %} {{ '/images/people/default-avatar.jpg' }} {% endif %}" 
     alt="profile picture of {{ person.name }}" 
     class="card-img-top rounded-circle shadow"
-    style="height: 345.5px; width: 345.5px;"
+    style="height: 345.5px; width: 345.5px; object-fit: cover;"
     >
     <div class="card-body text-center">
         <p class="h5 text-primary font-weight-bold">{{ person.title }}</p>
