@@ -9,3 +9,6 @@ degree:
 email:
 linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2023 Director of Human Resources
