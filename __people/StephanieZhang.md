@@ -1,11 +1,14 @@
 ---
 title: "Stephanie Zhang"
-role: "Co-director of Projects"
-index: 10
-year: "2025"
+role: "Vice President of Operations"
+index: 4
+year: "2026"
 status: current_executive
 image: /images/people/StephanieZhang.jpg
 degree:
 email:
 linkedin-url:
 ---
+##### Previous roles with CREATE
+
+- 2025 Co-director of Projects

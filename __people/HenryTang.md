@@ -1,8 +1,8 @@
 ---
 title: "Henry Tang"
-role: "President"
-index: 1
-year: "2025"
+role: "Treasurer"
+index: 6
+year: "2026"
 status: current_executive
 image: /images/people/HenryTang.jpeg
 degree:
@@ -12,3 +12,4 @@ linkedin-url:
 ##### Previous roles with CREATE
 
 - 2024 Co-director of Sales
+- 2025 President
